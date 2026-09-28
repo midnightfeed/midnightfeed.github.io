@@ -1,0 +1,675 @@
+{
+  "_note": "Mirror of 03-night-wire-taxonomy. Feed URLs are unverified and left null until the Phase 2 pipeline is built; a source with no working feed falls back to a Google News RSS query.",
+  "version": 1,
+  "freshness_days": 10,
+  "max_items": 40,
+  "per_source_cap": 4,
+  "max_category_share": 0.35,
+  "categories": {
+    "books": "Books & Pulps",
+    "comics": "Comics",
+    "film": "Film",
+    "discs": "Discs & Vinyl",
+    "gear": "Gear",
+    "metal": "Metal",
+    "collect": "Collecting"
+  },
+  "tier1": {
+    "authors": [
+      "Karl Edward Wagner",
+      "Charles L. Grant",
+      "Clark Ashton Smith",
+      "Gary Brandner",
+      "David J. Schow",
+      "John Skipp",
+      "Craig Spector",
+      "Richard Laymon",
+      "Bentley Little",
+      "Robert McCammon",
+      "Dan Simmons",
+      "Harlan Ellison",
+      "Robert Bloch",
+      "Richard Matheson",
+      "T. E. D. Klein",
+      "Manly Wade Wellman",
+      "Fritz Leiber",
+      "Dennis Etchison",
+      "Ramsey Campbell",
+      "Michael Shea",
+      "Thomas Ligotti",
+      "Les Daniels",
+      "Michael McDowell",
+      "William Hope Hodgson",
+      "Algernon Blackwood",
+      "Arthur Machen",
+      "M. R. James",
+      "Seabury Quinn",
+      "Frank Belknap Long",
+      "Henry Kuttner",
+      "C. L. Moore",
+      "Hugh B. Cave"
+    ],
+    "film_and_art": [
+      "Stuart Gordon",
+      "Brian Yuzna",
+      "Lucio Fulci",
+      "Dario Argento",
+      "Mario Bava",
+      "Lamberto Bava",
+      "Sergio Martino",
+      "Jean Rollin",
+      "Jess Franco",
+      "Larry Cohen",
+      "Frank Henenlotter",
+      "Don Coscarelli",
+      "Tobe Hooper",
+      "Bob Clark",
+      "Terence Fisher",
+      "Christopher Lee",
+      "Peter Cushing",
+      "Vincent Price",
+      "Boris Karloff",
+      "Bela Lugosi",
+      "Lon Chaney",
+      "Barbara Steele",
+      "Rick Baker",
+      "Tom Savini",
+      "Bernie Wrightson",
+      "Frank Frazetta",
+      "Jeffrey Catherine Jones",
+      "Esteban Maroto",
+      "Richard Corben"
+    ],
+    "properties": [
+      "Weird Tales",
+      "Arkham House",
+      "Zebra Books",
+      "Leisure Books",
+      "Paperbacks from Hell",
+      "Creepy",
+      "Eerie",
+      "Vampirella",
+      "Tales from the Crypt",
+      "Warren Publishing",
+      "Hammer Films",
+      "Amicus",
+      "Universal Monsters",
+      "Phantasm",
+      "Re-Animator",
+      "From Beyond",
+      "Suspiria",
+      "Deep Red",
+      "The Beyond",
+      "City of the Living Dead",
+      "Basket Case",
+      "Sleepaway Camp"
+    ]
+  },
+  "tier2": [
+    {
+      "name": "Stephen King",
+      "aliases": []
+    },
+    {
+      "name": "Clive Barker",
+      "aliases": []
+    },
+    {
+      "name": "H. P. Lovecraft",
+      "aliases": []
+    },
+    {
+      "name": "Robert E. Howard",
+      "aliases": [
+        "Conan"
+      ]
+    },
+    {
+      "name": "George Romero",
+      "aliases": []
+    },
+    {
+      "name": "John Carpenter",
+      "aliases": []
+    },
+    {
+      "name": "David Cronenberg",
+      "aliases": []
+    },
+    {
+      "name": "The Exorcist",
+      "aliases": []
+    },
+    {
+      "name": "Rosemary's Baby",
+      "aliases": []
+    },
+    {
+      "name": "Friday the 13th",
+      "aliases": [
+        "Jason"
+      ]
+    },
+    {
+      "name": "Freddy Krueger",
+      "aliases": [
+        "Nightmare on Elm Street"
+      ]
+    },
+    {
+      "name": "Halloween",
+      "aliases": [
+        "Michael Myers"
+      ]
+    },
+    {
+      "name": "Creepshow",
+      "aliases": []
+    },
+    {
+      "name": "Swamp Thing",
+      "aliases": []
+    },
+    {
+      "name": "Hellraiser",
+      "aliases": []
+    },
+    {
+      "name": "The Thing",
+      "aliases": []
+    },
+    {
+      "name": "Evil Dead",
+      "aliases": []
+    },
+    {
+      "name": "IT",
+      "aliases": []
+    },
+    {
+      "name": "Pet Sematary",
+      "aliases": []
+    },
+    {
+      "name": "The Texas Chain Saw Massacre",
+      "aliases": []
+    },
+    {
+      "name": "Night of the Living Dead",
+      "aliases": []
+    }
+  ],
+  "qualifiers": [
+    "reissue",
+    "restoration",
+    "remaster",
+    "4K",
+    "UHD",
+    "boutique",
+    "slipcase",
+    "limited edition",
+    "box set",
+    "anniversary",
+    "first edition",
+    "first printing",
+    "first appearance",
+    "signed",
+    "numbered",
+    "lettered",
+    "out of print",
+    "facsimile",
+    "omnibus",
+    "collection",
+    "original art",
+    "vintage",
+    "paperback",
+    "hardcover",
+    "pressing",
+    "vinyl",
+    "LP",
+    "soundtrack",
+    "score",
+    "OST",
+    "action figure",
+    "statue",
+    "bust",
+    "mask",
+    "replica",
+    "poster",
+    "lobby card",
+    "one-sheet",
+    "auction",
+    "CGC",
+    "grading",
+    "estate",
+    "archive",
+    "obituary"
+  ],
+  "exclude_patterns": [
+    "box office",
+    "casting",
+    "remake",
+    "reboot",
+    "streaming",
+    "celebrity gossip",
+    "true crime"
+  ],
+  "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
+  "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
+  "google_news_fallback": "https://news.google.com/rss/search?q=",
+  "sources": [
+    {
+      "name": "Too Much Horror Fiction",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Paperback Warrior",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Valancourt Books",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Vault of Evil",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Locus Online",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Centipede Press",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Suntup Editions",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "PS Publishing",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Hippocampus Press",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "robertmccammon.com",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "clivebarker.info",
+      "category": "books",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "13th Dimension",
+      "category": "comics",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "The Comics Journal",
+      "category": "comics",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Dark Horse",
+      "category": "comics",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Fantagraphics",
+      "category": "comics",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Bleeding Cool",
+      "category": "comics",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "strict"
+    },
+    {
+      "name": "Bloody Disgusting",
+      "category": "film",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Dread Central",
+      "category": "film",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Rue Morgue",
+      "category": "film",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Fangoria",
+      "category": "film",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Daily Dead",
+      "category": "film",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Diabolique",
+      "category": "film",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Cinema Retro",
+      "category": "film",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Blu-ray.com",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "DVD Drive-In",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Arrow Video",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Vinegar Syndrome",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Severin Films",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Shout / Scream Factory",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Synapse",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Kino Lorber",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Criterion",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Home Theater Forum",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Waxwork Records",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Death Waltz",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Mondo",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Terror Vision",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Ship to Shore",
+      "category": "discs",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "NECA",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Super7",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Mezco",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Trick or Treat Studios",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Fright-Rags",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Cavity Colors",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "The Toyark",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Bleeding Cool collectibles",
+      "category": "gear",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Blabbermouth",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Metal Injection",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "No Clean Singing",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Invisible Oranges",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Angry Metal Guy",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "BraveWords",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Metal Storm",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Metal Collision",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Loudwire",
+      "category": "metal",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "strict"
+    },
+    {
+      "name": "Heritage Auctions",
+      "category": "collect",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Fine Books & Collections",
+      "category": "collect",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "Hake's",
+      "category": "collect",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    },
+    {
+      "name": "ComicConnect",
+      "category": "collect",
+      "feed": null,
+      "weight": 1.0,
+      "filter": "standard"
+    }
+  ]
+}
