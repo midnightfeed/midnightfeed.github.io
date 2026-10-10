@@ -1,0 +1,14 @@
+{
+  "name": "midnightfeed",
+  "private": true,
+  "type": "module",
+  "description": "Build scripts for The Midnight Feed",
+  "scripts": {
+    "wire": "node scripts/build-wire.mjs",
+    "wire:check": "node scripts/build-wire.mjs --check"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  }
+}

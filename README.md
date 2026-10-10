@@ -11,11 +11,13 @@ Original articles and the podcast are produced by AI editorial personas, disclos
 | `site/` | Everything published. GitHub Pages serves this folder. |
 | `site/index.html` | The site. |
 | `site/assets/` | Favicons and the social share image. |
-| `content/` | Articles, Keeper's Desk takes and episode metadata (later phases). |
+| `content/desk/` | Keeper's Desk takes, one file per night. |
+| `content/` | Articles and episode metadata (later phases). |
 | `config/taxonomy.json` | What the Night Wire includes and excludes. |
-| `scripts/` | Build scripts (later phases). |
-| `.github/workflows/deploy.yml` | Publishes `site/` on every push to `main`. |
+| `scripts/build-wire.mjs` | Builds the Night Wire into `site/data/wire.json`. |
+| `.github/workflows/build-and-deploy.yml` | Rebuilds the wire at midnight Central and publishes `site/`; also publishes on every push to `main`. |
+| `.github/workflows/feed-check.yml` | Manual check of every wire source. Changes nothing. |
 
 ## Deploying
 
-Push to `main`. The **Deploy site** workflow publishes `site/` to GitHub Pages.
+Push to `main` and **Build and deploy** publishes `site/` to GitHub Pages. To rebuild the wire immediately, run **Build and deploy** from the Actions tab.

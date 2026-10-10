@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy. Feed URLs are unverified and left null until the Phase 2 pipeline is built; a source with no working feed falls back to a Google News RSS query.",
-  "version": 1,
+  "_note": "Mirror of 03-night-wire-taxonomy (v2, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
+  "version": 2,
   "freshness_days": 10,
   "max_items": 40,
   "per_source_cap": 4,
@@ -16,93 +16,698 @@
   },
   "tier1": {
     "authors": [
-      "Karl Edward Wagner",
-      "Charles L. Grant",
-      "Clark Ashton Smith",
-      "Gary Brandner",
-      "David J. Schow",
-      "John Skipp",
-      "Craig Spector",
-      "Richard Laymon",
-      "Bentley Little",
-      "Robert McCammon",
-      "Dan Simmons",
-      "Harlan Ellison",
-      "Robert Bloch",
-      "Richard Matheson",
-      "T. E. D. Klein",
-      "Manly Wade Wellman",
-      "Fritz Leiber",
-      "Dennis Etchison",
-      "Ramsey Campbell",
-      "Michael Shea",
-      "Thomas Ligotti",
-      "Les Daniels",
-      "Michael McDowell",
-      "William Hope Hodgson",
-      "Algernon Blackwood",
-      "Arthur Machen",
-      "M. R. James",
-      "Seabury Quinn",
-      "Frank Belknap Long",
-      "Henry Kuttner",
-      "C. L. Moore",
-      "Hugh B. Cave"
+      {
+        "name": "Karl Edward Wagner",
+        "aliases": []
+      },
+      {
+        "name": "Charles L. Grant",
+        "aliases": []
+      },
+      {
+        "name": "Clark Ashton Smith",
+        "aliases": []
+      },
+      {
+        "name": "Gary Brandner",
+        "aliases": []
+      },
+      {
+        "name": "David J. Schow",
+        "aliases": []
+      },
+      {
+        "name": "John Skipp",
+        "aliases": []
+      },
+      {
+        "name": "Craig Spector",
+        "aliases": []
+      },
+      {
+        "name": "Richard Laymon",
+        "aliases": []
+      },
+      {
+        "name": "Bentley Little",
+        "aliases": []
+      },
+      {
+        "name": "Robert McCammon",
+        "aliases": []
+      },
+      {
+        "name": "Dan Simmons",
+        "aliases": []
+      },
+      {
+        "name": "Harlan Ellison",
+        "aliases": []
+      },
+      {
+        "name": "Robert Bloch",
+        "aliases": []
+      },
+      {
+        "name": "Richard Matheson",
+        "aliases": []
+      },
+      {
+        "name": "T. E. D. Klein",
+        "aliases": []
+      },
+      {
+        "name": "Manly Wade Wellman",
+        "aliases": []
+      },
+      {
+        "name": "Fritz Leiber",
+        "aliases": []
+      },
+      {
+        "name": "Dennis Etchison",
+        "aliases": []
+      },
+      {
+        "name": "Ramsey Campbell",
+        "aliases": []
+      },
+      {
+        "name": "Michael Shea",
+        "aliases": []
+      },
+      {
+        "name": "Thomas Ligotti",
+        "aliases": []
+      },
+      {
+        "name": "Les Daniels",
+        "aliases": []
+      },
+      {
+        "name": "Michael McDowell",
+        "aliases": []
+      },
+      {
+        "name": "William Hope Hodgson",
+        "aliases": []
+      },
+      {
+        "name": "Algernon Blackwood",
+        "aliases": []
+      },
+      {
+        "name": "Arthur Machen",
+        "aliases": []
+      },
+      {
+        "name": "M. R. James",
+        "aliases": []
+      },
+      {
+        "name": "Seabury Quinn",
+        "aliases": []
+      },
+      {
+        "name": "Frank Belknap Long",
+        "aliases": []
+      },
+      {
+        "name": "Henry Kuttner",
+        "aliases": []
+      },
+      {
+        "name": "C. L. Moore",
+        "aliases": []
+      },
+      {
+        "name": "Hugh B. Cave",
+        "aliases": []
+      }
     ],
     "film_and_art": [
-      "Stuart Gordon",
-      "Brian Yuzna",
-      "Lucio Fulci",
-      "Dario Argento",
-      "Mario Bava",
-      "Lamberto Bava",
-      "Sergio Martino",
-      "Jean Rollin",
-      "Jess Franco",
-      "Larry Cohen",
-      "Frank Henenlotter",
-      "Don Coscarelli",
-      "Tobe Hooper",
-      "Bob Clark",
-      "Terence Fisher",
-      "Christopher Lee",
-      "Peter Cushing",
-      "Vincent Price",
-      "Boris Karloff",
-      "Bela Lugosi",
-      "Lon Chaney",
-      "Barbara Steele",
-      "Rick Baker",
-      "Tom Savini",
-      "Bernie Wrightson",
-      "Frank Frazetta",
-      "Jeffrey Catherine Jones",
-      "Esteban Maroto",
-      "Richard Corben"
+      {
+        "name": "Stuart Gordon",
+        "aliases": []
+      },
+      {
+        "name": "Brian Yuzna",
+        "aliases": []
+      },
+      {
+        "name": "Lucio Fulci",
+        "aliases": []
+      },
+      {
+        "name": "Dario Argento",
+        "aliases": []
+      },
+      {
+        "name": "Mario Bava",
+        "aliases": []
+      },
+      {
+        "name": "Lamberto Bava",
+        "aliases": []
+      },
+      {
+        "name": "Sergio Martino",
+        "aliases": []
+      },
+      {
+        "name": "Jean Rollin",
+        "aliases": []
+      },
+      {
+        "name": "Jess Franco",
+        "aliases": []
+      },
+      {
+        "name": "Larry Cohen",
+        "aliases": []
+      },
+      {
+        "name": "Frank Henenlotter",
+        "aliases": []
+      },
+      {
+        "name": "Don Coscarelli",
+        "aliases": []
+      },
+      {
+        "name": "Tobe Hooper",
+        "aliases": []
+      },
+      {
+        "name": "Bob Clark",
+        "aliases": []
+      },
+      {
+        "name": "Terence Fisher",
+        "aliases": []
+      },
+      {
+        "name": "Christopher Lee",
+        "aliases": []
+      },
+      {
+        "name": "Peter Cushing",
+        "aliases": []
+      },
+      {
+        "name": "Vincent Price",
+        "aliases": []
+      },
+      {
+        "name": "Boris Karloff",
+        "aliases": []
+      },
+      {
+        "name": "Bela Lugosi",
+        "aliases": []
+      },
+      {
+        "name": "Lon Chaney",
+        "aliases": []
+      },
+      {
+        "name": "Barbara Steele",
+        "aliases": []
+      },
+      {
+        "name": "Rick Baker",
+        "aliases": []
+      },
+      {
+        "name": "Tom Savini",
+        "aliases": []
+      },
+      {
+        "name": "Bernie Wrightson",
+        "aliases": []
+      },
+      {
+        "name": "Frank Frazetta",
+        "aliases": []
+      },
+      {
+        "name": "Jeffrey Catherine Jones",
+        "aliases": []
+      },
+      {
+        "name": "Esteban Maroto",
+        "aliases": []
+      },
+      {
+        "name": "Richard Corben",
+        "aliases": []
+      }
     ],
     "properties": [
-      "Weird Tales",
-      "Arkham House",
-      "Zebra Books",
-      "Leisure Books",
-      "Paperbacks from Hell",
-      "Creepy",
-      "Eerie",
-      "Vampirella",
-      "Tales from the Crypt",
-      "Warren Publishing",
-      "Hammer Films",
-      "Amicus",
-      "Universal Monsters",
-      "Phantasm",
-      "Re-Animator",
-      "From Beyond",
-      "Suspiria",
-      "Deep Red",
-      "The Beyond",
-      "City of the Living Dead",
-      "Basket Case",
-      "Sleepaway Camp"
+      {
+        "name": "Weird Tales",
+        "aliases": []
+      },
+      {
+        "name": "Arkham House",
+        "aliases": []
+      },
+      {
+        "name": "Zebra Books",
+        "aliases": []
+      },
+      {
+        "name": "Leisure Books",
+        "aliases": []
+      },
+      {
+        "name": "Paperbacks from Hell",
+        "aliases": []
+      },
+      {
+        "name": "Creepy",
+        "aliases": [
+          "Creepy Archives",
+          "Creepy Presents",
+          "Creepy magazine",
+          "Creepy #",
+          "Creepy and Eerie",
+          "Creepy & Eerie"
+        ],
+        "exact_aliases_only": true
+      },
+      {
+        "name": "Eerie",
+        "aliases": [
+          "Eerie Archives",
+          "Eerie Presents",
+          "Eerie magazine",
+          "Eerie #"
+        ],
+        "exact_aliases_only": true
+      },
+      {
+        "name": "Vampirella",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Tales from the Crypt",
+        "aliases": []
+      },
+      {
+        "name": "Warren Publishing",
+        "aliases": []
+      },
+      {
+        "name": "Hammer Films",
+        "aliases": [
+          "Hammer Horror",
+          "Hammer's",
+          "Hammer Film"
+        ]
+      },
+      {
+        "name": "Amicus",
+        "aliases": []
+      },
+      {
+        "name": "Universal Monsters",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Phantasm",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Re-Animator",
+        "aliases": []
+      },
+      {
+        "name": "From Beyond",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Suspiria",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Deep Red",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "The Beyond",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "City of the Living Dead",
+        "aliases": []
+      },
+      {
+        "name": "Basket Case",
+        "aliases": []
+      },
+      {
+        "name": "Sleepaway Camp",
+        "aliases": []
+      }
+    ],
+    "metal": [
+      {
+        "name": "Judas Priest",
+        "aliases": []
+      },
+      {
+        "name": "Black Sabbath",
+        "aliases": []
+      },
+      {
+        "name": "Dio",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Ronnie James Dio",
+        "aliases": []
+      },
+      {
+        "name": "Mercyful Fate",
+        "aliases": []
+      },
+      {
+        "name": "King Diamond",
+        "aliases": []
+      },
+      {
+        "name": "Saxon",
+        "aliases": []
+      },
+      {
+        "name": "Diamond Head",
+        "aliases": []
+      },
+      {
+        "name": "Angel Witch",
+        "aliases": []
+      },
+      {
+        "name": "Venom",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Accept",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Motörhead",
+        "aliases": []
+      },
+      {
+        "name": "UFO",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Thin Lizzy",
+        "aliases": []
+      },
+      {
+        "name": "Rainbow",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Deep Purple",
+        "aliases": []
+      },
+      {
+        "name": "Slayer",
+        "aliases": []
+      },
+      {
+        "name": "Testament",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Exodus",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Overkill",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Anthrax",
+        "aliases": []
+      },
+      {
+        "name": "Kreator",
+        "aliases": []
+      },
+      {
+        "name": "Sodom",
+        "aliases": []
+      },
+      {
+        "name": "Destruction",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Death Angel",
+        "aliases": []
+      },
+      {
+        "name": "Sacred Reich",
+        "aliases": []
+      },
+      {
+        "name": "Dark Angel",
+        "aliases": []
+      },
+      {
+        "name": "Metal Church",
+        "aliases": []
+      },
+      {
+        "name": "Flotsam and Jetsam",
+        "aliases": []
+      },
+      {
+        "name": "Annihilator",
+        "aliases": []
+      },
+      {
+        "name": "Vio-lence",
+        "aliases": []
+      },
+      {
+        "name": "Heathen",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Forbidden",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Helloween",
+        "aliases": []
+      },
+      {
+        "name": "Blind Guardian",
+        "aliases": []
+      },
+      {
+        "name": "Gamma Ray",
+        "aliases": []
+      },
+      {
+        "name": "Running Wild",
+        "aliases": []
+      },
+      {
+        "name": "Grave Digger",
+        "aliases": []
+      },
+      {
+        "name": "Manowar",
+        "aliases": []
+      },
+      {
+        "name": "Virgin Steele",
+        "aliases": []
+      },
+      {
+        "name": "HammerFall",
+        "aliases": []
+      },
+      {
+        "name": "Iced Earth",
+        "aliases": []
+      },
+      {
+        "name": "Savatage",
+        "aliases": []
+      },
+      {
+        "name": "Queensrÿche",
+        "aliases": []
+      },
+      {
+        "name": "Queensryche",
+        "aliases": []
+      },
+      {
+        "name": "Fates Warning",
+        "aliases": []
+      },
+      {
+        "name": "Crimson Glory",
+        "aliases": []
+      },
+      {
+        "name": "Nevermore",
+        "aliases": []
+      },
+      {
+        "name": "Sanctuary",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Armored Saint",
+        "aliases": []
+      },
+      {
+        "name": "Riot V",
+        "aliases": []
+      },
+      {
+        "name": "Omen",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Manilla Road",
+        "aliases": []
+      },
+      {
+        "name": "Cirith Ungol",
+        "aliases": []
+      },
+      {
+        "name": "Warlord",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Jag Panzer",
+        "aliases": []
+      },
+      {
+        "name": "Candlemass",
+        "aliases": []
+      },
+      {
+        "name": "Trouble",
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
+      },
+      {
+        "name": "Pentagram",
+        "aliases": []
+      },
+      {
+        "name": "Saint Vitus",
+        "aliases": []
+      },
+      {
+        "name": "Solitude Aeturnus",
+        "aliases": []
+      },
+      {
+        "name": "Celtic Frost",
+        "aliases": []
+      },
+      {
+        "name": "Bathory",
+        "aliases": []
+      },
+      {
+        "name": "Grand Magus",
+        "aliases": []
+      },
+      {
+        "name": "Visigoth",
+        "aliases": []
+      },
+      {
+        "name": "Eternal Champion",
+        "aliases": []
+      },
+      {
+        "name": "Sumerlands",
+        "aliases": []
+      },
+      {
+        "name": "Night Demon",
+        "aliases": []
+      },
+      {
+        "name": "Enforcer",
+        "aliases": []
+      },
+      {
+        "name": "Ghost",
+        "aliases": [],
+        "require_qualifier": true,
+        "only_categories": [
+          "metal"
+        ]
+      }
     ]
   },
   "tier2": [
@@ -197,6 +802,56 @@
     {
       "name": "Night of the Living Dead",
       "aliases": []
+    },
+    {
+      "name": "Iron Maiden",
+      "aliases": []
+    },
+    {
+      "name": "Metallica",
+      "aliases": []
+    },
+    {
+      "name": "Megadeth",
+      "aliases": []
+    },
+    {
+      "name": "Ozzy Osbourne",
+      "aliases": [
+        "Ozzy"
+      ]
+    },
+    {
+      "name": "Motley Crue",
+      "aliases": [
+        "Mötley Crüe"
+      ]
+    },
+    {
+      "name": "Dracula",
+      "aliases": []
+    },
+    {
+      "name": "Frankenstein",
+      "aliases": []
+    },
+    {
+      "name": "The Wolf Man",
+      "aliases": [
+        "Wolfman"
+      ]
+    },
+    {
+      "name": "The Mummy",
+      "aliases": []
+    },
+    {
+      "name": "Creature from the Black Lagoon",
+      "aliases": []
+    },
+    {
+      "name": "The Invisible Man",
+      "aliases": []
     }
   ],
   "qualifiers": [
@@ -248,428 +903,682 @@
   "exclude_patterns": [
     "box office",
     "casting",
+    "cast as",
     "remake",
     "reboot",
     "streaming",
-    "celebrity gossip",
-    "true crime"
+    "Netflix",
+    "Hulu",
+    "Peacock",
+    "Prime Video",
+    "Shudder exclusive",
+    "celebrity",
+    "gossip",
+    "true crime",
+    "serial killer",
+    "ranked",
+    "every .* movie ranked",
+    "best .* of all time"
   ],
   "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
   "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
-  "google_news_fallback": "https://news.google.com/rss/search?q=",
   "sources": [
     {
       "name": "Too Much Horror Fiction",
       "category": "books",
-      "feed": null,
+      "site": "toomuchhorrorfiction.blogspot.com",
+      "feed": "https://toomuchhorrorfiction.blogspot.com/feeds/posts/default",
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Paperback Warrior",
       "category": "books",
-      "feed": null,
-      "weight": 1.0,
+      "site": "paperbackwarrior.com",
+      "feed": "https://www.paperbackwarrior.com/feeds/posts/default",
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Valancourt Books",
       "category": "books",
+      "site": "valancourtbooks.com",
       "feed": null,
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Vault of Evil",
       "category": "books",
-      "feed": null,
-      "weight": 1.0,
+      "site": "vaultofevil.wordpress.com",
+      "feed": "https://vaultofevil.wordpress.com/feed/",
+      "beat": true,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Locus Online",
       "category": "books",
-      "feed": null,
+      "site": "locusmag.com",
+      "feed": "https://locusmag.com/feed/",
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Centipede Press",
       "category": "books",
+      "site": "centipedepress.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Suntup Editions",
       "category": "books",
+      "site": "suntup.press",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "PS Publishing",
       "category": "books",
+      "site": "pspublishing.co.uk",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Hippocampus Press",
       "category": "books",
+      "site": "hippocampuspress.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "robertmccammon.com",
       "category": "books",
+      "site": "robertmccammon.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "clivebarker.info",
       "category": "books",
+      "site": "clivebarker.info",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "13th Dimension",
       "category": "comics",
-      "feed": null,
-      "weight": 1.0,
+      "site": "13thdimension.com",
+      "feed": "https://13thdimension.com/feed/",
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "The Comics Journal",
       "category": "comics",
-      "feed": null,
+      "site": "tcj.com",
+      "feed": "https://www.tcj.com/feed/",
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Dark Horse",
       "category": "comics",
+      "site": "darkhorse.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Fantagraphics",
       "category": "comics",
+      "site": "fantagraphics.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Bleeding Cool",
       "category": "comics",
-      "feed": null,
-      "weight": 1.0,
+      "site": "bleedingcool.com",
+      "feed": "https://bleedingcool.com/comics/feed/",
+      "beat": false,
+      "weight": 0.6,
       "filter": "strict"
     },
     {
       "name": "Bloody Disgusting",
       "category": "film",
-      "feed": null,
-      "weight": 1.0,
+      "site": "bloody-disgusting.com",
+      "feed": "https://bloody-disgusting.com/feed/",
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Dread Central",
       "category": "film",
-      "feed": null,
-      "weight": 1.0,
+      "site": "dreadcentral.com",
+      "feed": "https://www.dreadcentral.com/feed/",
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Rue Morgue",
       "category": "film",
-      "feed": null,
-      "weight": 1.0,
+      "site": "rue-morgue.com",
+      "feed": "https://rue-morgue.com/feed/",
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Fangoria",
       "category": "film",
-      "feed": null,
-      "weight": 1.0,
+      "site": "fangoria.com",
+      "feed": "https://www.fangoria.com/feed/",
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Daily Dead",
       "category": "film",
-      "feed": null,
-      "weight": 1.0,
+      "site": "dailydead.com",
+      "feed": "https://dailydead.com/feed/",
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Diabolique",
       "category": "film",
-      "feed": null,
-      "weight": 1.0,
+      "site": "diaboliquemagazine.com",
+      "feed": "https://diaboliquemagazine.com/feed/",
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Cinema Retro",
       "category": "film",
+      "site": "cinemaretro.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Blu-ray.com",
       "category": "discs",
-      "feed": null,
+      "site": "blu-ray.com",
+      "feed": "https://www.blu-ray.com/rss/newsfeed.xml",
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "DVD Drive-In",
       "category": "discs",
+      "site": "dvddrive-in.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Arrow Video",
       "category": "discs",
+      "site": "arrowfilms.com",
       "feed": null,
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Vinegar Syndrome",
       "category": "discs",
+      "site": "vinegarsyndrome.com",
       "feed": null,
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Severin Films",
       "category": "discs",
+      "site": "severin-films.com",
       "feed": null,
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Shout / Scream Factory",
       "category": "discs",
+      "site": "shoutfactory.com",
       "feed": null,
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Synapse",
       "category": "discs",
+      "site": "synapse-films.com",
       "feed": null,
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Kino Lorber",
       "category": "discs",
+      "site": "kinolorber.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Criterion",
       "category": "discs",
+      "site": "criterion.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Home Theater Forum",
       "category": "discs",
-      "feed": null,
-      "weight": 1.0,
+      "site": "hometheaterforum.com",
+      "feed": "https://www.hometheaterforum.com/feed/",
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Waxwork Records",
       "category": "discs",
-      "feed": null,
+      "site": "waxworkrecords.com",
+      "feed": "https://waxworkrecords.com/blogs/know-the-score.atom",
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Death Waltz",
       "category": "discs",
+      "site": "deathwaltzrecords.com",
       "feed": null,
+      "beat": true,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Mondo",
       "category": "discs",
+      "site": "mondoshop.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Terror Vision",
       "category": "discs",
+      "site": "terror-vision.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Ship to Shore",
       "category": "discs",
+      "site": "shiptoshorephonoco.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "NECA",
       "category": "gear",
-      "feed": null,
-      "weight": 1.0,
+      "site": "necaonline.com",
+      "feed": "https://necaonline.com/feed/",
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Super7",
       "category": "gear",
+      "site": "super7.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Mezco",
       "category": "gear",
+      "site": "mezcotoyz.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Trick or Treat Studios",
       "category": "gear",
+      "site": "trickortreatstudios.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Fright-Rags",
       "category": "gear",
+      "site": "fright-rags.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Cavity Colors",
       "category": "gear",
+      "site": "cavitycolors.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": true,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "The Toyark",
       "category": "gear",
-      "feed": null,
-      "weight": 1.0,
+      "site": "toyark.com",
+      "feed": "https://www.toyark.com/feed/",
+      "beat": false,
+      "weight": 0.7,
       "filter": "standard"
     },
     {
       "name": "Bleeding Cool collectibles",
       "category": "gear",
-      "feed": null,
-      "weight": 1.0,
+      "site": "bleedingcool.com/collectibles",
+      "feed": "https://bleedingcool.com/collectibles/feed/",
+      "beat": false,
+      "weight": 0.6,
       "filter": "standard"
     },
     {
       "name": "Blabbermouth",
       "category": "metal",
-      "feed": null,
+      "site": "blabbermouth.net",
+      "feed": "https://blabbermouth.net/feed",
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Metal Injection",
       "category": "metal",
-      "feed": null,
-      "weight": 1.0,
+      "site": "metalinjection.net",
+      "feed": "https://metalinjection.net/feed",
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "No Clean Singing",
       "category": "metal",
-      "feed": null,
-      "weight": 1.0,
+      "site": "nocleansinging.com",
+      "feed": "https://www.nocleansinging.com/feed/",
+      "beat": false,
+      "weight": 0.7,
       "filter": "standard"
     },
     {
       "name": "Invisible Oranges",
       "category": "metal",
-      "feed": null,
-      "weight": 1.0,
+      "site": "invisibleoranges.com",
+      "feed": "https://www.invisibleoranges.com/feed/",
+      "beat": false,
+      "weight": 0.8,
       "filter": "standard"
     },
     {
       "name": "Angry Metal Guy",
       "category": "metal",
-      "feed": null,
-      "weight": 1.0,
+      "site": "angrymetalguy.com",
+      "feed": "https://www.angrymetalguy.com/feed/",
+      "beat": false,
+      "weight": 0.7,
       "filter": "standard"
     },
     {
       "name": "BraveWords",
       "category": "metal",
+      "site": "bravewords.com",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     },
     {
       "name": "Metal Storm",
       "category": "metal",
+      "site": "metalstorm.net",
       "feed": null,
-      "weight": 1.0,
+      "beat": false,
+      "weight": 0.7,
       "filter": "standard"
     },
     {
       "name": "Metal Collision",
       "category": "metal",
-      "feed": null,
-      "weight": 1.0,
+      "site": "metal-collision.com",
+      "feed": "https://www.metal-collision.com/feed/",
+      "beat": false,
+      "weight": 0.7,
       "filter": "standard"
     },
     {
       "name": "Loudwire",
       "category": "metal",
-      "feed": null,
-      "weight": 1.0,
+      "site": "loudwire.com",
+      "feed": "https://loudwire.com/feed/",
+      "beat": false,
+      "weight": 0.6,
       "filter": "strict"
     },
     {
       "name": "Heritage Auctions",
       "category": "collect",
+      "site": "ha.com",
       "feed": null,
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Fine Books & Collections",
       "category": "collect",
+      "site": "finebooksmagazine.com",
       "feed": null,
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "Hake's",
       "category": "collect",
+      "site": "hakes.com",
       "feed": null,
+      "beat": false,
       "weight": 1.0,
       "filter": "standard"
     },
     {
       "name": "ComicConnect",
       "category": "collect",
+      "site": "comicconnect.com",
       "feed": null,
+      "beat": false,
+      "weight": 0.9,
+      "filter": "standard"
+    },
+    {
+      "name": "Variety",
+      "category": "film",
+      "site": "variety.com",
+      "feed": "https://variety.com/v/film/feed/",
+      "beat": false,
       "weight": 1.0,
+      "filter": "strict"
+    },
+    {
+      "name": "Louder",
+      "category": "metal",
+      "site": "loudersound.com",
+      "feed": null,
+      "beat": false,
+      "weight": 0.9,
       "filter": "standard"
     }
-  ]
+  ],
+  "metal_qualifiers": [
+    "NWOBHM",
+    "thrash",
+    "power metal",
+    "doom metal",
+    "speed metal",
+    "heavy metal",
+    "traditional metal",
+    "epic metal",
+    "reissue",
+    "remaster",
+    "box set",
+    "anniversary",
+    "vinyl",
+    "LP",
+    "live album",
+    "demo"
+  ],
+  "category_keywords": {
+    "collect": [
+      "auction",
+      "CGC",
+      "grading",
+      "graded",
+      "price guide",
+      "first printing",
+      "first edition",
+      "dealer",
+      "sold for",
+      "estate sale",
+      "Heritage Auctions"
+    ],
+    "discs": [
+      "4K",
+      "UHD",
+      "Blu-ray",
+      "Blu-Ray",
+      "DVD",
+      "vinyl",
+      "LP",
+      "soundtrack",
+      "score",
+      "pressing",
+      "boxset",
+      "box set",
+      "Steelbook",
+      "SteelBook",
+      "restoration"
+    ],
+    "gear": [
+      "figure",
+      "statue",
+      "bust",
+      "mask",
+      "apparel",
+      "t-shirt",
+      "shirt",
+      "enamel pin",
+      "poster",
+      "replica",
+      "toy",
+      "collectible",
+      "Funko"
+    ],
+    "comics": [
+      "comic",
+      "Creepy",
+      "Eerie",
+      "Warren",
+      "EC Comics",
+      "Tales from the Crypt",
+      "Swamp Thing",
+      "Vampirella",
+      "graphic novel",
+      "omnibus"
+    ],
+    "books": [
+      "novel",
+      "paperback",
+      "anthology",
+      "short stories",
+      "hardcover",
+      "reprint",
+      "publisher",
+      "small press",
+      "Arkham House",
+      "Weird Tales"
+    ]
+  },
+  "category_override_from": [
+    "film",
+    "comics",
+    "collect",
+    "books"
+  ],
+  "google_news": {
+    "base": "https://news.google.com/rss/search",
+    "params": "hl=en-US&gl=US&ceid=US:en"
+  },
+  "lead": {
+    "min_weight": 0.8,
+    "prefer_categories": [
+      "film",
+      "books",
+      "comics",
+      "discs"
+    ]
+  }
 }

@@ -1,0 +1,61 @@
+name: Build and deploy
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 00:00 Central, daylight time (CDT)
+    - cron: "0 6 * * *"   # 00:00 Central, standard time (CST)
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build the Night Wire
+        if: github.event_name != 'push'
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: node scripts/build-wire.mjs
+      - name: Commit tonight's wire
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/wire.json
+          if git diff --cached --quiet; then
+            echo "No change to the wire."
+          else
+            git commit -m "Night Wire $(TZ=America/Chicago date +%F)"
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
