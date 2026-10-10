@@ -292,6 +292,8 @@ for (const c of overflow) { if (picked.length >= cfg.max_items) break; picked.pu
 const shareOf = (cat) => (cfg.category_share || {})[cat] ?? cfg.max_category_share;
 for (;;) {
   const counts = {}; picked.forEach((c) => { counts[c.category] = (counts[c.category] || 0) + 1; });
+  // a thin night shouldn't be starved further: balance only bites above the minimum wire size
+  if (picked.length <= (cfg.balance_min_items ?? 20)) break;
   const over = Object.keys(counts).find((cat) => counts[cat] > 3 && counts[cat] > shareOf(cat) * picked.length);
   if (!over || Object.keys(counts).length === 1) break;
   const worst = picked.filter((c) => c.category === over).sort((a, b) => a._s - b._s)[0];

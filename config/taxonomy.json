@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v5, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
-  "version": 5,
+  "_note": "Mirror of 03-night-wire-taxonomy (v6, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
+  "version": 6,
   "freshness_days": 10,
   "max_items": 40,
   "per_source_cap": 4,
@@ -986,6 +986,88 @@
       {
         "name": "Cemetery Dance",
         "aliases": []
+      },
+      {
+        "name": "Eureka Entertainment",
+        "aliases": [
+          "Eureka Classics",
+          "Masters of Cinema"
+        ],
+        "require_qualifier": true
+      },
+      {
+        "name": "Radiance Films",
+        "aliases": []
+      },
+      {
+        "name": "Second Sight Films",
+        "aliases": []
+      },
+      {
+        "name": "Indicator",
+        "aliases": [
+          "Powerhouse Films"
+        ],
+        "require_qualifier": true
+      },
+      {
+        "name": "Umbrella Entertainment",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Imprint Films",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "AGFA",
+        "aliases": [
+          "American Genre Film Archive"
+        ]
+      },
+      {
+        "name": "Fun City Editions",
+        "aliases": []
+      },
+      {
+        "name": "Code Red",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Kino Lorber",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Shout! Factory",
+        "aliases": [
+          "Shout Factory",
+          "Shout! Studios"
+        ],
+        "require_qualifier": true
+      },
+      {
+        "name": "Subterranean Press",
+        "aliases": []
+      },
+      {
+        "name": "Undertow Publications",
+        "aliases": []
+      },
+      {
+        "name": "Tales of the Weird",
+        "aliases": []
+      },
+      {
+        "name": "Haunted Library of Horror Classics",
+        "aliases": []
+      },
+      {
+        "name": "Folio Society",
+        "aliases": [],
+        "require_qualifier": true
       }
     ]
   },
@@ -2016,7 +2098,7 @@
     "cover gallery"
   ],
   "category_share": {
-    "metal": 0.25
+    "metal": 0.3
   },
   "queries": [
     {
@@ -2110,6 +2192,106 @@
     {
       "q": "\"Trick or Treat Studios\" mask",
       "category": "gear"
+    },
+    {
+      "q": "\"88 Films\" horror",
+      "category": "discs"
+    },
+    {
+      "q": "\"Eureka\" horror Blu-ray",
+      "category": "discs"
+    },
+    {
+      "q": "\"Radiance Films\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Second Sight\" horror 4K",
+      "category": "discs"
+    },
+    {
+      "q": "\"Indicator\" OR \"Powerhouse Films\" horror",
+      "category": "discs"
+    },
+    {
+      "q": "\"Umbrella Entertainment\" horror",
+      "category": "discs"
+    },
+    {
+      "q": "\"Imprint Films\" horror",
+      "category": "discs"
+    },
+    {
+      "q": "\"Kino Lorber\" horror",
+      "category": "discs"
+    },
+    {
+      "q": "\"Shout Factory\" horror",
+      "category": "discs"
+    },
+    {
+      "q": "AGFA OR \"American Genre Film Archive\"",
+      "category": "discs"
+    },
+    {
+      "q": "horror 4K restoration",
+      "category": "discs"
+    },
+    {
+      "q": "horror soundtrack vinyl",
+      "category": "discs"
+    },
+    {
+      "q": "Fulci OR Argento OR \"Mario Bava\"",
+      "category": "film"
+    },
+    {
+      "q": "horror repertory screening OR \"horror film festival\" classic",
+      "category": "film"
+    },
+    {
+      "q": "\"John Carpenter\" 4K OR anniversary",
+      "category": "film"
+    },
+    {
+      "q": "\"Subterranean Press\" OR \"Undertow Publications\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Tales of the Weird\" British Library",
+      "category": "books"
+    },
+    {
+      "q": "\"Haunted Library of Horror Classics\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Stephen King\" \"first edition\" OR \"limited edition\"",
+      "category": "books"
+    },
+    {
+      "q": "Lovecraft collection OR anthology",
+      "category": "books"
+    },
+    {
+      "q": "\"Folio Society\" horror",
+      "category": "books"
+    },
+    {
+      "q": "\"Bernie Wrightson\" OR \"Richard Corben\" OR \"Frank Frazetta\"",
+      "category": "comics"
+    },
+    {
+      "q": "Vampirella OR \"Swamp Thing\" omnibus",
+      "category": "comics"
+    },
+    {
+      "q": "Frazetta OR \"horror comic\" Heritage Auctions",
+      "category": "collect"
+    },
+    {
+      "q": "\"Weird Tales\" OR \"pulp magazine\" auction OR collection",
+      "category": "collect"
     }
   ],
   "blocked_publishers": [
@@ -2131,5 +2313,6 @@
     "Yahoo Entertainment",
     "Apple Podcasts",
     "Spotify"
-  ]
+  ],
+  "balance_min_items": 20
 }
