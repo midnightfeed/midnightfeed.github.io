@@ -1,21 +1,244 @@
 {
-  "built_at": "2026-10-10T05:16:18.205Z",
+  "built_at": "2026-10-10T17:42:39.876Z",
   "built_for": "2026-10-10",
   "lead": {
-    "id": "32c4ebe41377b5fde4b6e2abc61f880f979d7302",
-    "title": "Imprint Films Announces November Releases",
-    "source": "Blu-ray.com",
-    "url": "https://www.blu-ray.com/news/?id=39155",
-    "category": "discs",
-    "published": "2026-10-09T02:43:44.000Z",
-    "snippet": "Australian label Imprint Films has informed us that it will add seven new titles to its catalog this November. They are: For Pete's Sake (1974), White Sister (1972), The Girl from Petrovka (1974)…",
+    "id": "859898be10481c2019cb26d1964f6b467c03fb38",
+    "title": "The End Is Here: Stephen King and Richard Chizmar on Finishing Their Trilogies",
+    "source": "Fangoria",
+    "url": "https://www.fangoria.com/stephen-king-richard-chizmar-interview-trilogies",
+    "category": "film",
+    "published": "2026-10-10T16:00:38.000Z",
+    "snippet": "Check out our interview with Stephen King and Richard Chizmar about their trilogies, collaborations, and endings.",
     "matched": [
-      "Imprint Films"
+      "Stephen King"
     ],
-    "tier": 1,
+    "classic": true,
+    "why": "Stephen King",
     "amazon_query": null
   },
   "items": [
+    {
+      "id": "dd22d8a342855eddf23f5f5baea1731c88dda9ce",
+      "title": "Marvel Reveals Grotesque New Covers and Doctor Octopus for “Midnight Universe” at New York Comic Con",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/marvel-reveals-grotesque-new-covers-and-doctor-octopus-for-midnight-universe-at-new-york-comic-con",
+      "category": "comics",
+      "published": "2026-10-10T17:40:20.000Z",
+      "snippet": "New York Comic Con brought fresh reveals for Marvel's shadow-cloaked Midnight Universe line, including a grotesque Doctor Octopus debut and twisted new X-Men designs.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "1638d14bd4b3beaebc1e80f3e05bd2b36432d6a9",
+      "title": "Stephen King Based Carrie White on 2 Girls He Knew Growing Up. Both Had Died by the Time He Wrote the Novel",
+      "source": "Creepy Catalog",
+      "url": "https://creepycatalog.com/stephen-king-based-carrie-white-on-2-girls-he-knew-growing-up-both-had-died-by-the-time-he-wrote-the-novel",
+      "category": "books",
+      "published": "2026-10-10T16:35:15.000Z",
+      "snippet": "The girl who helped inspire Stephen King‘s Carrie White wore the same black skirt to school every day, its hem halfway down her shins. When she returned from Christmas vacation in her sophomore year…",
+      "matched": [
+        "Stephen King",
+        "Carrie"
+      ],
+      "classic": true,
+      "why": "Stephen King, Carrie",
+      "amazon_query": null
+    },
+    {
+      "id": "859898be10481c2019cb26d1964f6b467c03fb38",
+      "title": "The End Is Here: Stephen King and Richard Chizmar on Finishing Their Trilogies",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/stephen-king-richard-chizmar-interview-trilogies",
+      "category": "film",
+      "published": "2026-10-10T16:00:38.000Z",
+      "snippet": "Check out our interview with Stephen King and Richard Chizmar about their trilogies, collaborations, and endings.",
+      "matched": [
+        "Stephen King"
+      ],
+      "classic": true,
+      "why": "Stephen King",
+      "amazon_query": null
+    },
+    {
+      "id": "d03ea40a4b3205d6c5596c81151c4ed74e21fc4d",
+      "title": "Jessica Chastain’s Other Mommy Officially Ties Score With The Best Horror Movie of the 2010s",
+      "source": "FandomWire",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rcFBtSlVXdDFlSEY4d2lmR1o0S1pheEJadmNWdzdiNFlmVG1GNElsRFhUdXA1UThUeURfZlM1SmpPSWRlTWVyNkhCclYzdkFjNHJhXzZNdE4tS1c0S1d0YWtadmRPMXhleWtPYTQzeUxHcGNpcG9RdG81UzludGM?oc=5",
+      "category": "discs",
+      "published": "2026-10-10T15:34:17.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "7b8df1c00d52c2c5b9563649dcd0618f57e34973",
+      "title": "NYCC: Swamp Thing: Hallowed Ground by Steve Foxe & Riccardo Federici",
+      "source": "Bleeding Cool",
+      "url": "https://bleedingcool.com/comics/nycc-swamp-thing-hallowed-ground-by-steve-foxe-riccardo-federici",
+      "category": "comics",
+      "published": "2026-10-10T14:57:10.000Z",
+      "snippet": "DC Next Level announce a new title at New York Comic Con, Swamp Thing: Hallowed Ground by Steve Foxe & Riccardo Federici",
+      "matched": [
+        "Swamp Thing"
+      ],
+      "classic": true,
+      "why": "Swamp Thing",
+      "amazon_query": null
+    },
+    {
+      "id": "11b54871c107c9259efcd183e69fb33b35fb60bb",
+      "title": "‘Crystal Lake’ Creator Reveals Why Linda Cardellini Had to Play Pamela Voorhees & More",
+      "source": "TV Insider",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYWRJM240VEdqSkdXSGNwYWxFNXlmMGk0Sm9rZjVMWm9PYTFQWTNEbGhCemV0emxwMTNWbDI3b3FDWHRjQ2VjT2R0Y0ZnOVM0dloxRXUyeUdPdnQxckRfc1kxaURZX3dhNl9oN1pLTW5IeFlSWlRuZHlGWFRSdlpKMXlBanBMTVZla1JVQ3BMQ0FuTWE5dGxQX05ObHVkVmtOQWI3VUhCcw?oc=5",
+      "category": "books",
+      "published": "2026-10-10T14:30:49.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "738c3c4b2fe68cf6caa1c1766018b254d0e46d54",
+      "title": "What to Watch on TV This Week: Grey’s Anatomy, The Diplomat, Crystal Lake, and More",
+      "source": "Tell-Tale TV",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeTN5akF3RE5EUE00cnBnTG9oTzd5aExRLUtIMXR3czVrRloxd0NXLWJOTGczMF9QNmtfSDktaV85REpObHJDWmRsTDVyWTF5eFIzOHZtdkpkb3JJeHRwVXBYSVd4ODkwQjUzb1JxTDZ3SDBjdDZ6OU1ubFZDazZrd2lybVF4NFAweldmc2loMDhHNF9aaFMxTllad0NXbl9DODVtbzlXYVZKODctZldr?oc=5",
+      "category": "books",
+      "published": "2026-10-10T14:00:36.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "4171abb5768cb12194b8ba732abe0defff9842be",
+      "title": "Ex-SLAYER Drummer DAVE LOMBARDO Looks Back On 'Reign In Blood': 'It Still Gives Me The Chills When I Listen To That Album'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/ex-slayer-drummer-dave-lombardo-looks-back-on-reign-in-blood-it-still-gives-me-the-chills-when-i-listen-to-that-album",
+      "category": "metal",
+      "published": "2026-10-10T11:44:45.000Z",
+      "snippet": "In a new interview with Scott Penfold of Loaded Radio, original SLAYER drummer Dave Lombardo reflected on one of the most uncompromising metal records of all time, SLAYER's classic third full-length…",
+      "matched": [
+        "Slayer"
+      ],
+      "classic": true,
+      "why": "Slayer",
+      "amazon_query": null
+    },
+    {
+      "id": "e0eceb0786ea8bed2c13bd8f89052db186d8be6d",
+      "title": "Prairie Ridge rallies to beat Crystal Lake Central in double overtime, keeps playoff chances alive",
+      "source": "Shaw Local",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcG1qMjhhMEh4dVNWbmtFby1LdWQzSUU2czl5cnljNXNLV2lDVWoxSUZNTnQtZlRJa1Z2Y2g1a1ZPLU9CdU0tU00zWVNvT1hTTkJPWlQzeExZX2tkZkdwQjlTZWlZbnI5aGU2bFBqMV9xV3hSRnJybUszMXFpMHB5d1ctOVpxTTZ4eEp3NXRPa05JQ2xMc0Rxekgta2lXemxRdS1uaG54WnJLNWV3OTJfMUNmRjAyaUlLN3RWSm41dnY2Ykl0ZmR5V054ZDFWejNMN1BVanFSbmlJNXBTZG9VN1QzLS03aE5vbGc?oc=5",
+      "category": "books",
+      "published": "2026-10-10T05:21:04.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "2e51bc67bdcf80858387434ce450537299cb87ff",
+      "title": "Cary-Grove scores touchdowns on nine straight drives, beats Crystal Lake South 61-19",
+      "source": "Shaw Local",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZGY1TjVqY0lBbV9lZ2pOdk5qVldDZnhFbm9ZSE9jTHItLVdaUkJoYWxMbDZBRGhqd3huaDlsdV9jVnpjSWkxU2RXOGZyaXhjUENuMVo5aTFmTzBtSXU0VGhkNlpFVk56M0Y0UUNHc0dERUtDbE9ySm1BaW9FMVVjVVltTHFsYTktUEdUZmxQRlZsMGd5Tm5ObElMUEZpa1RHN2Q1d0ZMQjJYZXdBeHZtS3RnRlBMNUlET2MtZHJKT25GQm5jeEZjcHBSdnQ4MVJ2WFpkOVVBSQ?oc=5",
+      "category": "books",
+      "published": "2026-10-10T04:30:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "634f15f11ea565dfbb44f54e2785523e93c0f78c",
+      "title": "Football Recap: Jacobs Skates Past Crystal Lake Central with Ease + How To Watch",
+      "source": "MaxPreps",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRDluemRvRUlQMFNhekZZUWo0RGJ1ZnJyNW9RZzFFcFRpbkZZcWY0WkJrQkxTTXh4SUVJYWI0RV9iaHFuYUxlcGUwV3h4Sk8wTjFSTlN3a1RNSDlTTWQ3SWxKNHVZa2pHLU4zU2R1NWVlaU5vcXhiRmEyekg1Ty1zYm91ZDg2d0FzQlhic3NaMW9hUUN3b2VfTGxOZF9HU21POUY5WXMtSGl2VVRQNWpLT18xMGtzd25XR2xqa3dXb1pWd3lZLXFyVlVwVXNOeUh0?oc=5",
+      "category": "books",
+      "published": "2026-10-10T01:06:21.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "ab3cd14362b0dbabdce2e921e70239a76c31d54d",
+      "title": "Universal: First Look at The Exorcist Martyrs",
+      "source": "Blu-ray.com",
+      "url": "https://www.blu-ray.com/news/?id=39157",
+      "category": "discs",
+      "published": "2026-10-10T01:05:06.000Z",
+      "snippet": "Universal Pictures has provided a promotional trailer for Mike Flanagan's The Exorcist: Martyrs (2026), starring Scarlett Johansson, Jacobi Jupe, Diane Lane, Chiwetel Ejiofor, and Laurence Fishburne…",
+      "matched": [
+        "The Exorcist"
+      ],
+      "classic": true,
+      "why": "The Exorcist",
+      "amazon_query": null
+    },
+    {
+      "id": "243a4ee6de5179c31170b0ce9c2a7c3a17732b75",
+      "title": "Watch the Official Trailer for THE EXORCIST: MARTYRS",
+      "source": "Daily Dead",
+      "url": "https://dailydead.com/watch-the-official-trailer-for-the-exorcist-martyrs",
+      "category": "film",
+      "published": "2026-10-10T00:42:51.000Z",
+      "snippet": "Martyr: a person who suffers persecution and death rather than renounce a religious belief or core principle. Mike Flanagan’s The Exorcist: Martyrs only in theaters March 12. Written & Directed by…",
+      "matched": [
+        "The Exorcist"
+      ],
+      "classic": true,
+      "why": "The Exorcist",
+      "amazon_query": null
+    },
+    {
+      "id": "d1e1486a94910aa2f26d8552c489d6187d1b7e37",
+      "title": "William Weber Obituary (1942 - 2026) - Crystal Lake, IL - Northwest Herald",
+      "source": "Legacy | Obituary",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOGdnb2xscjlVMlVicElOZGdySzdqQVNhQkdEX2NhZnNYWUZRTWd2VHJ2ck5Yelh0cGRVa3lRcm1XTk5Pc19fMGJFZUJzblF1QnBuZE1wc0FUNUhzTFJfZlVDemhfcGxVZGxLejdmMEt0ZHdXVGJXbWJMdHZUTTdyTXZMRkUyMGxuZ0JmaU9R?oc=5",
+      "category": "books",
+      "published": "2026-10-10T00:35:56.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "ae9210207f2ddb4a5b9b275563d00121cc4652b7",
+      "title": "THE EXORCIST: MARTYRS Is Unlike Any Other Exorcist Movie, Says Mike Flanagan",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/the-exorcist-martyrs-mike-flanagan-trailer-interview",
+      "category": "film",
+      "published": "2026-10-09T23:00:48.000Z",
+      "snippet": "The trailer for The Exorcist: Martyrs has been unveiled, and horror fans surely have a lot of questions. Fortunately, FANGORIA got to ask director Mike Flanagan a few of our own.",
+      "matched": [
+        "The Exorcist"
+      ],
+      "classic": true,
+      "why": "The Exorcist",
+      "amazon_query": null
+    },
     {
       "id": "09d1a55dbbc36875e8bfc5904a84bbd7a2266ac6",
       "title": "Synapse Films Announces the The Deadly Spawn on 4K UHD & Blu-ray",
@@ -27,7 +250,189 @@
       "matched": [
         "Synapse Films"
       ],
-      "tier": 1,
+      "classic": true,
+      "why": "Synapse Films",
+      "amazon_query": null
+    },
+    {
+      "id": "7d8ddd8adb1f4bdd2df36b48bed447f6c8fded0e",
+      "title": "Medical examiner rules Crystal Lake-area infant’s cause of death undetermined",
+      "source": "Shaw Local",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMVFUeURUUVQ5VzV6VW9CZEtLSy1JN28tTkM0Q2VkZmotS0g4NFBDeTBKUG9qZ3kwMy00RHRyeXdNYkVKYmVfXzkxNEpiYU94emtlclBzdlRfbmt1NEt6SVRuV1NvLWJ6cXhEYlI5dHlQM0R5NEV4TjZjdFRUMDY0aV9yQ1VFekM4MGlvc2NYZF85VHAxYmRnQUlYbFFqcmxWbmdsQURQZFpUTTZCMEdCWHNiWFRpRWh3LVBEelQybGh3R25YUFBQQnUxaw?oc=5",
+      "category": "books",
+      "published": "2026-10-09T21:58:46.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "29581e5a2939e1b45c6bf83cd0c0316a6c657232",
+      "title": "John Carpenter's Halloween Returns To Theaters For October 2026",
+      "source": "Bleeding Cool News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUF9kQnlKTEJFQ01NTTZrSGx3NzE0Qm9PYzdRdjZESVFxTXU3U1ZrMTNCUTUwcVBqZkczSXY0WHJWSWs4NDVyN0RwSGVVVzRaLTlCS05pUzJ1clk2eklFTnJYR0hXRDdWWnJUUmpqWjFoNk14Zm1QTnFyYjNIMGtYeG81elF1MHIzNkZXdFR2LUZpQXdJbWhTTWZUSQ?oc=5",
+      "category": "film",
+      "published": "2026-10-09T21:17:09.000Z",
+      "snippet": "",
+      "matched": [
+        "John Carpenter",
+        "Halloween (film series)"
+      ],
+      "classic": true,
+      "why": "John Carpenter, Halloween (film series)",
+      "amazon_query": null
+    },
+    {
+      "id": "cfdff086a63d122ee4fa00969057a2e00393bca9",
+      "title": "'Crystal Lake' Premieres October 15: Everything We Know About the Friday the 13th Prequel",
+      "source": "No Film School",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSGtENXR0TEJTUDk2REstYTRpRmIzb3RSMmZxWDA0dGthUGVvZ1JtdzZfMk5rYU05WTBBakhRekhBRnRrLUVzbzBxRVAzRWdlbFNNZmp0SnNVaVNoaE5GOE4yTWZ3MFNuU0pFM2N0WnpXck85WGg4LVdQRXVLNVVjUGJOZlBSb3FPb1hOX0FIcWtQWlNHQjR6emtEc1pUQ0JCMXBnRGp3ckFlTTFjTVVscw?oc=5",
+      "category": "books",
+      "published": "2026-10-09T20:53:24.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake",
+        "Friday the 13th"
+      ],
+      "classic": true,
+      "why": "Crystal Lake, Friday the 13th",
+      "amazon_query": null
+    },
+    {
+      "id": "7444d693f2a7935150d3cd0f2bd8f76f6304c3a6",
+      "title": "REVIEW: WATCHER’s Mistress Of Our Time – “Hard Driving, Traditional, No Frills Heavy Metal”",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQXlodDJtdlFlRl9GVkZvNkQ2ZG5sM3U3NzFvODBZZWtsenNyR241UTdlRjFLZjcyZXVneUxpRk9uM0FFVS1zQnVYdTlKRVM1VWp2UEZGWGtjWWtYTnU4T2UyQ1dxRDN3TUFmSDJXRDAxR1NkYllRc29BTHNpVjFTMmtXUHdMRWlrckNRZ0d0Wmp0dmJ6b2xiLTdsLWl3MzM2UWlxUFFoSmc4aWU2UDZhQWgtZ0JidWZtZW9LdzVn0gHGAUFVX3lxTE94T3ljcUhTRi05cU90Yk11RXlZXzlPenNtSmdHRUgyd200SW5uQngyWUhULWdZcE5rZTJaSUlucFpHN2tZNWhQS0p6YWVVMXc1NUU5UklqTE1hLTBDZXd6QzZvdFA4emtlaVVKUTFMSk5GVXpFZ3RFRVNZdDJDc1JwQzFDdVQ3NVJCZFgtUjFUekRhd3MyWGdnUjBvWFI0N19Ec08waXNpNmExV1FUcnJ4RVhUNVVVVEZHak04Ny1WdV9nMkNldw?oc=5",
+      "category": "metal",
+      "published": "2026-10-09T20:48:10.000Z",
+      "snippet": "",
+      "matched": [
+        "metal genre"
+      ],
+      "classic": true,
+      "why": "metal genre",
+      "amazon_query": null
+    },
+    {
+      "id": "c130383f3f2a1aeaafa677f725ca72f388716113",
+      "title": "Should Heavy Metal Bands Be More Political In Their Messaging? TOM MORELLO Weighs In",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/should-heavy-metal-bands-be-more-political-in-their-messaging-tom-morello-weighs-in",
+      "category": "metal",
+      "published": "2026-10-09T20:39:38.000Z",
+      "snippet": "In a recent interview with Berlin, Germany's Star FM 87.9 radio station, RAGE AGAINST THE MACHINE guitarist Tom Morello spoke about his active role as a champion for heavy metal icons JUDAS PRIEST…",
+      "matched": [
+        "metal genre"
+      ],
+      "classic": true,
+      "why": "metal genre",
+      "amazon_query": null
+    },
+    {
+      "id": "66690aa111ace92f15c634054d22131ae7952445",
+      "title": "Crystal Lake Creator on Altering the Timeline of Jason's Death While Delivering the Gore Fans Want",
+      "source": "TVGuide.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYVncxWjJ0OVJlamNiaHhPZkl1a2lQQ3pNWV9lMDU1dnR3X2xEbW5DSHpGTm5HSzVVWW1lTHhsN25MRDVhdEJsNkNEQWgtTjBfN2theTJFUnB5NXRmSTdCbTl1dGUzZ3BnMkJsd3g0VGQtT3d3?oc=5",
+      "category": "books",
+      "published": "2026-10-09T20:31:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake",
+        "Friday the 13th"
+      ],
+      "classic": true,
+      "why": "Crystal Lake, Friday the 13th",
+      "amazon_query": null
+    },
+    {
+      "id": "b57c87a355d63a957615db48e82fad5c53ab2cbb",
+      "title": "Fates Warning Archives » Page 40 of 42 » BraveWords - Where Music Lives",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CamVmNkpjbjNsYkYtRzJzT1l0MHU1WU9DRGFzT0FJNFVyUnpSV1NENmp6czBYVGtoMGs4NXhHTDFlOXJsSEpEd0Q1MjBZVHMtaEUtSlhrUUplV2xXa1E?oc=5",
+      "category": "metal",
+      "published": "2026-10-09T19:27:20.000Z",
+      "snippet": "",
+      "matched": [
+        "Fates Warning"
+      ],
+      "classic": true,
+      "why": "Fates Warning",
+      "amazon_query": null
+    },
+    {
+      "id": "ad7f9a98f8647afdb9a1543723f3dd93ec637651",
+      "title": "The Moment ‘Hellraiser: Revival’ Made Me a Believer",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/gaming/591734/the-moment-hellraiser-revival-made-me-a-believer",
+      "category": "film",
+      "published": "2026-10-09T19:14:00.000Z",
+      "snippet": "I’m really enjoying the old-school mechanics of Clive Barker’s Hellraiser: Revival. There’s a very Resident Evil-like simplicity to progressing through",
+      "matched": [
+        "Hellraiser"
+      ],
+      "classic": true,
+      "why": "Hellraiser",
+      "amazon_query": null
+    },
+    {
+      "id": "42d50706869c656bcc5fb51e21664f6c5ceef785",
+      "title": "Hot Take: ‘A Nightmare on Elm Street 4′ Might Be the Series’ Best Sequel",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/editorials/591687/a-nightmare-on-elm-street-4-might-be-the-series-best-sequel",
+      "category": "film",
+      "published": "2026-10-09T19:00:00.000Z",
+      "snippet": "'The Dream Master' is an underrated, creatively ambitious sequel whose absurd humor and spectacular practical effects reflect genuine passion.",
+      "matched": [
+        "Freddy Krueger"
+      ],
+      "classic": true,
+      "why": "Freddy Krueger",
+      "amazon_query": null
+    },
+    {
+      "id": "e015647c6dda3204371b9b5c519b3ec5f0264c1d",
+      "title": "Gig Review: Fear Factory / Crystal Lake / Hate / The Nocturnal Affair – Garage, Glasgow (7th October 2026)",
+      "source": "The Moshville Times",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYUZBN25fMjlKMUNtSTRVempmVG1HUkhsZzlYbFcwdDE5amlSOUhHd0V4WWVsYXBBOWZia0hfdXJtVmcxSF9udlQ4aUlMOGR1LXFPMFQtV0swOTZLeENUZURhVVl4bnc0RUJqUjlBZVFmNENWeldSTVFwclZuT29SbW4tYndwY3Y4OHJZY0haMl9GdHY2Tno1cTZLRHN3WHFCVWl0Ymp0UHRmTmM1Y042MTQxRnhCTVJrcmVGNkxWRkZZWm1NNUZsck5OWUtoSXhvNTA0YW9QZ2k0SlB4a08w?oc=5",
+      "category": "books",
+      "published": "2026-10-09T18:54:56.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "b467512d2ac607a76c761521165fe1587b39871d",
+      "title": "‘Crystal Lake’ Cast & More Hit Up Our Studio on Day 1 of NYCC 2026",
+      "source": "TV Insider",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUG16VzRKejhJMHl0eWVxMTJmQlBaLTIzMGFyTHRPMDFkaURBbzNsSmJwY2tLTGNueFhVd2poSVRPMkVOOVFVQ0hPdHBFNWZxOGVZMVM2TWxPaWVuaG45NDRhdmFmaXF4TWlURU9GRmZZRmlndmp2SzNSVUFabnhoQXNKMWpkZm5mYlNiVzlFcmpmT0Njbmc?oc=5",
+      "category": "books",
+      "published": "2026-10-09T18:35:46.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "93bb1418dbf2177b867b52320ca7dc6ccc6a6f45",
+      "title": "DEATH AND THE MAIDEN Remembering The House That Dripped Blood (1971)",
+      "source": "Scream Horror Magazine",
+      "url": "https://www.screamhorrormag.com/death-and-the-maiden-remembering-the-house-that-dripped-blood-1971",
+      "category": "books",
+      "published": "2026-10-09T18:25:44.000Z",
+      "snippet": "The success of Torture Gardens (1968) convinced Amicus productions that the marriage of the portmanteau format with the short stories of their now resident scriptwriter, Robert Bloch, was a match…",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
       "amazon_query": null
     },
     {
@@ -41,7 +446,8 @@
       "matched": [
         "Thin Lizzy"
       ],
-      "tier": 1,
+      "classic": true,
+      "why": "Thin Lizzy",
       "amazon_query": null
     },
     {
@@ -55,7 +461,80 @@
       "matched": [
         "Dracula"
       ],
-      "tier": 2,
+      "classic": true,
+      "why": "Dracula",
+      "amazon_query": null
+    },
+    {
+      "id": "594af7225ca11afa74810b28544bd697dc41457a",
+      "title": "Crystal Lake Teaser, Sneak Peek Released: Follow the Rules, Stay Alive",
+      "source": "Bleeding Cool News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObU5tSnNteXRFTmd5Y0MxUENjSlk1NnFkS2JtRmw1ZVNfZENXUHhraWh4WkZ3dllhd0pVU1Jwb3lDUWF5YWlWcE9GMkh6dm5ISlVLZ2otVzJ6c192c01iTXd0RGQ2dEw5VTZpLWNMeThRY0l0TkgxVGdhWnhmX19XSVgxOFhQNDJfRXpTVnpaT28tVlBUdmFVaGFVSmg?oc=5",
+      "category": "books",
+      "published": "2026-10-09T17:36:09.000Z",
+      "snippet": "",
+      "matched": [
+        "Crystal Lake"
+      ],
+      "classic": true,
+      "why": "Crystal Lake",
+      "amazon_query": null
+    },
+    {
+      "id": "8d90dd57edc34ad9e8dbbc7f37a8da2ded06adf4",
+      "title": "Director Glenn McQuaid takes the hands-on approach to “THE RESTORATION AT GRAYSON MANOR”",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/exclusive-interview-director-glenn-mcquaid-takes-the-hands-on-approach-to-the-restoration-at-grayson-manor",
+      "category": "discs",
+      "published": "2026-10-09T17:28:20.000Z",
+      "snippet": "Releasing today, it's part of the select subset of movies that could be called appendage horror.",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "4a19b1222468d31a012839fe15dd3f97da3544e0",
+      "title": "“Pan’s Labyrinth” Returns to Theatres Nationwide in 3D for Its 20TH Anniversary",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/pans-labyrinth-returns-to-theatres-nationwide-in-3d-for-its-20th-anniversary",
+      "category": "discs",
+      "published": "2026-10-09T17:11:05.000Z",
+      "snippet": "Guillermo del Toro's fantasy classic gets a new 4K restoration and its first ever 3D presentation, playing nationwide starting today.",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "f28238da97dc201259c1febe0f13a85387dc5bc0",
+      "title": "TESTAMENT Frontman CHUCK BILLY And METAL CHURCH Bassist DAVID ELLEFSON To Discuss Chuck’s Memoir At Tempe, Arizona Bookstore",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUjd3OFNsblFXV2RuZjRvbmR0WWNpMTFPNHNDTHRHckpUYmVjSE9aNUZ1M0FNeDVQZHAwWndXY1RQalFpQTBJOVV4Y0dnb2xKdng5WGt5d0VKamp1WHNPSG00Q1NVNUMzdFJJdzZsRXVHYVk3czNza2sxLXAxNVJyaTAtdENxWGFUM1JxdVBmUDItRW84a1ZfMUM1VVlaNGxnc1pyWkNUbUNhZnpXTi04cTR1T0pKRTRTR3oxUm1JX2JlWlZpU3A5aURsaUhOTUxQamtVQ3dlOUhrQWRxUUFaci1TZmNfUdIB7gFBVV95cUxPeXY4RnNrMXY5YnlDRlZLSjRwa0Y2SzFBTklVeUd5Y0VIcS1EVVgtdXV1ZFktT3VTajU5UjhLRTVKR1Q1RkNCTkdib2sydU5ZSVhPeGlqRkxBWVFnSFRoZ3ZGcDJfb1hGQUU3aUJoaXZzeWlsNEo2d1NXeEZ4dGxqaERxdmZNT2VNVHZJQjd6dFdOMWR2X1lyVG5wUEswQTNpS05ncmMwV2I0dGNCaC15c1RQbm9YeGlZNVRaUmdXd2F6bU00aFpQazFTVWFvQ19QSEx3Z2RzNG80dzZveDVvWXdkaThEUXN6RXlTeEZ3?oc=5",
+      "category": "metal",
+      "published": "2026-10-09T16:41:27.000Z",
+      "snippet": "",
+      "matched": [
+        "Testament",
+        "Metal Church"
+      ],
+      "classic": true,
+      "why": "Testament, Metal Church",
+      "amazon_query": null
+    },
+    {
+      "id": "72ff5c8e7fda7b96d026006ec036291b3089a258",
+      "title": "Troma’s Sweet Meats Blu-ray Review: A Rootin’-Tootin’ Cannibal Horror Delight",
+      "source": "Horror Geek Life",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQk9IS2JRWW02WkxLOHpKczhtNjZaTU5yRjd4S00yOEw0QkY2QlRSU2F5OUVkRy1jY21WRmV4aGlwNGJUWFB6X25VcU5zb1hOTFdrUXRzQS1aMi1sRUg2WW9RRWloUVZGcDBTZVZ6NU9UanBaWW9IaVEwVTFJWnlMSQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-09T15:53:45.000Z",
+      "snippet": "",
+      "matched": [
+        "Troma"
+      ],
+      "classic": true,
+      "why": "Troma",
       "amazon_query": null
     },
     {
@@ -69,49 +548,51 @@
       "matched": [
         "Judas Priest"
       ],
-      "tier": 1,
+      "classic": true,
+      "why": "Judas Priest",
       "amazon_query": null
     },
     {
-      "id": "ce79ea85139df337a75e713aa38bedc0901da13d",
-      "title": "IAN GILLAN Rejects 'Heavy Metal' Label For DEEP PURPLE: 'That Isn't Really Our Bag'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/ian-gillan-rejects-heavy-metal-label-for-deep-purple-that-isnt-really-our-bag",
-      "category": "metal",
-      "published": "2026-10-09T13:53:10.000Z",
-      "snippet": "In a new interview with The Chap, DEEP PURPLE singer Ian Gillan was asked if he prefers the term \"heavy rock\" or \"hard rock\" for his band. Ian responded: \"If you want to pick a genre, then I would…",
-      "matched": [
-        "Deep Purple"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "39a311bcbc91eaf6fdfd842a7b5c00aaf1337ebd",
-      "title": "JUDAS PRIEST Bassist Ian Hill To Retire – “I’ve Been Struggling With The Onset Of The Evil Arthritis”",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMFpaM0RKck1aSllfYXFXNHdIeFFSSldzWUdFZWVSOFRWaTJRYUFQZnEya2F3cEZJV3FkMnU1SVpka3lsSk85N3A1aHdCUl9VeDM2cFo5bHZRbmlnR0dEUlFEcHU3VHhMbHRRUmVBZ0RfYVJlSzk5YlM0bzI4TXlnU29FeVpfV3dSdU95WFpkdGNDZWVIdlpMT0hPUEZhc2RYSDNBOFR4dzIxaVBQY29sTzZlR0Nsb3c3QWl6TEp4RTRxckHSAcsBQVVfeXFMUHpGeTVKLVJJTjZzWUd2SU1PdkxjY3puZ0JQUHBfWlh0SDZCYUh5OExvV3pvMU5sWU9sYzVsMjJrTXVtZXBPVFhBWkYyVVg4bkp6U0M4bWVuajFobV9ZS0Y3bm9yOXN6WmlZaHp2RGx0cmtFOEZVQ05JejVkOXhVQTZHSkhmVEhfbTJRWk8tNkdHSV9PdFhza0RRV2dfSE9QU19wcS15UU5EczlKdGhFZnhjLU9sM3VhcWxRSXk2WEhTWnZpdVEwaDlzdVk?oc=5",
-      "category": "metal",
-      "published": "2026-10-09T12:18:45.000Z",
+      "id": "c3adc42c37fb43b3d56e4528f9ce3bd7ded66049",
+      "title": "From ‘Carrie’ to ‘Below’: All the Horror Releases You Need to Watch This Weekend",
+      "source": "PHANTASMAG",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUh0NjhKNzBCRzhRbldxd0ZJUHF2eEhuRHlRM3E4QXNhX3d2WnhTZ2VIZmRpVVZZbWVPR0VaYURWT0daYjJCOUUzdEZOXzdRaVlWdW9MTlhwTzdsTHAxeHltT3A4ZWtLaXM5NVV4WGJudktuVUlpTnZ4SkRjc1dMbjdaT25iMFp0cFJiT3c2eF9pOGhwNGdncFNQSQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-09T14:47:47.000Z",
       "snippet": "",
+      "matched": [
+        "Carrie"
+      ],
+      "classic": true,
+      "why": "Carrie",
+      "amazon_query": null
+    },
+    {
+      "id": "fe94bb3f5d6d6f724abf485e538a3fe754769af0",
+      "title": "Friday Blu-Ray News: 'The Crowd,' 'Little Shop of Horrors,' 'Walk Hard' (PM Weekly Issue #14)",
+      "source": "Deepest Dream",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa1NVcG5iOElfZDhDWTlMdElfb2RObnRiU0std0lWNnJiaXJsbUdfaFJBdHdqRjhiNFhfWGcxRC1yMlBoNi1sM1c1LXZZNkQ4NTF4dnFrSS1OSEZydW5zcy1IQjlHejZtLUFEMzdWTDVQS1psYTNJLUFKLW1KVVE4bjU0UDNoTUNtbUNWb2thNUxkNXRsMXNlQTRPYm9TNmowTGRCTFFiX0FHYlk?oc=5",
+      "category": "discs",
+      "published": "2026-10-09T14:01:05.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "b720ecf017ed730a2af074977d0c5b8bf6455ed1",
+      "title": "JUDAS PRIEST's IAN HILL Announces His Retirement; URIAH HEEP's DAVE RIMMER To Step In",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/judas-priests-ian-hill-announces-his-retirement-uriah-heeps-dave-rimmer-to-step-in",
+      "category": "metal",
+      "published": "2026-10-09T10:55:03.000Z",
+      "snippet": "JUDAS PRIEST's founding bassist Ian Hill has announced his retirement from the band. His replacement is URIAH HEEP's Dave Rimmer, who previously stepped in for Hill during JUDAS PRIEST's September 21…",
       "matched": [
         "Judas Priest"
       ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "e81f03ce9e37474f15a812a20bc4fe1481efbdda",
-      "title": "‘Black Sabbath’ Review: Horror Anthology from Mario Bava Features One of the Most Terrifying Things You Will Ever Watch",
-      "source": "The Movie Buff",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmJ5cUJ4NG1WS1kxVnBLdWhINlNYelhxMzFZUjhTMWhVV0VoNkNReDExdS03a0dka1lVM0dabEVZcTlSU2c4SDV1bTAyTUlxdF8wNGtrWXBEdzZOZ2xnWV8xM1BmOWcxeTR2ZnJZTkdyRzZJTVlZM0NZWFBTendQcWpEeUk2YlY4S19vbmVJR2hiQThqUjNXZ0FjNzYwR2tqamxWZTZRaFlkRl9kcFB5RU55TWdKamVia1hvZkVQbllfV3lDeURJcU5XMGJ0UlR2bFVIQW5kLTl6NnY0dXl4OUFpb2xVTjJydEHSAfIBQVVfeXFMTlprQnUyUTVEaE5GNEdzemV3ZnZtTWZvT2hBTzVZRkt2V25HMVR3OE5HaDIzZGJyREl6amNXMWxZNU1nMmNST2lxZ3V3M3N0emdaYWc4VTNkQXZnODB4RktVOUxnWUpyZkxVQkczRFJJbV9Bd0lnTnhBTnM4cjd6eHpTeVBtN1ZoakpEZEw4eFU4Z0pybnd0MzRiZ2NnLWY0SVdYa2pyelRsVjlzREtULVhWeUdGTWRwZHU3eXJvalVpeVRBVnhBY1hxZU1DTWlNM1o4RXFjWVZGZ3FueEQ2Q3NieXBzbko1NnI2VDgxXzBJMWc?oc=5",
-      "category": "film",
-      "published": "2026-10-09T07:33:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Mario Bava"
-      ],
-      "tier": 1,
+      "classic": true,
+      "why": "Judas Priest",
       "amazon_query": null
     },
     {
@@ -125,175 +606,8 @@
       "matched": [
         "Imprint Films"
       ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "31104bbf9d7f521c8a33b63dd96393b81d54690e",
-      "title": "Watch: DEEP PURPLE Joined By Violinist LIDIA BAICH On Stage In Vienna",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/watch-deep-purple-joined-by-violinist-lidia-baich-on-stage-in-vienna",
-      "category": "metal",
-      "published": "2026-10-08T18:55:42.000Z",
-      "snippet": "Austrian violinist Lidia Baich joined legendary rockers DEEP PURPLE on stage during their October 5 concert at Wiener Stadthalle in Vienna, Austria to perform the band's classic song \"Perfect…",
-      "matched": [
-        "Deep Purple"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "f4aa3b53aa5a466e8fa36bc9156195f2a847c4c7",
-      "title": "CHARLIE BENANTE Explains His Absence From Last Two Shows Of ANTHRAX's North American Tour With IRON MAIDEN",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/charlie-benante-explains-his-absence-from-last-two-shows-of-anthraxs-north-american-tour-with-iron-maiden",
-      "category": "metal",
-      "published": "2026-10-08T15:42:23.000Z",
-      "snippet": "In a new interview with Robert Cavuoto of MetalRules, ANTHRAX drummer Charlie Benante explained his absence from the final two shows of the band's North American tour as the support act for IRON…",
-      "matched": [
-        "Anthrax"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "0b6f13f5f0491a224d3482c5bed91446a54e4d0c",
-      "title": "Can You Escape the Cube? New 4K Release from Umbrella Entertainment",
-      "source": "Horror Society",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc25NTFQ2Z2hBX2pUQlVudmxWUDY3Y0ZlN2dmTXBfMUdwNnRZcExaUjh5S0hOT1JJeTlNcE41TVhwS2pZNXpxcUJnbllIYktYLXFHdWNYeDMydklnSkNtVGluS1k1WGJ2N2czb0MtYXU2bG8wNEJPUlBrY3AtYU85SWt1QVllTmR0TXZHUkRrUTdHcTNRdzA4QlNjTmVJSzN1U1l4X2hKcVJFVlJM?oc=5",
-      "category": "discs",
-      "published": "2026-10-08T10:52:43.000Z",
-      "snippet": "",
-      "matched": [
-        "Umbrella Entertainment"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "4fec5772ebf92f705ee2ef2e021b7851290006ed",
-      "title": "National Science and Media Museum’s Pictureville Cinema set to screen Dracula in 4K",
-      "source": "Bloody Flicks",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ2NEbXQ4dVV0NUhGS01MZ0dQVXVsQzhGQ3lFemFUTW8zZUdjSDAzOFBzOS1EbzBmNGFHRlZ3VGh5YmNRaGxsZHFVR0NFWW9mSjdCbzBHdnZjY1hEdTJ1MlJaS3h5UVFsN2pDTWxfaEQtN3R5amd0TElwT2xEdWFyT3hrdFNrQUZpU0wtYVRZRkRhSzI1QXFOZE1Edm15ZVowblZRdXZPbkZZdGFEZEJUR3NqTlRVaFhaVTd0ZnRJVQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-07T17:37:15.000Z",
-      "snippet": "",
-      "matched": [
-        "Dracula"
-      ],
-      "tier": 2,
-      "amazon_query": null
-    },
-    {
-      "id": "2831382534b3d7ce8dc7ffa6131772b54e99ce18",
-      "title": "THE 99 LEGS Brings Giallo Horror To Comics In Our Exclusive Preview",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/the-99-legs-comic",
-      "category": "comics",
-      "published": "2026-10-07T16:00:07.000Z",
-      "snippet": "Check out an exclusive preview of THE 99 LEGS, a new giallo-inspired comic series coming to Comixology next month.",
-      "matched": [
-        "giallo"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "653577313925c9e02f3cf58dca794a4857c72869",
-      "title": "TIGER ON THE BEAT Delivers Chainsaw-Revving Thrills on 4K from Imprint Films",
-      "source": "ScreenAnarchy",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeEJUbzFhNW5RbG0zUnIwYWR0TE9nUDFuVVBMYUcxaXNheWpxSUgyek55WjVVQUpJT3kxTVR5WGdSR19aaGphS1RxbzBOMU9VUXE0VlFyYmN6YV9FM2dkRzNmRU9wRENuR24yVTV2S0lkdGNXTlhjcVdTbFlTaU1RZjltbE5IWkU0X3plWU4xQW9IMjRYNU42MHZiNWgxb0ZuZnZOUmx4Sng5VFNvLVc0ekttaTdTUQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-07T15:02:11.000Z",
-      "snippet": "",
-      "matched": [
-        "Imprint Films"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "d0d5ea899017e32722d629b1d0300c55d7891b19",
-      "title": "Every Member of the Murderous Brackett Family in This 1993 Tales From the Crypt Episode Is Tim Curry, Playing Pa, Ma, and Daughter Winona All at Once",
-      "source": "Creepy Catalog",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV1c4ZHJmWnUyTlg4MjRvRHMzRlZmcGVuUnFVTnkzOVBtRk9QV0VzZFQyREdrQXFrUzNFTnNqbE04Rnk5bmZnaExEeWl4V0JZb1dKUk4wVXp2bW9ZQXZEUUVOWGdXX29DWUdKSnUzcHpEMG52eTM0Vi16SHBmLUw0LTBmZnN3T3lmRHdsR3hQTFQyU19uZUFoYWpLTFp0UWYxTUMxSjV5blNQd3g4dFRxREJoYjVPVHNGWlNPYWZrLXFFbklCSEF3d1dKX2luYW4zLXJfYVpqRU14ajgtaldEVXhYSFNreEhzRVlnTEZvdXlWMmFQUlYyTDFRZ243MFpFZnRN?oc=5",
-      "category": "comics",
-      "published": "2026-10-06T22:46:14.000Z",
-      "snippet": "",
-      "matched": [
-        "Tales from the Crypt"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "cde1584ae035a36ecd9079a38003080091c2799c",
-      "title": "Severin announces a huge “GRAND GUIGNOL & THE GRAND GUIGNOLESQUE” 12-disc set packed with morbid delights",
-      "source": "RUE MORGUE",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNW5OTU5aTHEyd1A2Yl9RdF95Yy1pdzl6RWI1WkVabW1mcDgwbkxoeU8yNzloNmJCOUtSRTY1N1cyYy1lMWRhX1VSUE5JcTZ5LS14YS14QmhGTlpZNUlGakZYeDE3cHNNUEJwSkRNVFNBS3hYSUN2NWFIYnFTcmw5RHp5cVRYNjlBUWptNFFNOThVNGRMd0FlX2d1c0RoX0FVNFh0Z1psMF9ZckIzZFYzM3VwUGN5M0ZDV3g3bURqbzJMMTQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-06T18:32:13.000Z",
-      "snippet": "",
-      "matched": [
-        "Severin Films"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "dd69ca13d163202b70d23d109e2350124daa91ee",
-      "title": "DEATH CYCLE Giallo-inspired horror thriller – trailer and free on YouTube",
-      "source": "movies & mania",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYk1zak5VclY4ZnlSRHg1cnBQc21ROTBwTjJSMnE4NmJZaEg5Z2ZINDJFWW1YU3NOX2JiX3lBcXVIRlRJUjYyLVZNWm94ZU5xZTdQbUlGRlRwaWtOdnNPa1ppb1hsVjZvYmMzU0lPV3RJU29LMDh2VGdwS1NNTy1FN1Jzd0txbF84a0NsVklxOWRVZEJfQnR2TFZWTzdrODZvRERIRm16OVFUcjA1MkJvd2RCYmItNi1QWjFZZFY0NA?oc=5",
-      "category": "discs",
-      "published": "2026-10-06T12:35:11.000Z",
-      "snippet": "",
-      "matched": [
-        "giallo"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "89969aff63391b3e7f414ae5a1688e78e02dcead",
-      "title": "Martin Scorsese asked to make a Hammer horror film but got rejected",
-      "source": "Female First",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYzUzUW1aRWpub0NHdS1OMjZrVG5xOEFlY280M00zVzVReC1SV05qRUVCSmgwS1Mza25jVG15VVl4TVo1QXhuVEYxUTZzZTRTekgxZVpYelZXYzZNOXJPNjB0d2J1X3lqWXBXWFRrbzVjeDU5Q0tPNFBrZFZBSHlvNEJBZmo2ZENlQ29qbG9xRE5VeU1SdDdXb0xicldzcnNMTGJvTm1ZVHdQeWpadE1oTWo2bjZJRW1rQ01z?oc=5",
-      "category": "film",
-      "published": "2026-10-05T20:00:08.000Z",
-      "snippet": "",
-      "matched": [
-        "Hammer Films"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "02024d51da7743efd7489a02c0c1f3be117fbdbc",
-      "title": "Hammer Films Boss John Gore on Resurrecting the British Horror Icon",
-      "source": "Variety",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTVBGcktLQzE3ZTBycW00UGxRREtiaVV2RTF4NnNTdXJPOFlid05IOVh1SWFlSDJkdDhjUzBjYjJhQTk5Sk1ob2h2LUhEZkxSQng0YnhTcGJVb21SOFdXVG01ZWxib3MxLU9TVDg1N3FBc2lQYUR2c0ViM01vZkFiUm1kQ0pDaVgxMm55UW5EMU94cXRLMzVPVlVvR3dUczVKNFJz?oc=5",
-      "category": "film",
-      "published": "2026-10-05T16:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Hammer Films"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "304eafb4a163c774987dd78bd1ea352bbfdd373d",
-      "title": "Hammer Horror: A touch of evil, a taste of fear",
-      "source": "Eastern Daily Press",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdjJoeWFKcXItNkZzYjdCUGJtS05CRGQxdW9jS3RJRTFueTBPY21SVGlRZDJkMnMyZmhMRVBlWXNFNHZsanJjMHdNeFRzbzVQbVo2SENQZHhQSVAyVXI3bEVUaXpsT1NTZUR0SFM4dW50WGwzZER6MExfaWRxX3B0TWdTRmp5MF9N?oc=5",
-      "category": "film",
-      "published": "2026-10-03T06:31:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Hammer Films"
-      ],
-      "tier": 1,
+      "classic": true,
+      "why": "Imprint Films",
       "amazon_query": null
     }
   ],
