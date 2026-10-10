@@ -1,0 +1,32 @@
+{
+  "grant-shadows": {
+    "file": "grant-shadows.jpg",
+    "title": "Shadows",
+    "imprint": "Doubleday",
+    "publisher": "Doubleday",
+    "date": "1978",
+    "edition": "https://openlibrary.org/books/OL22775707M",
+    "cover_id": 14655035,
+    "verified": false
+  },
+  "wagner-bloodstone": {
+    "file": "wagner-bloodstone.jpg",
+    "title": "Bloodstone",
+    "imprint": "Warner",
+    "publisher": "Warner Books",
+    "date": "",
+    "edition": "https://openlibrary.org/books/OL7538810M",
+    "cover_id": 9898416,
+    "verified": false
+  },
+  "wagner-nightwinds": {
+    "file": "wagner-nightwinds.jpg",
+    "title": "Night Winds",
+    "imprint": "Warner",
+    "publisher": "Warner Books, Grand Central Pub",
+    "date": "July 1983",
+    "edition": "https://openlibrary.org/books/OL7535308M",
+    "cover_id": 14037440,
+    "verified": false
+  }
+}

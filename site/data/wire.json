@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-10-10T02:37:24.646Z",
-  "built_for": "2026-10-09",
+  "built_at": "2026-10-10T05:16:18.205Z",
+  "built_for": "2026-10-10",
   "lead": {
     "id": "32c4ebe41377b5fde4b6e2abc61f880f979d7302",
     "title": "Imprint Films Announces November Releases",
@@ -105,7 +105,7 @@
       "title": "‘Black Sabbath’ Review: Horror Anthology from Mario Bava Features One of the Most Terrifying Things You Will Ever Watch",
       "source": "The Movie Buff",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmJ5cUJ4NG1WS1kxVnBLdWhINlNYelhxMzFZUjhTMWhVV0VoNkNReDExdS03a0dka1lVM0dabEVZcTlSU2c4SDV1bTAyTUlxdF8wNGtrWXBEdzZOZ2xnWV8xM1BmOWcxeTR2ZnJZTkdyRzZJTVlZM0NZWFBTendQcWpEeUk2YlY4S19vbmVJR2hiQThqUjNXZ0FjNzYwR2tqamxWZTZRaFlkRl9kcFB5RU55TWdKamVia1hvZkVQbllfV3lDeURJcU5XMGJ0UlR2bFVIQW5kLTl6NnY0dXl4OUFpb2xVTjJydEHSAfIBQVVfeXFMTlprQnUyUTVEaE5GNEdzemV3ZnZtTWZvT2hBTzVZRkt2V25HMVR3OE5HaDIzZGJyREl6amNXMWxZNU1nMmNST2lxZ3V3M3N0emdaYWc4VTNkQXZnODB4RktVOUxnWUpyZkxVQkczRFJJbV9Bd0lnTnhBTnM4cjd6eHpTeVBtN1ZoakpEZEw4eFU4Z0pybnd0MzRiZ2NnLWY0SVdYa2pyelRsVjlzREtULVhWeUdGTWRwZHU3eXJvalVpeVRBVnhBY1hxZU1DTWlNM1o4RXFjWVZGZ3FueEQ2Q3NieXBzbko1NnI2VDgxXzBJMWc?oc=5",
-      "category": "books",
+      "category": "film",
       "published": "2026-10-09T07:33:00.000Z",
       "snippet": "",
       "matched": [
@@ -129,20 +129,6 @@
       "amazon_query": null
     },
     {
-      "id": "b48e0e272055f8b9d4c33df33c845c767d2521c4",
-      "title": "Agfa names Brett Addison as new sales manager for Australia and New Zealand",
-      "source": "Sprinter",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZnhtMFpCLXFqU3p5eUtfN3llbkhQOXIteVUyT3RpTUh0S3FoNDdRZDlmejBMbk12YTcxeE83bmlHVVlEclpGNUJreEl3TDJWTkdYb214Y3hKMnM4RTFUSEcwQ01seWJiSV9TUHN3aGlTS2tpeFljemNkN29TVkMwRDIwcXNELWQ4eHhueFJCMFkzYnpDV0pkN3VxZzlvRURQMmFodnpRUQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-08T23:43:09.000Z",
-      "snippet": "",
-      "matched": [
-        "AGFA"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
       "id": "31104bbf9d7f521c8a33b63dd96393b81d54690e",
       "title": "Watch: DEEP PURPLE Joined By Violinist LIDIA BAICH On Stage In Vienna",
       "source": "Blabbermouth",
@@ -154,20 +140,6 @@
         "Deep Purple"
       ],
       "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "466a0695b18e806a1a8c4be0973a000f45373c95",
-      "title": "Rockabye Baby! Halloween Gives Tiny Horror Fans Their First Spooky Season Soundtrack",
-      "source": "iHorror",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KYmFlNWFRTW1sRjY0TVFWcGhGcGJ5NF9ZMGtnOUthR2RWWHllVVpzbVJubXF3Ylg5S2syNGV2d3BwcTRqWFBlTnhraW1xWm42VlpzWmZHQjVpS09YUFg3MU44bk1kRHBfZ3c?oc=5",
-      "category": "discs",
-      "published": "2026-10-08T16:35:43.000Z",
-      "snippet": "",
-      "matched": [
-        "Halloween"
-      ],
-      "tier": 2,
       "amazon_query": null
     },
     {
@@ -199,6 +171,20 @@
       "amazon_query": null
     },
     {
+      "id": "4fec5772ebf92f705ee2ef2e021b7851290006ed",
+      "title": "National Science and Media Museum’s Pictureville Cinema set to screen Dracula in 4K",
+      "source": "Bloody Flicks",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ2NEbXQ4dVV0NUhGS01MZ0dQVXVsQzhGQ3lFemFUTW8zZUdjSDAzOFBzOS1EbzBmNGFHRlZ3VGh5YmNRaGxsZHFVR0NFWW9mSjdCbzBHdnZjY1hEdTJ1MlJaS3h5UVFsN2pDTWxfaEQtN3R5amd0TElwT2xEdWFyT3hrdFNrQUZpU0wtYVRZRkRhSzI1QXFOZE1Edm15ZVowblZRdXZPbkZZdGFEZEJUR3NqTlRVaFhaVTd0ZnRJVQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-07T17:37:15.000Z",
+      "snippet": "",
+      "matched": [
+        "Dracula"
+      ],
+      "tier": 2,
+      "amazon_query": null
+    },
+    {
       "id": "2831382534b3d7ce8dc7ffa6131772b54e99ce18",
       "title": "THE 99 LEGS Brings Giallo Horror To Comics In Our Exclusive Preview",
       "source": "Fangoria",
@@ -227,20 +213,6 @@
       "amazon_query": null
     },
     {
-      "id": "8c17652460f44dc24485075954c8abadd624aca6",
-      "title": "Agfa-Gevaert (ENXTBR:AGFB) - Stock Analysis",
-      "source": "Simply Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UcmVtOENMMnUwMGRTNWptMXkwNDluREZlQ1pJeEM1SEhZeTBidzB1T2FOWFJiUmstdXo1Wllsb0NHVTYtdHFxSmh2VjF6YjNfNGFGZlZhYjdPam5TNlcyVTJqRmp3S2VMNlU4b0Y0ang1S0V5OEhnRkhDUQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-07T07:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "AGFA"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
       "id": "d0d5ea899017e32722d629b1d0300c55d7891b19",
       "title": "Every Member of the Murderous Brackett Family in This 1993 Tales From the Crypt Episode Is Tim Curry, Playing Pa, Ma, and Daughter Winona All at Once",
       "source": "Creepy Catalog",
@@ -255,12 +227,40 @@
       "amazon_query": null
     },
     {
-      "id": "a63d3481ba322e6c1b298859be6c454f1f964c74",
+      "id": "cde1584ae035a36ecd9079a38003080091c2799c",
+      "title": "Severin announces a huge “GRAND GUIGNOL & THE GRAND GUIGNOLESQUE” 12-disc set packed with morbid delights",
+      "source": "RUE MORGUE",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNW5OTU5aTHEyd1A2Yl9RdF95Yy1pdzl6RWI1WkVabW1mcDgwbkxoeU8yNzloNmJCOUtSRTY1N1cyYy1lMWRhX1VSUE5JcTZ5LS14YS14QmhGTlpZNUlGakZYeDE3cHNNUEJwSkRNVFNBS3hYSUN2NWFIYnFTcmw5RHp5cVRYNjlBUWptNFFNOThVNGRMd0FlX2d1c0RoX0FVNFh0Z1psMF9ZckIzZFYzM3VwUGN5M0ZDV3g3bURqbzJMMTQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-06T18:32:13.000Z",
+      "snippet": "",
+      "matched": [
+        "Severin Films"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "dd69ca13d163202b70d23d109e2350124daa91ee",
+      "title": "DEATH CYCLE Giallo-inspired horror thriller – trailer and free on YouTube",
+      "source": "movies & mania",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYk1zak5VclY4ZnlSRHg1cnBQc21ROTBwTjJSMnE4NmJZaEg5Z2ZINDJFWW1YU3NOX2JiX3lBcXVIRlRJUjYyLVZNWm94ZU5xZTdQbUlGRlRwaWtOdnNPa1ppb1hsVjZvYmMzU0lPV3RJU29LMDh2VGdwS1NNTy1FN1Jzd0txbF84a0NsVklxOWRVZEJfQnR2TFZWTzdrODZvRERIRm16OVFUcjA1MkJvd2RCYmItNi1QWjFZZFY0NA?oc=5",
+      "category": "discs",
+      "published": "2026-10-06T12:35:11.000Z",
+      "snippet": "",
+      "matched": [
+        "giallo"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "89969aff63391b3e7f414ae5a1688e78e02dcead",
       "title": "Martin Scorsese asked to make a Hammer horror film but got rejected",
-      "source": "Film-News.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVlRCcjVRMVNZcmJCa004SzBORkVSWkVDU2FNT3RmNEpwRmZQQkhLb3JnbzVSZjFlemkxQTZBalI2d2tPaHFPQjk2NnE0VmVhM3FJRjVPcFVFWG1Dcnd0eExRRExEaVhDY1VlSjk5c1AwSTdKMGZuNmI3UXhKektsckZjYWROZmNKWmtFRXVqSXUwQWxKb29reWxRdjQwbXRsYU52bXQzM1M5OWR4Y3dn?oc=5",
+      "source": "Female First",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYzUzUW1aRWpub0NHdS1OMjZrVG5xOEFlY280M00zVzVReC1SV05qRUVCSmgwS1Mza25jVG15VVl4TVo1QXhuVEYxUTZzZTRTekgxZVpYelZXYzZNOXJPNjB0d2J1X3lqWXBXWFRrbzVjeDU5Q0tPNFBrZFZBSHlvNEJBZmo2ZENlQ29qbG9xRE5VeU1SdDdXb0xicldzcnNMTGJvTm1ZVHdQeWpadE1oTWo2bjZJRW1rQ01z?oc=5",
       "category": "film",
-      "published": "2026-10-05T20:11:40.000Z",
+      "published": "2026-10-05T20:00:08.000Z",
       "snippet": "",
       "matched": [
         "Hammer Films"
@@ -297,5 +297,21 @@
       "amazon_query": null
     }
   ],
-  "desk": null
+  "desk": {
+    "date": "2026-10-10",
+    "takes": [
+      {
+        "h": "The wire, rebuilt every night",
+        "p": "From tonight the Night Wire assembles itself at midnight Central: headlines from the presses, labels, shops and magazines that cover this beat, each linked back to whoever reported it. If something belongs here and keeps missing the cut, write in. The filters are a set of opinions, and opinions can be argued with."
+      },
+      {
+        "h": "October is not a genre",
+        "p": "Every October the rest of the culture rents our shelf for a month and gives it back with the corners bent. Enjoy the attention. Buy the reissue you have been circling. Then remember that the people who kept this material alive did it in March, in a back room, for nobody."
+      },
+      {
+        "h": "Reading copy, keeping copy",
+        "p": "Buy two. It sounds like an indulgence until you have watched a beloved paperback die of being loved. One copy goes on the shelf and stays square. The other goes in the coat pocket, the bath and the waiting room, which is where books like these were always meant to be read."
+      }
+    ]
+  }
 }
