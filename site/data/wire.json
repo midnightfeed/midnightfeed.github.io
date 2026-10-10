@@ -1,29 +1,29 @@
 {
-  "built_at": "2026-10-10T01:54:06.444Z",
+  "built_at": "2026-10-10T02:03:18.631Z",
   "built_for": "2026-10-09",
   "lead": {
-    "id": "2831382534b3d7ce8dc7ffa6131772b54e99ce18",
-    "title": "THE 99 LEGS Brings Giallo Horror To Comics In Our Exclusive Preview",
-    "source": "Fangoria",
-    "url": "https://www.fangoria.com/the-99-legs-comic",
-    "category": "comics",
-    "published": "2026-10-07T16:00:07.000Z",
-    "snippet": "Check out an exclusive preview of THE 99 LEGS, a new giallo-inspired comic series coming to Comixology next month.",
+    "id": "ab3cd14362b0dbabdce2e921e70239a76c31d54d",
+    "title": "Universal: First Look at The Exorcist Martyrs",
+    "source": "Blu-ray.com",
+    "url": "https://www.blu-ray.com/news/?id=39157",
+    "category": "discs",
+    "published": "2026-10-10T01:05:06.000Z",
+    "snippet": "Universal Pictures has provided a promotional trailer for Mike Flanagan's The Exorcist: Martyrs (2026), starring Scarlett Johansson, Jacobi Jupe, Diane Lane, Chiwetel Ejiofor, and Laurence Fishburne…",
     "matched": [
-      "giallo"
+      "The Exorcist"
     ],
-    "tier": 1,
+    "tier": 2,
     "amazon_query": null
   },
   "items": [
     {
-      "id": "421cdc86db204a7676f5f432b30f4f243e59ecf4",
-      "title": "Mike Flanagan Says ‘The Exorcist: Martyrs’ Is the Scariest Movie He’s Ever Made; New Poster!",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/news/592943/mike-flanagan-says-the-exorcist-martyrs-is-the-scariest-movie-hes-ever-made",
-      "category": "gear",
-      "published": "2026-10-09T22:44:09.000Z",
-      "snippet": "Mike Flanagan set out to make The Exorcist: Martyrs the scariest movie of his career. Asked at Blumhouse’s New York",
+      "id": "ab3cd14362b0dbabdce2e921e70239a76c31d54d",
+      "title": "Universal: First Look at The Exorcist Martyrs",
+      "source": "Blu-ray.com",
+      "url": "https://www.blu-ray.com/news/?id=39157",
+      "category": "discs",
+      "published": "2026-10-10T01:05:06.000Z",
+      "snippet": "Universal Pictures has provided a promotional trailer for Mike Flanagan's The Exorcist: Martyrs (2026), starring Scarlett Johansson, Jacobi Jupe, Diane Lane, Chiwetel Ejiofor, and Laurence Fishburne…",
       "matched": [
         "The Exorcist"
       ],
@@ -31,103 +31,17 @@
       "amazon_query": null
     },
     {
-      "id": "afefab47b1b0d81348ba16c665d8011e4d400cb0",
-      "title": "Blog",
-      "source": "Terror Vision",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82WEtad2pvenV1R1BOSVdnQWt6b2VnaHYwUzdXRzNnQUk1M0J1ZVBiT3ZjWWdCQU1ZTzhGaXpGU3ZaZm9ETTJoVVln?oc=5",
+      "id": "09d1a55dbbc36875e8bfc5904a84bbd7a2266ac6",
+      "title": "Synapse Films Announces the The Deadly Spawn on 4K UHD & Blu-ray",
+      "source": "Why So Blu?",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcjhFaS00RUJ5MUR1U09vNnBPVzdydWc1VXNscGo5Mk1SNV82d2R6RnU2ZzRiMmdhcURGNHBaaW9RYndHSi04eDJoWTg3R2FTcm1GMmR1TjVSU0JFNkJMbC1fQzAxdHBPbmZLMFZVNkxEOU41ZDhXZF9idFhKTUFYR3ctSW56b3VCbVgybg?oc=5",
       "category": "discs",
-      "published": "2026-10-09T21:18:33.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "bfbc5c4eb6a70db421468b4d9b6ce4f5857bbe13",
-      "title": "Hell House",
-      "source": "Vinegar Syndrome",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rd1lqZWhxeVR0c2gwZzAxOXo4a1E0M2paWVVRSVFZREJWaUIwNVBrV2tKaG0zV0VRRVp2dG9weThwR0w2NVdCZUM1R0I1U1gyd0lSVE9RU2FHdVk?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T20:57:04.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "e4846087cd920d857d5665817e3408f855c03c0e",
-      "title": "- Suntup Editions",
-      "source": "Suntup Editions",
-      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxObEgzWHZLTDhJRUVGeW9FVEdJTTVkUGcxOU1KdVNTelRUcWdtVEx3Y1AyakVJQnZsR0hxWHBTald1V195S0NoSjFaY1VOaDZSa1dUc3QzMl9jVDZxd2NmMUVnTTNHWTUzSm9QeDU1RjRURXNwRHpwNUxFUjE1NmNCN3g5OUVpSjdLbWxYdG9oS3dHRWFCR2g4YzZhZ3NGS3dKUUtOUXdRdUNhc2YtSHBWQkc0ZzVLRW5MalhTaTdHcHlJNkJPazZCbmRIZ0t1YWkyQ3VNVEczR3Vkdkw4LWhkRloxZk5xWHdUZHNWR2VvQ2RIcGc4YzdiMlM2OUdWV21JZlBUS0gwYnI4WmpLQUFjS1NCWGRYV05ObUxyMVM3cEpZd2VZTEh2VE1aR2VzckpRdTEyTG1IS2dRbzQxNWVSY3hTT28zSEY4LTQ0T2VKVVFObFB3ejN1MHhQRDFIRG1GWkFuYXk5RGw?oc=5",
-      "category": "books",
-      "published": "2026-10-09T20:50:24.000Z",
+      "published": "2026-10-09T22:02:56.000Z",
       "snippet": "",
       "matched": [
-        "Suntup"
+        "Synapse Films"
       ],
       "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "4b5e865d50f1f1ddfbd5f73db569fdf3a9a35da3",
-      "title": "The Hedonist",
-      "source": "Vinegar Syndrome",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oOEpPb08zT3d3b243S1FGMVY2YmRvb0RpREZxN2R2V29PV1Q0MTdlU2lrZGdrSFNRWkJMRzV6OVA4WXFocVJzT2lqSnMwdHlkM25kUEU2X0JDbEN5NEE?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T20:43:05.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "7a9dd857a86849e2a74da8ce1bc749b71cfb747b",
-      "title": "Theory of Obscurity",
-      "source": "Vinegar Syndrome",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGbFVkOGJwY25mb3Z3ejc2X3lRRm45YnlxdjhZaHoyRDRBQzhOekJkdGNaYVQxc2ZsWVJnaUxXZ2VhQlJhX29UX2Y4MUxETnVhelluU1QxOE9TUE81dEZKS245NUZGbzg?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T20:20:59.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "a1c4d1bf93c49b77519ca1950dab69c08d475d20",
-      "title": "Rockers Salute Judas Priest's Ian Hill Following Retirement",
-      "source": "Loudwire",
-      "url": "https://loudwire.com/rockers-salute-judas-priest-ian-hill-retirement",
-      "category": "metal",
-      "published": "2026-10-09T20:02:43.000Z",
-      "snippet": "Members of the rock and metal community are weighing in after Judas Priest bassist Ian Hill announced his retirement.",
-      "matched": [
-        "Judas Priest"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "ea289c5b450f7b0c88cef0e356612839ac10f235",
-      "title": "- CavityColors",
-      "source": "Cavity Colors",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wWWl1dHVJWmxzbTZIRElldlQwSjBNN1NMb1JCdExrWVZ4MXk5T3BWNnpYZHdtWHprdnFmNDlURWhMRm5XcUVQSmlkX2xVZjQ?oc=5",
-      "category": "gear",
-      "published": "2026-10-09T19:43:53.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "7c89ee7ea97edc5894965eddbdb3ec5cc6bb7d48",
-      "title": "Come to Freddy - Comfort Colors",
-      "source": "Fright-Rags",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3RmWjY1V01mZVo1Z2MtSEVEdzdqaGxIaWE1WVJQZnp3bnBDN29fakVacGV5Mng5R0JQelp3d2c0NVVNdzc3X1FzS1dXU2dscmZFaWJ2eUdFY09lR1o4TGFwMnc1NjQ3ZDQ0ZkVmbFVqOUlzZTBOQ0xqUnpuRHEtaktKNFlIdHhjazBLZg?oc=5",
-      "category": "gear",
-      "published": "2026-10-09T19:23:01.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
       "amazon_query": null
     },
     {
@@ -145,6 +59,20 @@
       "amazon_query": null
     },
     {
+      "id": "a43774f3a664a7e7e8534bb060a5aeca6aafc737",
+      "title": "The Monster Squad Arrow Video 4K UltraHD Blu-Ray Limited Edition Unboxing",
+      "source": "YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WMy1pTzlhSkpLcXVVbktzeGgxU1YweGNZQXhHeUNPckd5ZGYxZzJycXRWLTFIejAwU2hBaVhVb0RMUQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-09T17:41:18.000Z",
+      "snippet": "",
+      "matched": [
+        "Arrow Video"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
       "id": "999ca2eb3fd1fc179453bda01b500ba33db112bf",
       "title": "Salem's Lot 4K UHD",
       "source": "Arrow Video",
@@ -152,44 +80,10 @@
       "category": "discs",
       "published": "2026-10-09T17:35:11.000Z",
       "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "4c07d044fb8beae04bdb1d7179771f97d05d4d3a",
-      "title": "ANOES - Horror T-Shirt",
-      "source": "Fright-Rags",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nVDN6NWJpZkRLYXU3cktXdGo1dlUzQUVaVndxd21wcnZ1NWR3c1BaUnlwSmpyRC1XNDI0eGQtbU90UmRJSFN6QUk1MzI2cEJrUWg3Z3l1MlluWld5UzZCeUJHQWdMYjhSUmlxdlhZY2JacmdCaUE?oc=5",
-      "category": "gear",
-      "published": "2026-10-09T17:05:41.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "69fd6d2a3d3937196003c17d57115a3a52ffd068",
-      "title": "Come to Freddy - Zippered Hoodie",
-      "source": "Fright-Rags",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMm1vX0NKNkpKYURsUXBVY2lDTVoyZjlJTE5WSlptWGdqd3BsQWJ4RXVkMUxjWnl1SkQtakY4WDRVRGJqNUZQaW9rMTJLd0s3VzA0TVNvRFFKeHlsaGV2ZzVHQUt1aXQ5aVB5MzRwejZDbmhFQTBhY1E5T1hFV0FMYWNfaUdsSU9OcXNJ?oc=5",
-      "category": "gear",
-      "published": "2026-10-09T17:05:40.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "535e5edac9bcd0f459c9b6dc3de6cd386ce32eec",
-      "title": "An Eye For An Eye",
-      "source": "Vinegar Syndrome",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KekVWS2NsRjhuM25lYXFsczh6cFRTODJvVXRMQnU5NmZLYzFUemJmRW1zNERUZ0NTVGRtbHJtY2ktb09Za2RENFN6d3dOZUlVN0pZb0VXeEFna2NlVlk0TzRBdy0?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T16:37:48.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
+      "matched": [
+        "Salem's Lot"
+      ],
+      "tier": 2,
       "amazon_query": null
     },
     {
@@ -221,49 +115,6 @@
       "amazon_query": null
     },
     {
-      "id": "890365296324d86a1aaedf67ce5545f38bdb1848",
-      "title": "Today In Metal History 🤘 October 9th, 2026 🤘 JUDAS PRIEST, SHARON OSBOURNE, SLAYER, SCORPIONS, ARMORED SAINT, HAMMERFALL, KISS",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPXy1ZN3daS21tV3BHR1Fzek5qbElCRHZaLW5PN1JJWTl5NmtPM0dDVERfSnkzcnZtRWVYS05wNjBrcDFPMFJZb2h3LTJHQVpYQU1PNzEyZXNNa01aMEJfOWRuTU01Vm1kZkh0VTBRX0tjTzBEVlBndzNFR0ZZdWIzMFJPcGdzSEk3THRCcXZvbG9iYXFzZE83WEgzOHowbG5ELXlEUGpYTTdBUXFkR3pJRUhXZnVzWDFnVVVoVGk2dU1iV0VqQVA2aFhMUzM4OGpZQUthOF9JMzJYYmFMdEZVQWNBUjNIMkFqd1JEZU5CTUdFcHJHRkJqbW1HcGY1N2ZBWnZvSWxOaFRQcXFZ0gGUAkFVX3lxTE1BMlVmWENfLXJhNm1taEFuS3p0OTJXdVJaREJIUEUwUzdZckx0RnpUUy1GbjNGUlpyLWZ0OHA3SW9ycTlQNjZPanIwZjRxTVpzWVpIUXFHNllCbGF3UzdqLWg5N1V5T3NjU0VUcFNlUGk3c2hHV1VKdjZ3MEZ5MlMtaVcyTHFQelA0RHhla1k4dkl0MEkxVXg0VEJhU1FzVmVFR0VhY3Fud0RjWWh4ZXNoVWd2aG4wYjBxZ245ZXFRRUR4bi1oRTJHMEpyRHk0ZW10X3NBcG5tUnZEUnNMSmg4T0JBbGJwb1NKdGZfT3VFUTV4WVdNSUpCM0FRM1NJc2lZZGlYZThXc2hCNE9WWHZLcGcycw?oc=5",
-      "category": "metal",
-      "published": "2026-10-09T13:13:41.000Z",
-      "snippet": "",
-      "matched": [
-        "Judas Priest",
-        "Slayer",
-        "HammerFall",
-        "Armored Saint"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "1793d17f673ec62e9e9cdb543e8732f65655e26b",
-      "title": "Home",
-      "source": "Arrow Video",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAta1Z3NjluYXlFd0RyRWRWSy1HSV9HS0wtUFhzUlZnbUItMGtsalktTkM3RzQ0RlBhR050cS10UHJWOUJPeFEzRzhyOW5KZnJB?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T12:50:29.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "f4c65ff78008a9ede7a1d3776b263ad1fef7b792",
-      "title": "\"We thought they were joking about subliminal messaging. Next thing we knew, we were on a plane to appear in court.\" Ian Hill on the Judas Priest songs that have defined his career",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQmZsWHF3OEV5cl9Lb01xZFhBRWRnZ2dnRU9odTRqaTJ3a3EwM2JfNmgtcXVtODFMa2J0VDA3WnhZTVE0clVpeGh5cUViR2RZaHJaaUkzeTN4YXdqTUh0aTdmbDBIdExwSDRFWlRqVW85Vy1sd2RwUVRidjFlbkQyYWw0UzdjVmxxenlVYnFB?oc=5",
-      "category": "metal",
-      "published": "2026-10-09T12:49:17.000Z",
-      "snippet": "",
-      "matched": [
-        "Judas Priest"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
       "id": "39a311bcbc91eaf6fdfd842a7b5c00aaf1337ebd",
       "title": "JUDAS PRIEST Bassist Ian Hill To Retire – “I’ve Been Struggling With The Onset Of The Evil Arthritis”",
       "source": "BraveWords",
@@ -278,81 +129,27 @@
       "amazon_query": null
     },
     {
-      "id": "16de175eea3da4b24d52f6214fff5e0e69d1e978",
-      "title": "Judas Priest Bassist Ian Hill Retires After 57 Years Due to Arthritis",
-      "source": "Metal Injection",
-      "url": "https://metalinjection.net/news/judas-priest-bassist-ian-hill-retires-after-57-years-due-to-arthritis",
-      "category": "metal",
-      "published": "2026-10-09T10:58:44.000Z",
-      "snippet": "One of the longest runs in heavy metal comes to an end.",
-      "matched": [
-        "Judas Priest"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "b720ecf017ed730a2af074977d0c5b8bf6455ed1",
-      "title": "JUDAS PRIEST's IAN HILL Announces His Retirement; URIAH HEEP's DAVE RIMMER To Step In",
+      "id": "31104bbf9d7f521c8a33b63dd96393b81d54690e",
+      "title": "Watch: DEEP PURPLE Joined By Violinist LIDIA BAICH On Stage In Vienna",
       "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/judas-priests-ian-hill-announces-his-retirement-uriah-heeps-dave-rimmer-to-step-in",
+      "url": "https://blabbermouth.net/news/watch-deep-purple-joined-by-violinist-lidia-baich-on-stage-in-vienna",
       "category": "metal",
-      "published": "2026-10-09T10:55:03.000Z",
-      "snippet": "JUDAS PRIEST's founding bassist Ian Hill has announced his retirement from the band. His replacement is URIAH HEEP's Dave Rimmer, who previously stepped in for Hill during JUDAS PRIEST's September 21…",
+      "published": "2026-10-08T18:55:42.000Z",
+      "snippet": "Austrian violinist Lidia Baich joined legendary rockers DEEP PURPLE on stage during their October 5 concert at Wiener Stadthalle in Vienna, Austria to perform the band's classic song \"Perfect…",
       "matched": [
-        "Judas Priest"
+        "Deep Purple"
       ],
       "tier": 1,
       "amazon_query": null
     },
     {
-      "id": "035f905b091fcdd74c89445c158bf48823c0bb28",
-      "title": "\"I hate to say it, but that time has come.\" Judas Priest bassist and longest-serving member Ian Hill announces retirement, confirms replacement in band",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQZVJGUjZXbVV1V2FLaFJEY1IxNk9FUVZIQTVnay1VNXVNaHNUaDZLbzU3ckQ0UEladnJmZkU2MXVfOVhqSHVDNVY5ei1LTUg2LXhLd3VmTzZVdmRfZ2ZaZmx4OXJTd0c5UFNYcXMyV2ZDeDNfUVdTZmNpdW9NRnM1emU1T2VYVC1ZZTRQZGdkb2ppUzFJcnppNzNOWGtfa1JHUU5sdzRVREtBbUFybEIwbGpORzBvaDlGdzBjSDhsTWxqQmVzbmd0ZzZTWEpDSVoyaFRoeUgwTTlhRGZWQ1FRSC12alpNNGJLV3Q0c0wxMVBFTnlRMWZraC1JXzBzZUdjU0tKdGZfcEFhMTQwZnRuc09Fa0Y0REU?oc=5",
-      "category": "metal",
-      "published": "2026-10-09T10:45:25.000Z",
-      "snippet": "",
-      "matched": [
-        "Judas Priest"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "ad5e8ef992214ded7e6b71735e50235a73c36c41",
-      "title": "- Fright-Rags",
-      "source": "Fright-Rags",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43V3VKVnNtdTY5akZlakxUbHFxeVM3OXFFMTFnUUVyNWdFcU9QLXhGaE5yTEFCMnQ3MzRDeW9Qd1hPZ1o3X1VvWlNlRzZWSndnZDlzOGQtMlA?oc=5",
-      "category": "gear",
-      "published": "2026-10-09T01:50:57.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "cd20ec2933c430cb109d793694619fbc0fd09ebf",
-      "title": "Ex-QUEENSRŸCHE Singer GEOFF TATE Once Again Denies He Pulled A Knife On SCOTT ROCKENFIELD During 2012 Backstage Altercation In Brazil",
+      "id": "f4aa3b53aa5a466e8fa36bc9156195f2a847c4c7",
+      "title": "CHARLIE BENANTE Explains His Absence From Last Two Shows Of ANTHRAX's North American Tour With IRON MAIDEN",
       "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/ex-queensryche-singer-geoff-tate-once-again-denies-he-pulled-a-knife-on-scott-rockenfield-during-2012-backstage-altercation-in-brazil",
+      "url": "https://blabbermouth.net/news/charlie-benante-explains-his-absence-from-last-two-shows-of-anthraxs-north-american-tour-with-iron-maiden",
       "category": "metal",
-      "published": "2026-10-08T21:10:46.000Z",
-      "snippet": "During an appearance on the Beardo & Weirdo podcast, hosted by FIVE FINGER DEATH PUNCH bassist Chris Kael and comedian Craig Gass, ex-QUEENSRŸCHE singer Geoff Tate was asked if there were any…",
-      "matched": [
-        "Queensrÿche"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "4260c2e735b8b8b087ce78dd97f94fce75067262",
-      "title": "\"I wake up, covered in puke, and every inch of my body is in pain. My manager said, You were diving into piles of garbage, screaming at the top of your lungs.\" Anthrax's Scott Ian recalls the night he first met Lemmy from Motorhead",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdG5KaVRvd0VmTEYtcThHM3AxaWpBSUphTlhhWlRsU3MzLVhkSmJOVDY1eWhyMUJZaFNTeU1QVEhfNFJzZkJKdWc5cmt3WUR1anVmR2xNTWVfVmZ0TlQ1bkZwNWIweDYxOXZaaURZR0VQbi1TS1NsUjdHNkxPLTFYdkV3Y2tSZzd1OGZpTzJGNzlwampmMlpCbFc5Y1c0Y1Ric0l0b014X3IwUVZLVkRHWQ?oc=5",
-      "category": "metal",
-      "published": "2026-10-08T21:00:00.000Z",
-      "snippet": "",
+      "published": "2026-10-08T15:42:23.000Z",
+      "snippet": "In a new interview with Robert Cavuoto of MetalRules, ANTHRAX drummer Charlie Benante explained his absence from the final two shows of the band's North American tour as the support act for IRON…",
       "matched": [
         "Anthrax"
       ],
@@ -360,68 +157,17 @@
       "amazon_query": null
     },
     {
-      "id": "2a5c616a51a89e51ff79e9e3fc0a781e8b6e3908",
-      "title": "Terror Vision Halloween Hoodie (by Chloe Manon)",
-      "source": "Terror Vision",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDloU0ROM2dkbjNKd0NuUzcwTFhFdkxyaXJCN1RTZDlEOHFBQXhkel95cV9wQnpETDFTaFBKWlpCdEViSk8yUlRqUlZ2STRseDBHdDJUZ2J5Nk9NQWNwZXJrVDlaeWhnaDNJV3poSFpGYzFxYWpXV0E2dlJpbTFDdDRyX3BWeVc3dVVF?oc=5",
+      "id": "4fec5772ebf92f705ee2ef2e021b7851290006ed",
+      "title": "National Science and Media Museum’s Pictureville Cinema set to screen Dracula in 4K",
+      "source": "Bloody Flicks",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ2NEbXQ4dVV0NUhGS01MZ0dQVXVsQzhGQ3lFemFUTW8zZUdjSDAzOFBzOS1EbzBmNGFHRlZ3VGh5YmNRaGxsZHFVR0NFWW9mSjdCbzBHdnZjY1hEdTJ1MlJaS3h5UVFsN2pDTWxfaEQtN3R5amd0TElwT2xEdWFyT3hrdFNrQUZpU0wtYVRZRkRhSzI1QXFOZE1Edm15ZVowblZRdXZPbkZZdGFEZEJUR3NqTlRVaFhaVTd0ZnRJVQ?oc=5",
       "category": "discs",
-      "published": "2026-10-08T18:58:17.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "d155b09a4cdcb7ca5f506e89fc7592d1edd70f90",
-      "title": "Cellar Dweller Blu-ray Bundle",
-      "source": "Terror Vision",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrQjRXWTg4M05oanc2eWE1TC12WkZuM0ZEWm9CZ2F0Q1VHOEc5eTM1T2JVcUpvMEgwV1loemVhRDJlNG9vWlJoNVBHT1dKVXpJak00NkwzT0w2MWxoeUQwOUdPOTNOUmxQU1dJYTMyZzRBZWZabnc?oc=5",
-      "category": "discs",
-      "published": "2026-10-08T18:58:17.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "6f6bc5ec45c7e4b2661d0f97f7efaca3284ba6d6",
-      "title": "Cellar Dweller Tee",
-      "source": "Terror Vision",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TdjZqWHVVWG55cFJlX1pudnlteVh5c3JqZVBLbVRCdFFBRFNidkpmOXdyS2JCekk4dmltRVBndHE4Mm9CM1RGTzVjNGhBcjNJemRPN3BVMkYyZHdNRnUwdEw3Z084Qms?oc=5",
-      "category": "discs",
-      "published": "2026-10-08T18:58:17.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "aff909e207f256db908b526d551bfe852683b1b7",
-      "title": "Today In Metal History 🤘 October 8th, 2026 🤘 RAVEN, SOUNDGARDEN, BATHORY, GORGUTS, STUCK MOJO",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVVJ0NFRCQ19VQzFCVl9oU25seUdOT2NoRGlpUjhjWXdnV0dYX1YwMEtYMnk0aWNGYWZlX2NhTTBGNDA4TFNXbVVYWWd1bndsajZ3aS04YzBDNFVYbFpLV2RuSTlTYlVUaE5kQjUyckdBUDlKWFJfdVp4V0t2bW50LVdkR2drczFIZUxhWnRCeUtUVjlocGVpRldsZURETFFZZUl0ZF9wQlFBVERlVUFMalRzOU9jTXIyOERXWkdpb0JmRHg1YnlaVE8xSkhNaEpSeUV0dS1lR3p0aUxjd2p0eFFvb9IB6wFBVV95cUxNX0l6ZDdCTXEwUE5QQ0hNb09MWDBobnFjRTlRSV9ndXNXSDdZR09tV0gwMVUxTnMwTXcydk12OUJ4OW8wa052bVlhMUUxLUpMMGNtWVJrVzh2SVlJWW5BNkREUmtYSHk2enYybi1PZDFtSlBiQ3dtaW9ZNjdtMUFrWGRKS0FpZnhsbWk2N1ZDTHFoNWE3WFMtbHBUbjJLZENfbHlvUktDeUphRElndlVpVF9NRk5rUjlkdFZxc3pTcjRmdjZBQ2t2ODNWMlUtdVhnZ1Ytc21CQk10WjNiUnUwWFlhSDRaZWFYQ1hj?oc=5",
-      "category": "metal",
-      "published": "2026-10-08T17:31:43.000Z",
+      "published": "2026-10-07T17:37:15.000Z",
       "snippet": "",
       "matched": [
-        "Bathory"
+        "Dracula"
       ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "658a9da4076a397a4e3652b79a5a3a6dbe21a4fa",
-      "title": "“No rules! Just riffs!” Grand Theft Auto VI will have a heavy metal radio station featuring Black Sabbath and hosted by Slayer’s Tom Araya and Kerry King – listen to a preview now",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORUZCRk5XVjIxLTVWbUc4WGdvdU1CSFVHZ1dERF9udkFlV0kxc0ZoUnE1WTlqZ0RIa3dEUEpDdEdJaFJLWWhDaG02RTB3cVlpRXMwc3VSUGtnR25ad1VXNk9EUjR4T3FnSUpRblJUcmZwWkRDczdZRk5KMklGd0wzWGlfTmhqNGVtdGJ1YXJCYjN4V19w?oc=5",
-      "category": "metal",
-      "published": "2026-10-08T15:12:09.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath",
-        "Slayer"
-      ],
-      "tier": 1,
+      "tier": 2,
       "amazon_query": null
     },
     {
@@ -439,105 +185,199 @@
       "amazon_query": null
     },
     {
-      "id": "cca530b770d10d4a20d13b9f184d64c09d030894",
-      "title": "HALLOWEEN II: HE'S BACK! - PULLOVER HOODIE",
-      "source": "Cavity Colors",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTVTVtMUJGRzlHeUZjdXJmR2xnSnhybXY4YmNBOENQUWVsMVdYa29GVmMwN241NXp0RW5EMHVRa0VrLWVzS1owckp0ZllscVJrWS1FWFRaNWItY3I4ZWFZMldqenR5N1dmNWdnajJNYW1LdXNUem42Y0dGZw?oc=5",
-      "category": "gear",
-      "published": "2026-10-07T07:16:26.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "112807f16ecf32eeed5d4bc61038687d415ba585",
-      "title": "Irv Novick and Frank McLaughlin The Flash #245 Story Page 3 Original Art (DC, 1976).",
-      "source": "Heritage Auctions",
-      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQQ0I0R29icmdFeVN0Z1VfWFF1aExmRzZySkxYWjFkVVdVbC1UUU13NjFnR0NtM05OekgxSFgxQjBvb2ZvS2Q1Y2s4MGcwYUxYa0w1UEhUWjNTSGJ6MXZ0NFJ3cUJ3N01rWmdtWGFzSjJ1WklpZk10NXVHUnBlM3lMTFowM3JFV0ZhV2VKaWpyWWdBOWhjWk43WnUwVUlFaVAzMGlZVzVNeHV2eGpmTmNLcHgxeGR2SjlWc1lyMURjNU5jU29qVDlKTlhVYTd3ampYMXFORlpsWHMtaElOUFBIWjFaRk85VG9LXzFSTFBJY05iblVwWnpjRkQ0NGl2Mml3TlFhM0R2LXVBUGZaY2E1OXpTUlFzLTFGLVBOVmNRZ3IzXzN2dW1YRlBkZw?oc=5",
-      "category": "collect",
-      "published": "2026-10-07T07:00:00.000Z",
+      "id": "d0d5ea899017e32722d629b1d0300c55d7891b19",
+      "title": "Every Member of the Murderous Brackett Family in This 1993 Tales From the Crypt Episode Is Tim Curry, Playing Pa, Ma, and Daughter Winona All at Once",
+      "source": "Creepy Catalog",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV1c4ZHJmWnUyTlg4MjRvRHMzRlZmcGVuUnFVTnkzOVBtRk9QV0VzZFQyREdrQXFrUzNFTnNqbE04Rnk5bmZnaExEeWl4V0JZb1dKUk4wVXp2bW9ZQXZEUUVOWGdXX29DWUdKSnUzcHpEMG52eTM0Vi16SHBmLUw0LTBmZnN3T3lmRHdsR3hQTFQyU19uZUFoYWpLTFp0UWYxTUMxSjV5blNQd3g4dFRxREJoYjVPVHNGWlNPYWZrLXFFbklCSEF3d1dKX2luYW4zLXJfYVpqRU14ajgtaldEVXhYSFNreEhzRVlnTEZvdXlWMmFQUlYyTDFRZ243MFpFZnRN?oc=5",
+      "category": "comics",
+      "published": "2026-10-06T22:46:14.000Z",
       "snippet": "",
       "matched": [
-        "era"
+        "Tales from the Crypt"
       ],
-      "tier": 2,
+      "tier": 1,
       "amazon_query": null
     },
     {
-      "id": "93c54d4c9d2621f7830b39272bfe8674971b4596",
-      "title": "John Buscema The Punisher: War Zone #26 Story Page 8 Original Art (Marvel, 1994)....",
-      "source": "Heritage Auctions",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQZ1RRaTU1RUxqc3RUb1ZPZmRGZHY2bEx4c3M2ZTFDZFFscm02ZlFwQUdzbTB1MWlZUVY0Nnl4WGFZczJTVEdidkdCVHJ4Z0RVZXBCc09iQllMdkRMeE5EeE9fQW96UTQ3ZGpZUTUtSjdRSzFjVFM3Nm9rUFRTenkyZkkxc0RXYjJEYlE3dExmdlZCTk9DbjBWYzQwQlhEY05IeTBZX0Izdl84aVF3QjBVUzVEenIzcjhkcURHUHdMQTBTTVFvckM3Q3dWNEdPQ3FybXQwaHdseVdkZVBGcHFVRXBDU0M5VzNGS3M4cG43N2IxeFNXNDF2VUdyU3hIaXBYWUdoTnUyV2Rxd1FHaXRNMVhxQ1l4YkdhSXFiN1l0S19JWUJtSHc?oc=5",
-      "category": "collect",
-      "published": "2026-10-07T07:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "era"
-      ],
-      "tier": 2,
-      "amazon_query": null
-    },
-    {
-      "id": "a37cc08470aa6853603f458f89135488f925e63c",
-      "title": "HALLOWEEN II: RETRO HORROR - T-SHIRT",
-      "source": "Cavity Colors",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UNlF6MzlpcXBnR0FHclN0NHRKSmoxYzZxakUwM2ExMG5rOFF5WHpZQjNTbFE1Y0hwdE1GY3RpNTRDNFRxdEUyeFEzTUJGNWIyX0lVV1RIZl9rV1QyNGRvNE5oRUx5cGxQVExsQ1BKaktwemMzSmc?oc=5",
-      "category": "gear",
-      "published": "2026-10-07T03:53:09.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "e200f0eb7ce0b5f2edbb33b8b6ee1d5a2306db7b",
-      "title": "Lovers of Darkness: Stories Inspired by H. P. Lovecraft's Commonplace Book",
-      "source": "Hippocampus Press",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVJjd0JXaGdoRkdYVHktXzlqeXlwdndCaGxUOUlvTW81V3VFYTM3VVdfd2czWjVVLUJoYUZRUXpJVkU2RUhERVRCd3Jic19PUEdDZWw3b1VNRnpYWEV2bEMtc211R1ozOTBqNzI3R0xJaV9GRlRqekFiS0hVWGVzdlczUVI3NW9fN3dzcUY1Mk9wTEs2TlJlMHZvZkFrV3kyTmlTV0JzRDRHMHFJanliTzRucE9Vc2NrUXdDY0lKbE5qMlkyalE?oc=5",
-      "category": "books",
-      "published": "2026-10-07T01:41:59.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "169795c5c3dfc507bb0390c96a17218ce6273c7c",
-      "title": "French Noir Collection III [THE LAST ONE OF THE SIX (1941), THE MOMENT OF TRUTH (1952), THE STRANGE MR. STEVE (1957), PARIS PICK-UP (1962)] (Blu-ray)",
-      "source": "Kino Lorber",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWmh6UmpRTEczTzhIUGJQQjZhcFFLMWh4NHFGbHBxUkpoZXJlOUhIcU44d1lueHdQRmwzVi1nTVdEaHVQclc3QUdjV1hIcU9iSGdtTUc5M0FJMmpBazVPUWZJc1YyckxIWEpKSzlYYkhiZ01vSE14TjZNRlNzUTlXYnk0V2gwOGZsUWZ2UDJoLUNKelBRWW14aG5IekItenZ1c09JdmJHb2hfYTBFZ1RkaVowT2ZKVDdpVEhmb2ZtVENwSE80Umd2V2V4RExEYXNSTERUQ01OLXA3MzlPU2xSdnVHWC1DdElNOTRUVA?oc=5",
+      "id": "3e0102baf26488777d23707594bc8e7dade47bb6",
+      "title": "Nevermore: The Raven Effect",
+      "source": "Vinegar Syndrome",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzOWVUR3NXNWk2Yk1kd0xRUjR5R2ppMUY0NnhfalZWejI3WE91QTFxdWVKcVo3WWRlM05wb0xNUm1HcVVEYnNPZjlQVEQzdTMzZ3BaMWZLemxVMFVWa3poYlBGNk9wTGZFbWhYNzU1bng?oc=5",
       "category": "discs",
-      "published": "2026-10-06T16:09:02.000Z",
+      "published": "2026-10-06T19:41:22.000Z",
       "snippet": "",
       "matched": [
-        "era"
+        "Nevermore"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "cde1584ae035a36ecd9079a38003080091c2799c",
+      "title": "Severin announces a huge “GRAND GUIGNOL & THE GRAND GUIGNOLESQUE” 12-disc set packed with morbid delights",
+      "source": "RUE MORGUE",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNW5OTU5aTHEyd1A2Yl9RdF95Yy1pdzl6RWI1WkVabW1mcDgwbkxoeU8yNzloNmJCOUtSRTY1N1cyYy1lMWRhX1VSUE5JcTZ5LS14YS14QmhGTlpZNUlGakZYeDE3cHNNUEJwSkRNVFNBS3hYSUN2NWFIYnFTcmw5RHp5cVRYNjlBUWptNFFNOThVNGRMd0FlX2d1c0RoX0FVNFh0Z1psMF9ZckIzZFYzM3VwUGN5M0ZDV3g3bURqbzJMMTQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-06T18:32:13.000Z",
+      "snippet": "",
+      "matched": [
+        "Severin Films"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "dd69ca13d163202b70d23d109e2350124daa91ee",
+      "title": "DEATH CYCLE Giallo-inspired horror thriller – trailer and free on YouTube",
+      "source": "movies & mania",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYk1zak5VclY4ZnlSRHg1cnBQc21ROTBwTjJSMnE4NmJZaEg5Z2ZINDJFWW1YU3NOX2JiX3lBcXVIRlRJUjYyLVZNWm94ZU5xZTdQbUlGRlRwaWtOdnNPa1ppb1hsVjZvYmMzU0lPV3RJU29LMDh2VGdwS1NNTy1FN1Jzd0txbF84a0NsVklxOWRVZEJfQnR2TFZWTzdrODZvRERIRm16OVFUcjA1MkJvd2RCYmItNi1QWjFZZFY0NA?oc=5",
+      "category": "discs",
+      "published": "2026-10-06T12:35:11.000Z",
+      "snippet": "",
+      "matched": [
+        "giallo"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "22185b521c78abd87512a0bce1ebc4b24f5911b3",
+      "title": "How I Bought My First Ever Michael Myers Halloween Mask",
+      "source": "Fright-Rags",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTkcwUnFyZWZtREIzaXR1Y0o5X3NOaWdnV01ROTc1Tkt1MC1RSkJuTlJZVVZZTGI2aWRlbTJIOWEzWTc5ZUFKdThwYU1kR1FidHdYeGVsWFdGcG85ZW1yeXNFcWJSVHMzTE5GMDNVa3JnbVU?oc=5",
+      "category": "gear",
+      "published": "2026-10-06T04:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Halloween"
       ],
       "tier": 2,
       "amazon_query": null
     },
     {
-      "id": "22fdc47f49d2c3b36f4c1c5233efc8acf30c5fb6",
-      "title": "Index of /wordpress/wp-includes/js/tinymce/",
-      "source": "robertmccammon.com",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtRzFOQ1JaREliVHVSM0taZzBLd3MxdXpGNVpyUmp3cUkyOWFUdDFwZkV6QWxtZWhIejZORHBqaWpOcEFkWURkS1dKdFRTcGhDOVVvV0hmOC1hVHowSnk2b2JGOEVNWU9BNTAyZmF4TlZXdw?oc=5",
-      "category": "books",
-      "published": "2026-10-06T09:32:21.000Z",
+      "id": "f2e51e94fef7bda5fd219a91829ef480f0acf310",
+      "title": "Martin Scorsese asked to make a Hammer horror film but got rejected",
+      "source": "IMDb",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00cS0yZXRsWDZCVk95cmtua2FKVnYzNEdsSDJkQnh0V2lISE9RR2lxMzg3YXpQbUJ0VU5Lb2Z2OE1ibmRTV0ItSlZiaWdHMmpqeUZnS0ZxME1zZDBtSHNLSS1MOHZkYkk?oc=5",
+      "category": "film",
+      "published": "2026-10-05T23:05:59.000Z",
       "snippet": "",
-      "matched": [],
-      "tier": 3,
+      "matched": [
+        "Hammer Films"
+      ],
+      "tier": 1,
       "amazon_query": null
     },
     {
-      "id": "8e8a05c53a9836a93fdcd2e1a6cf682a7b635bc5",
-      "title": "Neuromancer * Count Zero * Mona Lisa Overdrive",
-      "source": "Centipede Press",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15Z3ZNcWFOeTl2WGFqcVlIeG41bks1SzhJQzJ0UVl3RVU5c3FUV3IwalBRSjVSUkEySGJ2eVU0WVkzYVFlX3N3SXd6Zm13cGI5MUswaDhEaHlMQk9sMXNLTzhn?oc=5",
-      "category": "books",
-      "published": "2026-10-04T18:49:02.000Z",
+      "id": "dad290dc4468d121b2a94cada68aa03e881ae6e7",
+      "title": "Home Video Roundup: SUZZANNA: EMPRESS OF DARKNESS, SANGSTER DIRECTS HAMMER, More From Severin Films, Titan Books",
+      "source": "ScreenAnarchy",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPS2lTbmRudlZvZkY3WXpFLUdmdFB1RWlIdFFvY0pVU1FWZG1ZcXdzSHhMQ244TTF3cW9Sdk1GM1huS1Ntd0VPd2YtajJEcmpSMGlwc0g0aDQzZ2VHNnVRTHhXQVdFcVpCaFVodjhRQ0NhVHJWMUlmejNETlRkdTR5Z2JrVXJaeXhTUDdNMzROSWprMGJFM1NwazNJYmh3YUx4V2RDbm80cXhRWXBaeW9sbjBPMURGRGR5NEVHSy1CeTR0aFFRY3ZmSWpSV2JabkFnXy0xTDBn0gHbAUFVX3lxTFA1ZDFTa2JULWdXamlTcU9BcU9rNmZUWmRTck5BWGpTQzJ1TXNscnk3eDQzU09YQmRaNEg2VjhHUTdWTUg4dFItaE8yQTUyaDBBUXlwbXpmMWRHZU1tU0EyQkJMXzF0Mk9yTFJwTkpDdkpjSEQtblVZYTFDNmZ0ZEFYZmRpeDhVYkN1cndLUEtXc3NON05wTnVRQUZkT0d3ZUtLcENtVlRaTkJpTndVZ3A3RUt3Rlp5dm5lbjlUN3FqVm5YUU9mSDlVMVJfdWhuYkpRQkd0YzBhc01ndw?oc=5",
+      "category": "discs",
+      "published": "2026-10-05T18:02:02.000Z",
       "snippet": "",
-      "matched": [],
-      "tier": 3,
+      "matched": [
+        "Severin Films"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "02024d51da7743efd7489a02c0c1f3be117fbdbc",
+      "title": "Hammer Films Boss John Gore on Resurrecting the British Horror Icon",
+      "source": "Variety",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTVBGcktLQzE3ZTBycW00UGxRREtiaVV2RTF4NnNTdXJPOFlid05IOVh1SWFlSDJkdDhjUzBjYjJhQTk5Sk1ob2h2LUhEZkxSQng0YnhTcGJVb21SOFdXVG01ZWxib3MxLU9TVDg1N3FBc2lQYUR2c0ViM01vZkFiUm1kQ0pDaVgxMm55UW5EMU94cXRLMzVPVlVvR3dUczVKNFJz?oc=5",
+      "category": "film",
+      "published": "2026-10-05T16:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Hammer Films"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "37d22c0ca7b52ca4ccbcdc7ffdd5f22d8c4c029f",
+      "title": "Halloween - Halloween",
+      "source": "Paperback Warrior",
+      "url": "https://www.paperbackwarrior.com/2026/10/halloween-halloween.html",
+      "category": "gear",
+      "published": "2026-10-04T10:52:05.961Z",
+      "snippet": "J ohn Carpenter's iconic masterpiece Halloween was released in October 1978, earning a huge payday that cemented the film as a catalyst not only for its own successful franchise, still thriving…",
+      "matched": [
+        "Halloween"
+      ],
+      "tier": 2,
+      "amazon_query": null
+    },
+    {
+      "id": "304eafb4a163c774987dd78bd1ea352bbfdd373d",
+      "title": "Hammer Horror: A touch of evil, a taste of fear",
+      "source": "Eastern Daily Press",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdjJoeWFKcXItNkZzYjdCUGJtS05CRGQxdW9jS3RJRTFueTBPY21SVGlRZDJkMnMyZmhMRVBlWXNFNHZsanJjMHdNeFRzbzVQbVo2SENQZHhQSVAyVXI3bEVUaXpsT1NTZUR0SFM4dW50WGwzZER6MExfaWRxX3B0TWdTRmp5MF9N?oc=5",
+      "category": "film",
+      "published": "2026-10-03T06:31:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Hammer Films"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "f4392b5445a0ae8922b1d0c840a3ee033a42e292",
+      "title": "10 Great Hammer Horror Movies Nobody Talks About",
+      "source": "ScreenRant",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00WGl5RzVHVnVTVUFKNnF6U0E4WV9rQ0k1Q1h6cUVWT2xYZmJ1UXJVd25GWVpzc3hBWDV0c0Rtd3FwMzBOZEc1eXlZN1p3TVdCRnVPOURBVzBOVDhqbWl6SkJ6b3EwU2NJTDBTeWdDWkxGY3QtcUF2Mw?oc=5",
+      "category": "film",
+      "published": "2026-10-02T17:15:16.000Z",
+      "snippet": "",
+      "matched": [
+        "Hammer Films"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "25dc63fe75cd30b76d53c13f6a82c520ba18e994",
+      "title": "Robert McCammon Audio Greeting",
+      "source": "robertmccammon.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFUVhQTWdxVW5oaFV4MDlLSElIMnVmWHhvTktoeHoybW9ZLVp2UXE3dkxoY1VKSjN6RlBzb3gyUGQ2MHdBbF9UUTRsTXRJNVB6Z1gwYVk3Yw?oc=5",
+      "category": "books",
+      "published": "2026-09-30T07:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Robert McCammon"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "c75c4628d113a4a946872959e4c8fe09da40fdad",
+      "title": "Robert McCammon Book Cover Gallery",
+      "source": "robertmccammon.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fR19HYVQ4MWQwb0dkeFVUblIzSE1SMV9MaUFxaFRJODgtcHB1Mzd1MlVGcGFUQm4xU3BudXB6WDlfd25NaHVqYUdfT3RITUdRYXhfVHln?oc=5",
+      "category": "books",
+      "published": "2026-09-30T07:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Robert McCammon"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "e2cc004e3a0d8b01bbd337a39c45e838a82ebae9",
+      "title": "Robert McCammon, The Big J Read, August 17--18, 2009",
+      "source": "robertmccammon.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nUWRYanFjWnBXUFZaMEsyMFpOeWxuQ0V1QXZodkhwX1J3bzlBVzlRc0piVlNESVFydmhBZkdlN1VQRnV6a1FjYlk0dkJ1SDlHQzI3aTFVa01odw?oc=5",
+      "category": "books",
+      "published": "2026-09-30T07:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Robert McCammon"
+      ],
+      "tier": 1,
       "amazon_query": null
     }
   ],
