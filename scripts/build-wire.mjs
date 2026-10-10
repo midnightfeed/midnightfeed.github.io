@@ -184,32 +184,53 @@ const GENRE = cfg.era?.genre_words ? anyRe(cfg.era.genre_words) : [];
 const JUNK = (cfg.junk_title_patterns || []).map((p) => new RegExp(p, "i"));
 const BLOCKED_PUB = new Set((cfg.blocked_publishers || []).map((x) => x.toLowerCase()));
 
+const HORROR = anyRe(cfg.horror_words || []);
+const METAL_GENRE = anyRe(cfg.metal_genre_words || []);
+const METAL_LABELS = (cfg.metal_labels || []).map(terms);
+const kindOf = (src) => src.kind || (src.category === "metal" ? "metal" : "general");
+
+// v8 rules, in plain terms:
+//   horror outlet  -> passes unless excluded
+//   metal outlet   -> needs a classic band, an on-beat metal label, or a covered metal genre
+//   anyone else    -> needs to be about horror: a horror word, or a watchlist name in the headline
+// Classic material (watchlist names, period years, presses and labels, collector words) is flagged and ranked higher.
 function judge(item) {
   const text = `${item.title} ${clean(item.snippet)}`;
-  // Names must appear in the headline: snippets on big outlets name-drop too freely.
   const head = item.title;
   if (EXCL.some((r) => r.test(item.title))) return { pass: false, why: "excluded" };
   if (item.title.length < 12 || JUNK.some((r) => r.test(item.title))) return { pass: false, why: "junk" };
   if (item.publisher && BLOCKED_PUB.has(item.publisher.toLowerCase())) return { pass: false, why: "blocked publisher" };
+  const kind = kindOf(item.src);
   const category = classify(item.src, text);
-  const hasQ = QUAL.some((r) => r.test(text)) || (category === "metal" && METAL_QUAL.some((r) => r.test(text)));
-  const headQ = QUAL.some((r) => r.test(head)) || (category === "metal" && METAL_QUAL.some((r) => r.test(head)));
+  const isMetal = kind === "metal" || category === "metal";
+  const hasQ = QUAL.some((r) => r.test(text)) || (isMetal && METAL_QUAL.some((r) => r.test(text)));
+  const headQ = QUAL.some((r) => r.test(head)) || (isMetal && METAL_QUAL.some((r) => r.test(head)));
   const matched = [];
-  let tier = 0;
+  const bands = [];
   for (const t of T1) {
-    if (t.only_categories && !t.only_categories.includes(category)) continue;
-    if (t.res.some((r) => r.test(head)) && (!t.require_qualifier || hasQ)) { matched.push(t.name); tier = 1; }
+    if (t.only_categories && !t.only_categories.includes(isMetal ? "metal" : category)) continue;
+    if (t.res.some((r) => r.test(head)) && (!t.require_qualifier || hasQ)) {
+      matched.push(t.name);
+      if (t.only_categories && t.only_categories.includes("metal")) bands.push(t.name);
+    }
   }
-  if (!tier) for (const t of T2) {
-    // Tier 2 names are franchise-heavy, so the qualifier must be in the headline too
-    if (t.res.some((r) => r.test(head)) && headQ) { matched.push(t.name); tier = 2; }
+  for (const t of T2) {
+    if (t.res.some((r) => r.test(head)) && (headQ || (!isMetal && kind !== "metal"))) matched.push(t.name);
   }
-  // Era rule: a headline naming a year in the period, plus a collector qualifier
-  if (!tier && ERA && ERA.test(head) && hasQ && (cfg.era.categories || []).includes(category) && (!GENRE.length || GENRE.some((r) => r.test(text)))) { matched.push("era"); tier = 2; }
-  // On-beat source: no watchlist name needed — but only for its own feed. Google News results for a
-  // storefront are often product pages with indexing dates, so they must earn a place by name.
-  if (!tier && item.src.beat && !item.gn) tier = 3;
-  return tier ? { pass: true, category, matched, tier } : { pass: false, why: "no watchlist match" };
+  const era = ERA && ERA.test(head) && (!GENRE.length || GENRE.some((r) => r.test(text)));
+  const label = METAL_LABELS.some((t) => t.res.some((r) => r.test(head)));
+
+  if (isMetal) {
+    const genre = METAL_GENRE.some((r) => r.test(text));
+    if (!bands.length && !matched.length && !label && !genre) return { pass: false, why: "not our kind of metal" };
+    const why = bands.length ? bands : matched.length ? matched : label ? ["metal label"] : ["metal genre"];
+    return { pass: true, category: "metal", matched: why, bands, classic: bands.length > 0 || hasQ, why: why.join(", ") };
+  }
+  const horror = HORROR.some((r) => r.test(text));
+  const classic = matched.length > 0 || era || headQ;
+  if (kind === "horror") return { pass: true, category, matched, bands: [], classic, why: matched.length ? matched.join(", ") : "horror outlet" };
+  if (matched.length || horror) return { pass: true, category, matched, bands: [], classic, why: matched.length ? matched.join(", ") : "horror subject" };
+  return { pass: false, why: "not horror" };
 }
 
 // ---------- normalise ----------
@@ -231,7 +252,7 @@ function sameStory(a, b) {
 }
 
 // ---------- run ----------
-const QUERY_SOURCES = (cfg.queries || []).map((q) => ({ name: `News search: ${q.q}`, category: q.category, query: q.q, weight: q.weight ?? 0.8, beat: false }));
+const QUERY_SOURCES = (cfg.queries || []).map((q) => ({ name: `News search: ${q.q}`, category: q.category, query: q.q, weight: q.weight ?? 0.8, kind: q.kind || (q.category === "metal" ? "metal" : "general") }));
 const WEIGHT_BY_NAME = Object.fromEntries(cfg.sources.map((x) => [x.name.toLowerCase(), x.weight]));
 const results = await pool([...cfg.sources, ...QUERY_SOURCES], 8, fetchSource);
 const cutoff = NOW.getTime() - cfg.freshness_days * 864e5;
@@ -252,7 +273,8 @@ for (const { report, items } of results) {
       id: createHash("sha1").update(url).digest("hex"),
       title: it.title, source: (it.src.query && it.publisher) || it.src.name, url, category: j.category,
       published: new Date(t).toISOString(), snippet: snippetOf(it.snippet),
-      matched: j.matched, tier: j.tier, amazon_query: null,
+      matched: j.matched, classic: j.classic, why: j.why, amazon_query: null,
+      _bands: j.bands || [],
       _w: (it.src.query && WEIGHT_BY_NAME[(it.publisher || "").toLowerCase()]) || it.src.weight || 1,
     });
   }
@@ -263,7 +285,7 @@ for (const { report, items } of results) {
 const HALF = 2 * 864e5;
 candidates.forEach((c) => {
   const age = NOW.getTime() - Date.parse(c.published);
-  c._s = c._w * Math.pow(0.5, age / HALF) * (c.tier === 1 ? 1.5 : c.tier === 3 ? 1.2 : 1);
+  c._s = c._w * Math.pow(0.5, age / HALF) * (c.classic ? (cfg.classic_boost ?? 1.6) : 1);
 });
 candidates.sort((a, b) => b._s - a._s);
 
@@ -276,11 +298,14 @@ for (const c of candidates) {
 }
 
 // per-source cap, category balance, size
-const perSource = {}, perCat = {};
+const perSource = {}, perCat = {}, perBand = {};
 const maxCat = Math.ceil(cfg.max_items * cfg.max_category_share);
 let picked = [], overflow = [];
 for (const c of kept) {
-  if ((perSource[c.source] = (perSource[c.source] || 0) + 1) > cfg.per_source_cap) continue;
+  if ((perSource[c.source] || 0) >= cfg.per_source_cap) continue;
+  if (c._bands.some((b) => (perBand[b] || 0) >= (cfg.per_band_cap ?? 2))) continue;
+  perSource[c.source] = (perSource[c.source] || 0) + 1;
+  c._bands.forEach((b) => { perBand[b] = (perBand[b] || 0) + 1; });
   if ((perCat[c.category] || 0) >= maxCat) { overflow.push(c); continue; }
   perCat[c.category] = (perCat[c.category] || 0) + 1;
   picked.push(c);
@@ -302,10 +327,11 @@ for (;;) {
 picked.sort((a, b) => Date.parse(b.published) - Date.parse(a.published));
 
 // Tonight's Lead: best score among trusted sources with a snippet
-const prefer = cfg.lead?.prefer_categories || [];
-const base = picked.filter((c) => c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet && c.tier !== 3);
-const leadPool = base.some((c) => prefer.includes(c.category)) ? base.filter((c) => prefer.includes(c.category)) : base;
-const lead = [...(leadPool.length ? leadPool : picked)].sort((a, b) => b._s - a._s)[0] || null;
+// Tonight's Lead: horror, never metal; trusted source; a real snippet; classic if we have one
+const base = picked.filter((c) => c.category !== "metal" && c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet);
+const classicBase = base.filter((c) => c.classic);
+const leadPool = classicBase.length ? classicBase : base;
+const lead = [...(leadPool.length ? leadPool : picked.filter((c) => c.category !== "metal"))].sort((a, b) => b._s - a._s)[0] || null;
 
 // Keeper's Desk: tonight's file, or the most recent one before it
 async function desk() {
@@ -318,7 +344,7 @@ async function desk() {
   return { date: f.slice(0, 10), takes: d.takes || [] };
 }
 
-const strip = ({ _w, _s, ...rest }) => rest;
+const strip = ({ _w, _s, _bands, ...rest }) => rest;
 const out = {
   built_at: NOW.toISOString(),
   built_for: TONIGHT,
@@ -344,7 +370,7 @@ const summary = [
   "",
   "| Category | Source | Headline | Why it passed |",
   "|---|---|---|---|",
-  ...picked.map((c) => `| ${c.category} | ${c.source} | ${c.title.replace(/\|/g, "/")} | ${c.tier === 3 ? "beat source" : c.matched.join(", ")} |`),
+  ...picked.map((c) => `| ${c.category} | ${c.source} | ${c.title.replace(/\|/g, "/")} | ${c.why}${c.classic ? " · classic" : ""} |`),
 ];
 console.log(summary.join("\n"));
 if (process.env.GITHUB_STEP_SUMMARY) await writeFile(process.env.GITHUB_STEP_SUMMARY, summary.join("\n") + "\n", { flag: "a" });

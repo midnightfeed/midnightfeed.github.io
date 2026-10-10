@@ -1,7 +1,7 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v7, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
-  "version": 7,
-  "freshness_days": 10,
+  "_note": "Mirror of 03-night-wire-taxonomy (v8, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them.",
+  "version": 8,
+  "freshness_days": 5,
   "max_items": 40,
   "per_source_cap": 4,
   "max_category_share": 0.35,
@@ -1066,6 +1066,207 @@
         "name": "Folio Society",
         "aliases": [],
         "require_qualifier": true
+      },
+      {
+        "name": "Tartarus Press",
+        "aliases": []
+      },
+      {
+        "name": "Swan River Press",
+        "aliases": []
+      },
+      {
+        "name": "Egaeus Press",
+        "aliases": []
+      },
+      {
+        "name": "Zagava",
+        "aliases": [],
+        "require_qualifier": false
+      },
+      {
+        "name": "Raw Dog Screaming Press",
+        "aliases": []
+      },
+      {
+        "name": "Grey Matter Press",
+        "aliases": []
+      },
+      {
+        "name": "Crystal Lake",
+        "aliases": [],
+        "require_qualifier": false
+      },
+      {
+        "name": "Clash Books",
+        "aliases": []
+      },
+      {
+        "name": "Silver Shamrock",
+        "aliases": []
+      },
+      {
+        "name": "Dark Regions Press",
+        "aliases": []
+      },
+      {
+        "name": "Bad Hand Books",
+        "aliases": []
+      },
+      {
+        "name": "Tor Nightfire",
+        "aliases": []
+      },
+      {
+        "name": "Night Shade Books",
+        "aliases": []
+      },
+      {
+        "name": "Earthling Publications",
+        "aliases": []
+      },
+      {
+        "name": "Thunderstorm Books",
+        "aliases": []
+      },
+      {
+        "name": "Borderlands Press",
+        "aliases": []
+      },
+      {
+        "name": "Ash-Tree Press",
+        "aliases": []
+      },
+      {
+        "name": "Sarob Press",
+        "aliases": []
+      },
+      {
+        "name": "Lethe Press",
+        "aliases": []
+      },
+      {
+        "name": "Weirdpunk Books",
+        "aliases": []
+      },
+      {
+        "name": "Ghoulish Books",
+        "aliases": []
+      },
+      {
+        "name": "PS Publishing",
+        "aliases": []
+      },
+      {
+        "name": "Hippocampus Press",
+        "aliases": []
+      },
+      {
+        "name": "Mondo Macabro",
+        "aliases": []
+      },
+      {
+        "name": "Grindhouse Releasing",
+        "aliases": []
+      },
+      {
+        "name": "Cauldron Films",
+        "aliases": []
+      },
+      {
+        "name": "Visual Vengeance",
+        "aliases": []
+      },
+      {
+        "name": "Saturn's Core",
+        "aliases": []
+      },
+      {
+        "name": "Massacre Video",
+        "aliases": []
+      },
+      {
+        "name": "Unearthed Films",
+        "aliases": []
+      },
+      {
+        "name": "Raro Video",
+        "aliases": []
+      },
+      {
+        "name": "Full Moon Features",
+        "aliases": []
+      },
+      {
+        "name": "Troma",
+        "aliases": [],
+        "require_qualifier": false
+      },
+      {
+        "name": "Scorpion Releasing",
+        "aliases": []
+      },
+      {
+        "name": "Ronin Flix",
+        "aliases": []
+      },
+      {
+        "name": "MVD Rewind",
+        "aliases": []
+      },
+      {
+        "name": "Something Weird Video",
+        "aliases": []
+      },
+      {
+        "name": "Bleeding Skull",
+        "aliases": []
+      },
+      {
+        "name": "Nucleus Films",
+        "aliases": []
+      },
+      {
+        "name": "Wicked Vision",
+        "aliases": []
+      },
+      {
+        "name": "Cult Epics",
+        "aliases": []
+      },
+      {
+        "name": "Kino Cult",
+        "aliases": []
+      },
+      {
+        "name": "Shameless Films",
+        "aliases": []
+      },
+      {
+        "name": "One Way Static",
+        "aliases": []
+      },
+      {
+        "name": "Spacelab9",
+        "aliases": []
+      },
+      {
+        "name": "Cinewax",
+        "aliases": [],
+        "require_qualifier": false
+      },
+      {
+        "name": "Quartet Records",
+        "aliases": []
+      },
+      {
+        "name": "La-La Land Records",
+        "aliases": []
+      },
+      {
+        "name": "Intrada",
+        "aliases": [],
+        "require_qualifier": false
       }
     ]
   },
@@ -1344,7 +1545,17 @@
     "Grand Theft Auto",
     "video game",
     "^\\s*(\\d+|three|five|six|seven|eight|ten|twelve|fifteen|twenty)\\s+(great|best|underrated|overlooked|scariest|essential|classic|forgotten|horror|movies|films|times|things|reasons|books|albums)\\b",
-    "unboxing"
+    "unboxing",
+    "\\bPS5\\b",
+    "Xbox",
+    "Nintendo",
+    "Switch 2",
+    "\\bDLC\\b",
+    "Fortnite",
+    "Dead by Daylight",
+    "\\bSteam\\b",
+    "gameplay",
+    "opening weekend"
   ],
   "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
   "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
@@ -1354,581 +1565,743 @@
       "category": "books",
       "site": "toomuchhorrorfiction.blogspot.com",
       "feed": "https://toomuchhorrorfiction.blogspot.com/feeds/posts/default",
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Paperback Warrior",
       "category": "books",
       "site": "paperbackwarrior.com",
       "feed": "https://www.paperbackwarrior.com/feeds/posts/default",
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Valancourt Books",
       "category": "books",
       "site": "valancourtbooks.com",
       "feed": null,
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Vault of Evil",
       "category": "books",
       "site": "vaultofevil.wordpress.com",
       "feed": "https://vaultofevil.wordpress.com/feed/",
-      "beat": true,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Locus Online",
       "category": "books",
       "site": "locusmag.com",
       "feed": "https://locusmag.com/feed/",
-      "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "Centipede Press",
       "category": "books",
       "site": "centipedepress.com",
       "feed": null,
-      "beat": true,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Suntup Editions",
       "category": "books",
       "site": "suntup.press",
       "feed": null,
-      "beat": true,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "PS Publishing",
       "category": "books",
       "site": "pspublishing.co.uk",
       "feed": null,
-      "beat": false,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Hippocampus Press",
       "category": "books",
       "site": "hippocampuspress.com",
       "feed": null,
-      "beat": true,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "robertmccammon.com",
       "category": "books",
       "site": "robertmccammon.com",
       "feed": null,
-      "beat": true,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "clivebarker.info",
       "category": "books",
       "site": "clivebarker.info",
       "feed": null,
-      "beat": true,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "13th Dimension",
       "category": "comics",
       "site": "13thdimension.com",
       "feed": "https://13thdimension.com/feed/",
-      "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "The Comics Journal",
       "category": "comics",
       "site": "tcj.com",
       "feed": "https://www.tcj.com/feed/",
-      "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "Dark Horse",
       "category": "comics",
       "site": "darkhorse.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Fantagraphics",
       "category": "comics",
       "site": "fantagraphics.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Bleeding Cool",
       "category": "comics",
       "site": "bleedingcool.com",
       "feed": "https://bleedingcool.com/comics/feed/",
-      "beat": false,
       "weight": 0.6,
-      "filter": "strict"
+      "filter": "strict",
+      "kind": "general"
     },
     {
       "name": "Bloody Disgusting",
       "category": "film",
       "site": "bloody-disgusting.com",
       "feed": "https://bloody-disgusting.com/feed/",
-      "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "horror"
     },
     {
       "name": "Dread Central",
       "category": "film",
       "site": "dreadcentral.com",
       "feed": "https://www.dreadcentral.com/feed/",
-      "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "horror"
     },
     {
       "name": "Rue Morgue",
       "category": "film",
       "site": "rue-morgue.com",
       "feed": "https://rue-morgue.com/feed/",
-      "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "horror"
     },
     {
       "name": "Fangoria",
       "category": "film",
       "site": "fangoria.com",
       "feed": "https://www.fangoria.com/feed/",
-      "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "horror"
     },
     {
       "name": "Daily Dead",
       "category": "film",
       "site": "dailydead.com",
       "feed": "https://dailydead.com/feed/",
-      "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "horror"
     },
     {
       "name": "Diabolique",
       "category": "film",
       "site": "diaboliquemagazine.com",
       "feed": "https://diaboliquemagazine.com/feed/",
-      "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "horror"
     },
     {
       "name": "Cinema Retro",
       "category": "film",
       "site": "cinemaretro.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "Blu-ray.com",
       "category": "discs",
       "site": "blu-ray.com",
       "feed": "https://www.blu-ray.com/rss/newsfeed.xml",
-      "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "DVD Drive-In",
       "category": "discs",
       "site": "dvddrive-in.com",
       "feed": null,
-      "beat": true,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Arrow Video",
       "category": "discs",
       "site": "arrowfilms.com",
       "feed": null,
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Vinegar Syndrome",
       "category": "discs",
       "site": "vinegarsyndrome.com",
       "feed": null,
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Severin Films",
       "category": "discs",
       "site": "severin-films.com",
       "feed": null,
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Shout / Scream Factory",
       "category": "discs",
       "site": "shoutfactory.com",
       "feed": null,
-      "beat": false,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Synapse",
       "category": "discs",
       "site": "synapse-films.com",
       "feed": null,
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Kino Lorber",
       "category": "discs",
       "site": "kinolorber.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Criterion",
       "category": "discs",
       "site": "criterion.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Home Theater Forum",
       "category": "discs",
       "site": "hometheaterforum.com",
       "feed": "https://www.hometheaterforum.com/feed/",
-      "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "Waxwork Records",
       "category": "discs",
       "site": "waxworkrecords.com",
       "feed": "https://waxworkrecords.com/blogs/know-the-score.atom",
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Death Waltz",
       "category": "discs",
       "site": "deathwaltzrecords.com",
       "feed": null,
-      "beat": true,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Mondo",
       "category": "discs",
       "site": "mondoshop.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Terror Vision",
       "category": "discs",
       "site": "terror-vision.com",
       "feed": null,
-      "beat": true,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Ship to Shore",
       "category": "discs",
       "site": "shiptoshorephonoco.com",
       "feed": null,
-      "beat": true,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "NECA",
       "category": "gear",
       "site": "necaonline.com",
       "feed": "https://necaonline.com/feed/",
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Super7",
       "category": "gear",
       "site": "super7.com",
       "feed": null,
-      "beat": false,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Mezco",
       "category": "gear",
       "site": "mezcotoyz.com",
       "feed": null,
-      "beat": false,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Trick or Treat Studios",
       "category": "gear",
       "site": "trickortreatstudios.com",
       "feed": null,
-      "beat": false,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Fright-Rags",
       "category": "gear",
       "site": "fright-rags.com",
       "feed": null,
-      "beat": true,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "Cavity Colors",
       "category": "gear",
       "site": "cavitycolors.com",
       "feed": null,
-      "beat": true,
       "weight": 0.8,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "horror"
     },
     {
       "name": "The Toyark",
       "category": "gear",
       "site": "toyark.com",
       "feed": "https://www.toyark.com/feed/",
-      "beat": false,
       "weight": 0.7,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "Bleeding Cool collectibles",
       "category": "gear",
       "site": "bleedingcool.com/collectibles",
       "feed": "https://bleedingcool.com/collectibles/feed/",
-      "beat": false,
       "weight": 0.6,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "Blabbermouth",
       "category": "metal",
       "site": "blabbermouth.net",
       "feed": "https://blabbermouth.net/feed",
-      "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "Metal Injection",
       "category": "metal",
       "site": "metalinjection.net",
       "feed": "https://metalinjection.net/feed",
-      "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "No Clean Singing",
       "category": "metal",
       "site": "nocleansinging.com",
       "feed": "https://www.nocleansinging.com/feed/",
-      "beat": false,
       "weight": 0.7,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "Invisible Oranges",
       "category": "metal",
       "site": "invisibleoranges.com",
       "feed": "https://www.invisibleoranges.com/feed/",
-      "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "Angry Metal Guy",
       "category": "metal",
       "site": "angrymetalguy.com",
       "feed": "https://www.angrymetalguy.com/feed/",
-      "beat": false,
       "weight": 0.7,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "BraveWords",
       "category": "metal",
       "site": "bravewords.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "Metal Storm",
       "category": "metal",
       "site": "metalstorm.net",
       "feed": null,
-      "beat": false,
       "weight": 0.7,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "Metal Collision",
       "category": "metal",
       "site": "metal-collision.com",
       "feed": "https://www.metal-collision.com/feed/",
-      "beat": false,
       "weight": 0.7,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "metal"
     },
     {
       "name": "Loudwire",
       "category": "metal",
       "site": "loudwire.com",
       "feed": "https://loudwire.com/feed/",
-      "beat": false,
       "weight": 0.6,
-      "filter": "strict"
+      "filter": "strict",
+      "kind": "metal"
     },
     {
       "name": "Heritage Auctions",
       "category": "collect",
       "site": "ha.com",
       "feed": null,
-      "beat": false,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Fine Books & Collections",
       "category": "collect",
       "site": "finebooksmagazine.com",
       "feed": null,
-      "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "kind": "general"
     },
     {
       "name": "Hake's",
       "category": "collect",
       "site": "hakes.com",
       "feed": null,
-      "beat": false,
       "weight": 1.0,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "ComicConnect",
       "category": "collect",
       "site": "comicconnect.com",
       "feed": null,
-      "beat": false,
       "weight": 0.9,
       "filter": "standard",
-      "gn_fallback": false
+      "gn_fallback": false,
+      "kind": "general"
     },
     {
       "name": "Variety",
       "category": "film",
       "site": "variety.com",
       "feed": "https://variety.com/v/film/feed/",
-      "beat": false,
       "weight": 1.0,
-      "filter": "strict"
+      "filter": "strict",
+      "kind": "general"
     },
     {
       "name": "Louder",
       "category": "metal",
       "site": "loudersound.com",
       "feed": null,
-      "beat": false,
+      "weight": 0.9,
+      "filter": "standard",
+      "kind": "metal"
+    },
+    {
+      "name": "iHorror",
+      "category": "film",
+      "site": "ihorror.com",
+      "feed": "https://www.ihorror.com/feed/",
+      "kind": "horror",
+      "weight": 0.8,
+      "filter": "standard"
+    },
+    {
+      "name": "Horror Society",
+      "category": "film",
+      "site": "horrorsociety.com",
+      "feed": "https://www.horrorsociety.com/feed/",
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Creepy Catalog",
+      "category": "film",
+      "site": "creepycatalog.com",
+      "feed": "https://creepycatalog.com/feed/",
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Nightmare on Film Street",
+      "category": "film",
+      "site": "nightmareonfilmstreet.com",
+      "feed": "https://nightmareonfilmstreet.com/feed/",
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Signal Horizon",
+      "category": "film",
+      "site": "signalhorizon.com",
+      "feed": "https://signalhorizon.com/feed/",
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "HorrorNews.net",
+      "category": "film",
+      "site": "horrornews.net",
+      "feed": "https://horrornews.net/feed/",
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Horror DNA",
+      "category": "film",
+      "site": "horrordna.com",
+      "feed": null,
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Kindertrauma",
+      "category": "film",
+      "site": "kindertrauma.com",
+      "feed": "https://www.kindertrauma.com/feed/",
+      "kind": "horror",
+      "weight": 0.8,
+      "filter": "standard"
+    },
+    {
+      "name": "Pop Horror",
+      "category": "film",
+      "site": "pophorror.com",
+      "feed": "https://pophorror.com/feed/",
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "This Is Horror",
+      "category": "books",
+      "site": "thisishorror.co.uk",
+      "feed": "https://www.thisishorror.co.uk/feed/",
+      "kind": "horror",
+      "weight": 0.8,
+      "filter": "standard"
+    },
+    {
+      "name": "Ginger Nuts of Horror",
+      "category": "books",
+      "site": "gingernutsofhorror.com",
+      "feed": "https://www.gingernutsofhorror.com/feed/",
+      "kind": "horror",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Scream Horror Magazine",
+      "category": "film",
+      "site": "screamhorrormag.com",
+      "feed": "https://www.screamhorrormag.com/feed/",
+      "kind": "horror",
+      "weight": 0.8,
+      "filter": "standard"
+    },
+    {
+      "name": "Metal-Rules",
+      "category": "metal",
+      "site": "metal-rules.com",
+      "feed": "https://metal-rules.com/feed/",
+      "kind": "metal",
+      "weight": 0.8,
+      "filter": "standard"
+    },
+    {
+      "name": "Dead Rhetoric",
+      "category": "metal",
+      "site": "deadrhetoric.com",
+      "feed": "https://deadrhetoric.com/feed/",
+      "kind": "metal",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Sonic Perspectives",
+      "category": "metal",
+      "site": "sonicperspectives.com",
+      "feed": "https://www.sonicperspectives.com/feed/",
+      "kind": "metal",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Ghost Cult",
+      "category": "metal",
+      "site": "ghostcultmag.com",
+      "feed": "https://www.ghostcultmag.com/feed/",
+      "kind": "metal",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Power of Metal",
+      "category": "metal",
+      "site": "powerofmetal.dk",
+      "feed": "https://powerofmetal.dk/feed/",
+      "kind": "metal",
+      "weight": 0.7,
+      "filter": "standard"
+    },
+    {
+      "name": "Bandcamp Daily",
+      "category": "metal",
+      "site": "daily.bandcamp.com",
+      "feed": "https://daily.bandcamp.com/feed",
+      "kind": "metal",
       "weight": 0.9,
       "filter": "standard"
     }
@@ -2297,6 +2670,144 @@
     {
       "q": "\"Weird Tales\" OR \"pulp magazine\" auction OR collection",
       "category": "collect"
+    },
+    {
+      "q": "\"Tartarus Press\" OR \"Swan River Press\" OR \"Egaeus Press\" OR \"Zagava\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Raw Dog Screaming Press\" OR \"Grey Matter Press\" OR \"Crystal Lake\" OR \"Clash Books\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Silver Shamrock\" OR \"Dark Regions Press\" OR \"Bad Hand Books\" OR \"Tor Nightfire\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Night Shade Books\" OR \"Earthling Publications\" OR \"Thunderstorm Books\" OR \"Borderlands Press\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Ash-Tree Press\" OR \"Sarob Press\" OR \"Lethe Press\" OR \"Weirdpunk Books\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Ghoulish Books\" OR \"Undertow Publications\" OR \"PS Publishing\" OR \"Hippocampus Press\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Mondo Macabro\" OR \"Grindhouse Releasing\" OR \"Cauldron Films\" OR \"Visual Vengeance\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Saturn's Core\" OR \"Massacre Video\" OR \"Unearthed Films\" OR \"Raro Video\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Full Moon Features\" OR \"Troma\" OR \"Scorpion Releasing\" OR \"Ronin Flix\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"MVD Rewind\" OR \"Something Weird Video\" OR \"Bleeding Skull\" OR \"Nucleus Films\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Wicked Vision\" OR \"Cult Epics\" OR \"Kino Cult\" OR \"Shameless Films\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"One Way Static\" OR \"Spacelab9\" OR \"Cinewax\" OR \"Quartet Records\" OR \"La-La Land Records\" OR \"Intrada\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"High Roller Records\" OR \"No Remorse Records\" OR \"Cruz del Sur Music\" OR \"Dying Victims Productions\"",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Shadow Kingdom Records\" OR \"Fighter Records\" OR \"Gates of Hell Records\" OR \"Pure Steel Records\"",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Killer Metal Records\" OR \"Golden Core Records\" OR \"Metal On Metal Records\" OR \"Divebomb Records\"",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"HNE Recordings\" OR \"Bad Omen Records\" OR \"Rise Above Records\" OR \"Svart Records\"",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Rock of Angels Records\" OR \"Dissonance Productions\" OR \"Hammerheart Records\" OR \"Cherry Red Records\"",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Rock Candy Records\" OR \"Heavy Psych Sounds\" OR \"Ripple Music\" OR \"Magnetic Eye Records\"",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Invictus Productions\" OR \"Ván Records\" OR \"Iron Bonehead\"",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Nuclear Blast\" OR \"Metal Blade\" OR \"Century Media\" OR \"Napalm Records\" metal",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Frontiers Music\" OR \"Season of Mist\" OR \"Relapse Records\" OR \"Earache Records\" metal",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"SPV\" OR \"Steamhammer\" OR \"AFM Records\" OR \"Massacre Records\" metal",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Peaceville\" OR \"Candlelight Records\" OR \"Metalville\" OR \"Listenable Records\" metal",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Mighty Music\" OR \"Prosthetic Records\" OR \"Profound Lore\" OR \"20 Buck Spin\" metal",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"Hells Headbangers\" OR \"Dark Descent Records\" metal",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "site:daily.bandcamp.com metal",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "Bandcamp \"heavy metal\" OR \"power metal\" OR \"doom metal\" OR thrash",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "NWOBHM reissue OR \"heavy metal\" reissue OR \"thrash\" reissue",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"power metal\" OR \"epic metal\" OR \"traditional metal\" new album",
+      "category": "metal",
+      "kind": "metal"
+    },
+    {
+      "q": "\"doom metal\" new album OR reissue",
+      "category": "metal",
+      "kind": "metal"
     }
   ],
   "blocked_publishers": [
@@ -2319,5 +2830,196 @@
     "Apple Podcasts",
     "Spotify"
   ],
-  "balance_min_items": 20
+  "balance_min_items": 20,
+  "per_band_cap": 2,
+  "classic_boost": 1.6,
+  "horror_words": [
+    "horror",
+    "horrors",
+    "slasher",
+    "slashers",
+    "zombie",
+    "zombies",
+    "undead",
+    "vampire",
+    "vampires",
+    "werewolf",
+    "werewolves",
+    "monster",
+    "monsters",
+    "ghost",
+    "ghosts",
+    "ghost story",
+    "ghost stories",
+    "haunted",
+    "haunting",
+    "possession",
+    "possessed",
+    "exorcism",
+    "witch",
+    "witches",
+    "witchcraft",
+    "demon",
+    "demons",
+    "demonic",
+    "satanic",
+    "occult",
+    "giallo",
+    "gialli",
+    "creature feature",
+    "Gothic",
+    "Lovecraft",
+    "Lovecraftian",
+    "cosmic horror",
+    "weird fiction",
+    "weird tale",
+    "weird tales",
+    "scream queen",
+    "grindhouse",
+    "exploitation",
+    "macabre",
+    "ghoul",
+    "ghouls",
+    "cannibal",
+    "mummy",
+    "Frankenstein",
+    "Dracula",
+    "splatter",
+    "video nasty",
+    "video nasties",
+    "supernatural",
+    "eerie",
+    "creepy",
+    "gore film",
+    "gorehound"
+  ],
+  "metal_genre_words": [
+    "heavy metal",
+    "NWOBHM",
+    "new wave of British heavy metal",
+    "thrash",
+    "thrash metal",
+    "speed metal",
+    "power metal",
+    "doom metal",
+    "epic metal",
+    "traditional metal",
+    "trad metal",
+    "US power metal",
+    "epic doom",
+    "stoner doom",
+    "heavy/power",
+    "proto-metal",
+    "metal reissue"
+  ],
+  "metal_labels": [
+    {
+      "name": "High Roller Records",
+      "aliases": []
+    },
+    {
+      "name": "No Remorse Records",
+      "aliases": []
+    },
+    {
+      "name": "Cruz del Sur Music",
+      "aliases": []
+    },
+    {
+      "name": "Dying Victims Productions",
+      "aliases": []
+    },
+    {
+      "name": "Shadow Kingdom Records",
+      "aliases": []
+    },
+    {
+      "name": "Fighter Records",
+      "aliases": []
+    },
+    {
+      "name": "Gates of Hell Records",
+      "aliases": []
+    },
+    {
+      "name": "Pure Steel Records",
+      "aliases": []
+    },
+    {
+      "name": "Killer Metal Records",
+      "aliases": []
+    },
+    {
+      "name": "Golden Core Records",
+      "aliases": []
+    },
+    {
+      "name": "Metal On Metal Records",
+      "aliases": []
+    },
+    {
+      "name": "Divebomb Records",
+      "aliases": []
+    },
+    {
+      "name": "HNE Recordings",
+      "aliases": []
+    },
+    {
+      "name": "Bad Omen Records",
+      "aliases": []
+    },
+    {
+      "name": "Rise Above Records",
+      "aliases": []
+    },
+    {
+      "name": "Svart Records",
+      "aliases": []
+    },
+    {
+      "name": "Rock of Angels Records",
+      "aliases": []
+    },
+    {
+      "name": "Dissonance Productions",
+      "aliases": []
+    },
+    {
+      "name": "Hammerheart Records",
+      "aliases": []
+    },
+    {
+      "name": "Cherry Red Records",
+      "aliases": []
+    },
+    {
+      "name": "Rock Candy Records",
+      "aliases": []
+    },
+    {
+      "name": "Heavy Psych Sounds",
+      "aliases": []
+    },
+    {
+      "name": "Ripple Music",
+      "aliases": []
+    },
+    {
+      "name": "Magnetic Eye Records",
+      "aliases": []
+    },
+    {
+      "name": "Invictus Productions",
+      "aliases": []
+    },
+    {
+      "name": "Ván Records",
+      "aliases": []
+    },
+    {
+      "name": "Iron Bonehead",
+      "aliases": []
+    }
+  ]
 }
