@@ -1,16 +1,16 @@
 {
-  "built_at": "2026-10-10T01:11:03.530Z",
+  "built_at": "2026-10-10T01:30:18.371Z",
   "built_for": "2026-10-09",
   "lead": {
-    "id": "c130383f3f2a1aeaafa677f725ca72f388716113",
-    "title": "Should Heavy Metal Bands Be More Political In Their Messaging? TOM MORELLO Weighs In",
-    "source": "Blabbermouth",
-    "url": "https://blabbermouth.net/news/should-heavy-metal-bands-be-more-political-in-their-messaging-tom-morello-weighs-in",
-    "category": "metal",
-    "published": "2026-10-09T20:39:38.000Z",
-    "snippet": "In a recent interview with Berlin, Germany's Star FM 87.9 radio station, RAGE AGAINST THE MACHINE guitarist Tom Morello spoke about his active role as a champion for heavy metal icons JUDAS PRIEST…",
+    "id": "2831382534b3d7ce8dc7ffa6131772b54e99ce18",
+    "title": "THE 99 LEGS Brings Giallo Horror To Comics In Our Exclusive Preview",
+    "source": "Fangoria",
+    "url": "https://www.fangoria.com/the-99-legs-comic",
+    "category": "comics",
+    "published": "2026-10-07T16:00:07.000Z",
+    "snippet": "Check out an exclusive preview of THE 99 LEGS, a new giallo-inspired comic series coming to Comixology next month.",
     "matched": [
-      "Judas Priest"
+      "giallo"
     ],
     "tier": 1,
     "amazon_query": null
@@ -62,8 +62,10 @@
       "category": "books",
       "published": "2026-10-09T20:50:24.000Z",
       "snippet": "",
-      "matched": [],
-      "tier": 3,
+      "matched": [
+        "Suntup"
+      ],
+      "tier": 1,
       "amazon_query": null
     },
     {
@@ -76,20 +78,6 @@
       "snippet": "",
       "matched": [],
       "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "c130383f3f2a1aeaafa677f725ca72f388716113",
-      "title": "Should Heavy Metal Bands Be More Political In Their Messaging? TOM MORELLO Weighs In",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/should-heavy-metal-bands-be-more-political-in-their-messaging-tom-morello-weighs-in",
-      "category": "metal",
-      "published": "2026-10-09T20:39:38.000Z",
-      "snippet": "In a recent interview with Berlin, Germany's Star FM 87.9 radio station, RAGE AGAINST THE MACHINE guitarist Tom Morello spoke about his active role as a champion for heavy metal icons JUDAS PRIEST…",
-      "matched": [
-        "Judas Priest"
-      ],
-      "tier": 1,
       "amazon_query": null
     },
     {
@@ -137,6 +125,18 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3RmWjY1V01mZVo1Z2MtSEVEdzdqaGxIaWE1WVJQZnp3bnBDN29fakVacGV5Mng5R0JQelp3d2c0NVVNdzc3X1FzS1dXU2dscmZFaWJ2eUdFY09lR1o4TGFwMnc1NjQ3ZDQ0ZkVmbFVqOUlzZTBOQ0xqUnpuRHEtaktKNFlIdHhjazBLZg?oc=5",
       "category": "gear",
       "published": "2026-10-09T19:23:01.000Z",
+      "snippet": "",
+      "matched": [],
+      "tier": 3,
+      "amazon_query": null
+    },
+    {
+      "id": "3d7f58515f4e78f2762ab2def80234ff35b3790c",
+      "title": "Other Mommy",
+      "source": "Waxwork Records",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EQ05UQ251d0dtZ2t6aTh4RklMdjltRzUxUkJhQXVJelNwTXhySzNhYnJLaTNLbmM1Nlc0UHhmdkxFVTZHRnFQTjhjbDZJcHVXVl9WdVhxUjdlOV9TdTNLeDRURU0yZFJFM2lhRFVDeE4?oc=5",
+      "category": "discs",
+      "published": "2026-10-09T19:21:16.000Z",
       "snippet": "",
       "matched": [],
       "tier": 3,
@@ -193,20 +193,6 @@
       "amazon_query": null
     },
     {
-      "id": "5761521c4ef31aed6e3c99f5445ec8ec1a5848a7",
-      "title": "JACK OSBOURNE: OZZY OSBOURNE 'Never' Pretended He Wrote All The Music And Lyrics On His Albums",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/jack-osbourne-ozzy-osbourne-never-pretended-he-wrote-all-the-music-and-lyrics-on-his-albums",
-      "category": "metal",
-      "published": "2026-10-09T16:51:53.000Z",
-      "snippet": "In a new interview with The HoneyDew With Ryan Sickler, the popular comedy storytelling podcast hosted by comedian Ryan Sickler, Jack Osbourne was asked if his father, legendary BLACK SABBATH singer…",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
       "id": "535e5edac9bcd0f459c9b6dc3de6cd386ce32eec",
       "title": "An Eye For An Eye",
       "source": "Vinegar Syndrome",
@@ -216,21 +202,6 @@
       "snippet": "",
       "matched": [],
       "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "e0e7b4daead42b8f8ffb5eed773ca1b92dc8c2e6",
-      "title": "Ram – Against Review",
-      "source": "Angry Metal Guy",
-      "url": "https://www.angrymetalguy.com/ram-against-review",
-      "category": "metal",
-      "published": "2026-10-09T15:56:23.000Z",
-      "snippet": "\"Sweden's Ram have been at the classic heavy metal thing since 2003, crafting six albums with a sound somewhere between classic Judas Priest and Tarot mixed with the grit and grease of Motörhead . I…",
-      "matched": [
-        "Judas Priest",
-        "Motörhead"
-      ],
-      "tier": 1,
       "amazon_query": null
     },
     {
@@ -333,6 +304,20 @@
       "amazon_query": null
     },
     {
+      "id": "b720ecf017ed730a2af074977d0c5b8bf6455ed1",
+      "title": "JUDAS PRIEST's IAN HILL Announces His Retirement; URIAH HEEP's DAVE RIMMER To Step In",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/judas-priests-ian-hill-announces-his-retirement-uriah-heeps-dave-rimmer-to-step-in",
+      "category": "metal",
+      "published": "2026-10-09T10:55:03.000Z",
+      "snippet": "JUDAS PRIEST's founding bassist Ian Hill has announced his retirement from the band. His replacement is URIAH HEEP's Dave Rimmer, who previously stepped in for Hill during JUDAS PRIEST's September 21…",
+      "matched": [
+        "Judas Priest"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
       "id": "035f905b091fcdd74c89445c158bf48823c0bb28",
       "title": "\"I hate to say it, but that time has come.\" Judas Priest bassist and longest-serving member Ian Hill announces retirement, confirms replacement in band",
       "source": "Louder",
@@ -359,6 +344,20 @@
       "amazon_query": null
     },
     {
+      "id": "cd20ec2933c430cb109d793694619fbc0fd09ebf",
+      "title": "Ex-QUEENSRŸCHE Singer GEOFF TATE Once Again Denies He Pulled A Knife On SCOTT ROCKENFIELD During 2012 Backstage Altercation In Brazil",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/ex-queensryche-singer-geoff-tate-once-again-denies-he-pulled-a-knife-on-scott-rockenfield-during-2012-backstage-altercation-in-brazil",
+      "category": "metal",
+      "published": "2026-10-08T21:10:46.000Z",
+      "snippet": "During an appearance on the Beardo & Weirdo podcast, hosted by FIVE FINGER DEATH PUNCH bassist Chris Kael and comedian Craig Gass, ex-QUEENSRŸCHE singer Geoff Tate was asked if there were any…",
+      "matched": [
+        "Queensrÿche"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
       "id": "4260c2e735b8b8b087ce78dd97f94fce75067262",
       "title": "\"I wake up, covered in puke, and every inch of my body is in pain. My manager said, You were diving into piles of garbage, screaming at the top of your lungs.\" Anthrax's Scott Ian recalls the night he first met Lemmy from Motorhead",
       "source": "Louder",
@@ -370,22 +369,6 @@
         "Anthrax"
       ],
       "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "8e1002c7a2f4d2718ce3b38186184e07643f8e85",
-      "title": "Frankenstein / Bride of Frankenstein / Son of Frankenstein / Ghost of Frankenstein / Frankenstein Meets the Wolf Man / House of Frankenstein / House of Dracula / Abbott and Costello Meet Frankenstein | 4K / 4K Ultra HD + Digital 4K",
-      "source": "Blu-ray.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmV4b0pOa3ZIRGRJbzlMRXc5dkluXzhlTldFQ3F6V1RUX1ZBYUwtM2REaUpiYlBSd3Z1bUdpM1QtVF9EUEN2VUVsS3BoY2ZKaTlPRDk4Si1CQTB1dWI2VVBxMnloZi01VGE0VUxnckotbHBrQXJhNllOMnBCLTc4RDFfTkVGMnVMZlV2X19vcExQY1E?oc=5",
-      "category": "discs",
-      "published": "2026-10-08T19:40:20.000Z",
-      "snippet": "",
-      "matched": [
-        "Dracula",
-        "Frankenstein",
-        "The Wolf Man"
-      ],
-      "tier": 2,
       "amazon_query": null
     },
     {
@@ -439,6 +422,35 @@
       "amazon_query": null
     },
     {
+      "id": "658a9da4076a397a4e3652b79a5a3a6dbe21a4fa",
+      "title": "“No rules! Just riffs!” Grand Theft Auto VI will have a heavy metal radio station featuring Black Sabbath and hosted by Slayer’s Tom Araya and Kerry King – listen to a preview now",
+      "source": "Louder",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORUZCRk5XVjIxLTVWbUc4WGdvdU1CSFVHZ1dERF9udkFlV0kxc0ZoUnE1WTlqZ0RIa3dEUEpDdEdJaFJLWWhDaG02RTB3cVlpRXMwc3VSUGtnR25ad1VXNk9EUjR4T3FnSUpRblJUcmZwWkRDczdZRk5KMklGd0wzWGlfTmhqNGVtdGJ1YXJCYjN4V19w?oc=5",
+      "category": "metal",
+      "published": "2026-10-08T15:12:09.000Z",
+      "snippet": "",
+      "matched": [
+        "Black Sabbath",
+        "Slayer"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
+      "id": "2831382534b3d7ce8dc7ffa6131772b54e99ce18",
+      "title": "THE 99 LEGS Brings Giallo Horror To Comics In Our Exclusive Preview",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/the-99-legs-comic",
+      "category": "comics",
+      "published": "2026-10-07T16:00:07.000Z",
+      "snippet": "Check out an exclusive preview of THE 99 LEGS, a new giallo-inspired comic series coming to Comixology next month.",
+      "matched": [
+        "giallo"
+      ],
+      "tier": 1,
+      "amazon_query": null
+    },
+    {
       "id": "cca530b770d10d4a20d13b9f184d64c09d030894",
       "title": "HALLOWEEN II: HE'S BACK! - PULLOVER HOODIE",
       "source": "Cavity Colors",
@@ -448,6 +460,34 @@
       "snippet": "",
       "matched": [],
       "tier": 3,
+      "amazon_query": null
+    },
+    {
+      "id": "112807f16ecf32eeed5d4bc61038687d415ba585",
+      "title": "Irv Novick and Frank McLaughlin The Flash #245 Story Page 3 Original Art (DC, 1976).",
+      "source": "Heritage Auctions",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQQ0I0R29icmdFeVN0Z1VfWFF1aExmRzZySkxYWjFkVVdVbC1UUU13NjFnR0NtM05OekgxSFgxQjBvb2ZvS2Q1Y2s4MGcwYUxYa0w1UEhUWjNTSGJ6MXZ0NFJ3cUJ3N01rWmdtWGFzSjJ1WklpZk10NXVHUnBlM3lMTFowM3JFV0ZhV2VKaWpyWWdBOWhjWk43WnUwVUlFaVAzMGlZVzVNeHV2eGpmTmNLcHgxeGR2SjlWc1lyMURjNU5jU29qVDlKTlhVYTd3ampYMXFORlpsWHMtaElOUFBIWjFaRk85VG9LXzFSTFBJY05iblVwWnpjRkQ0NGl2Mml3TlFhM0R2LXVBUGZaY2E1OXpTUlFzLTFGLVBOVmNRZ3IzXzN2dW1YRlBkZw?oc=5",
+      "category": "collect",
+      "published": "2026-10-07T07:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "era"
+      ],
+      "tier": 2,
+      "amazon_query": null
+    },
+    {
+      "id": "93c54d4c9d2621f7830b39272bfe8674971b4596",
+      "title": "John Buscema The Punisher: War Zone #26 Story Page 8 Original Art (Marvel, 1994)....",
+      "source": "Heritage Auctions",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQZ1RRaTU1RUxqc3RUb1ZPZmRGZHY2bEx4c3M2ZTFDZFFscm02ZlFwQUdzbTB1MWlZUVY0Nnl4WGFZczJTVEdidkdCVHJ4Z0RVZXBCc09iQllMdkRMeE5EeE9fQW96UTQ3ZGpZUTUtSjdRSzFjVFM3Nm9rUFRTenkyZkkxc0RXYjJEYlE3dExmdlZCTk9DbjBWYzQwQlhEY05IeTBZX0Izdl84aVF3QjBVUzVEenIzcjhkcURHUHdMQTBTTVFvckM3Q3dWNEdPQ3FybXQwaHdseVdkZVBGcHFVRXBDU0M5VzNGS3M4cG43N2IxeFNXNDF2VUdyU3hIaXBYWUdoTnUyV2Rxd1FHaXRNMVhxQ1l4YkdhSXFiN1l0S19JWUJtSHc?oc=5",
+      "category": "collect",
+      "published": "2026-10-07T07:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "era"
+      ],
+      "tier": 2,
       "amazon_query": null
     },
     {
@@ -475,15 +515,15 @@
       "amazon_query": null
     },
     {
-      "id": "1a166e8bc4d72d843811ecfee0d20f76625f2cb0",
-      "title": "Weekly Bestsellers, 5 October 2026",
-      "source": "Locus Online",
-      "url": "https://locusmag.com/2026/10/weekly-bestsellers-5-october-2026",
-      "category": "books",
-      "published": "2026-10-06T15:35:49.000Z",
-      "snippet": "Sabaa Tahir's Empire (Putnam's), second in a duology following 2024's Heir, debuts on three lists, ranking #1 on the NY Times' Young Adult Hardcover list. Stephen King and Peter Straub's Other Worlds…",
+      "id": "169795c5c3dfc507bb0390c96a17218ce6273c7c",
+      "title": "French Noir Collection III [THE LAST ONE OF THE SIX (1941), THE MOMENT OF TRUTH (1952), THE STRANGE MR. STEVE (1957), PARIS PICK-UP (1962)] (Blu-ray)",
+      "source": "Kino Lorber",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWmh6UmpRTEczTzhIUGJQQjZhcFFLMWh4NHFGbHBxUkpoZXJlOUhIcU44d1lueHdQRmwzVi1nTVdEaHVQclc3QUdjV1hIcU9iSGdtTUc5M0FJMmpBazVPUWZJc1YyckxIWEpKSzlYYkhiZ01vSE14TjZNRlNzUTlXYnk0V2gwOGZsUWZ2UDJoLUNKelBRWW14aG5IekItenZ1c09JdmJHb2hfYTBFZ1RkaVowT2ZKVDdpVEhmb2ZtVENwSE80Umd2V2V4RExEYXNSTERUQ01OLXA3MzlPU2xSdnVHWC1DdElNOTRUVA?oc=5",
+      "category": "discs",
+      "published": "2026-10-06T16:09:02.000Z",
+      "snippet": "",
       "matched": [
-        "Stephen King"
+        "era"
       ],
       "tier": 2,
       "amazon_query": null
@@ -495,44 +535,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtRzFOQ1JaREliVHVSM0taZzBLd3MxdXpGNVpyUmp3cUkyOWFUdDFwZkV6QWxtZWhIejZORHBqaWpOcEFkWURkS1dKdFRTcGhDOVVvV0hmOC1hVHowSnk2b2JGOEVNWU9BNTAyZmF4TlZXdw?oc=5",
       "category": "books",
       "published": "2026-10-06T09:32:21.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "8e8a05c53a9836a93fdcd2e1a6cf682a7b635bc5",
-      "title": "Neuromancer * Count Zero * Mona Lisa Overdrive",
-      "source": "Centipede Press",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15Z3ZNcWFOeTl2WGFqcVlIeG41bks1SzhJQzJ0UVl3RVU5c3FUV3IwalBRSjVSUkEySGJ2eVU0WVkzYVFlX3N3SXd6Zm13cGI5MUswaDhEaHlMQk9sMXNLTzhn?oc=5",
-      "category": "books",
-      "published": "2026-10-04T18:49:02.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "c4e37bc4f38f33c39cd43b7552cb5a30d16a0241",
-      "title": "Hokum UHD Review",
-      "source": "Home Theater Forum",
-      "url": "https://www.hometheaterforum.com/hokum-uhd-review",
-      "category": "discs",
-      "published": "2026-10-02T23:21:56.000Z",
-      "snippet": "A solid hotel-horror tale from a filmmaker to watch, Hokum delivers a bleak, compelling story. Neon’s UHD release is solid, but not spectacular, though the audio delivers nicely. A good film to watch…",
-      "matched": [
-        "Halloween"
-      ],
-      "tier": 2,
-      "amazon_query": null
-    },
-    {
-      "id": "cb457ac6bdb763e60cf280c24da4fec4ba868789",
-      "title": "Day: September 30, 2026",
-      "source": "robertmccammon.com",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkTVJiTUhZTW5QX2UyRjB6Q0MtNVlyYzlvMEpZQXpwMXd3R25WTzJyUXZjaVFqOG9MeTBxdU1STTVsVVRTdzdxek5UZ3dFOUJWU0hMYg?oc=5",
-      "category": "books",
-      "published": "2026-09-30T23:56:54.000Z",
       "snippet": "",
       "matched": [],
       "tier": 3,
