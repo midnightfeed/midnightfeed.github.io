@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-10T01:30:18.371Z",
+  "built_at": "2026-10-10T01:54:06.444Z",
   "built_for": "2026-10-09",
   "lead": {
     "id": "2831382534b3d7ce8dc7ffa6131772b54e99ce18",
@@ -125,18 +125,6 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN3RmWjY1V01mZVo1Z2MtSEVEdzdqaGxIaWE1WVJQZnp3bnBDN29fakVacGV5Mng5R0JQelp3d2c0NVVNdzc3X1FzS1dXU2dscmZFaWJ2eUdFY09lR1o4TGFwMnc1NjQ3ZDQ0ZkVmbFVqOUlzZTBOQ0xqUnpuRHEtaktKNFlIdHhjazBLZg?oc=5",
       "category": "gear",
       "published": "2026-10-09T19:23:01.000Z",
-      "snippet": "",
-      "matched": [],
-      "tier": 3,
-      "amazon_query": null
-    },
-    {
-      "id": "3d7f58515f4e78f2762ab2def80234ff35b3790c",
-      "title": "Other Mommy",
-      "source": "Waxwork Records",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EQ05UQ251d0dtZ2t6aTh4RklMdjltRzUxUkJhQXVJelNwTXhySzNhYnJLaTNLbmM1Nlc0UHhmdkxFVTZHRnFQTjhjbDZJcHVXVl9WdVhxUjdlOV9TdTNLeDRURU0yZFJFM2lhRFVDeE4?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T19:21:16.000Z",
       "snippet": "",
       "matched": [],
       "tier": 3,
@@ -535,6 +523,18 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtRzFOQ1JaREliVHVSM0taZzBLd3MxdXpGNVpyUmp3cUkyOWFUdDFwZkV6QWxtZWhIejZORHBqaWpOcEFkWURkS1dKdFRTcGhDOVVvV0hmOC1hVHowSnk2b2JGOEVNWU9BNTAyZmF4TlZXdw?oc=5",
       "category": "books",
       "published": "2026-10-06T09:32:21.000Z",
+      "snippet": "",
+      "matched": [],
+      "tier": 3,
+      "amazon_query": null
+    },
+    {
+      "id": "8e8a05c53a9836a93fdcd2e1a6cf682a7b635bc5",
+      "title": "Neuromancer * Count Zero * Mona Lisa Overdrive",
+      "source": "Centipede Press",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15Z3ZNcWFOeTl2WGFqcVlIeG41bks1SzhJQzJ0UVl3RVU5c3FUV3IwalBRSjVSUkEySGJ2eVU0WVkzYVFlX3N3SXd6Zm13cGI5MUswaDhEaHlMQk9sMXNLTzhn?oc=5",
+      "category": "books",
+      "published": "2026-10-04T18:49:02.000Z",
       "snippet": "",
       "matched": [],
       "tier": 3,
