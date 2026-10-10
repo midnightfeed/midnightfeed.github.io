@@ -1,35 +1,21 @@
 {
-  "built_at": "2026-10-10T02:03:18.631Z",
+  "built_at": "2026-10-10T02:20:14.954Z",
   "built_for": "2026-10-09",
   "lead": {
-    "id": "ab3cd14362b0dbabdce2e921e70239a76c31d54d",
-    "title": "Universal: First Look at The Exorcist Martyrs",
-    "source": "Blu-ray.com",
-    "url": "https://www.blu-ray.com/news/?id=39157",
-    "category": "discs",
-    "published": "2026-10-10T01:05:06.000Z",
-    "snippet": "Universal Pictures has provided a promotional trailer for Mike Flanagan's The Exorcist: Martyrs (2026), starring Scarlett Johansson, Jacobi Jupe, Diane Lane, Chiwetel Ejiofor, and Laurence Fishburne…",
+    "id": "2831382534b3d7ce8dc7ffa6131772b54e99ce18",
+    "title": "THE 99 LEGS Brings Giallo Horror To Comics In Our Exclusive Preview",
+    "source": "Fangoria",
+    "url": "https://www.fangoria.com/the-99-legs-comic",
+    "category": "comics",
+    "published": "2026-10-07T16:00:07.000Z",
+    "snippet": "Check out an exclusive preview of THE 99 LEGS, a new giallo-inspired comic series coming to Comixology next month.",
     "matched": [
-      "The Exorcist"
+      "giallo"
     ],
-    "tier": 2,
+    "tier": 1,
     "amazon_query": null
   },
   "items": [
-    {
-      "id": "ab3cd14362b0dbabdce2e921e70239a76c31d54d",
-      "title": "Universal: First Look at The Exorcist Martyrs",
-      "source": "Blu-ray.com",
-      "url": "https://www.blu-ray.com/news/?id=39157",
-      "category": "discs",
-      "published": "2026-10-10T01:05:06.000Z",
-      "snippet": "Universal Pictures has provided a promotional trailer for Mike Flanagan's The Exorcist: Martyrs (2026), starring Scarlett Johansson, Jacobi Jupe, Diane Lane, Chiwetel Ejiofor, and Laurence Fishburne…",
-      "matched": [
-        "The Exorcist"
-      ],
-      "tier": 2,
-      "amazon_query": null
-    },
     {
       "id": "09d1a55dbbc36875e8bfc5904a84bbd7a2266ac6",
       "title": "Synapse Films Announces the The Deadly Spawn on 4K UHD & Blu-ray",
@@ -56,34 +42,6 @@
         "Thin Lizzy"
       ],
       "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "a43774f3a664a7e7e8534bb060a5aeca6aafc737",
-      "title": "The Monster Squad Arrow Video 4K UltraHD Blu-Ray Limited Edition Unboxing",
-      "source": "YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WMy1pTzlhSkpLcXVVbktzeGgxU1YweGNZQXhHeUNPckd5ZGYxZzJycXRWLTFIejAwU2hBaVhVb0RMUQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T17:41:18.000Z",
-      "snippet": "",
-      "matched": [
-        "Arrow Video"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "999ca2eb3fd1fc179453bda01b500ba33db112bf",
-      "title": "Salem's Lot 4K UHD",
-      "source": "Arrow Video",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwQUhxNWNlLWotdGZKcXZ0LUJmX0dEcEhueGJsSWs2dDVacDRoeXZYYV9NLXdxMFNVQTN2QzhRR3gyYTFnYnhHOUZwNWVueW9GcjJUZmJMSWxHY1pPWVhqaFgzUkh1bG8?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T17:35:11.000Z",
-      "snippet": "",
-      "matched": [
-        "Salem's Lot"
-      ],
-      "tier": 2,
       "amazon_query": null
     },
     {
@@ -115,45 +73,18 @@
       "amazon_query": null
     },
     {
-      "id": "39a311bcbc91eaf6fdfd842a7b5c00aaf1337ebd",
-      "title": "JUDAS PRIEST Bassist Ian Hill To Retire – “I’ve Been Struggling With The Onset Of The Evil Arthritis”",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMFpaM0RKck1aSllfYXFXNHdIeFFSSldzWUdFZWVSOFRWaTJRYUFQZnEya2F3cEZJV3FkMnU1SVpka3lsSk85N3A1aHdCUl9VeDM2cFo5bHZRbmlnR0dEUlFEcHU3VHhMbHRRUmVBZ0RfYVJlSzk5YlM0bzI4TXlnU29FeVpfV3dSdU95WFpkdGNDZWVIdlpMT0hPUEZhc2RYSDNBOFR4dzIxaVBQY29sTzZlR0Nsb3c3QWl6TEp4RTRxckHSAcsBQVVfeXFMUHpGeTVKLVJJTjZzWUd2SU1PdkxjY3puZ0JQUHBfWlh0SDZCYUh5OExvV3pvMU5sWU9sYzVsMjJrTXVtZXBPVFhBWkYyVVg4bkp6U0M4bWVuajFobV9ZS0Y3bm9yOXN6WmlZaHp2RGx0cmtFOEZVQ05JejVkOXhVQTZHSkhmVEhfbTJRWk8tNkdHSV9PdFhza0RRV2dfSE9QU19wcS15UU5EczlKdGhFZnhjLU9sM3VhcWxRSXk2WEhTWnZpdVEwaDlzdVk?oc=5",
-      "category": "metal",
-      "published": "2026-10-09T12:18:45.000Z",
+      "id": "2e187daa663f338269e004b11ca0b3cd3e3132b7",
+      "title": "Uncensored 4K restoration of Horror of Dracula coming to theatres this Halloween",
+      "source": "JoBlo",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZM0p2c2ZtQTJMOXBFdmlHdTFVTV9xWTd3V3g5ZEJCM2FuOWQ4UlhCZEZhNmZzZkpPZi1oZExIMks2MUtBVU1jYnRUc3ZpVzJJWTlyMG5n0gFbQVVfeXFMTnRMbkxyNWVXZUppVm1mejZYU3VxMGRzVlNOZXdEN1JKUjAtX0Z5RkF1M2JyR2FNa2VNTlozU0JRdXpWX2xLdVJiSWVYcVNUeXhCWXZTcVFkb21nNA?oc=5",
+      "category": "discs",
+      "published": "2026-10-07T19:10:35.000Z",
       "snippet": "",
       "matched": [
-        "Judas Priest"
+        "Halloween",
+        "Dracula"
       ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "31104bbf9d7f521c8a33b63dd96393b81d54690e",
-      "title": "Watch: DEEP PURPLE Joined By Violinist LIDIA BAICH On Stage In Vienna",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/watch-deep-purple-joined-by-violinist-lidia-baich-on-stage-in-vienna",
-      "category": "metal",
-      "published": "2026-10-08T18:55:42.000Z",
-      "snippet": "Austrian violinist Lidia Baich joined legendary rockers DEEP PURPLE on stage during their October 5 concert at Wiener Stadthalle in Vienna, Austria to perform the band's classic song \"Perfect…",
-      "matched": [
-        "Deep Purple"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "f4aa3b53aa5a466e8fa36bc9156195f2a847c4c7",
-      "title": "CHARLIE BENANTE Explains His Absence From Last Two Shows Of ANTHRAX's North American Tour With IRON MAIDEN",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/charlie-benante-explains-his-absence-from-last-two-shows-of-anthraxs-north-american-tour-with-iron-maiden",
-      "category": "metal",
-      "published": "2026-10-08T15:42:23.000Z",
-      "snippet": "In a new interview with Robert Cavuoto of MetalRules, ANTHRAX drummer Charlie Benante explained his absence from the final two shows of the band's North American tour as the support act for IRON…",
-      "matched": [
-        "Anthrax"
-      ],
-      "tier": 1,
+      "tier": 2,
       "amazon_query": null
     },
     {
@@ -199,20 +130,6 @@
       "amazon_query": null
     },
     {
-      "id": "3e0102baf26488777d23707594bc8e7dade47bb6",
-      "title": "Nevermore: The Raven Effect",
-      "source": "Vinegar Syndrome",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzOWVUR3NXNWk2Yk1kd0xRUjR5R2ppMUY0NnhfalZWejI3WE91QTFxdWVKcVo3WWRlM05wb0xNUm1HcVVEYnNPZjlQVEQzdTMzZ3BaMWZLemxVMFVWa3poYlBGNk9wTGZFbWhYNzU1bng?oc=5",
-      "category": "discs",
-      "published": "2026-10-06T19:41:22.000Z",
-      "snippet": "",
-      "matched": [
-        "Nevermore"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
       "id": "cde1584ae035a36ecd9079a38003080091c2799c",
       "title": "Severin announces a huge “GRAND GUIGNOL & THE GRAND GUIGNOLESQUE” 12-disc set packed with morbid delights",
       "source": "RUE MORGUE",
@@ -227,57 +144,15 @@
       "amazon_query": null
     },
     {
-      "id": "dd69ca13d163202b70d23d109e2350124daa91ee",
-      "title": "DEATH CYCLE Giallo-inspired horror thriller – trailer and free on YouTube",
-      "source": "movies & mania",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYk1zak5VclY4ZnlSRHg1cnBQc21ROTBwTjJSMnE4NmJZaEg5Z2ZINDJFWW1YU3NOX2JiX3lBcXVIRlRJUjYyLVZNWm94ZU5xZTdQbUlGRlRwaWtOdnNPa1ppb1hsVjZvYmMzU0lPV3RJU29LMDh2VGdwS1NNTy1FN1Jzd0txbF84a0NsVklxOWRVZEJfQnR2TFZWTzdrODZvRERIRm16OVFUcjA1MkJvd2RCYmItNi1QWjFZZFY0NA?oc=5",
-      "category": "discs",
-      "published": "2026-10-06T12:35:11.000Z",
-      "snippet": "",
-      "matched": [
-        "giallo"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "22185b521c78abd87512a0bce1ebc4b24f5911b3",
-      "title": "How I Bought My First Ever Michael Myers Halloween Mask",
-      "source": "Fright-Rags",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTkcwUnFyZWZtREIzaXR1Y0o5X3NOaWdnV01ROTc1Tkt1MC1RSkJuTlJZVVZZTGI2aWRlbTJIOWEzWTc5ZUFKdThwYU1kR1FidHdYeGVsWFdGcG85ZW1yeXNFcWJSVHMzTE5GMDNVa3JnbVU?oc=5",
-      "category": "gear",
-      "published": "2026-10-06T04:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Halloween"
-      ],
-      "tier": 2,
-      "amazon_query": null
-    },
-    {
-      "id": "f2e51e94fef7bda5fd219a91829ef480f0acf310",
+      "id": "a63d3481ba322e6c1b298859be6c454f1f964c74",
       "title": "Martin Scorsese asked to make a Hammer horror film but got rejected",
-      "source": "IMDb",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00cS0yZXRsWDZCVk95cmtua2FKVnYzNEdsSDJkQnh0V2lISE9RR2lxMzg3YXpQbUJ0VU5Lb2Z2OE1ibmRTV0ItSlZiaWdHMmpqeUZnS0ZxME1zZDBtSHNLSS1MOHZkYkk?oc=5",
+      "source": "Film-News.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVlRCcjVRMVNZcmJCa004SzBORkVSWkVDU2FNT3RmNEpwRmZQQkhLb3JnbzVSZjFlemkxQTZBalI2d2tPaHFPQjk2NnE0VmVhM3FJRjVPcFVFWG1Dcnd0eExRRExEaVhDY1VlSjk5c1AwSTdKMGZuNmI3UXhKektsckZjYWROZmNKWmtFRXVqSXUwQWxKb29reWxRdjQwbXRsYU52bXQzM1M5OWR4Y3dn?oc=5",
       "category": "film",
-      "published": "2026-10-05T23:05:59.000Z",
+      "published": "2026-10-05T20:11:40.000Z",
       "snippet": "",
       "matched": [
         "Hammer Films"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "dad290dc4468d121b2a94cada68aa03e881ae6e7",
-      "title": "Home Video Roundup: SUZZANNA: EMPRESS OF DARKNESS, SANGSTER DIRECTS HAMMER, More From Severin Films, Titan Books",
-      "source": "ScreenAnarchy",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPS2lTbmRudlZvZkY3WXpFLUdmdFB1RWlIdFFvY0pVU1FWZG1ZcXdzSHhMQ244TTF3cW9Sdk1GM1huS1Ntd0VPd2YtajJEcmpSMGlwc0g0aDQzZ2VHNnVRTHhXQVdFcVpCaFVodjhRQ0NhVHJWMUlmejNETlRkdTR5Z2JrVXJaeXhTUDdNMzROSWprMGJFM1NwazNJYmh3YUx4V2RDbm80cXhRWXBaeW9sbjBPMURGRGR5NEVHSy1CeTR0aFFRY3ZmSWpSV2JabkFnXy0xTDBn0gHbAUFVX3lxTFA1ZDFTa2JULWdXamlTcU9BcU9rNmZUWmRTck5BWGpTQzJ1TXNscnk3eDQzU09YQmRaNEg2VjhHUTdWTUg4dFItaE8yQTUyaDBBUXlwbXpmMWRHZU1tU0EyQkJMXzF0Mk9yTFJwTkpDdkpjSEQtblVZYTFDNmZ0ZEFYZmRpeDhVYkN1cndLUEtXc3NON05wTnVRQUZkT0d3ZUtLcENtVlRaTkJpTndVZ3A3RUt3Rlp5dm5lbjlUN3FqVm5YUU9mSDlVMVJfdWhuYkpRQkd0YzBhc01ndw?oc=5",
-      "category": "discs",
-      "published": "2026-10-05T18:02:02.000Z",
-      "snippet": "",
-      "matched": [
-        "Severin Films"
       ],
       "tier": 1,
       "amazon_query": null
@@ -297,20 +172,6 @@
       "amazon_query": null
     },
     {
-      "id": "37d22c0ca7b52ca4ccbcdc7ffdd5f22d8c4c029f",
-      "title": "Halloween - Halloween",
-      "source": "Paperback Warrior",
-      "url": "https://www.paperbackwarrior.com/2026/10/halloween-halloween.html",
-      "category": "gear",
-      "published": "2026-10-04T10:52:05.961Z",
-      "snippet": "J ohn Carpenter's iconic masterpiece Halloween was released in October 1978, earning a huge payday that cemented the film as a catalyst not only for its own successful franchise, still thriving…",
-      "matched": [
-        "Halloween"
-      ],
-      "tier": 2,
-      "amazon_query": null
-    },
-    {
       "id": "304eafb4a163c774987dd78bd1ea352bbfdd373d",
       "title": "Hammer Horror: A touch of evil, a taste of fear",
       "source": "Eastern Daily Press",
@@ -320,62 +181,6 @@
       "snippet": "",
       "matched": [
         "Hammer Films"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "f4392b5445a0ae8922b1d0c840a3ee033a42e292",
-      "title": "10 Great Hammer Horror Movies Nobody Talks About",
-      "source": "ScreenRant",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00WGl5RzVHVnVTVUFKNnF6U0E4WV9rQ0k1Q1h6cUVWT2xYZmJ1UXJVd25GWVpzc3hBWDV0c0Rtd3FwMzBOZEc1eXlZN1p3TVdCRnVPOURBVzBOVDhqbWl6SkJ6b3EwU2NJTDBTeWdDWkxGY3QtcUF2Mw?oc=5",
-      "category": "film",
-      "published": "2026-10-02T17:15:16.000Z",
-      "snippet": "",
-      "matched": [
-        "Hammer Films"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "25dc63fe75cd30b76d53c13f6a82c520ba18e994",
-      "title": "Robert McCammon Audio Greeting",
-      "source": "robertmccammon.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFUVhQTWdxVW5oaFV4MDlLSElIMnVmWHhvTktoeHoybW9ZLVp2UXE3dkxoY1VKSjN6RlBzb3gyUGQ2MHdBbF9UUTRsTXRJNVB6Z1gwYVk3Yw?oc=5",
-      "category": "books",
-      "published": "2026-09-30T07:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Robert McCammon"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "c75c4628d113a4a946872959e4c8fe09da40fdad",
-      "title": "Robert McCammon Book Cover Gallery",
-      "source": "robertmccammon.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fR19HYVQ4MWQwb0dkeFVUblIzSE1SMV9MaUFxaFRJODgtcHB1Mzd1MlVGcGFUQm4xU3BudXB6WDlfd25NaHVqYUdfT3RITUdRYXhfVHln?oc=5",
-      "category": "books",
-      "published": "2026-09-30T07:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Robert McCammon"
-      ],
-      "tier": 1,
-      "amazon_query": null
-    },
-    {
-      "id": "e2cc004e3a0d8b01bbd337a39c45e838a82ebae9",
-      "title": "Robert McCammon, The Big J Read, August 17--18, 2009",
-      "source": "robertmccammon.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nUWRYanFjWnBXUFZaMEsyMFpOeWxuQ0V1QXZodkhwX1J3bzlBVzlRc0piVlNESVFydmhBZkdlN1VQRnV6a1FjYlk0dkJ1SDlHQzI3aTFVa01odw?oc=5",
-      "category": "books",
-      "published": "2026-09-30T07:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Robert McCammon"
       ],
       "tier": 1,
       "amazon_query": null
