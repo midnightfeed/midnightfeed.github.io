@@ -98,14 +98,35 @@ function parseFeed(xml) {
   throw new Error("not an RSS or Atom feed");
 }
 
-function googleNewsUrl(site) {
-  const q = encodeURIComponent(`site:${site} when:${cfg.freshness_days}d`);
+function googleNewsUrl(site, query) {
+  const q = encodeURIComponent(query ? `${query} when:${cfg.freshness_days}d` : `site:${site} when:${cfg.freshness_days}d`);
   return `${cfg.google_news.base}?q=${q}&${cfg.google_news.params}`;
+}
+// Google News items: strip the " - Publisher" suffix, keep the publisher name, drop Google's snippet
+async function googleNews(site, query) {
+  const xml = await get(googleNewsUrl(site, query));
+  const doc = parser.parse(xml);
+  return arr(doc.rss?.channel?.item).map((i) => {
+    const title = clean(txt(i.title));
+    const publisher = clean(txt(i.source));
+    const cut = title.lastIndexOf(" - ");
+    return {
+      title: cut > 0 ? title.slice(0, cut) : title,
+      url: decodeEntities(txt(i.link)), date: txt(i.pubDate), snippet: "",
+      gn: true, publisher,
+    };
+  });
 }
 
 async function fetchSource(src) {
   const report = { name: src.name, via: "", fetched: 0, error: "" };
   let items = [];
+  if (src.query) {
+    try { items = await googleNews(null, src.query); report.via = "google-news query"; }
+    catch (e) { report.error = `google-news: ${e.message}`; }
+    report.fetched = items.length;
+    return { report, items: items.map((i) => ({ ...i, src })) };
+  }
   if (src.feed) {
     try { items = parseFeed(await get(src.feed)); report.via = "feed"; }
     catch (e) { report.error = `feed: ${e.message}`; }
@@ -116,11 +137,7 @@ async function fetchSource(src) {
   if (!anyFresh && src.site) {
     if (items.length) report.error = (report.error ? report.error + "; " : "") + "feed has nothing fresh";
     try {
-      const gn = parseFeed(await get(googleNewsUrl(src.site))).map((i) => ({
-        ...i,
-        title: i.title.lastIndexOf(" - ") > 0 ? i.title.slice(0, i.title.lastIndexOf(" - ")) : i.title, // Google News appends " - Source"
-        snippet: "",                                    // Google's description is not the publisher's snippet
-      }));
+      const gn = (await googleNews(src.site)).map((i) => ({ ...i, publisher: src.name }));
       report.gn = gn.length;
       items = items.concat(gn);
       report.via = report.via === "feed" ? "feed + google-news" : "google-news";
@@ -163,12 +180,15 @@ function classify(src, text) {
 }
 
 const ERA = cfg.era ? new RegExp(cfg.era.pattern) : null;
+const GENRE = cfg.era?.genre_words ? anyRe(cfg.era.genre_words) : [];
+const JUNK = (cfg.junk_title_patterns || []).map((p) => new RegExp(p, "i"));
 
 function judge(item) {
   const text = `${item.title} ${clean(item.snippet)}`;
   // Names must appear in the headline: snippets on big outlets name-drop too freely.
   const head = item.title;
   if (EXCL.some((r) => r.test(item.title))) return { pass: false, why: "excluded" };
+  if (item.title.length < 12 || JUNK.some((r) => r.test(item.title))) return { pass: false, why: "junk" };
   const category = classify(item.src, text);
   const hasQ = QUAL.some((r) => r.test(text)) || (category === "metal" && METAL_QUAL.some((r) => r.test(text)));
   const matched = [];
@@ -181,8 +201,10 @@ function judge(item) {
     if (t.res.some((r) => r.test(head)) && hasQ) { matched.push(t.name); tier = 2; }
   }
   // Era rule: a headline naming a year in the period, plus a collector qualifier
-  if (!tier && ERA && ERA.test(head) && hasQ && (cfg.era.categories || []).includes(category)) { matched.push("era"); tier = 2; }
-  if (!tier && item.src.beat) tier = 3; // on-beat source, no watchlist name needed
+  if (!tier && ERA && ERA.test(head) && hasQ && (cfg.era.categories || []).includes(category) && (!GENRE.length || GENRE.some((r) => r.test(text)))) { matched.push("era"); tier = 2; }
+  // On-beat source: no watchlist name needed — but only for its own feed. Google News results for a
+  // storefront are often product pages with indexing dates, so they must earn a place by name.
+  if (!tier && item.src.beat && !item.gn) tier = 3;
   return tier ? { pass: true, category, matched, tier } : { pass: false, why: "no watchlist match" };
 }
 
@@ -195,15 +217,19 @@ function canonical(u) {
     return x.toString().replace(/\/$/, "");
   } catch { return ""; }
 }
-const words = (s) => new Set(s.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, " ").split(/\s+/).filter((w) => w.length > 2));
-function similar(a, b) {
-  const A = words(a), B = words(b); if (!A.size || !B.size) return 0;
+const STOP = new Set("the and for with from that this its his her their will after into over about new says has have are was more than just".split(" "));
+// crude stem (first five letters) so "retires" and "retirement" match
+const words = (s) => new Set(s.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, " ").split(/\s+/).filter((w) => w.length > 2 && !STOP.has(w)).map((w) => w.slice(0, 5)));
+function sameStory(a, b) {
+  const A = words(a), B = words(b); if (!A.size || !B.size) return false;
   let n = 0; A.forEach((w) => { if (B.has(w)) n++; });
-  return n / Math.min(A.size, B.size);
+  return n / Math.min(A.size, B.size) >= 0.6 || n >= 4;
 }
 
 // ---------- run ----------
-const results = await pool(cfg.sources, 8, fetchSource);
+const QUERY_SOURCES = (cfg.queries || []).map((q) => ({ name: `News search: ${q.q}`, category: q.category, query: q.q, weight: q.weight ?? 0.8, beat: false }));
+const WEIGHT_BY_NAME = Object.fromEntries(cfg.sources.map((x) => [x.name.toLowerCase(), x.weight]));
+const results = await pool([...cfg.sources, ...QUERY_SOURCES], 8, fetchSource);
 const cutoff = NOW.getTime() - cfg.freshness_days * 864e5;
 const rows = [];
 let candidates = [];
@@ -220,10 +246,10 @@ for (const { report, items } of results) {
     passed++;
     candidates.push({
       id: createHash("sha1").update(url).digest("hex"),
-      title: it.title, source: it.src.name, url, category: j.category,
+      title: it.title, source: (it.src.query && it.publisher) || it.src.name, url, category: j.category,
       published: new Date(t).toISOString(), snippet: snippetOf(it.snippet),
       matched: j.matched, tier: j.tier, amazon_query: null,
-      _w: it.src.weight || 1,
+      _w: (it.src.query && WEIGHT_BY_NAME[(it.publisher || "").toLowerCase()]) || it.src.weight || 1,
     });
   }
   rows.push({ ...report, fresh, passed });
@@ -240,7 +266,7 @@ candidates.sort((a, b) => b._s - a._s);
 // dedupe by URL, then by headline similarity (keep the higher-weight source)
 const kept = [];
 for (const c of candidates) {
-  const dup = kept.find((k) => k.url === c.url || similar(k.title, c.title) >= 0.7);
+  const dup = kept.find((k) => k.url === c.url || sameStory(k.title, c.title));
   if (!dup) kept.push(c);
   else if (c._w > dup._w) kept[kept.indexOf(dup)] = c;
 }
@@ -258,6 +284,15 @@ for (const c of kept) {
 }
 // if other categories ran dry, let the overflow back in
 for (const c of overflow) { if (picked.length >= cfg.max_items) break; picked.push(c); }
+// then hold each category to its share of what was actually published (min 3 items each)
+const shareOf = (cat) => (cfg.category_share || {})[cat] ?? cfg.max_category_share;
+for (;;) {
+  const counts = {}; picked.forEach((c) => { counts[c.category] = (counts[c.category] || 0) + 1; });
+  const over = Object.keys(counts).find((cat) => counts[cat] > 3 && counts[cat] > shareOf(cat) * picked.length);
+  if (!over || Object.keys(counts).length === 1) break;
+  const worst = picked.filter((c) => c.category === over).sort((a, b) => a._s - b._s)[0];
+  picked.splice(picked.indexOf(worst), 1);
+}
 picked.sort((a, b) => Date.parse(b.published) - Date.parse(a.published));
 
 // Tonight's Lead: best score among trusted sources with a snippet

@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v3, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
-  "version": 3,
+  "_note": "Mirror of 03-night-wire-taxonomy (v4, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
+  "version": 4,
   "freshness_days": 10,
   "max_items": 40,
   "per_source_cap": 4,
@@ -1013,6 +1013,12 @@
     {
       "name": "The Wicker Man",
       "aliases": []
+    },
+    {
+      "name": "Salem's Lot",
+      "aliases": [
+        "'Salem's Lot"
+      ]
     }
   ],
   "qualifiers": [
@@ -1051,7 +1057,6 @@
     "bust",
     "mask",
     "replica",
-    "poster",
     "lobby card",
     "one-sheet",
     "auction",
@@ -1059,7 +1064,11 @@
     "grading",
     "estate",
     "archive",
-    "obituary"
+    "obituary",
+    "anthology",
+    "Blu-ray",
+    "Collector's Edition",
+    "special edition"
   ],
   "exclude_patterns": [
     "box office",
@@ -1079,7 +1088,11 @@
     "serial killer",
     "ranked",
     "every .* movie ranked",
-    "best .* of all time"
+    "best .* of all time",
+    "Today In Metal History",
+    "altercation",
+    "Grand Theft Auto",
+    "video game"
   ],
   "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
   "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
@@ -1752,6 +1765,150 @@
       "gear",
       "collect"
     ],
-    "note": "A headline naming a year from 1920 to 1995 plus a collector qualifier passes."
-  }
+    "note": "A headline naming a year from 1920 to 1995 plus a collector qualifier passes.",
+    "genre_words": [
+      "horror",
+      "terror",
+      "monster",
+      "monsters",
+      "vampire",
+      "zombie",
+      "werewolf",
+      "ghost",
+      "haunted",
+      "haunting",
+      "witch",
+      "demon",
+      "occult",
+      "giallo",
+      "slasher",
+      "creature",
+      "weird",
+      "macabre",
+      "gothic",
+      "shocker",
+      "exploitation",
+      "grindhouse",
+      "creepy",
+      "eerie",
+      "scream",
+      "nightmare",
+      "mummy",
+      "Frankenstein",
+      "Dracula"
+    ]
+  },
+  "junk_title_patterns": [
+    "^\\s*[-–|]",
+    "^(home|blog|shop|cart|search|news|products?|collections?|all products)$",
+    "index of",
+    "page not found",
+    "^untitled",
+    "hoodie",
+    "t-shirt",
+    "\\btee\\b",
+    "pullover",
+    "sweatshirt",
+    "zip(pered)? hoodie",
+    "comfort colors",
+    "\\bsocks\\b",
+    "gift card"
+  ],
+  "category_share": {
+    "metal": 0.25
+  },
+  "queries": [
+    {
+      "q": "\"Vinegar Syndrome\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Severin Films\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Arrow Video\" horror",
+      "category": "discs"
+    },
+    {
+      "q": "\"Scream Factory\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Synapse Films\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Blue Underground\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Waxwork Records\"",
+      "category": "discs"
+    },
+    {
+      "q": "\"Mondo\" horror vinyl",
+      "category": "discs"
+    },
+    {
+      "q": "\"Hammer Films\" OR \"Hammer Horror\"",
+      "category": "film"
+    },
+    {
+      "q": "\"Universal Monsters\"",
+      "category": "film"
+    },
+    {
+      "q": "giallo restoration OR giallo Blu-ray",
+      "category": "discs"
+    },
+    {
+      "q": "\"Valancourt Books\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Paperbacks from Hell\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Weird Tales\" magazine",
+      "category": "books"
+    },
+    {
+      "q": "\"Arkham House\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Centipede Press\" OR \"Suntup\" OR \"Cemetery Dance\"",
+      "category": "books"
+    },
+    {
+      "q": "horror paperback reprint",
+      "category": "books"
+    },
+    {
+      "q": "\"Creepy Archives\" OR \"Eerie Archives\" OR \"Warren Publishing\"",
+      "category": "comics"
+    },
+    {
+      "q": "\"EC Comics\" OR \"Tales from the Crypt\" comic",
+      "category": "comics"
+    },
+    {
+      "q": "horror comic original art auction",
+      "category": "collect"
+    },
+    {
+      "q": "pulp magazine auction OR \"first edition\" horror auction",
+      "category": "collect"
+    },
+    {
+      "q": "NECA horror figure",
+      "category": "gear"
+    },
+    {
+      "q": "\"Trick or Treat Studios\" mask",
+      "category": "gear"
+    }
+  ]
 }
