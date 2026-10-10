@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v2, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
-  "version": 2,
+  "_note": "Mirror of 03-night-wire-taxonomy (v3, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
+  "version": 3,
   "freshness_days": 10,
   "max_items": 40,
   "per_source_cap": 4,
@@ -261,6 +261,34 @@
       {
         "name": "Richard Corben",
         "aliases": []
+      },
+      {
+        "name": "Roger Corman",
+        "aliases": []
+      },
+      {
+        "name": "Joe Dante",
+        "aliases": []
+      },
+      {
+        "name": "Michele Soavi",
+        "aliases": []
+      },
+      {
+        "name": "Ruggero Deodato",
+        "aliases": []
+      },
+      {
+        "name": "Umberto Lenzi",
+        "aliases": []
+      },
+      {
+        "name": "Antonio Margheriti",
+        "aliases": []
+      },
+      {
+        "name": "Riccardo Freda",
+        "aliases": []
       }
     ],
     "properties": [
@@ -375,6 +403,30 @@
       },
       {
         "name": "Sleepaway Camp",
+        "aliases": []
+      },
+      {
+        "name": "giallo",
+        "aliases": [
+          "gialli"
+        ]
+      },
+      {
+        "name": "EC Comics",
+        "aliases": []
+      },
+      {
+        "name": "pre-Code",
+        "aliases": [
+          "Pre-Code"
+        ]
+      },
+      {
+        "name": "Charlton",
+        "aliases": []
+      },
+      {
+        "name": "Famous Monsters",
         "aliases": []
       }
     ],
@@ -708,6 +760,71 @@
           "metal"
         ]
       }
+    ],
+    "labels_and_presses": [
+      {
+        "name": "Vinegar Syndrome",
+        "aliases": []
+      },
+      {
+        "name": "Severin Films",
+        "aliases": [
+          "Severin"
+        ]
+      },
+      {
+        "name": "Arrow Video",
+        "aliases": []
+      },
+      {
+        "name": "Scream Factory",
+        "aliases": [
+          "Scream! Factory"
+        ]
+      },
+      {
+        "name": "Synapse Films",
+        "aliases": []
+      },
+      {
+        "name": "Blue Underground",
+        "aliases": []
+      },
+      {
+        "name": "88 Films",
+        "aliases": []
+      },
+      {
+        "name": "Mondo",
+        "aliases": [],
+        "require_qualifier": true
+      },
+      {
+        "name": "Waxwork Records",
+        "aliases": [
+          "Waxwork"
+        ]
+      },
+      {
+        "name": "Death Waltz",
+        "aliases": []
+      },
+      {
+        "name": "Valancourt",
+        "aliases": []
+      },
+      {
+        "name": "Centipede Press",
+        "aliases": []
+      },
+      {
+        "name": "Suntup",
+        "aliases": []
+      },
+      {
+        "name": "Cemetery Dance",
+        "aliases": []
+      }
     ]
   },
   "tier2": [
@@ -851,6 +968,50 @@
     },
     {
       "name": "The Invisible Man",
+      "aliases": []
+    },
+    {
+      "name": "Wes Craven",
+      "aliases": []
+    },
+    {
+      "name": "Sam Raimi",
+      "aliases": []
+    },
+    {
+      "name": "William Friedkin",
+      "aliases": []
+    },
+    {
+      "name": "Brian De Palma",
+      "aliases": []
+    },
+    {
+      "name": "Carrie",
+      "aliases": []
+    },
+    {
+      "name": "The Shining",
+      "aliases": []
+    },
+    {
+      "name": "Poltergeist",
+      "aliases": []
+    },
+    {
+      "name": "An American Werewolf in London",
+      "aliases": []
+    },
+    {
+      "name": "The Howling",
+      "aliases": []
+    },
+    {
+      "name": "The Fog",
+      "aliases": []
+    },
+    {
+      "name": "The Wicker Man",
       "aliases": []
     }
   ],
@@ -1580,5 +1741,17 @@
       "comics",
       "discs"
     ]
+  },
+  "era": {
+    "pattern": "\\b(19[2-8]\\d|199[0-5])\\b",
+    "categories": [
+      "books",
+      "comics",
+      "film",
+      "discs",
+      "gear",
+      "collect"
+    ],
+    "note": "A headline naming a year from 1920 to 1995 plus a collector qualifier passes."
   }
 }

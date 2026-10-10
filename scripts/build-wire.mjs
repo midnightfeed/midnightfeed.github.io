@@ -38,7 +38,8 @@ if (!CHECK && !FORCE && existsSync(OUT)) {
 }
 
 // ---------- fetching ----------
-const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@", textNodeName: "#text", trimValues: true });
+// Entities are decoded by hand (decodeEntities): some feeds exceed the parser's entity limit.
+const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@", textNodeName: "#text", trimValues: true, processEntities: false, htmlEntities: false });
 
 async function get(url) {
   const ctl = new AbortController();
@@ -66,7 +67,8 @@ function decodeEntities(s) {
     .replace(/&rsquo;/g, "’").replace(/&lsquo;/g, "‘").replace(/&rdquo;/g, "”").replace(/&ldquo;/g, "“")
     .replace(/&amp;/g, "&");
 }
-const clean = (s) => decodeEntities(String(s || "").replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
+// decode, strip tags, decode again: feeds may escape their HTML once or twice
+const clean = (s) => decodeEntities(decodeEntities(String(s || "")).replace(/<[^>]*>/g, " ")).replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
 function snippetOf(s) {
   let t = clean(s).replace(/\s*(The post .* appeared first on .*|Continue reading.*|Read more.*|\[…\]|\[\.\.\.\])$/i, "").trim();
@@ -79,7 +81,7 @@ function parseFeed(xml) {
   const doc = parser.parse(xml);
   if (doc.rss) {
     return arr(doc.rss.channel?.item).map((i) => ({
-      title: clean(txt(i.title)), url: txt(i.link) || txt(i.guid), date: txt(i.pubDate) || txt(i["dc:date"]),
+      title: clean(txt(i.title)), url: decodeEntities(txt(i.link) || txt(i.guid)), date: txt(i.pubDate) || txt(i["dc:date"]),
       snippet: txt(i.description) || txt(i["content:encoded"]),
     }));
   }
@@ -87,11 +89,11 @@ function parseFeed(xml) {
     return arr(doc.feed.entry).map((e) => {
       const links = arr(e.link);
       const alt = links.find((l) => !l["@rel"] || l["@rel"] === "alternate") || links[0];
-      return { title: clean(txt(e.title)), url: alt ? alt["@href"] || txt(alt) : "", date: txt(e.published) || txt(e.updated), snippet: txt(e.summary) || txt(e.content) };
+      return { title: clean(txt(e.title)), url: decodeEntities(alt ? alt["@href"] || txt(alt) : ""), date: txt(e.published) || txt(e.updated), snippet: txt(e.summary) || txt(e.content) };
     });
   }
   if (doc["rdf:RDF"]) {
-    return arr(doc["rdf:RDF"].item).map((i) => ({ title: clean(txt(i.title)), url: txt(i.link), date: txt(i["dc:date"]), snippet: txt(i.description) }));
+    return arr(doc["rdf:RDF"].item).map((i) => ({ title: clean(txt(i.title)), url: decodeEntities(txt(i.link)), date: txt(i["dc:date"]), snippet: txt(i.description) }));
   }
   throw new Error("not an RSS or Atom feed");
 }
@@ -108,14 +110,20 @@ async function fetchSource(src) {
     try { items = parseFeed(await get(src.feed)); report.via = "feed"; }
     catch (e) { report.error = `feed: ${e.message}`; }
   }
-  if (!items.length && src.site) {
+  // fall back to Google News when there is no feed, it failed, or it has gone quiet
+  const freshCut = NOW.getTime() - cfg.freshness_days * 864e5;
+  const anyFresh = items.some((i) => Date.parse(i.date) >= freshCut);
+  if (!anyFresh && src.site) {
+    if (items.length) report.error = (report.error ? report.error + "; " : "") + "feed has nothing fresh";
     try {
-      items = parseFeed(await get(googleNewsUrl(src.site))).map((i) => ({
+      const gn = parseFeed(await get(googleNewsUrl(src.site))).map((i) => ({
         ...i,
         title: i.title.lastIndexOf(" - ") > 0 ? i.title.slice(0, i.title.lastIndexOf(" - ")) : i.title, // Google News appends " - Source"
         snippet: "",                                    // Google's description is not the publisher's snippet
       }));
-      report.via = "google-news";
+      report.gn = gn.length;
+      items = items.concat(gn);
+      report.via = report.via === "feed" ? "feed + google-news" : "google-news";
     } catch (e) { report.error += (report.error ? "; " : "") + `google-news: ${e.message}`; }
   }
   report.fetched = items.length;
@@ -154,8 +162,12 @@ function classify(src, text) {
   return src.category;
 }
 
+const ERA = cfg.era ? new RegExp(cfg.era.pattern) : null;
+
 function judge(item) {
   const text = `${item.title} ${clean(item.snippet)}`;
+  // Names must appear in the headline: snippets on big outlets name-drop too freely.
+  const head = item.title;
   if (EXCL.some((r) => r.test(item.title))) return { pass: false, why: "excluded" };
   const category = classify(item.src, text);
   const hasQ = QUAL.some((r) => r.test(text)) || (category === "metal" && METAL_QUAL.some((r) => r.test(text)));
@@ -163,11 +175,13 @@ function judge(item) {
   let tier = 0;
   for (const t of T1) {
     if (t.only_categories && !t.only_categories.includes(category)) continue;
-    if (t.res.some((r) => r.test(text)) && (!t.require_qualifier || hasQ)) { matched.push(t.name); tier = 1; }
+    if (t.res.some((r) => r.test(head)) && (!t.require_qualifier || hasQ)) { matched.push(t.name); tier = 1; }
   }
   if (!tier) for (const t of T2) {
-    if (t.res.some((r) => r.test(text)) && hasQ) { matched.push(t.name); tier = 2; }
+    if (t.res.some((r) => r.test(head)) && hasQ) { matched.push(t.name); tier = 2; }
   }
+  // Era rule: a headline naming a year in the period, plus a collector qualifier
+  if (!tier && ERA && ERA.test(head) && hasQ && (cfg.era.categories || []).includes(category)) { matched.push("era"); tier = 2; }
   if (!tier && item.src.beat) tier = 3; // on-beat source, no watchlist name needed
   return tier ? { pass: true, category, matched, tier } : { pass: false, why: "no watchlist match" };
 }
@@ -247,7 +261,9 @@ for (const c of overflow) { if (picked.length >= cfg.max_items) break; picked.pu
 picked.sort((a, b) => Date.parse(b.published) - Date.parse(a.published));
 
 // Tonight's Lead: best score among trusted sources with a snippet
-const leadPool = picked.filter((c) => c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet);
+const prefer = cfg.lead?.prefer_categories || [];
+const base = picked.filter((c) => c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet && c.tier !== 3);
+const leadPool = base.some((c) => prefer.includes(c.category)) ? base.filter((c) => prefer.includes(c.category)) : base;
 const lead = [...(leadPool.length ? leadPool : picked)].sort((a, b) => b._s - a._s)[0] || null;
 
 // Keeper's Desk: tonight's file, or the most recent one before it
@@ -282,6 +298,12 @@ const summary = [
   "| Source | Via | Fetched | Fresh (≤" + cfg.freshness_days + "d) | Passed | Error |",
   "|---|---|---:|---:|---:|---|",
   ...rows.sort((a, b) => a.name.localeCompare(b.name)).map((r) => `| ${r.name} | ${r.via || "—"} | ${r.fetched} | ${r.fresh} | ${r.passed} | ${r.error.replace(/\|/g, "/")} |`),
+  "",
+  "### Tonight's items",
+  "",
+  "| Category | Source | Headline | Why it passed |",
+  "|---|---|---|---|",
+  ...picked.map((c) => `| ${c.category} | ${c.source} | ${c.title.replace(/\|/g, "/")} | ${c.tier === 3 ? "beat source" : c.matched.join(", ")} |`),
 ];
 console.log(summary.join("\n"));
 if (process.env.GITHUB_STEP_SUMMARY) await writeFile(process.env.GITHUB_STEP_SUMMARY, summary.join("\n") + "\n", { flag: "a" });
