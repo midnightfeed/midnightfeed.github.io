@@ -1,0 +1,14 @@
+{
+  "_note": "Cover requests for the Archive's figure rows. Each must match the edition the article names: imprint required, year when given. Fetched by scripts/fetch-covers.mjs from Open Library; shown on the site only once marked verified in site/assets/covers/manifest.json.",
+  "covers": [
+    { "key": "grant-oxrun",       "title": "The Hour of the Oxrun Dead", "author": "Charles L. Grant",   "imprint": "Popular Library" },
+    { "key": "grant-sound",       "title": "The Sound of Midnight",      "author": "Charles L. Grant",   "imprint": "Popular Library" },
+    { "key": "grant-shadows",     "title": "Shadows",                    "author": "Charles L. Grant",   "imprint": "Doubleday", "year": "1978" },
+    { "key": "wagner-bloodstone", "title": "Bloodstone",                 "author": "Karl Edward Wagner", "imprint": "Warner" },
+    { "key": "wagner-nightwinds", "title": "Night Winds",                "author": "Karl Edward Wagner", "imprint": "Warner" },
+    { "key": "wagner-ybh14",      "title": "The Year's Best Horror Stories: XIV", "author": "Karl Edward Wagner", "imprint": "DAW" },
+    { "key": "zebra-nest",        "title": "The Nest",                   "author": "Gregory A. Douglas", "imprint": "Zebra", "year": "1980" },
+    { "key": "zebra-mama",        "title": "Mama",                       "author": "Ruby Jean Jensen",   "imprint": "Zebra", "year": "1983" },
+    { "key": "zebra-devilskiss",  "title": "The Devil's Kiss",           "author": "William W. Johnstone", "imprint": "Zebra", "year": "1980" }
+  ]
+}

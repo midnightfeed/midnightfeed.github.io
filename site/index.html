@@ -640,6 +640,12 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
 .site[data-type="sans"]:not([data-skin="gothic"]) .detail h3,
 .site[data-type="sans"]:not([data-skin="gothic"]) .promise h4 { font-size: 17px; line-height: 1.22; }
 .site[data-type="sans"]:not([data-skin="gothic"]) .housead h3 { font-size: clamp(17px, 2.4vw, 22px); }
+/* ---------- real covers in the plates (shown once verified) ---------- */
+.cover.has-img { padding: 0; background: var(--panel); }
+.cover.has-img::before, .cover.has-img::after { display: none; }
+.cover.has-img > :not(img) { visibility: hidden; }
+.cover > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+
 </style>
 
 
@@ -821,9 +827,9 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
             <p>Grant called it quiet horror, and he meant it as an argument. Through the late seventies and the whole of the eighties &mdash; the exact years when the mass market was rewarding every possible variety of loud &mdash; he kept insisting that suggestion outperforms demonstration, and he kept proving it in a Connecticut town he invented and then haunted across eight novels and a run of linked novellas.</p>
 
             <div class="figrow">
-              <div class="cover" style="--c1:#2E3F55;--c2:#0D1119"><div class="c-imprint">Popular Library</div><div><div class="c-title">The Hour of the Oxrun Dead</div><div class="c-author">Charles L. Grant</div></div></div>
-              <div class="cover" style="--c1:#4A2A3E;--c2:#150A12"><div class="c-imprint">Popular Library</div><div><div class="c-title">The Sound of Midnight</div><div class="c-author">Charles L. Grant</div></div></div>
-              <div class="cover" style="--c1:#1F4038;--c2:#08130F"><div class="c-imprint">Doubleday</div><div><div class="c-title">Shadows</div><div class="c-author">edited by Grant</div></div></div>
+              <div class="cover" data-cover="grant-oxrun" style="--c1:#2E3F55;--c2:#0D1119"><div class="c-imprint">Popular Library</div><div><div class="c-title">The Hour of the Oxrun Dead</div><div class="c-author">Charles L. Grant</div></div></div>
+              <div class="cover" data-cover="grant-sound" style="--c1:#4A2A3E;--c2:#150A12"><div class="c-imprint">Popular Library</div><div><div class="c-title">The Sound of Midnight</div><div class="c-author">Charles L. Grant</div></div></div>
+              <div class="cover" data-cover="grant-shadows" style="--c1:#1F4038;--c2:#08130F"><div class="c-imprint">Doubleday</div><div><div class="c-title">Shadows</div><div class="c-author">edited by Grant</div></div></div>
               <figcaption>Three from the shelf: two Oxrun novels in their paperback dress, and the anthology that mattered more.</figcaption>
             </div>
 
@@ -864,9 +870,9 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
             <p>Start with Kane, because everyone does. <em>Darkness Weaves</em> came first, in 1970 &mdash; cut and retitled by a small West Coast publisher, its restored text not seen until 1978 &mdash; and then <em>Death Angel's Shadow</em>, <em>Bloodstone</em>, <em>Dark Crusade</em> and the stories collected as <em>Night Winds</em>. The premise is the biblical Cain rewritten as an immortal red-haired warrior-sorcerer, cursed to wander, and what makes it work is that Wagner refuses to let him be likeable. Kane is intelligent, patient, and genuinely malevolent. The books are structured like heroic fantasy and behave like horror.</p>
 
             <div class="figrow">
-              <div class="cover" style="--c1:#5A1A14;--c2:#150605"><div class="c-imprint">Warner</div><div><div class="c-title">Bloodstone</div><div class="c-author">Karl Edward Wagner</div></div></div>
-              <div class="cover" style="--c1:#22334C;--c2:#080C13"><div class="c-imprint">Warner</div><div><div class="c-title">Night Winds</div><div class="c-author">Karl Edward Wagner</div></div></div>
-              <div class="cover" style="--c1:#3D2A16;--c2:#0F0A05"><div class="c-imprint">DAW</div><div><div class="c-title">Year's Best Horror XIV</div><div class="c-author">edited by Wagner</div></div></div>
+              <div class="cover" data-cover="wagner-bloodstone" style="--c1:#5A1A14;--c2:#150605"><div class="c-imprint">Warner</div><div><div class="c-title">Bloodstone</div><div class="c-author">Karl Edward Wagner</div></div></div>
+              <div class="cover" data-cover="wagner-nightwinds" style="--c1:#22334C;--c2:#080C13"><div class="c-imprint">Warner</div><div><div class="c-title">Night Winds</div><div class="c-author">Karl Edward Wagner</div></div></div>
+              <div class="cover" data-cover="wagner-ybh14" style="--c1:#3D2A16;--c2:#0F0A05"><div class="c-imprint">DAW</div><div><div class="c-title">Year's Best Horror XIV</div><div class="c-author">edited by Wagner</div></div></div>
               <figcaption>The Warner Kane paperbacks and one of the fifteen DAW annuals. The DAW volumes are the cheapest way into his taste.</figcaption>
             </div>
 
@@ -907,9 +913,9 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
             <p>The books behind those covers were, to be blunt, uneven. Zebra was a volume business, and the boom that followed the success of horror in the mass market meant the imprint needed titles faster than good ones could be written. What it produced instead was a body of work that is now a genuine subject: a complete record of what a commercial publisher thought would frighten a supermarket shopper across the eighties and into the early nineties.</p>
 
             <div class="figrow">
-              <div class="cover" style="--c1:#63451A;--c2:#171004"><div class="c-imprint">Zebra, 1980</div><div><div class="c-title">The Nest</div><div class="c-author">Gregory A. Douglas</div></div></div>
-              <div class="cover" style="--c1:#4A1530;--c2:#12050C"><div class="c-imprint">Zebra, 1983</div><div><div class="c-title">Mama</div><div class="c-author">Ruby Jean Jensen</div></div></div>
-              <div class="cover" style="--c1:#1D3A2E;--c2:#070F0B"><div class="c-imprint">Zebra, 1980</div><div><div class="c-title">The Devil's Kiss</div><div class="c-author">William W. Johnstone</div></div></div>
+              <div class="cover" data-cover="zebra-nest" style="--c1:#63451A;--c2:#171004"><div class="c-imprint">Zebra, 1980</div><div><div class="c-title">The Nest</div><div class="c-author">Gregory A. Douglas</div></div></div>
+              <div class="cover" data-cover="zebra-mama" style="--c1:#4A1530;--c2:#12050C"><div class="c-imprint">Zebra, 1983</div><div><div class="c-title">Mama</div><div class="c-author">Ruby Jean Jensen</div></div></div>
+              <div class="cover" data-cover="zebra-devilskiss" style="--c1:#1D3A2E;--c2:#070F0B"><div class="c-imprint">Zebra, 1980</div><div><div class="c-title">The Devil's Kiss</div><div class="c-author">William W. Johnstone</div></div></div>
               <figcaption>Three from the Zebra rack. On any copy, check the foil and the step-back before anything else.</figcaption>
             </div>
 
@@ -1036,7 +1042,7 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
           </ul>
         </div>
       </div>
-      <p class="colophon">The Night Wire is rebuilt every night at midnight Central. Headlines link to their original publishers, shown with source and timestamp; nothing is republished in full. Cover images are reproduced for commentary and criticism. &copy; 2026 The Midnight Feed.</p>
+      <p class="colophon">The Night Wire is rebuilt every night at midnight Central. Headlines link to their original publishers, shown with source and timestamp; nothing is republished in full. Cover images are reproduced for commentary and criticism; some via Open Library. &copy; 2026 The Midnight Feed.</p>
     </div>
   </footer>
 </div>
@@ -1351,6 +1357,24 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
     tick();
     setInterval(tick, 30000);
   })();
+
+  /* ---------------- Archive covers (verified only) ---------------- */
+  if (window.fetch) {
+    fetch("/assets/covers/manifest.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (m) {
+      if (!m) { return; }
+      Array.prototype.forEach.call(document.querySelectorAll(".cover[data-cover]"), function (plate) {
+        var c = m[plate.getAttribute("data-cover")];
+        if (!c || !c.verified || !c.file) { return; }
+        var img = new Image();
+        img.alt = "Cover of " + c.title + " (" + c.imprint + ")";
+        img.loading = "lazy";
+        img.onload = function () { plate.classList.add("has-img"); };
+        img.onerror = function () { img.remove(); };
+        img.src = "/assets/covers/" + c.file;
+        plate.appendChild(img);
+      });
+    }).catch(function () { /* keep the plates */ });
+  }
 
   /* ---------------- page switching ---------------- */
   var site = document.getElementById("site");

@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v6, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
-  "version": 6,
+  "_note": "Mirror of 03-night-wire-taxonomy (v7, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
+  "version": 7,
   "freshness_days": 10,
   "max_items": 40,
   "per_source_cap": 4,
@@ -1021,10 +1021,8 @@
         "require_qualifier": true
       },
       {
-        "name": "AGFA",
-        "aliases": [
-          "American Genre Film Archive"
-        ]
+        "name": "American Genre Film Archive",
+        "aliases": []
       },
       {
         "name": "Fun City Editions",
@@ -1123,10 +1121,18 @@
       ]
     },
     {
-      "name": "Halloween",
+      "name": "Halloween (film series)",
       "aliases": [
-        "Michael Myers"
-      ]
+        "Michael Myers",
+        "Halloween (1978)",
+        "Halloween II",
+        "Halloween III",
+        "Halloween 4",
+        "Halloween 5",
+        "John Carpenter's Halloween",
+        "Carpenter's Halloween"
+      ],
+      "exact_aliases_only": true
     },
     {
       "name": "Creepshow",
@@ -2006,7 +2012,6 @@
     "books": [
       "novel",
       "paperback",
-      "anthology",
       "short stories",
       "hardcover",
       "reprint",
@@ -2230,7 +2235,7 @@
       "category": "discs"
     },
     {
-      "q": "AGFA OR \"American Genre Film Archive\"",
+      "q": "\"American Genre Film Archive\" OR \"AGFA\" horror",
       "category": "discs"
     },
     {
