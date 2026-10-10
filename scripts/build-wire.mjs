@@ -134,7 +134,7 @@ async function fetchSource(src) {
   // fall back to Google News when there is no feed, it failed, or it has gone quiet
   const freshCut = NOW.getTime() - cfg.freshness_days * 864e5;
   const anyFresh = items.some((i) => Date.parse(i.date) >= freshCut);
-  if (!anyFresh && src.site) {
+  if (!anyFresh && src.site && src.gn_fallback !== false) {
     if (items.length) report.error = (report.error ? report.error + "; " : "") + "feed has nothing fresh";
     try {
       const gn = (await googleNews(src.site)).map((i) => ({ ...i, publisher: src.name }));
@@ -182,6 +182,7 @@ function classify(src, text) {
 const ERA = cfg.era ? new RegExp(cfg.era.pattern) : null;
 const GENRE = cfg.era?.genre_words ? anyRe(cfg.era.genre_words) : [];
 const JUNK = (cfg.junk_title_patterns || []).map((p) => new RegExp(p, "i"));
+const BLOCKED_PUB = new Set((cfg.blocked_publishers || []).map((x) => x.toLowerCase()));
 
 function judge(item) {
   const text = `${item.title} ${clean(item.snippet)}`;
@@ -189,8 +190,10 @@ function judge(item) {
   const head = item.title;
   if (EXCL.some((r) => r.test(item.title))) return { pass: false, why: "excluded" };
   if (item.title.length < 12 || JUNK.some((r) => r.test(item.title))) return { pass: false, why: "junk" };
+  if (item.publisher && BLOCKED_PUB.has(item.publisher.toLowerCase())) return { pass: false, why: "blocked publisher" };
   const category = classify(item.src, text);
   const hasQ = QUAL.some((r) => r.test(text)) || (category === "metal" && METAL_QUAL.some((r) => r.test(text)));
+  const headQ = QUAL.some((r) => r.test(head)) || (category === "metal" && METAL_QUAL.some((r) => r.test(head)));
   const matched = [];
   let tier = 0;
   for (const t of T1) {
@@ -198,7 +201,8 @@ function judge(item) {
     if (t.res.some((r) => r.test(head)) && (!t.require_qualifier || hasQ)) { matched.push(t.name); tier = 1; }
   }
   if (!tier) for (const t of T2) {
-    if (t.res.some((r) => r.test(head)) && hasQ) { matched.push(t.name); tier = 2; }
+    // Tier 2 names are franchise-heavy, so the qualifier must be in the headline too
+    if (t.res.some((r) => r.test(head)) && headQ) { matched.push(t.name); tier = 2; }
   }
   // Era rule: a headline naming a year in the period, plus a collector qualifier
   if (!tier && ERA && ERA.test(head) && hasQ && (cfg.era.categories || []).includes(category) && (!GENRE.length || GENRE.some((r) => r.test(text)))) { matched.push("era"); tier = 2; }

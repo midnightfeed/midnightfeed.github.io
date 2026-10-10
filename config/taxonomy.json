@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v4, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
-  "version": 4,
+  "_note": "Mirror of 03-night-wire-taxonomy (v5, 9 Oct 2026). 'site' is used for the Google News fallback when 'feed' is null or fails. 'beat' sources are on-beat by nature and pass without a watchlist match (hard excludes still apply). Feed URLs are best guesses until the feed-check run confirms them.",
+  "version": 5,
   "freshness_days": 10,
   "max_items": 40,
   "per_source_cap": 4,
@@ -433,11 +433,17 @@
     "metal": [
       {
         "name": "Judas Priest",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Black Sabbath",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Dio",
@@ -448,27 +454,45 @@
       },
       {
         "name": "Ronnie James Dio",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Mercyful Fate",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "King Diamond",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Saxon",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Diamond Head",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Angel Witch",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Venom",
@@ -486,7 +510,10 @@
       },
       {
         "name": "Motörhead",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "UFO",
@@ -497,7 +524,10 @@
       },
       {
         "name": "Thin Lizzy",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Rainbow",
@@ -508,11 +538,17 @@
       },
       {
         "name": "Deep Purple",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Slayer",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Testament",
@@ -537,15 +573,24 @@
       },
       {
         "name": "Anthrax",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Kreator",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Sodom",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Destruction",
@@ -556,31 +601,52 @@
       },
       {
         "name": "Death Angel",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Sacred Reich",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Dark Angel",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Metal Church",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Flotsam and Jetsam",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Annihilator",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Vio-lence",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Heathen",
@@ -598,63 +664,108 @@
       },
       {
         "name": "Helloween",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Blind Guardian",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Gamma Ray",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Running Wild",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Grave Digger",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Manowar",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Virgin Steele",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "HammerFall",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Iced Earth",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Savatage",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Queensrÿche",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Queensryche",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Fates Warning",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Crimson Glory",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Nevermore",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Sanctuary",
@@ -665,11 +776,17 @@
       },
       {
         "name": "Armored Saint",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Riot V",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Omen",
@@ -680,11 +797,17 @@
       },
       {
         "name": "Manilla Road",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Cirith Ungol",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Warlord",
@@ -695,11 +818,17 @@
       },
       {
         "name": "Jag Panzer",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Candlemass",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Trouble",
@@ -710,47 +839,80 @@
       },
       {
         "name": "Pentagram",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Saint Vitus",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Solitude Aeturnus",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Celtic Frost",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Bathory",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Grand Magus",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Visigoth",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Eternal Champion",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Sumerlands",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Night Demon",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Enforcer",
-        "aliases": []
+        "aliases": [],
+        "only_categories": [
+          "metal"
+        ]
       },
       {
         "name": "Ghost",
@@ -1092,7 +1254,9 @@
     "Today In Metal History",
     "altercation",
     "Grand Theft Auto",
-    "video game"
+    "video game",
+    "^\\s*(\\d+|three|five|six|seven|eight|ten|twelve|fifteen|twenty)\\s+(great|best|underrated|overlooked|scariest|essential|classic|forgotten|horror|movies|films|times|things|reasons|books|albums)\\b",
+    "unboxing"
   ],
   "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
   "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
@@ -1104,7 +1268,8 @@
       "feed": "https://toomuchhorrorfiction.blogspot.com/feeds/posts/default",
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Paperback Warrior",
@@ -1113,7 +1278,8 @@
       "feed": "https://www.paperbackwarrior.com/feeds/posts/default",
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Valancourt Books",
@@ -1122,7 +1288,8 @@
       "feed": null,
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Vault of Evil",
@@ -1131,7 +1298,8 @@
       "feed": "https://vaultofevil.wordpress.com/feed/",
       "beat": true,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Locus Online",
@@ -1149,7 +1317,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Suntup Editions",
@@ -1158,7 +1327,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "PS Publishing",
@@ -1167,7 +1337,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Hippocampus Press",
@@ -1176,7 +1347,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "robertmccammon.com",
@@ -1185,7 +1357,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "clivebarker.info",
@@ -1194,7 +1367,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "13th Dimension",
@@ -1221,7 +1395,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Fantagraphics",
@@ -1230,7 +1405,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Bleeding Cool",
@@ -1320,7 +1496,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Arrow Video",
@@ -1329,7 +1506,8 @@
       "feed": null,
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Vinegar Syndrome",
@@ -1338,7 +1516,8 @@
       "feed": null,
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Severin Films",
@@ -1347,7 +1526,8 @@
       "feed": null,
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Shout / Scream Factory",
@@ -1356,7 +1536,8 @@
       "feed": null,
       "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Synapse",
@@ -1365,7 +1546,8 @@
       "feed": null,
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Kino Lorber",
@@ -1374,7 +1556,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Criterion",
@@ -1383,7 +1566,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Home Theater Forum",
@@ -1401,7 +1585,8 @@
       "feed": "https://waxworkrecords.com/blogs/know-the-score.atom",
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Death Waltz",
@@ -1410,7 +1595,8 @@
       "feed": null,
       "beat": true,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Mondo",
@@ -1419,7 +1605,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Terror Vision",
@@ -1428,7 +1615,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Ship to Shore",
@@ -1437,7 +1625,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "NECA",
@@ -1446,7 +1635,8 @@
       "feed": "https://necaonline.com/feed/",
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Super7",
@@ -1455,7 +1645,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Mezco",
@@ -1464,7 +1655,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Trick or Treat Studios",
@@ -1473,7 +1665,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Fright-Rags",
@@ -1482,7 +1675,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Cavity Colors",
@@ -1491,7 +1685,8 @@
       "feed": null,
       "beat": true,
       "weight": 0.8,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "The Toyark",
@@ -1599,7 +1794,8 @@
       "feed": null,
       "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Fine Books & Collections",
@@ -1617,7 +1813,8 @@
       "feed": null,
       "beat": false,
       "weight": 1.0,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "ComicConnect",
@@ -1626,7 +1823,8 @@
       "feed": null,
       "beat": false,
       "weight": 0.9,
-      "filter": "standard"
+      "filter": "standard",
+      "gn_fallback": false
     },
     {
       "name": "Variety",
@@ -1812,7 +2010,10 @@
     "zip(pered)? hoodie",
     "comfort colors",
     "\\bsocks\\b",
-    "gift card"
+    "gift card",
+    "^(\\S+)\\s+-\\s+\\1$",
+    "audio greeting",
+    "cover gallery"
   ],
   "category_share": {
     "metal": 0.25
@@ -1910,5 +2111,25 @@
       "q": "\"Trick or Treat Studios\" mask",
       "category": "gear"
     }
+  ],
+  "blocked_publishers": [
+    "YouTube",
+    "IMDb",
+    "Reddit",
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Pinterest",
+    "eBay",
+    "Amazon",
+    "Amazon.com",
+    "Etsy",
+    "X",
+    "Twitter",
+    "MSN",
+    "Yahoo",
+    "Yahoo Entertainment",
+    "Apple Podcasts",
+    "Spotify"
   ]
 }
