@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v8, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them.",
-  "version": 8,
+  "_note": "Mirror of 03-night-wire-taxonomy (v9, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them.",
+  "version": 9,
   "freshness_days": 5,
   "max_items": 40,
   "per_source_cap": 4,
@@ -936,7 +936,8 @@
       },
       {
         "name": "Arrow Video",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Scream Factory",
@@ -950,11 +951,13 @@
       },
       {
         "name": "Blue Underground",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "88 Films",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Mondo",
@@ -993,32 +996,34 @@
           "Eureka Classics",
           "Masters of Cinema"
         ],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "Radiance Films",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Second Sight Films",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Indicator",
         "aliases": [
           "Powerhouse Films"
         ],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "Umbrella Entertainment",
         "aliases": [],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "Imprint Films",
         "aliases": [],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "American Genre Film Archive",
@@ -1031,12 +1036,12 @@
       {
         "name": "Code Red",
         "aliases": [],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "Kino Lorber",
         "aliases": [],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "Shout! Factory",
@@ -1044,7 +1049,7 @@
           "Shout Factory",
           "Shout! Studios"
         ],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "Subterranean Press",
@@ -1065,7 +1070,7 @@
       {
         "name": "Folio Society",
         "aliases": [],
-        "require_qualifier": true
+        "require_horror": true
       },
       {
         "name": "Tartarus Press",
@@ -1093,9 +1098,10 @@
         "aliases": []
       },
       {
-        "name": "Crystal Lake",
-        "aliases": [],
-        "require_qualifier": false
+        "name": "Crystal Lake Publishing",
+        "aliases": [
+          "Crystal Lake Entertainment"
+        ]
       },
       {
         "name": "Clash Books",
@@ -1191,7 +1197,8 @@
       },
       {
         "name": "Raro Video",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Full Moon Features",
@@ -1204,7 +1211,8 @@
       },
       {
         "name": "Scorpion Releasing",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Ronin Flix",
@@ -1212,7 +1220,8 @@
       },
       {
         "name": "MVD Rewind",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Something Weird Video",
@@ -1232,11 +1241,13 @@
       },
       {
         "name": "Cult Epics",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Kino Cult",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Shameless Films",
@@ -1257,16 +1268,18 @@
       },
       {
         "name": "Quartet Records",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "La-La Land Records",
-        "aliases": []
+        "aliases": [],
+        "require_horror": true
       },
       {
         "name": "Intrada",
         "aliases": [],
-        "require_qualifier": false
+        "require_horror": true
       }
     ]
   },
@@ -1501,7 +1514,6 @@
     "vinyl",
     "LP",
     "soundtrack",
-    "score",
     "OST",
     "action figure",
     "statue",
@@ -1555,7 +1567,8 @@
     "Dead by Daylight",
     "\\bSteam\\b",
     "gameplay",
-    "opening weekend"
+    "opening weekend",
+    "weighs in"
   ],
   "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
   "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
@@ -2473,7 +2486,10 @@
     "gift card",
     "^(\\S+)\\s+-\\s+\\1$",
     "audio greeting",
-    "cover gallery"
+    "cover gallery",
+    "archives\\s*»",
+    "page \\d+ of \\d+",
+    "»\\s*page"
   ],
   "category_share": {
     "metal": 0.3
@@ -2676,7 +2692,7 @@
       "category": "books"
     },
     {
-      "q": "\"Raw Dog Screaming Press\" OR \"Grey Matter Press\" OR \"Crystal Lake\" OR \"Clash Books\"",
+      "q": "\"Raw Dog Screaming Press\" OR \"Grey Matter Press\" OR \"Crystal Lake Publishing\" OR \"Clash Books\"",
       "category": "books"
     },
     {

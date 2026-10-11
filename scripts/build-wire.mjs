@@ -209,14 +209,17 @@ function judge(item) {
   const bands = [];
   for (const t of T1) {
     if (t.only_categories && !t.only_categories.includes(isMetal ? "metal" : category)) continue;
+    if (t.require_horror && !HORROR.some((r) => r.test(text))) continue;
     if (t.res.some((r) => r.test(head)) && (!t.require_qualifier || hasQ)) {
       matched.push(t.name);
       if (t.only_categories && t.only_categories.includes("metal")) bands.push(t.name);
     }
   }
+  const t2 = [];
   for (const t of T2) {
-    if (t.res.some((r) => r.test(head)) && (headQ || (!isMetal && kind !== "metal"))) matched.push(t.name);
+    if (t.res.some((r) => r.test(head)) && (headQ || (!isMetal && kind !== "metal"))) { matched.push(t.name); t2.push(t.name); }
   }
+  const t1count = matched.length - t2.length;
   const era = ERA && ERA.test(head) && (!GENRE.length || GENRE.some((r) => r.test(text)));
   const label = METAL_LABELS.some((t) => t.res.some((r) => r.test(head)));
 
@@ -224,12 +227,16 @@ function judge(item) {
     const genre = METAL_GENRE.some((r) => r.test(text));
     if (!bands.length && !matched.length && !label && !genre) return { pass: false, why: "not our kind of metal" };
     const why = bands.length ? bands : matched.length ? matched : label ? ["metal label"] : ["metal genre"];
-    return { pass: true, category: "metal", matched: why, bands, classic: bands.length > 0 || hasQ, why: why.join(", ") };
+    // classic metal = a classic band, or a reissue / anniversary / box-set headline
+    const metalClassic = bands.length > 0 || QUAL.some((r) => r.test(head));
+    return { pass: true, category: "metal", matched: why, bands, keys: matched, classic: metalClassic, why: why.join(", ") };
   }
   const horror = HORROR.some((r) => r.test(text));
-  const classic = matched.length > 0 || era || headQ;
-  if (kind === "horror") return { pass: true, category, matched, bands: [], classic, why: matched.length ? matched.join(", ") : "horror outlet" };
-  if (matched.length || horror) return { pass: true, category, matched, bands: [], classic, why: matched.length ? matched.join(", ") : "horror subject" };
+  // classic = a Tier 1 name, a period year with a horror word, or a collector word in the headline.
+  // A franchise name alone (Tier 2) passes the story but doesn't make it classic.
+  const classic = t1count > 0 || era || headQ;
+  if (kind === "horror") return { pass: true, category, matched, bands: [], keys: matched, classic, why: matched.length ? matched.join(", ") : "horror outlet" };
+  if (matched.length || horror) return { pass: true, category, matched, bands: [], keys: matched, classic, why: matched.length ? matched.join(", ") : "horror subject" };
   return { pass: false, why: "not horror" };
 }
 
@@ -274,7 +281,7 @@ for (const { report, items } of results) {
       title: it.title, source: (it.src.query && it.publisher) || it.src.name, url, category: j.category,
       published: new Date(t).toISOString(), snippet: snippetOf(it.snippet),
       matched: j.matched, classic: j.classic, why: j.why, amazon_query: null,
-      _bands: j.bands || [],
+      _bands: j.keys || j.bands || [],
       _w: (it.src.query && WEIGHT_BY_NAME[(it.publisher || "").toLowerCase()]) || it.src.weight || 1,
     });
   }
@@ -303,6 +310,7 @@ const maxCat = Math.ceil(cfg.max_items * cfg.max_category_share);
 let picked = [], overflow = [];
 for (const c of kept) {
   if ((perSource[c.source] || 0) >= cfg.per_source_cap) continue;
+  // no more than two stories about the same band, franchise, writer or label per night
   if (c._bands.some((b) => (perBand[b] || 0) >= (cfg.per_band_cap ?? 2))) continue;
   perSource[c.source] = (perSource[c.source] || 0) + 1;
   c._bands.forEach((b) => { perBand[b] = (perBand[b] || 0) + 1; });
