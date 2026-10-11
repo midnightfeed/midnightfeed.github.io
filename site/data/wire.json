@@ -1,20 +1,224 @@
 {
-  "built_at": "2026-10-11T05:16:08.055Z",
+  "built_at": "2026-10-11T15:30:37.207Z",
   "built_for": "2026-10-11",
   "lead": {
-    "id": "8d90dd57edc34ad9e8dbbc7f37a8da2ded06adf4",
-    "title": "Director Glenn McQuaid takes the hands-on approach to “THE RESTORATION AT GRAYSON MANOR”",
-    "source": "Rue Morgue",
-    "url": "https://rue-morgue.com/exclusive-interview-director-glenn-mcquaid-takes-the-hands-on-approach-to-the-restoration-at-grayson-manor",
-    "category": "discs",
-    "published": "2026-10-09T17:28:20.000Z",
-    "snippet": "Releasing today, it's part of the select subset of movies that could be called appendage horror.",
+    "id": "90fa0ac7bdd63412a2fd75d7b1e23ea3cfba15ca",
+    "title": "TIH 681: Marcus Kliewer on The Caretaker, We Used to Live Here, and The Old House Archive",
+    "source": "This Is Horror",
+    "url": "https://www.thisishorror.co.uk/tih-681-marcus-kliewer-on-the-caretaker-we-used-to-live-here-and-the-old-house-archive",
+    "category": "books",
+    "published": "2026-10-11T13:22:58.000Z",
+    "snippet": "In this podcast, Marcus Kliewer talks about The Caretaker, We Used to Live Here, The Old House Archive, and much more. About Marcus Kliewer Marcus Kliewer is the New York Times bestseller author of…",
     "matched": [],
     "classic": true,
     "why": "horror outlet",
-    "amazon_query": null
+    "amazon_query": null,
+    "image": "https://www.thisishorror.co.uk/wp-content/uploads/2026/10/TIH-681-Marcus-Kliewer-on-The-Caretaker-We-Used-to-Live-Here-and-The-Old-House-Archive.png"
   },
   "items": [
+    {
+      "id": "e2dae54234e6451d3c7b667e390e5fec1c0fc03e",
+      "title": "Hellraiser: Revival walkthrough – Full guide with puzzle solutions",
+      "source": "GameSpew",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xRDRLb0lHdHUtdTRqVHpHeVU5R25kVmdINVhMZlRrUFc3TnhWd0l2aDVUUWZhSmpGOW1JT1FOd1JqcDhwX0RFQlZ6UlhsTFRaQ09Uc3NjX1E5TGJqdmppUUtZbk9WbTZWeVJWSHFTeUZ4QQ?oc=5",
+      "category": "gear",
+      "published": "2026-10-11T15:21:44.000Z",
+      "snippet": "",
+      "matched": [
+        "Hellraiser"
+      ],
+      "classic": false,
+      "why": "Hellraiser",
+      "amazon_query": null
+    },
+    {
+      "id": "331e64dbde13bd84e3d6c5295b66928865a56d9a",
+      "title": "“LANDMAN” STAR JOINS SEQUEL “THEY FOLLOW”",
+      "source": "Scream Horror Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jMFFpZmdCTkV6QmxwNDJnR0JaaVJJQ2ZCaDlCb1RQWmZYVnJvUXg3aWVXdjJ5YkVocGlPSHdmUGdYTkJuekpUR3dva0JuWUlVTFlHV1NjRGtMWG5PMlVDNnd2QzJlOGEtYUpOQWFrVXBwOVRPS3hGbHBB?oc=5",
+      "category": "film",
+      "published": "2026-10-11T14:40:37.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "a9a7ae70b195bcc4bea0ac371927a725250b0c5b",
+      "title": "MAT MAURER: MORTAL SIN Is Planning To Release Best-Of And Live Albums In 2027 While Working On New Music",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/mat-maurer-mortal-sin-is-planning-to-release-best-of-and-live-albums-in-2027-while-working-on-new-music",
+      "category": "metal",
+      "published": "2026-10-11T14:38:02.000Z",
+      "snippet": "In a new interview with Jerry Kurunen of Finland's Rauta, vocalist Mat Maurer of Australian thrash metal pioneers MORTAL SIN spoke about the reunited band's plans for the coming months, after their…",
+      "matched": [
+        "metal genre"
+      ],
+      "classic": false,
+      "why": "metal genre",
+      "amazon_query": null
+    },
+    {
+      "id": "2aaf534c8cfc41fe4ceff63f7eaceea7610a6dbe",
+      "title": "Konami Already Planning “Second and Third Waves” of ‘Silent Hill’ Entries",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/video-games/3971325/konami-already-planning-second-and-third-waves-of-silent-hill-entries",
+      "category": "film",
+      "published": "2026-10-11T14:30:17.000Z",
+      "snippet": "Konami has once again reiterated their plans for the Silent Hill franchise, announcing that they are planning “second and third waves” of titles. In a recent interview in Japanese gaming magazine…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ca18ab8ee78f5d6f6f6b69803d900d1e35904ea7",
+      "title": "‘Godzilla Minus Zero’ – New Trailer Brings Maximum Punishment",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/movie/3971329/godzilla-minus-zero-new-trailer-brings-maximum-punishment",
+      "category": "film",
+      "published": "2026-10-11T13:48:30.000Z",
+      "snippet": "The first-ever Japanese production filmed for IMAX, Toho’s Godzilla Minus Zero is stomping into theaters in less than one month, and Toho has unleashed a new trailer this morning. While Godzilla…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "90fa0ac7bdd63412a2fd75d7b1e23ea3cfba15ca",
+      "title": "TIH 681: Marcus Kliewer on The Caretaker, We Used to Live Here, and The Old House Archive",
+      "source": "This Is Horror",
+      "url": "https://www.thisishorror.co.uk/tih-681-marcus-kliewer-on-the-caretaker-we-used-to-live-here-and-the-old-house-archive",
+      "category": "books",
+      "published": "2026-10-11T13:22:58.000Z",
+      "snippet": "In this podcast, Marcus Kliewer talks about The Caretaker, We Used to Live Here, The Old House Archive, and much more. About Marcus Kliewer Marcus Kliewer is the New York Times bestseller author of…",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "cabe0fcad8747b570f2fbb16604bd7e23f00ea61",
+      "title": "Horror Games: News, Trailers & Reviews",
+      "source": "iHorror",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zY1JaVmhIbl9RNlljLVNZWmxCemJjVjFhMkpEQ3ZPVGRROWFtRHpfYndySVVNQnJ0elNXODh6d2dSV2ZSbTd5V2JFNU10U0VMdGxfbk5vVjRBSUZqSmc?oc=5",
+      "category": "film",
+      "published": "2026-10-11T13:14:25.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "d588f641f10ae0ac660c7550ddbd8197397e94f4",
+      "title": "New Book Releases: Oct 6, 2026",
+      "source": "Locus Online",
+      "url": "https://locusmag.com/2026/10/new-book-releases-oct-6-2026",
+      "category": "books",
+      "published": "2026-10-11T11:39:35.000Z",
+      "snippet": "Visit our bookshop.org page to purchase this week's new books and support your local bookstore. And us! Anderson, Kevin J.: Sleep With the Fishes (WordFire Press 978-1680578652, $15.99, 276pp…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "d7c4042dbd80b60dbea29a573b2e51ffaea12108",
+      "title": "‘In a Violent Nature: Part 2’ Opens Valentine’s Weekend 2027",
+      "source": "iHorror",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tTV9pYWE0MGp6dURhQnpCN3pYVkNQRnJab1N4bUpPTm50MjFoVFJDN1gtenhERUZ1dG9DSGhhc1Q2UUNNVW91SVAxNUVYUEVPSmJzdFhza19PckkwSk0xcFBvUDRGQzUtVml6ay1NejNjRjFHOGRPWHREc1NZWWc?oc=5",
+      "category": "film",
+      "published": "2026-10-11T11:34:08.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ac65b462d5f4d89ee9695d1da8f746d13b2257b3",
+      "title": "Devon Sawa Used to Resent Being Asked About Casper, but Now He Says the Ghost Movie Is ‘What Got Me Here’",
+      "source": "Creepy Catalog",
+      "url": "https://creepycatalog.com/devon-sawa-used-to-resent-being-asked-about-casper-but-now-he-says-the-ghost-movie-is-what-got-me-here",
+      "category": "film",
+      "published": "2026-10-11T11:25:50.000Z",
+      "snippet": "Devon Sawa’s “Can I keep you?” from 1995’s Casper turned into a line he can’t outrun, and for years he resented that. “There was a time in my life I was like, ‘I don’t wanna talk about Casper. How…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "acfa05d00b94d478d9877eaa9e57b4f7f1fbbdc2",
+      "title": "Joel Had a Much Bigger Role in Scream 2’s Original Script, Until the Script Leaked Online and Got Rewritten",
+      "source": "Creepy Catalog",
+      "url": "https://creepycatalog.com/joel-had-a-much-bigger-role-in-scream-2s-original-script-until-the-script-leaked-online-and-got-rewritten",
+      "category": "film",
+      "published": "2026-10-11T09:55:50.000Z",
+      "snippet": "In the original Scream 2 script, Joel (Duane Martin) had a much bigger role: he was dating Hallie McDaniel, Sidney’s best friend, and sat inside Sidney Prescott’s Windsor College friend group…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "aa58254128d187fcd3c21e4eeac3489400394ef6",
+      "title": "Band to Watch: Khemmis – Where Doom Metal Meets Epic Melodies",
+      "source": "Impericon",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaE1Zb2VRUWRGcnhabFJtcldoeFprN3lHUXRvX2hfU25MbTNVZ2w1Z3JsTWE0X2xTaDN0aFFSLS1zSF9yUnUycF9YX0xBOEtvRWhnRjZWQkRvWjJlT01fcVA5ZVJpdFRPeGlHRXVPTmFCZk9sZnZ0VzhuZGJodXZlcTFGNzhaRWtrcGhGUk9Xa0laV3RxNHpFTllSY1QxZ2M5?oc=5",
+      "category": "metal",
+      "published": "2026-10-11T08:50:21.000Z",
+      "snippet": "",
+      "matched": [
+        "metal genre"
+      ],
+      "classic": false,
+      "why": "metal genre",
+      "amazon_query": null
+    },
+    {
+      "id": "59b1da8cfbad7ac09fb2d560dfb02733bf313a34",
+      "title": "The $19 million horror film suffers a major setback.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc19ZZlREbnNPSUNpNnJOSWRBNkN1M1VjUlJKbjhiNXg0SlpkV2JkUFFfNUg3NGFCQVdaWnc3RGh4RkJqWW83cmxnWnlZNTRFYXJValNFVm14SFJlQ0VFTVBlNVFtS3FxYW83cEJfVEhJQVNYX1lEVnEwYk9MYi1IbzlXMDd6dVU?oc=5",
+      "category": "books",
+      "published": "2026-10-11T06:50:57.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "6fa3e71f1c051fadd6820fccc13b61372ff121b4",
+      "title": "Cocky Horror: Brisbane’s Drag Kings Take Over The Frankenstein Place",
+      "source": "Star Observer",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYkpWN3hEVEMtQlNHV0R5MWw2TkVkX0R3OFhCMGM4dEs3ODdiNFhPNURWeFM1XzFGWWJtRXJQb25HTjZNSWlRY3MyYjZvQWFYcUNUcXI1WFd5RWVaSnpubVdHS3FFbVNhSzMwWkJ2a3BaM0FoZWJadHhjZDVRODFUOXBmNHhIU2xVWDJfbHBNdHhzYW51elZrVkFndFBOVVV5WHlPRF95UlItSUZRVFJj?oc=5",
+      "category": "gear",
+      "published": "2026-10-11T06:38:27.000Z",
+      "snippet": "",
+      "matched": [
+        "Frankenstein"
+      ],
+      "classic": false,
+      "why": "Frankenstein",
+      "amazon_query": null
+    },
+    {
+      "id": "bc069c21c69136031f58aa1f38b649a59f90bc6d",
+      "title": "Horror movies have an ominously bright future",
+      "source": "Morning Brew",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZHlNbGRuRXRmTTROcVU5cnhycmxJYzVGQzNrbnRBTkNENUdFdjZHd3BOcm83MjJlTGg2cUNQdGk5ZHBUZldOeHBZZ0dYYS0xYmxtbFVyUk00dDUyV0Q5ZjFVOVNPUjlRMmZhTEc4UEI4TFRHd0xYN1l4R2oyc19rZ0N1b1FNaDZR?oc=5",
+      "category": "discs",
+      "published": "2026-10-11T05:45:42.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
     {
       "id": "8db2eefe138860281c1d69959997f66bf836538f",
       "title": "Halloween watch: The Woman in Black — Daniel Radcliffe’s ghost story is thick with fog, grief and shrieks",
@@ -26,6 +230,21 @@
       "matched": [],
       "classic": false,
       "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "fb07752c635f3d650be9e450ef0d67c2b49248f5",
+      "title": "Live A Night As Dracula And Try To Survive Until Sunrise",
+      "source": "BuzzFeed",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVVE3akU1VlA2WXBiRzJIbmkySktGdHN3bVozaG9KV3RkV1NRMzg2eW8zc0xLU1JZbmd3SVdzbFJpNkhTU0ttLW5zRVMtbmpIMHFOcFJoTGNGcGhjYzBFSm5NUDVRakJxaGJJMnh4MVktdFRYN0FTR1V5T2I1Zzh3eS1LTENOTjJKTEpXd19KMW0zTkl0WGZF?oc=5",
+      "category": "gear",
+      "published": "2026-10-11T03:21:02.000Z",
+      "snippet": "",
+      "matched": [
+        "Dracula"
+      ],
+      "classic": false,
+      "why": "Dracula",
       "amazon_query": null
     },
     {
@@ -52,32 +271,6 @@
       "matched": [],
       "classic": false,
       "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "963e6067d5705dd74e38848d370e8ab68b181285",
-      "title": "Toy Robot Video",
-      "source": "Horror DNA",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxNTc2S19FYWI4R0xCMzNveFdqNHhTRGd4MFJJcm1ZSzRucDMzS2ctRDFrRU01WU95YlZDeWo5ZVQ1bVRBU1VhRE13dUczeGw5ZkdxcmdFTzFvZw?oc=5",
-      "category": "gear",
-      "published": "2026-10-11T00:49:51.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "5d95fe8900e70f2d93f57e734deb36718e3639a6",
-      "title": "‘In A Violent Nature: Part 2′ Brings Johnny Back For A Bloody Valentine’s Release",
-      "source": "Bloody Disgusting",
-      "url": "https://bloody-disgusting.com/movie/3971270/in-a-violent-nature-part-2-brings-johnny-back-for-a-bloody-valentines-release",
-      "category": "comics",
-      "published": "2026-10-10T23:30:30.000Z",
-      "snippet": "Masked killer Johnny (Ry Barrett) made a surprise appearance at New York Comic Con today to reveal that he’ll be carving up campers in sequel In a Violent Nature: Part 2, in theaters on February 12…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
       "amazon_query": null
     },
     {
@@ -109,6 +302,19 @@
       "amazon_query": null
     },
     {
+      "id": "3c99785c4f03b8188381cadecf7535dbe27c45d8",
+      "title": "Jessica Chastain’s ‘Other Mommy’ makes five major changes to horror book",
+      "source": "The Express Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdjhvOVpQRkQyOWdpVE9xTnphUVpLWUFENlN3R01yUkRuUUhENUh5V3ZYdzl6eGZfclZqSFlaSENhSkVUZ3VWNjVqREFYVEs3V2l5bXd1YkJJMWh4VEFkdTRkVmZfcVNPaFRtYjM2N0t5V0ZDRENnUkQ0UWVFcW92dGFlZVlSNXdqZ0haNmlhSFNhYWZYUTJYRFdyNlEwS1lmOGxCXzM3MWI3UdIBsgFBVV95cUxNNWdYaFh6WlEyOVV5UmRxUHpsN0JyaDluTmQwMURWOFRveXpQNGVGOHl4VFpoTG5yc0syTk1Pbk0wOWtFeGtUbFVzeWgxNGpvSDRHbU8xdWRzOUJkNVVGcVdPc3dpU1NGc05zcDRpcVF0OE96TmxaQXlONHh1VmpuRmxfRGtMNkpYREpHdkZMTy1XTHNHckc5TWtJd2xqNThLRTZoTlVLQl9BVl9LaWxwSDFB?oc=5",
+      "category": "books",
+      "published": "2026-10-10T22:08:33.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
       "id": "8e9b3c3fad016387ee8db4dc823d29d9027dc8c7",
       "title": "Passing Through The Further: Inside the Creative Handoff of “INSIDIOUS”",
       "source": "Rue Morgue",
@@ -122,26 +328,13 @@
       "amazon_query": null
     },
     {
-      "id": "d34c09e286c2e94c37830db2e9dd8b5e09972f6c",
-      "title": "‘Trick ’r Treat 2’ Has a Script and a Director Ready to Go",
-      "source": "iHorror",
-      "url": "https://ihorror.com/trick-r-treat-2-script-dougherty-witching-hours",
-      "category": "film",
-      "published": "2026-10-10T21:29:12.000Z",
-      "snippet": "Michael Dougherty says the Trick ’r Treat 2 script is written and he is ready to shoot, and he traces Sam’s origin to a childhood Halloween mugging.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "bb340b2c9973c6960cdc68f1944c39019e9b6a28",
+      "id": "e0eddfff6ecfda43fc935d6c53de47e6c10fc631",
       "title": "‘Pan’s Labyrinth’ 3D: 1,300 Artists and Absolutely No AI",
       "source": "iHorror",
-      "url": "https://ihorror.com/pans-labyrinth-3d-20th-anniversary-re-release",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuZTZCV2h6ak9mNTlXRmdNRDQ0dXZoSnJJZjlLeWFKMTRlSjVYdGNNT3RyQUMtZXpEYTY1R1B3NUVEcWR2ajF5cVY0SVhma25ZMWlvdWtvS2hrSDlaQ2s2cG5EU3dYeW9CZTV4Y0Y0bXFTeFd2?oc=5",
       "category": "film",
-      "published": "2026-10-10T21:29:10.000Z",
-      "snippet": "Guillermo del Toro put more than 1,300 artists on the first 3D conversion of Pan’s Labyrinth, now in theaters nationwide from Cineverse and Fathom Entertainment.",
+      "published": "2026-10-10T21:32:57.000Z",
+      "snippet": "",
       "matched": [],
       "classic": false,
       "why": "horror outlet",
@@ -161,119 +354,6 @@
       "amazon_query": null
     },
     {
-      "id": "25b5d60f8186d84484f0476f134b3eb256e0c450",
-      "title": "Warren Family Legacy Continues as Chris McKinnell Joins Witchcraft: The Lanterne of Light",
-      "source": "HorrorNews.net",
-      "url": "https://horrornews.net/186325/warren-family-legacy-continues-as-chris-mckinnell-joins-witchcraft-the-lanterne-of-light",
-      "category": "comics",
-      "published": "2026-10-10T20:00:00.000Z",
-      "snippet": "The next generation of the Warren paranormal legacy is stepping into one of horror’s longest-running franchises. Deathstalker Productions has announced that Chris McKinnell, grandson of legendary…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "db2a7c4d5a4746c27c21aadd0f2e952eacb17af8",
-      "title": "Stephen King Says ‘Carrie’ Wouldn’t Exist Without His Wife, Tabitha King",
-      "source": "Creepy Catalog",
-      "url": "https://creepycatalog.com/stephen-king-says-carrie-wouldnt-exist-without-his-wife-tabitha-king",
-      "category": "books",
-      "published": "2026-10-10T19:35:19.000Z",
-      "snippet": "Tabitha King played a decisive role in the existence of Carrie, Stephen King’s debut novel. While he was teaching high school and writing short stories for magazines, he drafted the opening pages of…",
-      "matched": [
-        "Stephen King",
-        "Carrie"
-      ],
-      "classic": false,
-      "why": "Stephen King, Carrie",
-      "amazon_query": null
-    },
-    {
-      "id": "1043ec0d64457408b6f5ba502b4cbb05b9db298e",
-      "title": "‘The Exorcist: Martyrs’ Trailer May Be Hiding a Huge ‘Exorcist III’ Connection",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/news/593032/exorcist-martyrs-julie-kinderman-theory",
-      "category": "film",
-      "published": "2026-10-10T18:50:13.000Z",
-      "snippet": "When I wrote about the trailer for The Exorcist: Martyrs, I couldn’t help thinking about The Exorcist III. The procedural",
-      "matched": [
-        "The Exorcist"
-      ],
-      "classic": false,
-      "why": "The Exorcist",
-      "amazon_query": null
-    },
-    {
-      "id": "971a70c179c9f59dc051ddfa6d319fa45ca3cfe6",
-      "title": "BLACKENED PROG/THRASH DUO, PTEROSAUR UNLEASH THEIR DEBUT EP, “WEBS WE WEAVE",
-      "source": "rocknloadmag.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0JHRGIyNWFmNlJacEFlQzBIbmtwWkYxVlVTZUlQNE1ES1BIdkpGdzdrOVFjMVlmRU9sVmZoMGdHbkpJNC1Ma1l6aDJSN2ZxWXhOVW1sdHM2ZWN6TnVtRV9oanFwbTlEOVVLYVkyQjIxU00zN2dBaWxXLU1HRWVFTlhCQjNXeG5GUWJCRTh6bWFBRzVlWWhldGF3MThKTEk?oc=5",
-      "category": "metal",
-      "published": "2026-10-10T18:01:13.000Z",
-      "snippet": "",
-      "matched": [
-        "metal genre"
-      ],
-      "classic": false,
-      "why": "metal genre",
-      "amazon_query": null
-    },
-    {
-      "id": "dc63812fe9963bea7bbbc9d71779d557619b67ff",
-      "title": "Polish heavy metal outfit No Mästers unleash self-titled debut album",
-      "source": "The Moshville Times",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY3JHZmJWRXNjbm9SWUQ5S3RkaDFYQzZrMkhaZnlnajE5Y21CVktVaGxxNEI5NTdISnppY2k3MFYyT3d0V1AxWEZOaXQzNElQQ2lFWGhmMU0xOXVCcGJuaWt0OV9HVTZXYWM1TkV1dWRYRUY0MGF6dmJEMWJBR0k1WXBkMkNWWlhHUWt4c1AzQWxPNmtpa0RYNXJVYm4xblFGdVlMTUpKQlNwZw?oc=5",
-      "category": "metal",
-      "published": "2026-10-10T18:00:33.000Z",
-      "snippet": "",
-      "matched": [
-        "metal genre"
-      ],
-      "classic": false,
-      "why": "metal genre",
-      "amazon_query": null
-    },
-    {
-      "id": "6ded679c3a81ae57244450399fd430e13017ef29",
-      "title": "MatPat Is Producing an ‘Amanda the Adventurer’ Movie",
-      "source": "iHorror",
-      "url": "https://ihorror.com/amanda-the-adventurer-movie-blumhouse-matpat",
-      "category": "film",
-      "published": "2026-10-10T16:33:29.000Z",
-      "snippet": "Blumhouse is developing a live-action Amanda the Adventurer movie, with MatPat producing under a new multi-picture deal for indie horror games.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "907c323a47eec2b4cff575205f293f93a549826d",
-      "title": "New ‘Paranormal Activity’ Returns to the Original House",
-      "source": "iHorror",
-      "url": "https://ihorror.com/paranormal-activity-2027-original-house-ian-tuason",
-      "category": "film",
-      "published": "2026-10-10T16:29:50.000Z",
-      "snippet": "The eighth Paranormal Activity is set in the same house Oren Peli used for his 2007 original. Ian Tuason directs for Blumhouse and Paramount.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "cefb23a8c1d5c0998e50dfa9f2ac5945e9595230",
-      "title": "Lego Monsters Unchained fan creator flew to Epic Universe just to finish 4,000-piece model",
-      "source": "Attractions Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMnlLalc2X2FvLTlzUk00SV9nRkIxa3NfeWotMmNDU1BaRVhTeGxlV0dFc241dGdwS3ljeGEwOExoTXc4T2FRZG5NX0tRaEZjaDNQUERjdW1nQmJWdWNTWjlGVVNyTmdYMmFrbzY1NmMzWU4wY0tyNllCNzNXZTU0VUVVMG9sRnFQT3BLaEI4UUM?oc=5",
-      "category": "film",
-      "published": "2026-10-10T16:02:29.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
       "id": "859898be10481c2019cb26d1964f6b467c03fb38",
       "title": "The End Is Here: Stephen King and Richard Chizmar on Finishing Their Trilogies",
       "source": "Fangoria",
@@ -286,32 +366,6 @@
       ],
       "classic": false,
       "why": "Stephen King",
-      "amazon_query": null
-    },
-    {
-      "id": "a71c6aeeea453d397183bcdb4f23c7c81f74c0bf",
-      "title": "‘Godzilla Minus Zero’ Review: Big, Monstrous, and Confused",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/reviews/593001/godzilla-minus-zero-review-big-monstrous-and-confused",
-      "category": "film",
-      "published": "2026-10-10T16:00:00.000Z",
-      "snippet": "'Godzilla Minus Zero' dazzles with monster battles but falters with slow pacing and repetitive emotional drama. Read our review.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "d03ea40a4b3205d6c5596c81151c4ed74e21fc4d",
-      "title": "Jessica Chastain’s Other Mommy Officially Ties Score With The Best Horror Movie of the 2010s",
-      "source": "FandomWire",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rcFBtSlVXdDFlSEY4d2lmR1o0S1pheEJadmNWdzdiNFlmVG1GNElsRFhUdXA1UThUeURfZlM1SmpPSWRlTWVyNkhCclYzdkFjNHJhXzZNdE4tS1c0S1d0YWtadmRPMXhleWtPYTQzeUxHcGNpcG9RdG81UzludGM?oc=5",
-      "category": "discs",
-      "published": "2026-10-10T15:34:17.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
       "amazon_query": null
     },
     {
@@ -373,16 +427,16 @@
       "amazon_query": null
     },
     {
-      "id": "93bb1418dbf2177b867b52320ca7dc6ccc6a6f45",
-      "title": "DEATH AND THE MAIDEN Remembering The House That Dripped Blood (1971)",
-      "source": "Scream Horror Magazine",
-      "url": "https://www.screamhorrormag.com/death-and-the-maiden-remembering-the-house-that-dripped-blood-1971",
+      "id": "bec59f11665991ddc085b7bb924d772b636d66dc",
+      "title": "‘Other Mommy’ Review: Jessica Chastain’s Acting Personas Collide in Freaky Dreamcore Horror",
+      "source": "IndieWire",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTmM0NmNZSzd2Nm9fUklsb0VfUEwwRm1fa3FPUlljd0pYamVFUTVzMUg2TUFFQTM1TEU1LTdnMWdZWEJXbVcyUlZ4dFBaQTNYQUpldTNlT3lmbWdmdDdoZkJhRU9BYU5ySmdBUXZYNmE3T2F0SHBfWVB5cVNrZ2szWVRodkdTb2xuTjZDMy1HUEZNUXdE?oc=5",
       "category": "books",
-      "published": "2026-10-09T18:25:44.000Z",
-      "snippet": "The success of Torture Gardens (1968) convinced Amicus productions that the marriage of the portmanteau format with the short stories of their now resident scriptwriter, Robert Bloch, was a match…",
+      "published": "2026-10-09T20:09:12.000Z",
+      "snippet": "",
       "matched": [],
-      "classic": true,
-      "why": "horror outlet",
+      "classic": false,
+      "why": "horror subject",
       "amazon_query": null
     },
     {
@@ -398,21 +452,6 @@
       ],
       "classic": true,
       "why": "Thin Lizzy",
-      "amazon_query": null
-    },
-    {
-      "id": "ec0290249bbd5a939d7519b510a1e1b88fa29249",
-      "title": "Dracula (4K) review (Grimmfest 2026)",
-      "source": "Bloody Flicks",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1pLXZxTTNyX3c1ZTBhTjFJcG1fSWVMeUxYREdhNk80ZTFDWnZqZlBrNlRLRVBLcU91M2JzTW5OdjZmTk1xbWVnVkVCNGgzMWNEOFFreVpDZk8tcEtobVdveWhneFU3ZlJBSU9yT1ptUHdaNTJYblNqTHhOX0g?oc=5",
-      "category": "discs",
-      "published": "2026-10-09T17:40:18.000Z",
-      "snippet": "",
-      "matched": [
-        "Dracula"
-      ],
-      "classic": true,
-      "why": "Dracula",
       "amazon_query": null
     },
     {
@@ -442,10 +481,10 @@
       "amazon_query": null
     },
     {
-      "id": "f28238da97dc201259c1febe0f13a85387dc5bc0",
-      "title": "TESTAMENT Frontman CHUCK BILLY And METAL CHURCH Bassist DAVID ELLEFSON To Discuss Chuck’s Memoir At Tempe, Arizona Bookstore",
+      "id": "69be5c5d7a10ac653b5234163e395277fc8b1ba6",
+      "title": "TESTAMENT Frontman CHUCK BILLY And METAL CHURCH Bassist DAVID ELLEFSON To Discuss Chuck's Memoir At Tempe, Arizona Bookstore",
       "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUjd3OFNsblFXV2RuZjRvbmR0WWNpMTFPNHNDTHRHckpUYmVjSE9aNUZ1M0FNeDVQZHAwWndXY1RQalFpQTBJOVV4Y0dnb2xKdng5WGt5d0VKamp1WHNPSG00Q1NVNUMzdFJJdzZsRXVHYVk3czNza2sxLXAxNVJyaTAtdENxWGFUM1JxdVBmUDItRW84a1ZfMUM1VVlaNGxnc1pyWkNUbUNhZnpXTi04cTR1T0pKRTRTR3oxUm1JX2JlWlZpU3A5aURsaUhOTUxQamtVQ3dlOUhrQWRxUUFaci1TZmNfUdIB7gFBVV95cUxPeXY4RnNrMXY5YnlDRlZLSjRwa0Y2SzFBTklVeUd5Y0VIcS1EVVgtdXV1ZFktT3VTajU5UjhLRTVKR1Q1RkNCTkdib2sydU5ZSVhPeGlqRkxBWVFnSFRoZ3ZGcDJfb1hGQUU3aUJoaXZzeWlsNEo2d1NXeEZ4dGxqaERxdmZNT2VNVHZJQjd6dFdOMWR2X1lyVG5wUEswQTNpS05ncmMwV2I0dGNCaC15c1RQbm9YeGlZNVRaUmdXd2F6bU00aFpQazFTVWFvQ19QSEx3Z2RzNG80dzZveDVvWXdkaThEUXN6RXlTeEZ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUjd3OFNsblFXV2RuZjRvbmR0WWNpMTFPNHNDTHRHckpUYmVjSE9aNUZ1M0FNeDVQZHAwWndXY1RQalFpQTBJOVV4Y0dnb2xKdng5WGt5d0VKamp1WHNPSG00Q1NVNUMzdFJJdzZsRXVHYVk3czNza2sxLXAxNVJyaTAtdENxWGFUM1JxdVBmUDItRW84a1ZfMUM1VVlaNGxnc1pyWkNUbUNhZnpXTi04cTR1T0pKRTRTR3oxUm1JX2JlWlZpU3A5aURsaUhOTUxQamtVQ3dlOUhrQWRxUUFaci1TZmNfUQ?oc=5",
       "category": "metal",
       "published": "2026-10-09T16:41:27.000Z",
       "snippet": "",
@@ -501,21 +540,6 @@
       "amazon_query": null
     },
     {
-      "id": "c0afd1c6e1b74aa347b9ddacd642ad9858802d9b",
-      "title": "MÖTLEY CRÜE Releases Newly Remastered 'Take Me To The Top' From 'Too Fast For Love' 45th-Anniversary Edition",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/motley-crue-releases-newly-remastered-take-me-to-the-top-from-too-fast-for-love-45th-anniversary-edition",
-      "category": "metal",
-      "published": "2026-10-09T13:43:55.000Z",
-      "snippet": "Legendary rockers MÖTLEY CRÜE have released a newly remastered version of \"Take Me To The Top (Leathür Records Version)\" on all streaming services, from the special 45th-anniversary limited-edition…",
-      "matched": [
-        "Motley Crue"
-      ],
-      "classic": true,
-      "why": "Motley Crue",
-      "amazon_query": null
-    },
-    {
       "id": "b720ecf017ed730a2af074977d0c5b8bf6455ed1",
       "title": "JUDAS PRIEST's IAN HILL Announces His Retirement; URIAH HEEP's DAVE RIMMER To Step In",
       "source": "Blabbermouth",
@@ -531,48 +555,18 @@
       "amazon_query": null
     },
     {
-      "id": "e81f03ce9e37474f15a812a20bc4fe1481efbdda",
-      "title": "‘Black Sabbath’ Review: Horror Anthology from Mario Bava Features One of the Most Terrifying Things You Will Ever Watch",
-      "source": "The Movie Buff",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmJ5cUJ4NG1WS1kxVnBLdWhINlNYelhxMzFZUjhTMWhVV0VoNkNReDExdS03a0dka1lVM0dabEVZcTlSU2c4SDV1bTAyTUlxdF8wNGtrWXBEdzZOZ2xnWV8xM1BmOWcxeTR2ZnJZTkdyRzZJTVlZM0NZWFBTendQcWpEeUk2YlY4S19vbmVJR2hiQThqUjNXZ0FjNzYwR2tqamxWZTZRaFlkRl9kcFB5RU55TWdKamVia1hvZkVQbllfV3lDeURJcU5XMGJ0UlR2bFVIQW5kLTl6NnY0dXl4OUFpb2xVTjJydEHSAfIBQVVfeXFMTlprQnUyUTVEaE5GNEdzemV3ZnZtTWZvT2hBTzVZRkt2V25HMVR3OE5HaDIzZGJyREl6amNXMWxZNU1nMmNST2lxZ3V3M3N0emdaYWc4VTNkQXZnODB4RktVOUxnWUpyZkxVQkczRFJJbV9Bd0lnTnhBTnM4cjd6eHpTeVBtN1ZoakpEZEw4eFU4Z0pybnd0MzRiZ2NnLWY0SVdYa2pyelRsVjlzREtULVhWeUdGTWRwZHU3eXJvalVpeVRBVnhBY1hxZU1DTWlNM1o4RXFjWVZGZ3FueEQ2Q3NieXBzbko1NnI2VDgxXzBJMWc?oc=5",
-      "category": "film",
-      "published": "2026-10-09T07:33:00.000Z",
+      "id": "3f6310538d848f167419032dabf8d1d3d7909170",
+      "title": "John Carpenter Made ‘Halloween’ in 1978 for $300,000 in 20 Days; The Most Frightening Mask in Horror History Cost $1.98 at a Costume Shop",
+      "source": "Parade Magazine",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV2RtQktzdlUzZGVXV09mT0poZ0IzcE9nLW1USWZWU0lKLU9GZUNRaHlJMm5OdlZPUTRGMEpzc2RNUVVGY3pfeXBiX1RURDFCa3NUWThQY0xKZVVyUEIyeWtDSFZfOG5jSzdaV3MxZXlQR3NQNjlxNW95VFhGdFpEQTNLeS1YUzFHSlJWMG1HSHRrYjg1SUZTX2ZTVEwwUDFBUi16Y0R1Y0tYNUxMQWtMWkJZaVJMdw?oc=5",
+      "category": "gear",
+      "published": "2026-10-09T10:41:43.000Z",
       "snippet": "",
       "matched": [
-        "Mario Bava"
+        "John Carpenter"
       ],
       "classic": true,
-      "why": "Mario Bava",
-      "amazon_query": null
-    },
-    {
-      "id": "4260c2e735b8b8b087ce78dd97f94fce75067262",
-      "title": "\"I wake up, covered in puke, and every inch of my body is in pain. My manager said, You were diving into piles of garbage, screaming at the top of your lungs.\" Anthrax's Scott Ian recalls the night he first met Lemmy from Motorhead",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdG5KaVRvd0VmTEYtcThHM3AxaWpBSUphTlhhWlRsU3MzLVhkSmJOVDY1eWhyMUJZaFNTeU1QVEhfNFJzZkJKdWc5cmt3WUR1anVmR2xNTWVfVmZ0TlQ1bkZwNWIweDYxOXZaaURZR0VQbi1TS1NsUjdHNkxPLTFYdkV3Y2tSZzd1OGZpTzJGNzlwampmMlpCbFc5Y1c0Y1Ric0l0b014X3IwUVZLVkRHWQ?oc=5",
-      "category": "metal",
-      "published": "2026-10-08T21:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Anthrax"
-      ],
-      "classic": true,
-      "why": "Anthrax",
-      "amazon_query": null
-    },
-    {
-      "id": "0b2c067971409b694fa95780a880c02f2aaa8e8d",
-      "title": "Which Band Member Said No To Recording A Final BLACK SABBATH Album? – “One Of The Weirdest And Funniest Phone Calls Of All Time,” Says Producer ANDREW WATT; Video",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVEcwMk9OMy1NeUJ4bHdTbktuWWoxY1J5azVFZWVUclROU1lfWG9ELWhPV2prYTNNOEdvbHFrel9VTG5DWVd6Uk5teU9nb2xCSmFka2U4X1pqYlppa05sbHcwUlBrZzlYZzc0OVRUeDhzdENheTBtN29QakpNZC15UTlIdTYwLUFsemxfRWZlbGdBV1g0TmlNdG1fZXJVQWRGWjd5dmJFTTRvbVFkQ21UeHREQ2JXcGhyeTJMakllLXpfbWViWWNqbVJ4RlU3NVV6bnBnMGNnZXVkTmcteXFMXzgwd1lQUjJrRlVCVXhrbXN3RG1xZktTOWl2bWtyN3pURVBnUTc3Yjd0Y3lENE56M2dR0gGaAkFVX3lxTFBpMXBCTEtFSnJUQU9UTXM2QXF1bFpjMVQ1eEtPc2x0R09NT1lmeDZpMmk3R19Xc1UwVHh6Vzk5SVVBRFdZQ1F2STQ5SThaV3hocTJpLWp0T2pkb0V4WXNHNFZhdDR5dWZyNGQ0azVObGpsaUlsdmItLW1sUmdwNncxbnB3U25LR01uc1VxZDdCZm80N3NCZGhWazNpXzhuTEF2ejJUMGNRMzNTcmIwaUo5aS1UYThTQ2xWVE9lVDdWRll6TExmX2NhR2hyaDRncGxsdXEwWHVPaU1LM1BOcE54M0gyZHZ1YThKSGwxT216VE9Uc08taXdvZXlEbzRqRmdaNFpIaTROd050R3VaTlBFaUh5WVRRQnYzdw?oc=5",
-      "category": "metal",
-      "published": "2026-10-08T17:27:01.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
+      "why": "John Carpenter",
       "amazon_query": null
     }
   ],
@@ -580,16 +574,28 @@
     "date": "2026-10-11",
     "takes": [
       {
-        "h": "The slipcase is not the film",
-        "p": "Boutique labels have taught a generation that a horror film arrives in a box with a poster, a booklet and a numbered card. Lovely objects, most of them. But the transfer is the thing you bought. Read the reviews of the disc before the reviews of the packaging."
+        "h": "Three special editions for the 40th anniversary of <em>It</em>",
+        "p": "Stephen King's site lists three anniversary editions of <em>It</em>: a US Scribner edition of 1,168 pages with no date announced, a UK Hodder edition of 1,088 pages listed for September 3, and a UK Hodder deluxe limited to 1,010 numbered copies, shipping November 26. The deluxe is not sold in the US or Canada.",
+        "src": "StephenKing.com",
+        "url": "https://stephenking.com/news"
       },
       {
-        "h": "In praise of the bargain box",
-        "p": "Every convention has one: a long box of paperbacks priced to move, sorted by nobody. It is still the best education this hobby offers, because it forces you to judge a book by its spine, its imprint and its first page, without anyone's listing to tell you what to think."
+        "h": "Lividian announces the Robert McCammon Library",
+        "p": "Lividian Publications will reissue Robert McCammon's backlist as hardcovers: Smyth-sewn, cloth-bound, with reversible jackets, art by François Vaillancourt and essays by Mathias Clasen. <em>Baal</em> and <em>Bethany's Sin</em> lead in 2026, at four titles a year. <em>The Night Boat</em>, <em>They Thirst</em>, <em>Mystery Walk</em> and <em>Usher's Passing</em> are in production for 2027.",
+        "src": "RobertMcCammon.com",
+        "url": "https://www.robertmccammon.com/2026/04/17/lividian-publications-announces-the-robert-mccammon-library/"
       },
       {
-        "h": "Condition is a description, not a verdict",
-        "p": "A grade tells you what a copy has been through. It does not tell you whether to want it. Some of the best books on my shelf are reading copies with a cracked spine and a previous owner's name inside the cover. Someone loved them first. That counts for something too."
+        "h": "<em>Pan's Labyrinth</em> returns in 3D",
+        "p": "<em>Pan's Labyrinth</em> is back in theaters in 3D for its twentieth anniversary: a limited run began October 8 and it went nationwide October 9, from Cineverse and Fathom. It is the film's first 3D release, with a new 4K/HDR master; Aaron Parry of SDFX Studios oversaw the conversion.",
+        "src": "Rue Morgue",
+        "url": "https://rue-morgue.com/pans-labyrinth-returns-to-theatres-nationwide-in-3d-for-its-20th-anniversary"
+      },
+      {
+        "h": "NECA's ULTRAmate Ghost Face, with Dead by Daylight extras",
+        "p": "NECA's ULTRAmate Ghost Face includes several robes, among them a Dead by Daylight poncho, knives, a mock video-rental VHS tape, a red Dead by Daylight mask and a new <em>Scary Movie</em> mask. Pre-orders run through the NECA Store; no date has been announced.",
+        "src": "Dread Central",
+        "url": "https://www.dreadcentral.com/exclusive/592234/neca-ultramate-ghost-face-figure-exclusive/"
       }
     ]
   }
