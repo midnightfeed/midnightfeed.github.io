@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v9, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them.",
-  "version": 9,
+  "_note": "Mirror of 03-night-wire-taxonomy (v10, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them.",
+  "version": 10,
   "freshness_days": 5,
   "max_items": 40,
   "per_source_cap": 4,
@@ -351,8 +351,16 @@
         "name": "Hammer Films",
         "aliases": [
           "Hammer Horror",
-          "Hammer's",
-          "Hammer Film"
+          "Hammer Film",
+          "Hammer Studios"
+        ],
+        "only_categories": [
+          "film",
+          "discs",
+          "books",
+          "comics",
+          "gear",
+          "collect"
         ]
       },
       {
@@ -1556,7 +1564,6 @@
     "altercation",
     "Grand Theft Auto",
     "video game",
-    "^\\s*(\\d+|three|five|six|seven|eight|ten|twelve|fifteen|twenty)\\s+(great|best|underrated|overlooked|scariest|essential|classic|forgotten|horror|movies|films|times|things|reasons|books|albums)\\b",
     "unboxing",
     "\\bPS5\\b",
     "Xbox",
@@ -1568,7 +1575,11 @@
     "\\bSteam\\b",
     "gameplay",
     "opening weekend",
-    "weighs in"
+    "weighs in",
+    "^\\s*(the\\s+)?(\\d{1,2}|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fifteen|twenty|twenty-five|fifty)\\s+[a-z]",
+    "tracks of the week",
+    "^\\s*podcast\\s*[:\\-]",
+    "playlist"
   ],
   "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
   "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
