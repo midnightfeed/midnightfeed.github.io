@@ -77,19 +77,38 @@ function snippetOf(s) {
   return t.slice(0, t.lastIndexOf(" ")).replace(/[,;:.\s]+$/, "") + "…";
 }
 
+// ---------- images (the lead only; never stored, only linked) ----------
+const IMG_URL = /\.(?:jpe?g|png|webp|gif|avif)(?:[?#]|$)/i;
+function firstImg(html) {
+  const m = decodeEntities(String(html || "")).match(/<img\b[^>]*?\bsrc=["']([^"']+)["']/i);
+  return m ? m[1] : "";
+}
+// an image the feed itself offers: media:content / media:thumbnail / enclosure, else the first <img> in the body
+function imageOf(i) {
+  for (const k of ["media:content", "media:thumbnail", "enclosure"]) {
+    for (const m of arr(i[k])) {
+      const u = m && m["@url"];
+      if (!u) continue;
+      const type = m["@type"] || "", medium = m["@medium"] || "";
+      if (/^image\//i.test(type) || medium === "image" || (!type && !medium && IMG_URL.test(u))) return u;
+    }
+  }
+  return firstImg(txt(i["content:encoded"]) || txt(i.content)) || firstImg(txt(i.description) || txt(i.summary));
+}
+
 function parseFeed(xml) {
   const doc = parser.parse(xml);
   if (doc.rss) {
     return arr(doc.rss.channel?.item).map((i) => ({
       title: clean(txt(i.title)), url: decodeEntities(txt(i.link) || txt(i.guid)), date: txt(i.pubDate) || txt(i["dc:date"]),
-      snippet: txt(i.description) || txt(i["content:encoded"]),
+      snippet: txt(i.description) || txt(i["content:encoded"]), image: imageOf(i),
     }));
   }
   if (doc.feed) {
     return arr(doc.feed.entry).map((e) => {
       const links = arr(e.link);
       const alt = links.find((l) => !l["@rel"] || l["@rel"] === "alternate") || links[0];
-      return { title: clean(txt(e.title)), url: decodeEntities(alt ? alt["@href"] || txt(alt) : ""), date: txt(e.published) || txt(e.updated), snippet: txt(e.summary) || txt(e.content) };
+      return { title: clean(txt(e.title)), url: decodeEntities(alt ? alt["@href"] || txt(alt) : ""), date: txt(e.published) || txt(e.updated), snippet: txt(e.summary) || txt(e.content), image: imageOf(e) };
     });
   }
   if (doc["rdf:RDF"]) {
@@ -160,7 +179,10 @@ const anyRe = (list, flags) => list.map((s) => wordRe(s, flags));
 
 const QUAL = anyRe(cfg.qualifiers);
 const METAL_QUAL = anyRe(cfg.metal_qualifiers || []);
-const EXCL = (cfg.exclude_patterns || []).map((p) => new RegExp(p, "i"));
+const EXCL = (cfg.exclude_patterns || []).map((p) => ({ p, re: new RegExp(p, "i") }));
+// a figure, statue, bust or mask story isn't a video-game story just because it names Fortnite or Nintendo
+const COLLECTIBLE = cfg.collectible_words ? new RegExp(`(^|[^\\p{L}\\p{N}])(${cfg.collectible_words.map(esc).join("|")})(?=$|[^\\p{L}\\p{N}])`, "iu") : null;
+const COLLECTIBLE_EXEMPT = new Set(cfg.collectible_exempt_excludes || []);
 
 function terms(entry) {
   const e = typeof entry === "string" ? { name: entry, aliases: [] } : entry;
@@ -197,29 +219,33 @@ const kindOf = (src) => src.kind || (src.category === "metal" ? "metal" : "gener
 function judge(item) {
   const text = `${item.title} ${clean(item.snippet)}`;
   const head = item.title;
-  if (EXCL.some((r) => r.test(item.title))) return { pass: false, why: "excluded" };
+  const category = classify(item.src, text);
+  const collectible = category === "gear" && COLLECTIBLE && COLLECTIBLE.test(head);
+  if (EXCL.some((x) => x.re.test(item.title) && !(collectible && COLLECTIBLE_EXEMPT.has(x.p)))) return { pass: false, why: "excluded" };
   if (item.title.length < 12 || JUNK.some((r) => r.test(item.title))) return { pass: false, why: "junk" };
   if (item.publisher && BLOCKED_PUB.has(item.publisher.toLowerCase())) return { pass: false, why: "blocked publisher" };
   const kind = kindOf(item.src);
-  const category = classify(item.src, text);
   const isMetal = kind === "metal" || category === "metal";
   const hasQ = QUAL.some((r) => r.test(text)) || (isMetal && METAL_QUAL.some((r) => r.test(text)));
   const headQ = QUAL.some((r) => r.test(head)) || (isMetal && METAL_QUAL.some((r) => r.test(head)));
-  const matched = [];
+  const m1 = [];
   const bands = [];
   for (const t of T1) {
     if (t.only_categories && !t.only_categories.includes(isMetal ? "metal" : category)) continue;
     if (t.require_horror && !HORROR.some((r) => r.test(text))) continue;
     if (t.res.some((r) => r.test(head)) && (!t.require_qualifier || hasQ)) {
-      matched.push(t.name);
+      m1.push(t.name);
       if (t.only_categories && t.only_categories.includes("metal")) bands.push(t.name);
     }
   }
-  const t2 = [];
+  const m2 = [];
   for (const t of T2) {
-    if (t.res.some((r) => r.test(head)) && (headQ || (!isMetal && kind !== "metal"))) { matched.push(t.name); t2.push(t.name); }
+    if (t.require_horror && !HORROR.some((r) => r.test(text))) continue;
+    if (t.res.some((r) => r.test(head)) && (headQ || (!isMetal && kind !== "metal"))) m2.push(t.name);
   }
-  const t1count = matched.length - t2.length;
+  // each name once: the per-name cap counts these
+  const matched = [...new Set([...m1, ...m2])];
+  const t1count = new Set(m1).size;
   const era = ERA && ERA.test(head) && (!GENRE.length || GENRE.some((r) => r.test(text)));
   const label = METAL_LABELS.some((t) => t.res.some((r) => r.test(head)));
 
@@ -271,7 +297,9 @@ for (const { report, items } of results) {
   for (const it of items) {
     const t = Date.parse(it.date);
     const url = canonical(it.url);
-    if (!it.title || !url || !Number.isFinite(t) || t < cutoff || t > NOW.getTime() + 36e5) continue;
+    // low-frequency sources (author sites, presses) can ask for a longer window than the nightly 5 days
+    const srcCut = it.src.freshness_days ? NOW.getTime() - it.src.freshness_days * 864e5 : cutoff;
+    if (!it.title || !url || !Number.isFinite(t) || t < srcCut || t > NOW.getTime() + 36e5) continue;
     fresh++;
     const j = judge(it);
     if (!j.pass) continue;
@@ -282,6 +310,7 @@ for (const { report, items } of results) {
       published: new Date(t).toISOString(), snippet: snippetOf(it.snippet),
       matched: j.matched, classic: j.classic, why: j.why, amazon_query: null,
       _bands: j.keys || j.bands || [],
+      _img: it.image || "",
       _w: (it.src.query && WEIGHT_BY_NAME[(it.publisher || "").toLowerCase()]) || it.src.weight || 1,
     });
   }
@@ -332,14 +361,79 @@ for (;;) {
   const worst = picked.filter((c) => c.category === over).sort((a, b) => a._s - b._s)[0];
   picked.splice(picked.indexOf(worst), 1);
 }
+
+// Floors: some categories must show up every night (collectibles: figures, busts, statues, masks).
+// Pull the best leftover candidates back in, making room by dropping the weakest story from a category that can spare one.
+const floorNotes = [];
+for (const [cat, min] of Object.entries(cfg.category_min || {})) {
+  const have = () => picked.filter((c) => c.category === cat).length;
+  const srcCount = (s) => picked.filter((c) => c.source === s).length;
+  const bandCount = (b) => picked.filter((c) => c._bands.includes(b)).length;
+  const pool = kept.filter((c) => c.category === cat && !picked.includes(c)).sort((a, b) => b._s - a._s);
+  for (const c of pool) {
+    if (have() >= min) break;
+    if (srcCount(c.source) >= cfg.per_source_cap) continue;
+    if (c._bands.some((b) => bandCount(b) >= (cfg.per_band_cap ?? 2))) continue;
+    if (picked.length >= cfg.max_items) {
+      const counts = {}; picked.forEach((x) => { counts[x.category] = (counts[x.category] || 0) + 1; });
+      const victim = picked.filter((x) => x.category !== cat && counts[x.category] > Math.max(3, (cfg.category_min || {})[x.category] || 0)).sort((a, b) => a._s - b._s)[0];
+      if (!victim) break;
+      picked.splice(picked.indexOf(victim), 1);
+    }
+    picked.push(c);
+  }
+  floorNotes.push(`${cfg.categories?.[cat] || cat}: ${have()} (floor ${min})${have() < min ? " — BELOW FLOOR, not enough candidates tonight" : ""}`);
+}
 picked.sort((a, b) => Date.parse(b.published) - Date.parse(a.published));
 
-// Tonight's Lead: best score among trusted sources with a snippet
-// Tonight's Lead: horror, never metal; trusted source; a real snippet; classic if we have one
-const base = picked.filter((c) => c.category !== "metal" && c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet);
+// ---------- Tonight's Lead image ----------
+// One image, hotlinked from the publisher and credited on the page; never downloaded or hosted.
+async function pageImage(url) {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), 15000);
+  try {
+    const r = await fetch(url, { headers: { "user-agent": UA, accept: "text/html,application/xhtml+xml,*/*" }, signal: ctl.signal, redirect: "follow" });
+    if (!r.ok) return "";
+    const html = (await r.text()).slice(0, 400000);
+    const res = [
+      /<meta[^>]+(?:property|name)=["']og:image(?::secure_url)?["'][^>]*?content=["']([^"']+)["']/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]*?(?:property|name)=["']og:image(?::secure_url)?["']/i,
+      /<meta[^>]+(?:property|name)=["']twitter:image(?::src)?["'][^>]*?content=["']([^"']+)["']/i,
+    ];
+    for (const re of res) { const m = html.match(re); if (m) return new URL(decodeEntities(m[1]), r.url || url).toString(); }
+  } catch { /* no image */ } finally { clearTimeout(t); }
+  return "";
+}
+// worth showing: https, not a site logo or placeholder, and really an image of some size
+async function usableImage(u) {
+  if (!/^https:\/\//i.test(u)) return false;
+  if (/(logo|favicon|avatar|placeholder|gravatar|sprite|default[-_]?(image|share|og|thumb))/i.test(u)) return false;
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), 15000);
+  try {
+    const r = await fetch(u, { headers: { "user-agent": UA, range: "bytes=0-1023", accept: "image/*" }, signal: ctl.signal, redirect: "follow" });
+    if (!(r.status === 200 || r.status === 206)) return false;
+    if (!/^image\//i.test(r.headers.get("content-type") || "")) return false;
+    const total = Number((r.headers.get("content-range") || "").split("/")[1]) || Number(r.headers.get("content-length")) || 0;
+    try { await r.body?.cancel(); } catch { /* ignore */ }
+    return total === 0 || total >= 12000;
+  } catch { return false; } finally { clearTimeout(t); }
+}
+const absUrl = (u, base) => { try { return new URL(decodeEntities(u), base).toString(); } catch { return ""; } };
+
+// Tonight's Lead: horror, never metal; trusted source; a real snippet; classic if we have one;
+// among the best few, the first one that has a usable image.
+const NO_LEAD = new Set(cfg.lead?.exclude_categories || ["metal"]);
+const base = picked.filter((c) => !NO_LEAD.has(c.category) && c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet);
 const classicBase = base.filter((c) => c.classic);
-const leadPool = classicBase.length ? classicBase : base;
-const lead = [...(leadPool.length ? leadPool : picked.filter((c) => c.category !== "metal"))].sort((a, b) => b._s - a._s)[0] || null;
+const leadPool = [...(classicBase.length ? classicBase : base.length ? base : picked.filter((c) => !NO_LEAD.has(c.category)))].sort((a, b) => b._s - a._s);
+let lead = null;
+for (const c of leadPool.slice(0, cfg.lead?.image_tries ?? 6)) {
+  let img = c._img ? absUrl(c._img, c.url) : "";
+  if (!img || !(await usableImage(img))) { img = await pageImage(c.url); if (img && !(await usableImage(img))) img = ""; }
+  if (img) { lead = { ...c, image: img }; break; }
+}
+if (!lead) lead = leadPool[0] || null;
 
 // Keeper's Desk: tonight's file, or the most recent one before it
 async function desk() {
@@ -352,7 +446,7 @@ async function desk() {
   return { date: f.slice(0, 10), takes: d.takes || [] };
 }
 
-const strip = ({ _w, _s, _bands, ...rest }) => rest;
+const strip = ({ _w, _s, _bands, _img, ...rest }) => rest;
 const out = {
   built_at: NOW.toISOString(),
   built_for: TONIGHT,
@@ -369,6 +463,8 @@ const summary = [
   `Sources: ${rows.length} · reachable: ${ok.length} · direct feeds: ${rows.filter((r) => r.via === "feed").length} · Google News fallback: ${rows.filter((r) => r.via === "google-news").length} · unreachable: ${rows.length - ok.length}`,
   `Candidates passing the taxonomy: ${candidates.length} · after dedupe: ${kept.length} · published: ${picked.length}`,
   lead ? `Tonight's Lead: ${lead.title} (${lead.source})` : "Tonight's Lead: none",
+  lead ? `Lead image: ${lead.image || "none found (the page shows its cover plate)"}` : "",
+  ...floorNotes.map((n) => `Floor — ${n}`),
   "",
   "| Source | Via | Fetched | Fresh (≤" + cfg.freshness_days + "d) | Passed | Error |",
   "|---|---|---:|---:|---:|---|",

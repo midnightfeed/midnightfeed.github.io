@@ -741,24 +741,24 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
             <h2 class="dept">The Keeper's Desk</h2>
             <div class="mod-body">
               <div class="take">
-                <h4>Fifty years of <em>Carrie</em>, and the museum finally called</h4>
-                <p>The Academy Museum putting Carpenter on the wall is a milestone, sure. I'd also read it as a market signal. When institutions start taking a corner of the genre seriously, the paperbacks that corner grew out of tend to get noticed next.</p>
-                <span class="byline">Doug Graves</span>
+                <h4><em>Other Worlds Than These</em> closes the Talisman trilogy</h4>
+                <p>Stephen King and Peter Straub's <em>Other Worlds Than These</em>, the third and final Talisman book, came out from Scribner on October 6. It runs 624 pages and carries 38 black-and-white illustrations by Gabriel Rodríguez. The audiobook is narrated by Patton Oswalt.</p>
+                <span class="byline">Doug Graves &middot; <a href="https://stephenking.com/news" target="_blank" rel="noopener">Source: StephenKing.com</a></span>
               </div>
               <div class="take">
-                <h4>Wrightson comes back to the crypt</h4>
-                <p>The out-of-print <em>Creepy Presents</em> Wrightson collection is finally returning. If you have been holding out for clean reading copies of the original Warren run instead, expect more competition for them once a new audience has seen what the fuss was about, not less.</p>
-                <span class="byline">Doug Graves</span>
+                <h4>Stephen Graham Jones's <em>Off the Reservation</em> lands October 13</h4>
+                <p>Stephen Graham Jones's <em>Off the Reservation</em> arrives from Saga Press in hardcover on Tuesday, October 13. Activists retrieve the bones of a Blackfeet boy who died at the Carlisle Indian Industrial School, and something dangerous comes back with them. Nate Yellow Tail, who survived <em>The Only Good Indians</em>, is the protagonist.</p>
+                <span class="byline">Doug Graves &middot; <a href="https://www.cemeterydance.com/extras/the-road-to-off-the-reservation-an-obsessives-fiction-review-column/" target="_blank" rel="noopener">Source: Cemetery Dance</a></span>
               </div>
               <div class="take">
-                <h4>NECA might be the biggest horror publisher in America</h4>
-                <p>A provocation, but hear it out. Toy Fair gave us another wave of Jason variants, and I would wager those figures introduce more people to <em>Friday the 13th</em> in a year than every reprint press combined. The shelf and the toy aisle have been feeding each other for decades, and the trade keeps pretending otherwise.</p>
-                <span class="byline">Doug Graves</span>
+                <h4><em>The Exorcist: Martyrs</em> gets a trailer</h4>
+                <p>Universal's <em>The Exorcist: Martyrs</em>, directed by Mike Flanagan, opens in theaters March 12, 2027. Scarlett Johansson plays Det. Julie Miller and John Leguizamo a serial killer called Father Sunday, with Chiwetel Ejiofor and Laurence Fishburne as priests. The first trailer is dated October 10.</p>
+                <span class="byline">Doug Graves &middot; <a href="https://www.fangoria.com/the-exorcist-martyrs-trailer/" target="_blank" rel="noopener">Source: Fangoria</a></span>
               </div>
               <div class="take">
-                <h4>The Paperbacks from Hell line closes out</h4>
-                <p>Valancourt is down to its last three reprints. Whatever you think of the reprint boom, it has done what a decade of blogging could not: put these names in front of readers who were not born when Zebra gave up on horror.</p>
-                <span class="byline">Doug Graves</span>
+                <h4>NECA's Ultimate Elvira opens for pre-order</h4>
+                <p>NECA's Ultimate Elvira is a 7-inch figure with a fabric dress, interchangeable hands and faceplates, Gonk, a snake, bracelets, a dagger, sunglasses, and a casserole with an attachable monster and tail, plus a stand. Pre-orders are open at the NECA Store, with shipping estimated for Q2 2027.</p>
+                <span class="byline">Doug Graves &middot; <a href="https://www.dreadcentral.com/toys-collectibles/592909/neca-ultimate-elvira-figure-photos-preorder/" target="_blank" rel="noopener">Source: Dread Central</a></span>
               </div>
             </div>
           </section>
@@ -1214,7 +1214,23 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
     sn.innerHTML = escH(l.snippet); sn.hidden = !l.snippet;
     var tag = lead.querySelector(".lead-meta .tag");
     tag.setAttribute("data-cat", l.category); tag.innerHTML = CATNAME[l.category] || "";
-    lead.querySelector(".lead-meta .kicker").innerHTML = escH(l.source) + " &middot; " + stamp(l.published);
+    lead.querySelector(".lead-meta .kicker").innerHTML = escH(l.source) + " &middot; " + stamp(l.published) + (l.image ? " &middot; Image: " + escH(l.source) : "");
+    // one image from the publisher, hotlinked and credited; the stylised plate stays if it won't load
+    var plate = lead.querySelector(".cover");
+    var oldImg = plate.querySelector("img");
+    if (oldImg) { oldImg.parentNode.removeChild(oldImg); }
+    plate.classList.remove("has-img");
+    if (l.image && /^https:\/\//i.test(l.image)) {
+      var im = new Image();
+      im.alt = "";
+      im.title = "Image: " + l.source;
+      im.referrerPolicy = "no-referrer";
+      im.style.objectPosition = "50% 30%";
+      im.onload = function () { plate.classList.add("has-img"); };
+      im.onerror = function () { if (im.parentNode) { im.parentNode.removeChild(im); } };
+      im.src = l.image;
+      plate.appendChild(im);
+    }
     var sx = lead.querySelector(".sharex");
     sx.setAttribute("data-share-text", l.title + " \u2014 tonight's lead on The Midnight Feed");
     hydrateShares(lead);
@@ -1224,7 +1240,8 @@ footer.site-foot { border-top: var(--rule-w) solid var(--rule); background: var(
     var body = document.querySelector(".mod.paper .take") && document.querySelector(".mod.paper .take").parentNode;
     if (!body) { return; }
     body.innerHTML = d.takes.map(function (t) {
-      return '<div class="take"><h4>' + t.h + '</h4><p>' + t.p + '</p><span class="byline">Doug Graves</span></div>';
+      var src = (t.url && /^https:\/\//i.test(t.url) && t.src) ? ' &middot; <a href="' + escH(t.url) + '" target="_blank" rel="noopener">Source: ' + escH(t.src) + '</a>' : "";
+      return '<div class="take"><h4>' + t.h + '</h4><p>' + t.p + '</p><span class="byline">Doug Graves' + src + '</span></div>';
     }).join("");
   }
   if (window.fetch) {

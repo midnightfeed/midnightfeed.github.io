@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v10, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them.",
-  "version": 10,
+  "_note": "Mirror of 03-night-wire-taxonomy (v11, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them. v11: collectibles floor (category_min), collectibles-only feeds and searches, author and small-press searches, lead image.",
+  "version": 11,
   "freshness_days": 5,
   "max_items": 40,
   "per_source_cap": 4,
@@ -1491,6 +1491,45 @@
       "aliases": [
         "'Salem's Lot"
       ]
+    },
+    {
+      "name": "Josh Malerman",
+      "aliases": []
+    },
+    {
+      "name": "Riley Sager",
+      "aliases": []
+    },
+    {
+      "name": "Joe Hill",
+      "aliases": [],
+      "require_horror": true
+    },
+    {
+      "name": "Stephen Graham Jones",
+      "aliases": []
+    },
+    {
+      "name": "T. Kingfisher",
+      "aliases": [
+        "Ursula Vernon"
+      ]
+    },
+    {
+      "name": "Grady Hendrix",
+      "aliases": []
+    },
+    {
+      "name": "Peter Straub",
+      "aliases": []
+    },
+    {
+      "name": "Weird House Press",
+      "aliases": []
+    },
+    {
+      "name": "Lividian Publications",
+      "aliases": []
     }
   ],
   "qualifiers": [
@@ -1677,11 +1716,12 @@
       "name": "robertmccammon.com",
       "category": "books",
       "site": "robertmccammon.com",
-      "feed": null,
+      "feed": "https://www.robertmccammon.com/feed/",
       "weight": 0.9,
       "filter": "standard",
       "gn_fallback": false,
-      "kind": "general"
+      "kind": "horror",
+      "freshness_days": 21
     },
     {
       "name": "clivebarker.info",
@@ -2328,6 +2368,57 @@
       "kind": "metal",
       "weight": 0.9,
       "filter": "standard"
+    },
+    {
+      "name": "Bloody Disgusting Toys",
+      "category": "gear",
+      "site": "bloody-disgusting.com",
+      "feed": "https://bloody-disgusting.com/toys/feed/",
+      "weight": 0.9,
+      "filter": "standard",
+      "gn_fallback": false,
+      "kind": "horror"
+    },
+    {
+      "name": "Dread Central Toys",
+      "category": "gear",
+      "site": "dreadcentral.com",
+      "feed": "https://www.dreadcentral.com/toys-collectibles/feed/",
+      "weight": 0.9,
+      "filter": "standard",
+      "gn_fallback": false,
+      "kind": "horror"
+    },
+    {
+      "name": "Cemetery Dance",
+      "category": "books",
+      "site": "cemeterydance.com",
+      "feed": "https://www.cemeterydance.com/extras/feed/",
+      "weight": 0.8,
+      "filter": "standard",
+      "gn_fallback": false,
+      "kind": "horror"
+    },
+    {
+      "name": "Trick or Treat Studios (new arrivals)",
+      "category": "gear",
+      "site": "trickortreatstudios.com",
+      "feed": "https://www.trickortreatstudios.com/collections/all.atom",
+      "weight": 0.7,
+      "filter": "standard",
+      "gn_fallback": false,
+      "kind": "horror",
+      "freshness_days": 14
+    },
+    {
+      "name": "Super7 (new arrivals)",
+      "category": "gear",
+      "site": "super7.com",
+      "feed": "https://super7.com/collections/all.atom",
+      "weight": 0.6,
+      "filter": "standard",
+      "gn_fallback": false,
+      "kind": "general"
     }
   ],
   "metal_qualifiers": [
@@ -2435,6 +2526,11 @@
       "books",
       "comics",
       "discs"
+    ],
+    "image_tries": 6,
+    "exclude_categories": [
+      "metal",
+      "gear"
     ]
   },
   "era": {
@@ -2567,10 +2663,6 @@
       "category": "books"
     },
     {
-      "q": "\"Centipede Press\" OR \"Suntup\" OR \"Cemetery Dance\"",
-      "category": "books"
-    },
-    {
       "q": "horror paperback reprint",
       "category": "books"
     },
@@ -2659,10 +2751,6 @@
       "category": "film"
     },
     {
-      "q": "\"Subterranean Press\" OR \"Undertow Publications\"",
-      "category": "books"
-    },
-    {
       "q": "\"Tales of the Weird\" British Library",
       "category": "books"
     },
@@ -2716,10 +2804,6 @@
     },
     {
       "q": "\"Ash-Tree Press\" OR \"Sarob Press\" OR \"Lethe Press\" OR \"Weirdpunk Books\"",
-      "category": "books"
-    },
-    {
-      "q": "\"Ghoulish Books\" OR \"Undertow Publications\" OR \"PS Publishing\" OR \"Hippocampus Press\"",
       "category": "books"
     },
     {
@@ -2835,6 +2919,106 @@
       "q": "\"doom metal\" new album OR reissue",
       "category": "metal",
       "kind": "metal"
+    },
+    {
+      "q": "horror bust OR statue preorder",
+      "category": "gear"
+    },
+    {
+      "q": "\"Jason Voorhees\" OR \"Friday the 13th\" figure OR statue OR bust OR mask",
+      "category": "gear"
+    },
+    {
+      "q": "\"Michael Myers\" figure OR statue OR bust OR mask",
+      "category": "gear"
+    },
+    {
+      "q": "Hellraiser OR Pinhead figure OR statue OR bust OR mask",
+      "category": "gear"
+    },
+    {
+      "q": "\"Freddy Krueger\" OR Leatherface OR Chucky OR Pennywise figure OR statue OR bust",
+      "category": "gear"
+    },
+    {
+      "q": "Dracula OR Frankenstein OR \"Wolf Man\" OR \"Creature from the Black Lagoon\" statue OR bust OR figure",
+      "category": "gear"
+    },
+    {
+      "q": "Sideshow OR \"Prime 1 Studio\" OR \"Pure Arts\" OR \"Hollywood Collectibles Group\" horror",
+      "category": "gear"
+    },
+    {
+      "q": "Mezco OR \"Super7\" OR \"Hot Toys\" horror figure",
+      "category": "gear"
+    },
+    {
+      "q": "\"Terrifier\" OR \"Art the Clown\" OR Ghostface figure OR mask",
+      "category": "gear"
+    },
+    {
+      "q": "\"Cavity Colors\" OR \"Fright-Rags\" OR \"Don Post\" horror",
+      "category": "gear"
+    },
+    {
+      "q": "\"Stephen King\" new book OR edition OR announces",
+      "category": "books"
+    },
+    {
+      "q": "\"Robert McCammon\" OR \"Lividian Publications\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Josh Malerman\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Riley Sager\" novel",
+      "category": "books"
+    },
+    {
+      "q": "\"Joe Hill\" horror novel OR comic",
+      "category": "books"
+    },
+    {
+      "q": "\"T. Kingfisher\" OR \"Ursula Vernon\" horror",
+      "category": "books"
+    },
+    {
+      "q": "\"Stephen Graham Jones\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Grady Hendrix\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Clive Barker\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Subterranean Press\"",
+      "category": "books"
+    },
+    {
+      "q": "\"PS Publishing\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Weird House Press\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Cemetery Dance Publications\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Centipede Press\" OR \"Suntup Editions\"",
+      "category": "books"
+    },
+    {
+      "q": "\"Undertow Publications\" OR \"Ghoulish Books\" OR \"Hippocampus Press\"",
+      "category": "books"
     }
   ],
   "blocked_publishers": [
@@ -2918,7 +3102,26 @@
     "eerie",
     "creepy",
     "gore film",
-    "gorehound"
+    "gorehound",
+    "Jason Voorhees",
+    "Michael Myers",
+    "Pinhead",
+    "Hellraiser",
+    "Ghostface",
+    "Ghost Face",
+    "Leatherface",
+    "Freddy Krueger",
+    "Chucky",
+    "Art the Clown",
+    "Terrifier",
+    "Pennywise",
+    "Elvira",
+    "Creepshow",
+    "Insidious",
+    "Candyman",
+    "Xenomorph",
+    "Billy the Puppet",
+    "Jigsaw"
   ],
   "metal_genre_words": [
     "heavy metal",
@@ -3048,5 +3251,44 @@
       "name": "Iron Bonehead",
       "aliases": []
     }
-  ]
+  ],
+  "collectible_words": [
+    "figure",
+    "figures",
+    "action figure",
+    "statue",
+    "statues",
+    "bust",
+    "busts",
+    "mask",
+    "masks",
+    "replica",
+    "replicas",
+    "doll",
+    "dolls",
+    "Funko",
+    "popcorn bucket",
+    "diorama",
+    "collectible",
+    "collectibles",
+    "maquette",
+    "prop",
+    "Nendoroid",
+    "vinyl toy"
+  ],
+  "collectible_exempt_excludes": [
+    "Fortnite",
+    "video game",
+    "Nintendo",
+    "Switch 2",
+    "\\bPS5\\b",
+    "Xbox",
+    "Dead by Daylight",
+    "\\bSteam\\b",
+    "gameplay",
+    "\\bDLC\\b"
+  ],
+  "category_min": {
+    "gear": 4
+  }
 }

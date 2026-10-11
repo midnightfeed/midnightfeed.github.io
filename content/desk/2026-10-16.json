@@ -3,16 +3,28 @@
   "author": "Doug Graves",
   "takes": [
     {
-      "h": "Friday is article day",
-      "p": "Every Friday the Archive adds one long piece: a writer, an imprint, an artist or a format, written for people who already own too many books. Corrections are welcome and acted on. If you know something we got wrong, the address is at the bottom of every page."
+      "h": "Weird House Press: Halloween grab bags and new titles",
+      "p": "Weird House Press lists its 2026 Halloween Grab Bags as shipping. Its catalog also carries Elizabeth Massie's <em>Welcome Back to the Night</em> and titles by Brian Evenson and Richard Gavin. The pages give no publication dates, so check the listings for each book.",
+      "src": "Weird House Press",
+      "url": "https://www.weirdhousepress.com/collections/all"
     },
     {
-      "h": "Collect what you will reread",
-      "p": "The best rule I know for building a collection is the plainest. Buy the books you will actually open again. Investment talk comes and goes, but a shelf of books you love is never a bad position, whatever the listings say this year."
+      "h": "Funko adds <em>Scream</em> and <em>Halloween II</em> vinyl toys",
+      "p": "Funko has announced vinyl toys of Sidney, Gale and Dewey from <em>Scream</em>, and Michael Myers, Laurie Strode and Dr. Loomis from <em>Halloween II</em>, according to Bloody Disgusting's toy coverage.",
+      "src": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/toys/3968378/scream-sidney-gale-dewey-getting-vinyl-toys-from-funko/"
     },
     {
-      "h": "Ask the dealer",
-      "p": "Dealers know things that never make it into a listing: where a copy came from, what else came with it, which printings they have seen fake. Most of them like to talk about it. Ask, listen, and buy something. That conversation is half of what this hobby is for."
+      "h": "Samhain gets a Funko Pop, limited to 1,000",
+      "p": "Dread Central reports that Samhain, the villain of <em>The Real Ghostbusters</em>, is getting a Funko Pop limited to 1,000 pieces.",
+      "src": "Dread Central",
+      "url": "https://www.dreadcentral.com/toys-collectibles/590722/the-real-ghostbusters-villain-samhain-gets-a-funko-pop-limited-to-just-1000-pieces/"
+    },
+    {
+      "h": "<em>Other Worlds Than These</em> closes the Talisman trilogy",
+      "p": "Stephen King and Peter Straub's <em>Other Worlds Than These</em>, the third and final Talisman book, came out from Scribner on October 6. It runs 624 pages and carries 38 black-and-white illustrations by Gabriel Rodríguez. The audiobook is narrated by Patton Oswalt.",
+      "src": "StephenKing.com",
+      "url": "https://stephenking.com/news"
     }
   ]
 }
