@@ -1,47 +1,482 @@
 {
-  "built_at": "2026-10-15T05:27:05.976Z",
-  "built_for": "2026-10-15",
+  "built_at": "2026-10-16T05:27:43.254Z",
+  "built_for": "2026-10-16",
   "lead": {
-    "id": "f00f8ed486749f4aa5029f73177927ef7a24e863",
-    "title": "Details of New “WITCHCRAFT” 40th-anniversary trilogy of movies",
-    "source": "Rue Morgue",
-    "url": "https://rue-morgue.com/exclusive-comments-details-new-witchcraft-40th-anniversary-trilogy-of-movies",
-    "category": "film",
-    "published": "2026-10-14T18:23:05.000Z",
-    "snippet": "They’re the latest in the direct-to-video saga that began way back in 1988.",
+    "id": "ddaa785c896be422553140f4fda07ba6bee3d2c6",
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe 4K Blu-ray",
+    "source": "Blu-ray.com",
+    "url": "https://www.blu-ray.com/news/?id=39191",
+    "category": "discs",
+    "published": "2026-10-15T23:31:55.000Z",
+    "snippet": "Disney is preparing a 4K Blu-ray release of Andrew Adamson's The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005), starring Georgie Henley, Skandar Keynes, William Moseley, Anna…",
     "matched": [],
     "classic": true,
-    "why": "horror outlet",
+    "why": "horror subject",
     "amazon_query": null,
-    "image": "https://zombie.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/Witchcraft-19-poster-24x36-FINAL-low-res-web.jpg"
+    "image": "https://images.static-bluray.com/movies/covers/423193_front.jpg"
   },
   "items": [
-    {
-      "id": "345e7c46b7a83ce1402901c56acdaf7409847387",
-      "title": "Universal Orlando’s 4 Most Thrilling Attractions for Horror Fans",
-      "source": "www.disneydining.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGh4WU1QWE5tUVV3UXFiNlp5ZWxaTDF5c29jSmQxV3BLVmZSM013Qmc5N1JyZnNkZEtuVDZXU0pVNWh2dGhBWnpFYnBCaUtyNEd0eTFzaWl4Qm01eTZadkZRZDRsdTBxeGppTV9MbEZOeVVRVFYxNjhxcDcyWTN6Z0RBdENjc1dvZUJKcFRuZnJQY0FZSTVEM0hmakd4UQ?oc=5",
-      "category": "film",
-      "published": "2026-10-15T03:57:28.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
     {
       "id": "e2dae54234e6451d3c7b667e390e5fec1c0fc03e",
       "title": "Hellraiser: Revival walkthrough – Full guide with puzzle solutions",
       "source": "GameSpew",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xRDRLb0lHdHUtdTRqVHpHeVU5R25kVmdINVhMZlRrUFc3TnhWd0l2aDVUUWZhSmpGOW1JT1FOd1JqcDhwX0RFQlZ6UlhsTFRaQ09Uc3NjX1E5TGJqdmppUUtZbk9WbTZWeVJWSHFTeUZ4QQ?oc=5",
       "category": "gear",
-      "published": "2026-10-15T01:24:44.000Z",
+      "published": "2026-10-16T04:30:06.000Z",
       "snippet": "",
       "matched": [
         "Hellraiser"
       ],
       "classic": false,
       "why": "Hellraiser",
+      "amazon_query": null
+    },
+    {
+      "id": "8b8fd42575a80a845717ba1243d3053716760256",
+      "title": "Digiphile \"Orcatober\" Aquatic Horrors Game Collection Revealed",
+      "source": "Gamers Heroes",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX1BYYnJVbWoyTFlZUWY2ODhkdlpoZzFkYjEyU3F6OGxoZk9QMkkzc1FyVVl4Q0NUWWhGeHk1Q2FON1BJRm9jRk1OaXh2dXcxUmNOVi13YmloV3JWTFRsb1kzNVE0OTNNN0tUR1VEQi1Qek02TndTV1ZnZUo5bjRLV2NNdEZicjlUeVpDTHBWTUdzNGx4LXFURkhpNDhMdjQ0OEZTZA?oc=5",
+      "category": "books",
+      "published": "2026-10-16T04:04:39.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "59fa0eca523c973eb30cd1f960a596564ab8abb3",
+      "title": "Cynthia Erivo’s ‘Bad Fairies’ Adds Kylie Minogue, Jonathan Groff and Catherine Tate to Voice Cast",
+      "source": "Variety",
+      "url": "https://variety.com/2026/film/news/cynthia-erivo-bad-fairies-kylie-minogue-jonathan-groff-1236913639",
+      "category": "film",
+      "published": "2026-10-16T04:00:00.000Z",
+      "snippet": "“Bad Fairies,” the Warner Bros. Picture Animation and Locksmith Animation musical comedy led by Cynthia Erivo, has added Kylie Minogue, Jonathan Groff and Catherine Tate to its voice cast. Minogue…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "9da17458e061184978116be3df505022bdf2c4da",
+      "title": "‘Norm: The Tale of Norm Macdonald’ Review: Judd Apatow’s Juicy and Haunting Portrait of a Comedy Star as Troubled as He Was Hilarious",
+      "source": "Variety",
+      "url": "https://variety.com/2026/film/reviews/norm-the-tale-of-norm-macdonald-review-judd-apatow-1236911273",
+      "category": "film",
+      "published": "2026-10-16T03:43:27.000Z",
+      "snippet": "At times, he had a streak of Andy Kaufman’s antisocial hostility in him, as if comedy was his way of testing both himself and the audience, seeing what they would accept, and seeing if he would be…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "9d529081336f1e2cf55834153620ccfd07db5b12",
+      "title": "TESTAMENT Frontman CHUCK BILLY Guests On Beardo And Weirdo - \"There Was Three Choices: Sports, Music, Or I Was Going To Be An Architect\"",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZHNPZWlNY0wwTGdSMjE3eHdWaHJpVG9QaGhjZXoyTXphdEJnQ01yQnAtVW53TlV1ZEJWbVVHa2h0OTdzYjFlcFVCbWNhUmZ2V0piT3dydTZpQ3piQzFfVjJyT2RNd2h0N0pVaXdqVXVxVVpXU2RZTk9GSjVIOXRUUzNPNnpzS080VWduR1ExSWEyZ0pWX2ltSnltQWo3UUtfMkdWZGxhcEVXcUIzR1Jpb2Y1Ry1VNnMwTllyb1RSVkNENHU3ek9YWnl4VEE1OUJmeTFYSGc4ZmZQajd4amE2N2w5SmplemFrNHZFTk9wSQ?oc=5",
+      "category": "metal",
+      "published": "2026-10-16T03:36:36.000Z",
+      "snippet": "",
+      "matched": [
+        "Testament"
+      ],
+      "classic": true,
+      "why": "Testament",
+      "amazon_query": null
+    },
+    {
+      "id": "14d32ca473d28383acb9124b5a2e79efd5af8137",
+      "title": "Disney’s ‘The Lion, The Witch and the Wardrobe’ To Receive 4K Collector’s Edition",
+      "source": "NarniaWeb",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbktBOGxtM0Y1ZUIwaXZ1TDd3TmRKZjhUWUJIc29hSTFRYTNYaDdlMlp4NTdUR0oyWC1NUE03TDBfR0Rtd1EtMG9YM3h3ejBKX2tCYXFsTHVVQm8zVUJlLWQ1NDl3QWFjQzEtb09PaHJReXF1d1MwMDZROFRXdnJGS0tzYlBWNUNTeVpqejQ3VHAybzFIYmVtRE8zNDBvM2hWRWdaTFVpcVpWaFJyQzZOVA?oc=5",
+      "category": "discs",
+      "published": "2026-10-16T03:34:46.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "4348cc5ddcd25a4f2f97b45e334a2158c67ae649",
+      "title": "“CRYSTAL LAKE” Costume Designer Cristina Spiridakis Spills All About Pamela Voorhees’ Wardrobe and More",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/crystal-lake-costume-designer-cristina-spiridakis-spills-all-about-pamela-voorhees-wardrobe-and-more",
+      "category": "film",
+      "published": "2026-10-16T02:02:03.000Z",
+      "snippet": "The costumier of A24’s new show talks Pam’s iconic blue sweater and creating '70s-era looks.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "47c420c578e1de73ed5c819f0cd30b1cd0c5d861",
+      "title": "Stephen King is a fan. So are the Beckhams. Freida McFadden’s next book, ‘The Sleepwalker,’ is already a 2027 event.",
+      "source": "Yahoo Creators",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSVFJVWJLVzVCS2J6bGJNamIySVdKaEt2N1gxamZEU0ZQQTdSaVlxYTEzV1ZiMGlVWjNEbVFnWkdINHFHbzlFLVlFZ0pReWJTY05mUUhGRmYwbHlOMVdsbWRmdmVwRFJEalBONFNJaFRoOTBPU2p2cnZQRFFldlktbUJ4UGlpVjY1UHMxMDJyeWVOaUU0QXg0VUlFMGplbnF2ZkhIV2tvaGFYTHZwazZIbVhEWXplc09maGZpNHdGUU5hMnlhSUx6a0xaYTZzMzdmSFAtNTZ5Q0k0U0VZRUR3QXcwR0hsQkY3MUktN3k2dGk3dXAzZG1ET2JR?oc=5",
+      "category": "books",
+      "published": "2026-10-16T00:43:04.000Z",
+      "snippet": "",
+      "matched": [
+        "Stephen King"
+      ],
+      "classic": false,
+      "why": "Stephen King",
+      "amazon_query": null
+    },
+    {
+      "id": "8ebcebb316e253c58c7262f6a71bc6b245b18db9",
+      "title": "2026’s Most Bizarre 'Dracula' Adaptation Is Officially Taking Over Paramount+",
+      "source": "Collider",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSmlJYmlUSFRsNzhjamtObC1NLU9lNkdEaXN3TFQ2SDhzYTF2aGlHdngwOWd3eF8xbmo1NHU2NjREWGx0bl90ZEN6dkVUdmI1eXZfQi1pVlZIV1lycDlxX3pIMUxFcWlTUFR6SU5TMF9PNkxnVm9XSGxZYkJOR1l2dVYwZVZ0UUhhZ1U4T0xQaw?oc=5",
+      "category": "gear",
+      "published": "2026-10-16T00:30:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Dracula"
+      ],
+      "classic": false,
+      "why": "Dracula",
+      "amazon_query": null
+    },
+    {
+      "id": "c5ae0924ae091d6f7ca9b1bedf2f73a47e3124f7",
+      "title": "A Sicko’s Guide to Every Bloody ‘Friday the 13th’ Movie",
+      "source": "Men's Health",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSHk3WURtZlBIV3ZoZlB0VlVPRFBBeFFzUUVjbFJIMzRWdFNLNktfTnNWaEdHSzRZekVJRC0zY1VYWFhrZTA3VTJRenpWdjlkTlBwb0RRS1FEMXFRZkY1LXI3cW5LajNGdm4zSnl0OUs2enZtWkhTOURsNldjNjE4bmhXWHY2WUN3emVlN1VCVVBFdXhGTjNHaDBkb0p4QQ?oc=5",
+      "category": "gear",
+      "published": "2026-10-15T23:57:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Friday the 13th"
+      ],
+      "classic": false,
+      "why": "Friday the 13th",
+      "amazon_query": null
+    },
+    {
+      "id": "53f0bbb8e7ef3516f8b21c9d4f49aaabfebecc3c",
+      "title": "Heather Wixson’s New Book MONSTERS, MAKEUP & EFFECTS: VOLUME 3 Arrives This December from Dark Ink!",
+      "source": "Daily Dead",
+      "url": "https://dailydead.com/heather-wixsons-new-book-monsters-makeup-effects-volume-3-arrives-this-december-from-dark-ink",
+      "category": "film",
+      "published": "2026-10-15T23:47:19.000Z",
+      "snippet": "From a ferocious Alien Queen and clever Killer Klowns to summoned Cenobites and the cackling Crypt Keeper, author Heather Wixson continues to shine a well-deserved spotlight on the brilliant minds…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "fe5fce90a2e38e12165b96c144c761daa62d8f18",
+      "title": "Review: Guillermo del Toro’s ‘Frankenstein’ vs. Ken Russell’s ‘The Devils’",
+      "source": "Rebellious Magazine",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUHR5T3NETUVTaTZPY2hiMzBGWnRCa25QMzVSWlJZVlQyT1I1YkJHTnhKbzNYdzk3UlBzMnNXNjN5M2dkNGRvdVJYNWxZOXVtM2RwanBHUlAwdFNWQmhDdkgxd3lGTENSTUFMMExzSlp4YjVONlVUZ25EbGFfaUl2dUFKWmJwU0RiQnZyTTYzbTNfUUVTWHpfaGtiX0ppdms?oc=5",
+      "category": "gear",
+      "published": "2026-10-15T23:44:59.000Z",
+      "snippet": "",
+      "matched": [
+        "Frankenstein"
+      ],
+      "classic": false,
+      "why": "Frankenstein",
+      "amazon_query": null
+    },
+    {
+      "id": "48a004dc423cb66fbdd8cb52a87ff12540047b74",
+      "title": "Blumhouse Makes Cheetos Dust Horrifying in ‘Man at the Bottom of the Bag’ [Watch]",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/merch/593976/blumhouse-cheetos-man-bottom-bag-horror-short",
+      "category": "film",
+      "published": "2026-10-15T23:37:00.000Z",
+      "snippet": "There’s somebody at the bottom of that Cheetos bag. And apparently, he’s covered in the stuff. Blumhouse and Cheetos have",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ddaa785c896be422553140f4fda07ba6bee3d2c6",
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe 4K Blu-ray",
+      "source": "Blu-ray.com",
+      "url": "https://www.blu-ray.com/news/?id=39191",
+      "category": "discs",
+      "published": "2026-10-15T23:31:55.000Z",
+      "snippet": "Disney is preparing a 4K Blu-ray release of Andrew Adamson's The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005), starring Georgie Henley, Skandar Keynes, William Moseley, Anna…",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "d721ff6400c610266e64e014c4fd5c057e7ddafa",
+      "title": "KK'S PRIEST Releases Music Video For New Version Of JUDAS PRIEST Classic 'Never Satisfied'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/kks-priest-releases-music-video-for-new-version-of-judas-priest-classic-never-satisfied",
+      "category": "metal",
+      "published": "2026-10-15T22:04:13.000Z",
+      "snippet": "KK'S PRIEST, which features former JUDAS PRIEST members K.K. Downing (guitar) and Tim \"Ripper\" Owens (vocals), has revisited a classic from the JUDAS PRIEST catalog, re-recording \"Never Satisfied\"…",
+      "matched": [
+        "Judas Priest"
+      ],
+      "classic": true,
+      "why": "Judas Priest",
+      "amazon_query": null
+    },
+    {
+      "id": "979aa3c5d2d153d49553d1eb684a04b53bf48d27",
+      "title": "Here Are Your Ghoulishy Good 2026 Chainsaw Awards Presenters",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/2026-chainsaw-awards-presenters",
+      "category": "film",
+      "published": "2026-10-15T21:48:40.000Z",
+      "snippet": "We're excited to reveal the lineup for this year's Chainsaw Awards, featuring appearances from icons like Rick Baker, Mink Stole, and more.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "56054b9de94a890ef6c26e3e39bfee09de6ee6c0",
+      "title": "THE MUMMY 4 Finally Has A Title",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/the-mummy-4-title-book-of-the-dead",
+      "category": "film",
+      "published": "2026-10-15T21:27:39.000Z",
+      "snippet": "With the whole core cast returning and filming now underway, THE MUMMY 4 finally has an official title. Get all the details here.",
+      "matched": [
+        "The Mummy"
+      ],
+      "classic": false,
+      "why": "The Mummy",
+      "amazon_query": null
+    },
+    {
+      "id": "665fc662891f7b973fac9e6664a1fa70abee8fcb",
+      "title": "Who Will Win Best Kill At The 2026 FANGORIA Chainsaw Awards?",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/best-kill-fangoria-chainsaw-awards-2026",
+      "category": "film",
+      "published": "2026-10-15T21:10:30.000Z",
+      "snippet": "We're less than two weeks away from the FANGORIA Chainsaw Awards. Now that the ballots are counted, who got your write-in vote for Best Kill?",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ff0b71fd3b82a660042350bbe43d35f9093e6538",
+      "title": "‘Fresh Meat’: Dead Meat’s Anthology Scores 93% With Audiences",
+      "source": "iHorror",
+      "url": "https://ihorror.com/fresh-meat-dead-meat-anthology-audience-score",
+      "category": "discs",
+      "published": "2026-10-15T20:59:48.000Z",
+      "snippet": "Dead Meat's horror anthology Fresh Meat earned a 93% audience score after its one-night theatrical run on October 12.",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "e0bc8e7bea6accfeb092938dfebca0c4d62eab90",
+      "title": "DC Studios Confirms “Swamp Thing” Still Alive, Says Script Is Being Written",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/dc-studios-confirms-swamp-thing-still-alive-says-script-is-being-written",
+      "category": "comics",
+      "published": "2026-10-15T19:08:00.000Z",
+      "snippet": "Producer Peter Safran shoots down fears that James Mangold's gothic creature feature had quietly died along with other shelved DC projects.",
+      "matched": [
+        "Swamp Thing"
+      ],
+      "classic": false,
+      "why": "Swamp Thing",
+      "amazon_query": null
+    },
+    {
+      "id": "c8c5cf1df38891abbedf62349b0253e409cebc2a",
+      "title": "New Book Releases Video: October 13, 2026",
+      "source": "Locus Online",
+      "url": "https://locusmag.com/2026/10/new-book-releases-video-october-13-2026",
+      "category": "books",
+      "published": "2026-10-15T19:00:10.000Z",
+      "snippet": "Searching for your next must-read? Our October 13, 2026 new books video explores the latest arrivals in Science Fiction, Fantasy, Horror, and Young Adult fiction. This week's selection offers…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "7adf85c7b4823619ac5908c7b8f9413923e043b4",
+      "title": "Sing Your Little Monsters To Sleep With Rockabye Baby’s New Halloween Album",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/rockabye-baby-halloween-album",
+      "category": "film",
+      "published": "2026-10-15T17:28:33.000Z",
+      "snippet": "Rockabye Baby is getting into the Halloween spirit, with a new album featuring spooky lullaby versions of songs like \"Ghostbusters\" and more.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ef0c2fdbe6b96cbf0b8c717fb6955124f35092a9",
+      "title": "‘Street Trash’ 4K Is Limited to 4,000 and Skips Amazon",
+      "source": "iHorror",
+      "url": "https://ihorror.com/street-trash-4k-synapse-films-limited-edition",
+      "category": "discs",
+      "published": "2026-10-15T16:30:00.000Z",
+      "snippet": "Synapse Films is putting out a two-disc Street Trash 4K restored from the original negative, limited to 4,000 copies at $49.95, the week of December 7.",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "df26d6d233f18be4b7f825ef7cff770a854a9a0c",
+      "title": "NECA Opens Preorders for New “Ghost Face” ULTRAmate Figure",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/neca-opens-preorders-for-new-ghost-face-ultramate-figure",
+      "category": "gear",
+      "published": "2026-10-15T16:19:34.000Z",
+      "snippet": "The $79.99 Scream collectible packs in alternate heads, thirteen interchangeable masks and a drawer full of bloody weapons.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "df187468a57fe54e6589f1dcbb9e5e967f8b3a71",
+      "title": "Watch: ANGEL Covers DEEP PURPLE Classic \"Woman From Tokyo\"; Official Music Video",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZFBkR1JNTldteVh5LW9rX29VaGhEeWRHVjMwSEd2ZWU4NjdXU1MwU3hPdm9PS1ZpMnF2NFAzTkJMNVUtMTNqN1FEVy1jcS1zWU9kbVhodHZqNi16aUQxTjgxTHlnLUJjbFc4ZkdUTFNWYnV0dmZvajB1VEdNaW5vdVd0VlhELVBXWkdVZ1NaNjNMamNLcGVvSEx4M2JidXMycUItdW10UVQ?oc=5",
+      "category": "metal",
+      "published": "2026-10-15T15:56:14.000Z",
+      "snippet": "",
+      "matched": [
+        "Deep Purple"
+      ],
+      "classic": true,
+      "why": "Deep Purple",
+      "amazon_query": null
+    },
+    {
+      "id": "470ce95e11c19e080a1482f541962b46bb99c14a",
+      "title": "\"That’s what Nightwish does: it keeps surviving.\" Chart-topping albums, bitter public break-ups and some of the most epic metal songs ever created: Tuomas Holopainen reflects on 30 years of Nightwish",
+      "source": "Louder",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdnZBQXFodGtFRUk5bnBtTE1DTzUzNVpRdTRodUVGeXVFeTZIcjItZUFVUkRrNUVQOUZ5ZEVfTTBkRVEySTZvNjMycmg3Qk8tcGNFSDBNQjNXV1pBQXFrbDJCSFVzMjNEamtsR2ptTnFyMWF0OW1MREdnbEwydjFPZ2l1STZnS09Uby1xQ0JUd2Q?oc=5",
+      "category": "metal",
+      "published": "2026-10-15T15:09:41.000Z",
+      "snippet": "",
+      "matched": [
+        "metal genre"
+      ],
+      "classic": false,
+      "why": "metal genre",
+      "amazon_query": null
+    },
+    {
+      "id": "bf94953b4a456491021365572bcad05a8d803073",
+      "title": "People & Publishing Roundup, October 2026",
+      "source": "Locus Online",
+      "url": "https://locusmag.com/2026/10/people-publishing-roundup-october-2026",
+      "category": "collect",
+      "published": "2026-10-15T15:00:20.000Z",
+      "snippet": "MILESTONES REBECCA MATTE has joined kt literary. She was previously at Bradford Literary Agency. MEGAN LALLY is now represented by Joanna Volpe of New Leaf Literary & Media. Lally's romantic gothic…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "1d1a6ef4eece5d4f96a15239d806fe5cf00e7329",
+      "title": "'Crystal Lake': How 'Friday the 13th' Fans Made a Jason's Mom Prequel",
+      "source": "Variety",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhMcW8yOTBSZk5yMHpUcEtYWk1hRGtLSDdCbmxMdWdnZXhvdWk2S0tMalRzZ3JzZWwxY2JwWUlpMDJFaENLMUY2eVRLV1RFQ3llWEY2Z0JjbFlrU01KcmRSX3UwNU5tWmZ3M201R2tucDJuZFhuZjkta2RabnNaYlgwMTZtUG1oa1Z2TlZCQ2VyWkNINGJFbmQ2dw?oc=5",
+      "category": "gear",
+      "published": "2026-10-15T15:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Friday the 13th"
+      ],
+      "classic": false,
+      "why": "Friday the 13th",
+      "amazon_query": null
+    },
+    {
+      "id": "a1c9f6ac336efede53b49d09cc5ddba2e9ebbc04",
+      "title": "Watch: JACK And SHARON OSBOURNE Host Star-Studded 'Ozzy & Black Sabbath: Back To The Beginning' Purple-Carpet World Premiere In Los Angeles",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/watch-jack-and-sharon-osbourne-host-star-studded-ozzy-black-sabbath-back-to-the-beginning-purple-carpet-world-premiere-in-los-angeles",
+      "category": "metal",
+      "published": "2026-10-15T14:28:08.000Z",
+      "snippet": "Jack and Sharon Osbourne hosted the official world premiere of \"Ozzy & Black Sabbath: Back To The Beginning\" on Wednesday, October 14 at The Orpheum Theatre in Los Angeles. Among the musicians who…",
+      "matched": [
+        "Black Sabbath"
+      ],
+      "classic": true,
+      "why": "Black Sabbath",
+      "amazon_query": null
+    },
+    {
+      "id": "892278790de66f2b09dbe223d8bbee3cee395598",
+      "title": "Deep Purple Vocalist Glenn Hughes Undergoes 10-Hour Open Heart Surgery, \"Thank You For Walking Beside Me\"",
+      "source": "Metal Injection",
+      "url": "https://metalinjection.net/news/deep-purple-vocalist-glenn-hughes-undergoes-10-hour-open-heart-surgery-thank-you-for-walking-beside-me",
+      "category": "metal",
+      "published": "2026-10-15T14:27:45.000Z",
+      "snippet": "This follows news of his retirement from live shows two months ago.",
+      "matched": [
+        "Deep Purple"
+      ],
+      "classic": true,
+      "why": "Deep Purple",
+      "amazon_query": null
+    },
+    {
+      "id": "671dc948078f1a0ce7994339031d246d9f92d8be",
+      "title": "Hear Remixed Version Of MOTÖRHEAD's 'Built For Speed' From Upcoming 40th-Anniversary Edition Of 'Orgasmatron'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/hear-remixed-version-of-motorheads-built-for-speed-from-upcoming-40th-anniversary-edition-of-orgasmatron",
+      "category": "metal",
+      "published": "2026-10-15T12:10:46.000Z",
+      "snippet": "The 40th-anniverasary edition of MOTÖRHEAD's classic album \"Orgasmatron\" will be made available on November 6 via BMG. Next up in the 40th-anniversary celebration, \"Orgasmatron\" shifts into top gear…",
+      "matched": [
+        "Motörhead"
+      ],
+      "classic": true,
+      "why": "Motörhead",
+      "amazon_query": null
+    },
+    {
+      "id": "99f92874bb30a2aff9203998813ba298482cf48f",
+      "title": "The Lucas Museum includes Lance LaSpina’s Frank Frazetta documentary",
+      "source": "New Times San Luis Obispo",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYk16b0VGYkd5amtwM3FLdUdPdkxmU054TVJ0a1lwZUNrX2VGZkd6LWFBWE40MTMzWXpxNGROaEJmRXBrQkVEaG1JTDU2Vl8yN2tNOGY4WkI3c25EZUVDa3Q1bVo3NkNaUlVOYnB6WS1oZmtBVjNFeHctZVRQaUpKQWtJNlFqMjNZakJNejVuU0U4anpyM2FGRVYxSUQ?oc=5",
+      "category": "comics",
+      "published": "2026-10-15T11:12:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Frank Frazetta"
+      ],
+      "classic": true,
+      "why": "Frank Frazetta",
+      "amazon_query": null
+    },
+    {
+      "id": "1f984c1a1025684c3ba744fb7b5744556c749052",
+      "title": "ANTHRAX Bassist FRANK BELLO Performs \"Got The Time\" For EMG TV",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeWdSTmNnNFQ1NFI1d3NCYk1DWTZLN254bEhRemFxWnktX1RmaXFMMVpYWnNQMnVWMnBrbndvazdqSnp3Z25EczV1MlRNM1Fsc3M1T3ZqUFZON2c4TkVxd25tR0xlSWdrbFgxLWI4UktvY2ZRaUd3c01kR3NFVVZFMmtYd2xLTnVyaEl1M2dBbDF5Mms?oc=5",
+      "category": "metal",
+      "published": "2026-10-15T06:49:33.000Z",
+      "snippet": "",
+      "matched": [
+        "Anthrax"
+      ],
+      "classic": true,
+      "why": "Anthrax",
       "amazon_query": null
     },
     {
@@ -55,48 +490,6 @@
       "matched": [],
       "classic": true,
       "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "d0d9cde297de3a6e88a4aee0bd4682542c3f3cd2",
-      "title": "I Found a Sex Toy That Looks Like Ghostface From Scream, and That's Enough Internet for Today",
-      "source": "VICE",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93TExnLUxLVmhteUhudy1SWlpNUGZZSWhEMG5Pd0VfVHVfNjBkaDhYbDlPQ0xsa2tvanhaT3FZZmw1V3FFLUp3cDZEeUVSc2RoUVJSVWVTUWFyUlA0SXZTQUlsNDV2Y3dw?oc=5",
-      "category": "gear",
-      "published": "2026-10-14T22:28:40.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "74dcdcc894205841d7650245e65f7f463cf6ceb5",
-      "title": "The Biggest GODZILLA Crossover In Years Is Coming In 2027",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/godzilla-vs-everything-comic-crossover-details",
-      "category": "film",
-      "published": "2026-10-14T22:00:59.000Z",
-      "snippet": "GODZILLA VS. EVERYTHING will tie together everything that IDW’s Kai-Sei era has been building ever since it launched last year and we’ve got the details right here.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "79ccec4ac4adb50c37fb8640b744469b94b8d318",
-      "title": "Clive Barker Was “Astonished” by How Far ‘Hellraiser: Revival’ Goes: “I’m Proud as Fuck” [Exclusive]",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/gaming/593586/clive-barker-hellraiser-revival-approval-interview",
-      "category": "film",
-      "published": "2026-10-14T22:00:00.000Z",
-      "snippet": "If you’ve been wondering whether Clive Barker’s Hellraiser: Revival has its creator’s stamp of approval, Clive Barker couldn’t have made",
-      "matched": [
-        "Clive Barker",
-        "Hellraiser"
-      ],
-      "classic": false,
-      "why": "Clive Barker, Hellraiser",
       "amazon_query": null
     },
     {
@@ -115,47 +508,6 @@
       "amazon_query": null
     },
     {
-      "id": "d2b9fa15adc85d002e86207ac7b9ddeab42b0fc6",
-      "title": "What Convinced Travis Barker to Fly to Black Sabbath's Final Show",
-      "source": "Loudwire",
-      "url": "https://loudwire.com/moment-travis-barker-fly-ozzy-black-sabbath-final-show",
-      "category": "metal",
-      "published": "2026-10-14T21:00:46.000Z",
-      "snippet": "Despite his fear of flying, there was a particular moment that convinced Travis Barker to fly to England for Black Sabbath's final show last year.",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
-      "amazon_query": null
-    },
-    {
-      "id": "19bc996419bc77025c519b9267f82286cf356aa5",
-      "title": "Exclusive: DRAG Is Opening This Year’s New York City Horror Film Festival",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/drag-new-york-city-horror-film-festival",
-      "category": "film",
-      "published": "2026-10-14T20:00:56.000Z",
-      "snippet": "FANGORIA is excited to reveal that DRAG is opening this year's New York City Horror Film Festival this December.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "f1f28e9c4514eb08a4259900c97c7cd1914ee97c",
-      "title": "SoCal’s Big Time Halloween Attractions Rise Again: 2026 Edition",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/socals-big-time-halloween-attractions-rise-again-2026-edition",
-      "category": "film",
-      "published": "2026-10-14T19:12:19.000Z",
-      "snippet": "Haunt season is in full swing!",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
       "id": "f00f8ed486749f4aa5029f73177927ef7a24e863",
       "title": "Details of New “WITCHCRAFT” 40th-anniversary trilogy of movies",
       "source": "Rue Morgue",
@@ -163,73 +515,6 @@
       "category": "film",
       "published": "2026-10-14T18:23:05.000Z",
       "snippet": "They’re the latest in the direct-to-video saga that began way back in 1988.",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "dc15d3b21128f7064867a0ea38e2b767d02523f7",
-      "title": "Review: WHALEFALL Is A Heartrending, Visceral Achievement",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/whalefall-review",
-      "category": "film",
-      "published": "2026-10-14T17:52:46.000Z",
-      "snippet": "The perennially hapless Austin Abrams gets gobbled up by a whale. You into that? We thought so. Our review will only make you more excited.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "0f48dc7f04d65d98bc9bc50105a5eb13564e05e2",
-      "title": "Watch: ANGEL WITCH Performs \"White Witch\" Live At Rock Hard Festival 2026; Pro-Shot Video",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaFFmSGNXUXFyUGk5SlVHNHNGakozaXJXbndTVWVhOHZMN2lqcGd2dC1CRjMzWFJKQ3FCcVFoU0FtVUo0Q1l4YWE0NW9BaEo1eVMxWUItYk5IYzRQV2haSnNFTGRDS1ZzSXYtLXdjcTQtNks3Mmgxc01uRlBRVnhiWDJMUnp2NVdIMkcwZ19KQjl4NHp0cE5HUmxxbzdUNV9qTFVHZHBfSjBSUm9kMFAwY3k3aS0?oc=5",
-      "category": "metal",
-      "published": "2026-10-14T17:50:23.000Z",
-      "snippet": "",
-      "matched": [
-        "Angel Witch"
-      ],
-      "classic": true,
-      "why": "Angel Witch",
-      "amazon_query": null
-    },
-    {
-      "id": "a7405dad9ac2cf8e43c61bfcc3d7c86a09b41c4f",
-      "title": "ScareScore Invades Toronto After Dark",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/exclusive-scarescore-invades-toronto",
-      "category": "film",
-      "published": "2026-10-14T17:34:36.000Z",
-      "snippet": "A new biometric app measures how afraid you are while watching a horror movie.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "217ad4c8d52486dbd5aaa87e4eb0271b3f9b3c9a",
-      "title": "“SHIVER: SLAYING ALL NIGHT” introduces a new Christmas slasher; trailer & poster",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/shiver-slaying-all-night-introduces-a-new-christmas-slasher-trailer-poster",
-      "category": "gear",
-      "published": "2026-10-14T17:17:09.000Z",
-      "snippet": "He’s not dressed as Santa—this time, Saint Nick is one of the victims.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "d4df641a0a8aede3c4c478bd6bf36159e63a641e",
-      "title": "ADVENTURE LIVES FOREVER: UNIVERSAL PICTURES HOME ENTERTAINMENT RELEASES GOTHIC ACTION-HORROR CULT CLASSIC ‘VAN HELSING’ IN A LIMITED EDITION 4K ULTRA HD STEELBOOK",
-      "source": "HorrorNews.net",
-      "url": "https://horrornews.net/186360/adventure-lives-forever-universal-pictures-home-entertainment-releases-gothic-action-horror-cult-classic-van-helsing-in-a-limited-edition-4k-ultra-hd-steelbook",
-      "category": "discs",
-      "published": "2026-10-14T17:00:00.000Z",
-      "snippet": "Universal Studios Brings Stephen Sommers’ Visual Masterpiece Back to Life Just in Time for Halloween With Stunning HDR10, Immersive DTS:X Audio, and Over Two Hours of Bonus Content Universal Pictures…",
       "matched": [],
       "classic": true,
       "why": "horror outlet",
@@ -248,21 +533,6 @@
       ],
       "classic": true,
       "why": "Ozzy Osbourne",
-      "amazon_query": null
-    },
-    {
-      "id": "7adeeda2f1ce64e00435f37482ba8c74f29f5d13",
-      "title": "The Sky Has Fallen From Unearthed Films This Month",
-      "source": "Horror Society",
-      "url": "https://www.horrorsociety.com/2026/10/14/the-sky-has-fallen-from-unearthed-films-this-month",
-      "category": "discs",
-      "published": "2026-10-14T16:18:30.000Z",
-      "snippet": "Post Apocalyptic Horror Alert! Packed with gory practical zombie FX and just in time for Halloween, it’s Doug Roos’ 2009 debut feature, THE SKY HAS FALLEN on Blu-ray. It’s available everywhere…",
-      "matched": [
-        "Unearthed Films"
-      ],
-      "classic": true,
-      "why": "Unearthed Films",
       "amazon_query": null
     },
     {
@@ -296,294 +566,47 @@
       "amazon_query": null
     },
     {
-      "id": "51e42b08ea7a9901df7f20da46153117b50391e4",
-      "title": "Official Trailer Unleashed for Robert W. Filion’s Mind-Bending Supernatural Horror Anthology ‘Echoes from the Void’",
-      "source": "HorrorNews.net",
-      "url": "https://horrornews.net/186357/official-trailer-unleashed-for-robert-w-filions-mind-bending-supernatural-horror-anthology-echoes-from-the-void",
-      "category": "film",
-      "published": "2026-10-14T16:00:00.000Z",
-      "snippet": "Marketing Macabre is thrilled to unveil the official trailer for Echoes from the Void, the highly anticipated supernatural horror anthology from award-winning filmmaker Robert W. Filion. Following…",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "dee319b432173e0aa62b43e54ef7617cab0d4589",
-      "title": "Blu Review – Legion of the Dead (Unearthed Films)",
-      "source": "Horror Society",
-      "url": "https://www.horrorsociety.com/2026/10/14/blu-review-legion-of-the-dead-unearthed-films",
-      "category": "film",
-      "published": "2026-10-14T13:58:17.000Z",
-      "snippet": "Director – Olaf Ittenbach (Dard Divorce, The Burning Moon) Starring – Michael Carr (Beyond Desire, Dream Stalker), Russell Friedenberg (Wind Walkers, Among Ravens), and Kimberly Liebe (Beyond the…",
-      "matched": [
-        "Unearthed Films"
-      ],
-      "classic": true,
-      "why": "Unearthed Films",
-      "amazon_query": null
-    },
-    {
-      "id": "8e217b249a90ffc10c5fabb6b57186774a33b0b7",
-      "title": "DEF LEPPARD's PHIL COLLEN On A.I. In Music: 'I Think You Have To Accept And Embrace Any New Technology'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/def-leppards-phil-collen-on-a-i-in-music-i-think-you-have-to-accept-and-embrace-any-new-technology",
+      "id": "6c91c6c44b47b27f8d1454a30a73eba844670ac2",
+      "title": "\"I felt a snap and a real sharp, searing pain, and I thought, 'That's it. That's the end of it.'\" Ian Hill discusses the on-stage injury that ended his time with Judas Priest",
+      "source": "Louder",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbjNvbkRvb1JwaXNnaXZkcER3aUJpVXRVWjk3OVo4LS1qMXJUN0tKak42VGxYSkpVVXI1QnAyOFFIZDVhb1J2cWI4WmtjaUVwSVQ0Y3B6QUUtLXpZTFpOY1ZnQ0IxOF9PUTh5dURBUlJpMlU3d0l4Wmt0LXlfcUM2OXFzSThFVXR0aW4yZUdGbnVwR1E4MF9td3JabXNWNWxZWElFWHFJdHltQQ?oc=5",
       "category": "metal",
-      "published": "2026-10-14T13:39:13.000Z",
-      "snippet": "In a new interview with Argentina's Rock & Pop 95.9 FM radio station, DEF LEPPARD guitarist Phil Collen weighed in on a debate about people using an A.I. (artificial intelligence) music generator as…",
-      "matched": [
-        "Accept"
-      ],
-      "classic": true,
-      "why": "Accept",
-      "amazon_query": null
-    },
-    {
-      "id": "2f94eaad58372e7cf0f4619714d7ee06015b9713",
-      "title": "Celestial Sanctuary Premiere “Lashed By Chain” Video, Announce New Album For January",
-      "source": "The Mosh Network",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fcDFMa1N4SGlYRjc4Nl8xMF9sSFR6MV9lNkhBR0stbERwczg1WVB4QU02azF5eWhWbXhQU1B6ZVo4SFZDbVFiQlFpX1A5LTJQUmRIS0ZuUEloQ3B4Tkx3aVBVUG9mTmtNbHUxOFRHQktnS1RwSmc?oc=5",
-      "category": "metal",
-      "published": "2026-10-14T13:33:24.000Z",
+      "published": "2026-10-14T13:00:00.000Z",
       "snippet": "",
-      "matched": [
-        "Sanctuary"
-      ],
-      "classic": true,
-      "why": "Sanctuary",
-      "amazon_query": null
-    },
-    {
-      "id": "d79d760bd28013af9726bc53e068f9c6de331845",
-      "title": "Robotica DVD & Blu-ray From Full Moon Features",
-      "source": "Horror Society",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYnl3ME1FTTR5eC1PTVozZ1ZZRUJBUEdpU1J4OTh6NC1ONzVqZXk5X0NsWU1FMXp4WVVoNVpCTm9BLTdsRDhaSU9UTGg0NVBaSEVfNkZMU0hKa05XY0QwMk0xdmNjT3dKWThFZWJtRk9mdEhubjNTM0FVSHE3YnBCZm44VUhpdUpvekhhUEZQaw?oc=5",
-      "category": "discs",
-      "published": "2026-10-14T13:12:04.000Z",
-      "snippet": "",
-      "matched": [
-        "Full Moon Features"
-      ],
-      "classic": true,
-      "why": "Full Moon Features",
-      "amazon_query": null
-    },
-    {
-      "id": "8c8bf1cb6e2aca3c2a21a54bfd734cf153817e78",
-      "title": "Death Angel - Confirm Shows In Australia",
-      "source": "Metal Storm",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOaGptWkQwbGdiOXh4N2VNaEtwSFVPc3A3OWdhM1ZYY1JiY2l6NVZiaDd5LWExU21PZUFiQjF1THI1RWxaUE5ucFk3emZVQTRmQjNJZTloZ2ZqRF9sOGQ0STNpb0hnTDAtSDV4M3V3?oc=5",
-      "category": "metal",
-      "published": "2026-10-14T13:11:10.000Z",
-      "snippet": "",
-      "matched": [
-        "Death Angel"
-      ],
-      "classic": true,
-      "why": "Death Angel",
-      "amazon_query": null
-    },
-    {
-      "id": "4f52042cab62521c49aa40189e80f28e266d9d3c",
-      "title": "Heathen - Fifth Long Player Announced And Detailed",
-      "source": "Metal Storm",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BMEcwMU1TNnpfR1dPQWFqWFNvR3ZrTUpYRWZoMU5sTXBkY2RvTS13c21FTnNBXzVjODlaSVoyWC1rMVpXY0F2TDNUMDVuZ1lMSlM1MjFUamlyNkJTQW54aC1sbERDOWMtcDdGVFp3?oc=5",
-      "category": "metal",
-      "published": "2026-10-14T12:42:50.000Z",
-      "snippet": "",
-      "matched": [
-        "Heathen"
-      ],
-      "classic": true,
-      "why": "Heathen",
-      "amazon_query": null
-    },
-    {
-      "id": "c84fecf8c3974589623a718f25b5bbc4f3659730",
-      "title": "He’s a Teenage Frankenstein: ‘DEADLY FRIEND’ (1986) Revisited – Retro Review",
-      "source": "Pop Horror",
-      "url": "https://pophorror.com/hes-a-teenage-frankenstein-deadly-friend-1986-revisited-retro-review",
-      "category": "film",
-      "published": "2026-10-14T04:38:30.000Z",
-      "snippet": "When I was younger, I always loved it when my cousin Marty came down and stayed with us for a few days during the summer. We would always go rent horror movies when he came down and would stay up all…",
-      "matched": [
-        "Frankenstein"
-      ],
-      "classic": true,
-      "why": "Frankenstein",
-      "amazon_query": null
-    },
-    {
-      "id": "9ace19d37b27e946635163861f57912dc5354591",
-      "title": "Cinderella Goes Full Giallo in Trailer for ‘The Princess Murders’ Series",
-      "source": "Bloody Disgusting",
-      "url": "https://bloody-disgusting.com/news/3971831/the-princess-murders-comic-series-cinderella-snow-white",
-      "category": "film",
-      "published": "2026-10-13T23:10:37.000Z",
-      "snippet": "Some of the most iconic figures from Disney animation have much darker histories than the movies would lead you to believe. In the Brothers Grimm version of Snow White, for example, the titular…",
-      "matched": [
-        "giallo"
-      ],
-      "classic": true,
-      "why": "giallo",
-      "amazon_query": null
-    },
-    {
-      "id": "f906cad1c126ed9c70672037ef6081fdbf62fa2f",
-      "title": "John Carpenter’s 1978 Slasher Has a Near-Perfect Rotten Tomatoes Score",
-      "source": "Men's Journal",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZmNPcGdjbVlNMWRoaE5rWENVTDZIanZzVVFiR1gtdGx2RDJwZHJPbVdNeGhVN2xZaUM5QXp1cFh3U3laZ181bXhORE9lWl9hYlc3N2ozSHlqOXZGbW8zaXZ0VnJJYVRmcHlZS3dheVkwV1pOZGFod1B6OHc3a21LOHRnRm1EWmtPMGMyTExsU3F3dw?oc=5",
-      "category": "gear",
-      "published": "2026-10-13T23:05:24.000Z",
-      "snippet": "",
-      "matched": [
-        "John Carpenter"
-      ],
-      "classic": true,
-      "why": "John Carpenter",
-      "amazon_query": null
-    },
-    {
-      "id": "bdb33153dd997b1934148525509ca5df0f9c8078",
-      "title": "Rob Zombie’s Firefly Trilogy Comes To Gruesome 4K With New Box Set",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/rob-zombie-firefly-trilogy-box-set",
-      "category": "discs",
-      "published": "2026-10-13T20:08:32.000Z",
-      "snippet": "Rob Zombie's gruesome Firefly Trilogy is coming to 4K with a new box set, including unrated versions of THE DEVIL'S REJECTS and 3 FROM HELL.",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "7bf69158883ac1ce3ede7e5d1ae92d8007c1c407",
-      "title": "Erie massacre video captures neighbors fleeing in terror as gunfire erupts in suspect’s home",
-      "source": "MEAWW News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaHcwcndQcXFQVEREZkx6Y1BKUmhKdzl0dld5Znp0d0p0bERVT1hEMmw4VzVGSVNJa3p4SWVzWndDeWVsVGRubzAxVE94UlRiVkZNSTFoYzJ2cklvV2tvOGxVWWQzbUxmeEtUdG1UNzZMeUlsWGVmdkYyUGdNSUdiM0FXc3NELWg2RXFGMVpIU1hOYTA5NXhrX3lHemdmeGRHcmxtZWZyemp1d1VBVEZfYlJRaHY?oc=5",
-      "category": "discs",
-      "published": "2026-10-13T19:49:25.000Z",
-      "snippet": "",
-      "matched": [
-        "Massacre Video"
-      ],
-      "classic": true,
-      "why": "Massacre Video",
-      "amazon_query": null
-    },
-    {
-      "id": "88a510b8ec1085db4e6363e1f5592457a06aba4f",
-      "title": "IAN HILL Opens Up About His Decision To Retire From JUDAS PRIEST: 'I Had No Choice, Really'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/ian-hill-opens-up-about-his-decision-to-retire-from-judas-priest-i-had-no-choice-really",
-      "category": "metal",
-      "published": "2026-10-13T17:50:33.000Z",
-      "snippet": "In a new interview with Ukrainian metalhead Vladyslav Stadnyk, who goes by the name Metal Pilgrim, Ian Hill, the longest-serving member of JUDAS PRIEST, discussed his decision to retire from the…",
       "matched": [
         "Judas Priest"
       ],
       "classic": true,
       "why": "Judas Priest",
       "amazon_query": null
-    },
-    {
-      "id": "2e54bcfe9a680a89d84fa14707238181f335c674",
-      "title": "Is This Blasphemous 1971 Horror Movie the Hottest New Release of the Fall?",
-      "source": "GQ",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RZFU5WFFuc2FYSEJJZXVxVTJWYlF1Mk9jUGMzY3YwY2RwWDZ5c2V0Vnl2ZUtNVHdTanJMNEFabkZJMVZCQTU3U3dSWWl5a1k1QWV3SmtFa3BqVWs?oc=5",
-      "category": "discs",
-      "published": "2026-10-13T17:00:00.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "9b3fba23334b97186038b014c00c54a812a46379",
-      "title": "‘Street Trash’ Getting All-New Restoration for Limited-Edition 4K Blu-ray Release",
-      "source": "Bloody Disgusting",
-      "url": "https://bloody-disgusting.com/movie/3971663/street-trash-4k-blu-ray-limited-edition-restoration",
-      "category": "discs",
-      "published": "2026-10-13T16:21:29.000Z",
-      "snippet": "The ’80s gave birth to the beloved idea of “splatstick” horror, which fused together outrageous comedy with absurd levels of blood and gore, with movies like Evil Dead II, Re-Animator, and The Return…",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "8742de67641a37a1d2aef889ef1582b85c573d21",
-      "title": "Exclusive 4K “STREET TRASH” restoration coming from Synapse Films; details & art",
-      "source": "RUE MORGUE",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVndRcVNJazdwU0VqeDByTFk2c0ZJeDFEY0trd2Z3RnF0YjBGc01GTEtzNHRJZzEyWktKSDF0VTU1aU1pZzNGRktLSVA3dmRmcHRXSnA4SGcwZm41UkVyUGFmOFBhZU5HTHpmX2l3SlFrWG5GaDZHT0ZOMGR6ZGJmVC1uRjBNM3pzclBYVm5zakRsckJuRlFMVGlGY2hoc3pz?oc=5",
-      "category": "discs",
-      "published": "2026-10-13T15:01:47.000Z",
-      "snippet": "",
-      "matched": [
-        "Synapse Films"
-      ],
-      "classic": true,
-      "why": "Synapse Films",
-      "amazon_query": null
-    },
-    {
-      "id": "fae5baf849891c3289ffd6d3d6b72660f6003dbf",
-      "title": "\"I’ve had a few friends go now, and you think, Blimey, hang on, I’m 78, how much longer?\" Black Sabbath's Tony Iommi says Ozzy Osbourne's death has made him reflect on his own mortality",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdm9QN1F0SnUzZy1xNjMybzFOZjg4SXVoVHBCVU8wNk04dlR1a0JLS3B3VjVXaWpWQU5FRzR6Y2M0aFpWR0ZMR3RId205YVlEZHJ3bzh3LXRvVVlOalgyS1FvTDRNVWRLZ2RmZ2dCUXd5N25EaVJsLXdfNjI5ODFKdld6VW14ZGx0YjNVNVhrX21vZEtROXI0ZU0yY1VMVk10cjJlVjdpb3l5ODM1TDdhTGxXdWpDekJ6MGNPSmI0MVpDT1g3YVVURGRZV2lYZw?oc=5",
-      "category": "metal",
-      "published": "2026-10-13T15:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
-      "amazon_query": null
-    },
-    {
-      "id": "8ec6c74b4b7a7a3e87291b92e5743a46688fe406",
-      "title": "HEATHEN Announces New Album 'Lifetime In Hell', Shares 'Escapegoat' Single",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/heathen-announces-new-album-lifetime-in-hell-shares-escapegoat-single",
-      "category": "metal",
-      "published": "2026-10-13T14:42:05.000Z",
-      "snippet": "San Francisco Bay Area thrash metal veterans HEATHEN will release their new album, \"Lifetime In Hell\", on February 19, 2027 via Napalm Records. The official music video for the LP's first single…",
-      "matched": [
-        "Heathen"
-      ],
-      "classic": true,
-      "why": "Heathen",
-      "amazon_query": null
     }
   ],
   "desk": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "takes": [
       {
-        "h": "Josh Malerman's <em>Pictures of You</em>",
-        "p": "Josh Malerman's <em>Pictures of You</em> was published by Del Rey on September 8. Emily wakes in an unfamiliar room where a menacing woman treats her as an artist's model, and her boyfriend Jack's life is in danger, according to Bookreporter.",
-        "src": "Bookreporter",
-        "url": "https://www.bookreporter.com/reviews/pictures-of-you-by-josh-malerman"
+        "h": "Weird House Press: Halloween grab bags and new titles",
+        "p": "Weird House Press lists its 2026 Halloween Grab Bags as shipping. Its catalog also carries Elizabeth Massie's <em>Welcome Back to the Night</em> and titles by Brian Evenson and Richard Gavin. The pages give no publication dates, so check the listings for each book.",
+        "src": "Weird House Press",
+        "url": "https://www.weirdhousepress.com/collections/all"
       },
       {
-        "h": "Craig Zobel to direct <em>Something Is Killing the Children</em>",
-        "p": "Dread Central reports that Craig Zobel will direct a feature adaptation of <em>Something Is Killing the Children</em> for Blumhouse.",
+        "h": "Funko adds <em>Scream</em> and <em>Halloween II</em> vinyl toys",
+        "p": "Funko has announced vinyl toys of Sidney, Gale and Dewey from <em>Scream</em>, and Michael Myers, Laurie Strode and Dr. Loomis from <em>Halloween II</em>, according to Bloody Disgusting's toy coverage.",
+        "src": "Bloody Disgusting",
+        "url": "https://bloody-disgusting.com/toys/3968378/scream-sidney-gale-dewey-getting-vinyl-toys-from-funko/"
+      },
+      {
+        "h": "Samhain gets a Funko Pop, limited to 1,000",
+        "p": "Dread Central reports that Samhain, the villain of <em>The Real Ghostbusters</em>, is getting a Funko Pop limited to 1,000 pieces.",
         "src": "Dread Central",
-        "url": "https://www.dreadcentral.com/news/592983/craig-zobel-directing-something-is-killing-the-children-feature-adaptation-for-blumhouse/"
+        "url": "https://www.dreadcentral.com/toys-collectibles/590722/the-real-ghostbusters-villain-samhain-gets-a-funko-pop-limited-to-just-1000-pieces/"
       },
       {
-        "h": "NECA shows Jason figures from Parts 8 and 9",
-        "p": "At New York Toy Fair 2026, NECA showed figures from <em>Friday the 13th Part VIII: Jason Takes Manhattan</em> and <em>Jason Goes to Hell</em>. Mad About Horror's roundup of the NECA reveals gives no release timing for either.",
-        "src": "Mad About Horror",
-        "url": "https://madabouthorror.co.uk/blog/new-neca-releases-at-new-york-toy-fair-2026/"
-      },
-      {
-        "h": "Trick or Treat Studios lists new masks",
-        "p": "Trick or Treat Studios' new-arrivals feed lists a <em>C.H.U.D.</em> Underground Dweller mask (October 2), a Don Post DK mask (October 1) and Haunt Zombie, Witch, Vampire and Ghost masks (September 25).",
-        "src": "Trick or Treat Studios",
-        "url": "https://www.trickortreatstudios.com/collections/all"
+        "h": "<em>Other Worlds Than These</em> closes the Talisman trilogy",
+        "p": "Stephen King and Peter Straub's <em>Other Worlds Than These</em>, the third and final Talisman book, came out from Scribner on October 6. It runs 624 pages and carries 38 black-and-white illustrations by Gabriel Rodríguez. The audiobook is narrated by Patton Oswalt.",
+        "src": "StephenKing.com",
+        "url": "https://stephenking.com/news"
       }
     ]
   }
