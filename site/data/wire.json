@@ -1,28 +1,180 @@
 {
-  "built_at": "2026-10-18T05:23:44.858Z",
-  "built_for": "2026-10-18",
+  "built_at": "2026-10-19T05:30:00.747Z",
+  "built_for": "2026-10-19",
   "lead": {
-    "id": "b391303db4120a18f383321a16ab5db424c1b5a5",
-    "title": "Blood-Soaked “Cannibal Holocaust” Ultimate Edition Devours 4K UHD This November",
+    "id": "e19441c9f20992d7b2995fe82efd669c995abfe5",
+    "title": "Lionsgate Unleashes Rob Zombie’s “Firefly Trilogy” in Definitive 4K Box Set",
     "source": "Rue Morgue",
-    "url": "https://rue-morgue.com/blood-soaked-cannibal-holocaust-ultimate-edition-devours-4k-uhd-this-november",
+    "url": "https://rue-morgue.com/lionsgate-unleashes-rob-zombies-firefly-trilogy-in-definitive-4k-box-set",
     "category": "discs",
-    "published": "2026-10-16T17:44:32.000Z",
-    "snippet": "Grindhouse Releasing's six-disc Cannibal Holocaust Ultimate Edition arrives November 24 with a new 4K restoration from the original camera negatives, and more.",
+    "published": "2026-10-18T16:07:38.000Z",
+    "snippet": "Lionsgate's new eight-disc set finally brings House of 1000 Corpses to 4K, pairing it with The Devil's Rejects and 3 From Hell in a collector's box built around Rob Zombie's own photo archive.",
     "matched": [],
     "classic": true,
     "why": "horror outlet",
     "amazon_query": null,
-    "image": "https://zombie.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-114137_edited.jpg"
+    "image": "https://zombie.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/10/RZFireflyTrilogy_Beautyshot.png"
   },
   "items": [
     {
-      "id": "c5d7ab7ab9c67095e3123dfa835895aa1b82834f",
-      "title": "Horror Legend Clive Barker Plots New Hellraiser Movie Nearly 40 Years After Original",
-      "source": "Comic Book Resources",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiS2tiNU9EdlZEUTJZVnQ3SmUwM0FHQkVyX0Y0MEFGMXhJVXcyRXhMS1lZYjgxLW0wcW4zb1ZwRDlrMFlpTWFIZlVmWDVjQjlNbWZfcHk2WGVRRWlfVHJFS05mOXZ5QlhwTi0wM2Z3?oc=5",
+      "id": "5f44366203e2768594f06257614dd126efea4dc8",
+      "title": "The Rich Vampire Began with a Character Modeled on Lord Byron, and Twilight Made Him a Billionaire",
+      "source": "Creepy Catalog",
+      "url": "https://creepycatalog.com/the-rich-vampire-began-with-a-character-modeled-on-lord-byron-and-twilight-made-him-a-billionaire",
+      "category": "film",
+      "published": "2026-10-19T04:59:43.000Z",
+      "snippet": "Lord Ruthven, the vampire in John Polidori’s 1819 story The Vampyre, gave bloodsucking a place in high society. Modeled on Lord Byron, he helped establish the aristocratic vampire that still shapes…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "a51f0a785ac1f9c2779099c26c3eb12641bcd6f4",
+      "title": "MARVELOUS! Dakota Alexander’s THE HUNTER #2 Kickstarter Is Here",
+      "source": "13th Dimension",
+      "url": "https://13thdimension.com/marvelous-dakota-alexanders-the-hunter-2-kickstarter-is-here",
+      "category": "comics",
+      "published": "2026-10-19T04:06:24.000Z",
+      "snippet": "SNEAK PEEK: A spot-on tribute to Bronze Age Marvel horror superhero comics… Our pal Dakota Alexander’s The Hunter — a series that pays homage to Marvel’s Bronze Age horror superheroes but with a…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "67295d66bc6e061c541b3ee9efe2618eb2961a1c",
+      "title": "Casper and Thackery Binx Were the 90s Kids’ First Movie Crushes, and Devon Sawa Still Hears About It",
+      "source": "Creepy Catalog",
+      "url": "https://creepycatalog.com/casper-and-thackery-binx-were-the-90s-kids-first-movie-crushes-and-devon-sawa-still-hears-about-it",
+      "category": "film",
+      "published": "2026-10-19T03:29:43.000Z",
+      "snippet": "The two crushes in question: Casper and Thackery Binx. In the 1995 film, the friendly ghost whispers “Can I keep you?” to a sleeping Kat Harvey, and the line comes back when he turns human for one…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "84eab8faaac5a62bed3c2bf7f48013c1a8db8eb9",
+      "title": "‘The Thing’: John Carpenter Says We’re All Wrong About the Ending",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/news/594310/the-thing-john-carpenter-says-were-all-wrong-about-the-ending",
+      "category": "film",
+      "published": "2026-10-19T02:35:24.000Z",
+      "snippet": "John Carpenter says nobody has figured out the ending of The Thing. After 44 years of people inspecting eyeballs, breath,",
+      "matched": [
+        "John Carpenter",
+        "The Thing"
+      ],
+      "classic": false,
+      "why": "John Carpenter, The Thing",
+      "amazon_query": null
+    },
+    {
+      "id": "cedec5cd2addf1c666c4e908284fe2f42040fe4f",
+      "title": "Stephen King’s Best Horror Movie Is Also His Funniest",
+      "source": "Giant Freakin Robot",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUtTVzNRQVI4WFZaZE9YZExvU2hSLW5JdElzNFhkeGZoRWxpM3ZLUGZLd0d0TEU4RnlCcTI0U0pSOXNhbS02M01tZ2pIcEt1alR3Q3VJbVF6OU9ZOFkycmRYYUF6WGNELWJENTVZaUVEWUU2REdHam9fN1hSYVNUUk5yaW9vdw?oc=5",
+      "category": "comics",
+      "published": "2026-10-19T01:44:52.000Z",
+      "snippet": "",
+      "matched": [
+        "Stephen King"
+      ],
+      "classic": false,
+      "why": "Stephen King",
+      "amazon_query": null
+    },
+    {
+      "id": "10452823ac12c2b668dd55a277fad32ab118dc21",
+      "title": "Roasted Pigs, RIVER, And The Undead: Telluride Horror Show Day 2 Recap",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/telluride-horror-show-day-two-recap",
+      "category": "film",
+      "published": "2026-10-18T23:57:43.000Z",
+      "snippet": "Imagine attending a book fair in the midst of Halloweentown. That's the vibe Telluride Horror Show is bringing.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "64f1b9263b8ef57db3acbdf4367f2bd9dfd1ad75",
+      "title": "4K Ultra HD Review – Friday the 13th (1980)",
+      "source": "Flickering Myth",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsR0V0SDVRYjhHN2xyMTlBZFZOVThRczhRZTZralFtenNhdWdpb19WM3ZPREE4TXRuTDhadnlVQlZQbHVCUmxqaWVwRWt0azF1UFJqS3p1MUdRY3JZZ0RzLVNkT25kV0VfR0JRSnlJSHM3dFlsZjBTREFvNA?oc=5",
+      "category": "discs",
+      "published": "2026-10-18T23:55:26.000Z",
+      "snippet": "",
+      "matched": [
+        "Friday the 13th"
+      ],
+      "classic": true,
+      "why": "Friday the 13th",
+      "amazon_query": null
+    },
+    {
+      "id": "89ea3219b84cf5273c3951d9d5efa949e36b53e1",
+      "title": "The Conjuring: Unspoken’ Review: Engaging Mechanics and Lackluster Scares",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/reviews/594252/the-conjuring-unspoken-review-engaging-mechanics-and-lackluster-scares",
+      "category": "film",
+      "published": "2026-10-18T23:52:40.000Z",
+      "snippet": "'The Conjuring: Unspoken' delivers clever phone-based ghost-hunting mechanics, but a lack of genuine scares keeps it from greatness.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ba850cb1d114f822edea7a15b9c69aa64fe8bd1e",
+      "title": "Jason Voorhees: The Slasher Icon Explained",
+      "source": "Inverse",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hLW9mVzZIdFNzaWs3U3JJVFN2R2paRnVCTjNOV1p5NVAxaHpmNHN5UnU3U1NJNlUyM00yaGFBQlY3S2JwMHlldlNfaGdWbGphTHEwaGZOTmw5UTR6eFFZT2RhWkJMdjRYLUVWVmJDRQ?oc=5",
+      "category": "gear",
+      "published": "2026-10-18T22:00:25.000Z",
+      "snippet": "",
+      "matched": [
+        "Friday the 13th"
+      ],
+      "classic": false,
+      "why": "Friday the 13th",
+      "amazon_query": null
+    },
+    {
+      "id": "6086957340d8a43aa117b6c96d22b538a3c0f0d5",
+      "title": "‘Cannibal Holocaust’ 4K Set Includes a PG Version",
+      "source": "iHorror",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1raVZEQjdYYlpHT0gya01ITVVCZng5Q1hzSHB2Nl9KZUNwMzBiQU9QdmRKMVRFUlFiS1RzNHJCUlZVNDNxdWF1Y1AtSUtOcjhIYkRzX01aTzVLQk9fc3V2aklTNGxsNUZXSmM2bG50SVg3RWl2TXcyQWRR?oc=5",
+      "category": "discs",
+      "published": "2026-10-18T21:19:30.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "f6aee4fe1eaa2d4914db520da84d35e7a16c76da",
+      "title": "Hunter Schafer on the A24 Vampire Movie: ‘Batshit Crazy’",
+      "source": "iHorror",
+      "url": "https://ihorror.com/hunter-schafer-a24-vampire-movie-arkasha-stevenson",
+      "category": "film",
+      "published": "2026-10-18T21:18:39.000Z",
+      "snippet": "Hunter Schafer confirmed the untitled A24 film from Arkasha Stevenson is a vampire movie, calling the shoot batshit crazy and her favorite thing ever filmed.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "118937f61d69b9877e7549ee4c4618f2554c21ec",
+      "title": "Clive Barker’s Hellraiser Return: A New Chapter or Lamentable Last Call?",
+      "source": "DailyDrama",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOW9kTlFieWtleTUwbGJyZ0VZUWxmc3UtYkhLMnJJdWVWeVJ0Rjd5Ql92X2RLdmxzMXRBYUlGNGhPY1poWHBtQkFMOXFicW1WZTJQM2UxdFZWTTRnWmgxUGNra2dXS0xVTlNVRzd3UVBlaVdEem1NZ0l0emFwR2dtel93YVNuakVOSDZ5LUcyYlhnU3k0Z280blJQOUc?oc=5",
       "category": "books",
-      "published": "2026-10-18T03:57:00.000Z",
+      "published": "2026-10-18T21:01:23.000Z",
       "snippet": "",
       "matched": [
         "Clive Barker",
@@ -33,16 +185,302 @@
       "amazon_query": null
     },
     {
-      "id": "875ea0ed3e43c2bd69ab4a101aec06004aedccbd",
-      "title": "Kevin Bacon To Star in Jeremy Slater’s Supernatural Horror Film ‘Summoner’",
-      "source": "HorrorFuel.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1hqODJoZndERzNKM1VveWFCOUhMRUdQNm9kYkNWRXVIQ1QxeGdEQ2g5WmVRZ0p5ekJLR18tQzUxbzUtVHk4YVNPYUFYNGdtX1dyS3hESGM1OW1waUx3Tmx1bWU3N0JGZndxN3ZZZ3FpT3FNTHFQYkIwTzc3NFFuLVdJQXdsTUJPTGdCNVFsT1pKN2hOOXVVTWlGWWpNVnJEeVJuV3RnTTA4QQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-18T00:57:20.000Z",
+      "id": "0f063eaf52d2306b1defc1fb403304c4186ae7f3",
+      "title": "All Sam Raimi Horror Movies In Order",
+      "source": "JustWatch",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBudl9BYm1PNlhlbDVvTDIzNGZaZ1JDVHFGWlhpOUhsVDZab0RmWjZ0UWl6S2JPWFlLMUhrclJ0WUJGcGVLMFhCTXZwYzJreHk1V21HX3RDRnNSRHZKR1BfSnVUSVBFREhYY0xGNmNDRHpCX2Z6SEZr?oc=5",
+      "category": "film",
+      "published": "2026-10-18T20:59:06.000Z",
       "snippet": "",
+      "matched": [
+        "Sam Raimi"
+      ],
+      "classic": false,
+      "why": "Sam Raimi",
+      "amazon_query": null
+    },
+    {
+      "id": "e458c572d9e413fcfe229ff5290ace6428173691",
+      "title": "Clive Barker’s Ready to Bring ‘Hellraiser’ Back to Movies",
+      "source": "Gizmodo",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbUthU1hmM1BOVUw2SDAxYnpGaDdzYXdNWWZGM3VORjl1czhzY19oelUySVRhZzRBSUM0Y2RUd1RNbThncHRHYmlYblRCaHN6aWFHajM4REE3eWNvVVkwV29mZVhnTmpULXlrcmg4dVZuTE1wSmZ0NTRKUDI0VUg1eVRGWFg4ejFIR1dSNV9B?oc=5",
+      "category": "books",
+      "published": "2026-10-18T20:15:53.000Z",
+      "snippet": "",
+      "matched": [
+        "Clive Barker",
+        "Hellraiser"
+      ],
+      "classic": false,
+      "why": "Clive Barker, Hellraiser",
+      "amazon_query": null
+    },
+    {
+      "id": "daad6e856a0a127239c381ab835a3c1459f02ed1",
+      "title": "Review: This B Just Won’t Die! by Tanya Pell",
+      "source": "Cemetery Dance",
+      "url": "https://www.cemeterydance.com/extras/review-this-b-just-wont-die-by-tanya-pell",
+      "category": "books",
+      "published": "2026-10-18T19:03:00.000Z",
+      "snippet": "This B Just Won’t Die! by Tanya Pell Gallery Books (October 13th, 2026) Reviewed by Adam Allen Tanya Pell has established herself as a brilliant writer of different types of horror, and with This B…",
       "matched": [],
       "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "c34484701e3edb1341697add6aae2783de24c953",
+      "title": "‘The Unknown’ Review: Disturbing, Bewitching Body Horror [London Film Fest]",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/reviews/594250/the-unknown-review-disturbing-bewitching-body-horror-london-film-fest",
+      "category": "film",
+      "published": "2026-10-18T19:02:26.000Z",
+      "snippet": "'The Unknown' is an unsettling body-horror nightmare about identity and alienation, trading answers for existential dread. Read our review.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "5f6022840ef8c7e20376a17d2e921bdd5c4e307e",
+      "title": "Welcome to CRYSTAL LAKE! Fango Dives Into The Horror Prequel Series’ Gore",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/crystal-lake-interview-sfx-david-presto",
+      "category": "film",
+      "published": "2026-10-18T19:00:10.000Z",
+      "snippet": "I’m standing in an abandoned shack deep in the woods of West Milford, NJ. Unstable floorboards threaten to collapse under my weight, thick spiderwebs cling to my cheeks, and a living veil of fog…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "1d8bc9abb265f7369d4edecee2e8701b285c3c7b",
+      "title": "This John Carpenter Meets Air Force One Thriller Is Samuel L. Jackson's Best R-Rated Action Movie Since 2014",
+      "source": "ScreenRant",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnplRjkxR0M1Njgyd2NZU0Y3bXNnOEdkWlRLV3BIS1E2cTNmTmJveGlQYVVOWV94OEJrSW5FRzRONlFHb1FpY2FnQ1VQRVZ6eUZxdW14V05VWjMwQXZRcUtBNGh5bGdSSndoRklFQVVhS1JyM1JrbkJVc2NKd0h3Y0xXQ2d3NVQxMEdTTUw1cTNtM1YzS2pyWXA0S2Qtemw1dmYtQ3c2MW8?oc=5",
+      "category": "film",
+      "published": "2026-10-18T16:55:19.000Z",
+      "snippet": "",
+      "matched": [
+        "John Carpenter"
+      ],
+      "classic": false,
+      "why": "John Carpenter",
+      "amazon_query": null
+    },
+    {
+      "id": "f8d835b8ffdc67d9b0cd1ae5fb48ad7ac5a19113",
+      "title": "MIKE FLANAGAN’S “CARRIE” TRIUMPHS ACROSS THE GLOBE",
+      "source": "Scream Horror Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUGdWdm5hZHczVzg2SE84NlBfdE10ZkxTRWZEUnFyMEZaWFFVUkRvLWVtSXA2Wl9XQkZDLXcyTjM0OXRsRTA0aVJsT1JnbnRNQ3ltOEwzaEdkVmFUalNjb0phZVpsNEJ0TFIteFdBcFRrSF9TakNpaEJyS3FKbllRdkxXOTZXS2M?oc=5",
+      "category": "film",
+      "published": "2026-10-18T16:35:07.000Z",
+      "snippet": "",
+      "matched": [
+        "Carrie"
+      ],
+      "classic": false,
+      "why": "Carrie",
+      "amazon_query": null
+    },
+    {
+      "id": "4649bba51c6f560eb36a2c3d72a90d19847292d5",
+      "title": "‘Whalefall’ Has One Viewer Who Has Been Inside a Whale",
+      "source": "iHorror",
+      "url": "https://ihorror.com/whalefall-michael-packard-humpback-survivor-4dx",
+      "category": "film",
+      "published": "2026-10-18T16:20:11.000Z",
+      "snippet": "Michael Packard spent less than 45 seconds in a humpback's mouth off Provincetown in 2021. CNN sat him down in a 4DX theater for Whalefall, and the tongue moved again.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "401ec38e6f8a1afc69a1da5f78371b8c85b28238",
+      "title": "VIRGIN STEELE's DAVID DEFEIS Is Working On New Music: 'There's A Lot Of Stuff Already On Tape'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/virgin-steeles-david-defeis-is-working-on-new-music-theres-a-lot-of-stuff-already-on-tape",
+      "category": "metal",
+      "published": "2026-10-18T16:09:10.000Z",
+      "snippet": "In a new interview with Maurizio Lyon Leone of LyonRock, vocalist David DeFeis of the cult U.S. metal band VIRGIN STEELE spoke about the possibility of a follow-up to the group's latest album, \"The…",
+      "matched": [
+        "Virgin Steele"
+      ],
+      "classic": true,
+      "why": "Virgin Steele",
+      "amazon_query": null
+    },
+    {
+      "id": "e19441c9f20992d7b2995fe82efd669c995abfe5",
+      "title": "Lionsgate Unleashes Rob Zombie’s “Firefly Trilogy” in Definitive 4K Box Set",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/lionsgate-unleashes-rob-zombies-firefly-trilogy-in-definitive-4k-box-set",
+      "category": "discs",
+      "published": "2026-10-18T16:07:38.000Z",
+      "snippet": "Lionsgate's new eight-disc set finally brings House of 1000 Corpses to 4K, pairing it with The Devil's Rejects and 3 From Hell in a collector's box built around Rob Zombie's own photo archive.",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "0a0a040980e7e9412dc3e8abc86416450f417e50",
+      "title": "‘Rollercoaster’ 4K Review: ’70s Disaster Movie Hybrid Gets a Fresh Glow-Up",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/home-video/3972334/rollercoaster-4k-review-70s-disaster-movie-hybrid-gets-a-fresh-glow-up",
+      "category": "discs",
+      "published": "2026-10-18T16:00:16.000Z",
+      "snippet": "The 1970s gave us the widespread success of both disaster movies and terrorist pictures, with everything from The Taking of Pelham One Two Three to Airport to Black Sunday (the Frankenheimer film…",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "510afc83e97da7354f1b90ce843eb4dcf1f790f6",
+      "title": "“Every record is a success. If you can get more than one person on board with an idea, that’s success. It’s hard to get people to agree on anything”: When Geoff Tate looked back on Queensrÿche’s Operation: Mindcrime and its sequel",
+      "source": "Louder",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU1hGTzg5ZDNHekdrc3V3LXNVVmZoa1VBaEhKazV4Z0ZMS1dZSmY2RC00RWUyQmtPLTZhanFNMkRPTks3NTJBY0hkZjBUVmRQcndVOHEwNE1fbW9Ya3dKa1QwWG95X1hvNm01eWp6dFVVem9tWUVxM2xoeVVWa0V3Ym1wUk51XzN6bGpF?oc=5",
+      "category": "metal",
+      "published": "2026-10-18T16:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Queensrÿche"
+      ],
+      "classic": true,
+      "why": "Queensrÿche",
+      "amazon_query": null
+    },
+    {
+      "id": "ffec51a3c87fa8d75a09e30367f325b4757cb404",
+      "title": "CINEPHOBIA RELEASING ACQUIRES NORTH AMERICAN & UK RIGHTS TO MARCEL WALZ’S GLAM METAL SLASHER BRUTE 1986; DEBUTS KEY ART AND TRAILER AHEAD OF TUBI FRIGHTFEST HALLOWEEN WORLD PREMIERE",
+      "source": "HorrorNews.net",
+      "url": "https://horrornews.net/186374/cinephobia-releasing-acquires-north-american-debuts-key-art-and-trailer-ahead-of-tubi-frightfest-halloween-world-premiere",
+      "category": "film",
+      "published": "2026-10-18T16:00:00.000Z",
+      "snippet": "Cinephobia Releasing announced today that it has acquired North American and UK Rights to director Marcel Walz’s (“Brute 1976”, “Anathema”) and writer Joe Knetter’s (“Twilight of the Dead”, “The…",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "8b04fc0f43393d93c72f94c41f00578623316712",
+      "title": "HALLOWEEN II Novelization: Less Myers, More Mundy",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/halloween-ii-novelization-less-myers-more-mundy",
+      "category": "film",
+      "published": "2026-10-18T15:00:22.000Z",
+      "snippet": "Before you fork out a huge chunk of change for the HALLOWEEN II novelization on eBay, read our rundown of the Jack Martin/Dennis Etchison book.",
+      "matched": [
+        "Halloween (film series)"
+      ],
+      "classic": false,
+      "why": "Halloween (film series)",
+      "amazon_query": null
+    },
+    {
+      "id": "a9a66c17e677db0c58f85c28df9e1bbd1ae5ff32",
+      "title": "THE HAUNTED COP SHOP (1987)",
+      "source": "Horror Cult Films",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0SkpZODdkakFVU0VTblNlRlU5M3kxMy0yNkJrdkp6WkRBY3g0RHdFMXNRVV94TVdHamRJbU84cDJ3d2VPaW56dl95dWk3VG10Mmg3bHpBS2ZrLXcyWFRqODZFNjlLSlJMTm05djZjRGV6UQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-18T14:41:24.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
       "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "47c420c578e1de73ed5c819f0cd30b1cd0c5d861",
+      "title": "Stephen King is a fan. So are the Beckhams. Freida McFadden's next book, 'The Sleepwalker,' is already a 2027 event.",
+      "source": "Yahoo Creators",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSVFJVWJLVzVCS2J6bGJNamIySVdKaEt2N1gxamZEU0ZQQTdSaVlxYTEzV1ZiMGlVWjNEbVFnWkdINHFHbzlFLVlFZ0pReWJTY05mUUhGRmYwbHlOMVdsbWRmdmVwRFJEalBONFNJaFRoOTBPU2p2cnZQRFFldlktbUJ4UGlpVjY1UHMxMDJyeWVOaUU0QXg0VUlFMGplbnF2ZkhIV2tvaGFYTHZwazZIbVhEWXplc09maGZpNHdGUU5hMnlhSUx6a0xaYTZzMzdmSFAtNTZ5Q0k0U0VZRUR3QXcwR0hsQkY3MUktN3k2dGk3dXAzZG1ET2JR?oc=5",
+      "category": "books",
+      "published": "2026-10-18T14:20:35.000Z",
+      "snippet": "",
+      "matched": [
+        "Stephen King"
+      ],
+      "classic": false,
+      "why": "Stephen King",
+      "amazon_query": null
+    },
+    {
+      "id": "77821d71eda39aa4467dc9e0718af2cf220226f5",
+      "title": "New Teaser Trailer Released For ‘THE THIRD PARENT’",
+      "source": "Pop Horror",
+      "url": "https://pophorror.com/new-teaser-trailer-released-for-the-third-parent",
+      "category": "gear",
+      "published": "2026-10-18T13:33:23.000Z",
+      "snippet": "New teaser trailer released for director David Michaels’ (Macabre Theater) new horror film: The Third Parent. The film stars Rob Lowe (St. Elmo’s Fire), Crispin Glover (River’s Edge), and Roselyn…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "105ff4e77e97f9b25fbd6df6c9718e7b61dca871",
+      "title": "CRAIG LOCICERO On FORBIDDEN's New, Self-Titled Album: 'If You're Expecting Just Thrash Metal, You Might Be Disappointed'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/craig-locicero-on-forbiddens-new-self-titled-album-if-youre-expecting-just-thrash-metal-you-might-be-disappointed",
+      "category": "metal",
+      "published": "2026-10-18T13:24:37.000Z",
+      "snippet": "In a new interview with The Adventures Of Pipeman, FORBIDDEN guitarist Craig Locicero talked about how early San Francisco Bay Area thrash metal bands all carved out their distinct sounds by blending…",
+      "matched": [
+        "Forbidden"
+      ],
+      "classic": true,
+      "why": "Forbidden",
+      "amazon_query": null
+    },
+    {
+      "id": "86f38f3a1d9594b57c78d486f06ac6f7725900ac",
+      "title": "JUDAS PRIEST: 'The Early Years' Interactive Scrapbook Takes You Back To The Band's First Two Studio Albums",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/judas-priest-the-early-years-interactive-scrapbook-takes-you-back-to-the-bands-first-two-studio-albums",
+      "category": "metal",
+      "published": "2026-10-18T12:42:27.000Z",
+      "snippet": "Exciter Records has launched The Early Years, an interactive JUDAS PRIEST scrapbook taking you back to the band's formative years surrounding \"Rocka Rolla\" and \"Sad Wings Of Destiny\". Explore a…",
+      "matched": [
+        "Judas Priest"
+      ],
+      "classic": true,
+      "why": "Judas Priest",
+      "amazon_query": null
+    },
+    {
+      "id": "205a60c856cabd681bfd68c6dbba9991d30697c1",
+      "title": "Resurrecting ‘Dracula’: the timeless brilliance of Christopher Lee and Hammer’s finest creation",
+      "source": "Far Out Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQazhHeWJRMkQzSmdfWHdOSng1bDRZbnNMbVEwdDFIcDJxdFdwWWlJY2QxUGdzVUVFckFKam80d2NmVWY0aVV1Q1J2bXlOU2xhblRwOWtscWJpcC1BbWxBa2hjMjhNT2hsdHVGeDFORG53MFhwbllWblJNVVBoNXJLRUpOc19NOG1DaHRZ?oc=5",
+      "category": "gear",
+      "published": "2026-10-18T10:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Christopher Lee",
+        "Dracula"
+      ],
+      "classic": true,
+      "why": "Christopher Lee, Dracula",
+      "amazon_query": null
+    },
+    {
+      "id": "f4314cfd82bdf8e32e76848a33907c4b48529aa6",
+      "title": "Why This Dracula Could Only Be Played By Caleb Landry Jones Pen Y Bont Bro Morgannwg (BbKOcM8KMu)",
+      "source": "Unisba Media",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kd1czYkl4SnRnVWkyMGV4T1JRSzFNT0pSSHY2WS1kZmxTazh4Q2R0RW9jUFBOQkdPY1I3U3pzSklscXBITTh6dVgyR04zQ2hoMndpMTlfZ3ZYanBlbVlsQUxvZTJrSDF0bGgw?oc=5",
+      "category": "gear",
+      "published": "2026-10-18T05:48:10.000Z",
+      "snippet": "",
+      "matched": [
+        "Dracula"
+      ],
+      "classic": false,
+      "why": "Dracula",
       "amazon_query": null
     },
     {
@@ -61,71 +499,6 @@
       "amazon_query": null
     },
     {
-      "id": "63cef7ad6f4a694554ce3f613acbba01c9335dfb",
-      "title": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
-      "source": "Variety",
-      "url": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162",
-      "category": "film",
-      "published": "2026-10-17T23:21:55.000Z",
-      "snippet": "James McAvoy has starred in films including “Speak No Evil,” “Atonement” and “X-Men: First Class,” but he recently revealed the “only” film he still consistently receives residuals from is M. Night…",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "5335717213461a81954a850a0b80a8935c1189ea",
-      "title": "Ice Cream, Bigfoot And Alien Babies: Telluride Horror Show Day 1 Recap",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/telluride-horror-show-day-one-recap",
-      "category": "film",
-      "published": "2026-10-17T22:11:40.000Z",
-      "snippet": "Team FANGORIA's in Telluride and ready for some terror.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "98df74e4549ac3e9b168852595f6a0b83128e037",
-      "title": "Horror Goes Vertical In BITE CLUB With Barbara Crampton and Russell Todd",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/bite-club-vertical-barbara-crampton",
-      "category": "film",
-      "published": "2026-10-17T21:24:23.000Z",
-      "snippet": "A CHOPPING MALL reunion is happening in the horror vertical series BITE CLUB, but the first rule of Bite Club… is that you’ve gotta watch it on your phone.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "b2ce4ba20def7ea2bcfa210170ab67bec19a559b",
-      "title": "‘Deadbolt’ Trailer: She Locked the Door, and It Is Open",
-      "source": "iHorror",
-      "url": "https://ihorror.com/deadbolt-trailer-saban-films-callie-deering-november-13",
-      "category": "film",
-      "published": "2026-10-17T21:21:43.000Z",
-      "snippet": "Saban Films has the trailer for Deadbolt, a single-location home invasion thriller with Callie Deering, ahead of its November 13 VOD release.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "876bb0d0c30387fadbaea5d841192fe4e6c5d90b",
-      "title": "‘Ralph’s Perfekt Christmas’ Trailer Brings Jill Schoelen Back",
-      "source": "iHorror",
-      "url": "https://ihorror.com/ralphs-perfekt-christmas-trailer-jill-schoelen-cineverse",
-      "category": "film",
-      "published": "2026-10-17T21:15:13.000Z",
-      "snippet": "Jill Schoelen returns in her first feature in 29 years, and the Christmas horror comedy hits theaters October 30 before Screambox on November 3.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
       "id": "36a0cd98e6d552ec3b89838b8d0d3fd4bdac2c12",
       "title": "GOMORRA (Feat. Members of DESTRUCTION) Reveal Official Music Video For \"Supreme Hate\"",
       "source": "KNAC.COM",
@@ -138,102 +511,6 @@
       ],
       "classic": true,
       "why": "Destruction",
-      "amazon_query": null
-    },
-    {
-      "id": "19fcb6af1c27fffc78bb46df2f0b35336cb823bc",
-      "title": "ORIGINAL “NOSFERATU” GETS NEW SCORE BY PIANIST TOM ROBERTS",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/original-nosferatu-gets-new-score-by-pianist-tom-roberts",
-      "category": "discs",
-      "published": "2026-10-17T20:37:56.000Z",
-      "snippet": "Pittsburgh pianist Tom Roberts gives the NOSFERATU score a period-accurate makeover.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "c93d762d0f07d4ff8fd9f839b3a63647fec1efdf",
-      "title": "All Of Sam Raimi's Horror Movies, In Order",
-      "source": "JustWatch",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DT2l3QkJaaHlUV2x5VTFRcjJIZWFkSERkY3M4Tm04NGlNM3Rqc3JkQzFRQzUweWRRWkplazVndS1VUkVWNE5wNFQtYWNnSjRTYUoyLXBIbU5yN2thYWVrc09EZHpYVGNqeUEzVkpxNENQdw?oc=5",
-      "category": "discs",
-      "published": "2026-10-17T20:16:08.000Z",
-      "snippet": "",
-      "matched": [
-        "Sam Raimi"
-      ],
-      "classic": false,
-      "why": "Sam Raimi",
-      "amazon_query": null
-    },
-    {
-      "id": "52108c77d3eb50efef72d3b8ad28f6abb75dad5f",
-      "title": "Nightmares Film Festival 2026 Day Two: A Curse, a Dollhouse, and a Ride",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/editorials/594239/nightmares-film-festival-2026-day-two-a-curse-a-dollhouse-and-a-ride",
-      "category": "film",
-      "published": "2026-10-17T19:53:08.000Z",
-      "snippet": "Day 2 of the Nightmares Film Festival 2026 is full of curses, dollhouses, and the return of Lulu Wilson's Becky.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "baf9b413fa10d42d7d471cce899d99645c1d6a6b",
-      "title": "CRITICAL MASS | OPINION: Why Stephen King’s ‘Carrie’ still feels so modern",
-      "source": "The Arkansas Democrat-Gazette",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNG9NVjdKa2N3RlZyN3RvWVVXbGlKdVJPdFhVajYyTkF5WHhNUmU4d2k5V1hEa2kwYmM5QlNBOXpjMEVMR29rRmJ2VlVEU3FxNmZXelp6SU5rR25TX3hxcE9aYzAwcTVCenFFX3h3dldlX3JEU2twS1dnaEpQcW9ROFdZS0ZWN1JWblQ4eG0xOUdaa3BFQWFnN1V5eGVqZnpWYUdpazg2ZEJQNjJFZzA5YlgxRzhoWEJq?oc=5",
-      "category": "books",
-      "published": "2026-10-17T19:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Stephen King",
-        "Carrie"
-      ],
-      "classic": false,
-      "why": "Stephen King, Carrie",
-      "amazon_query": null
-    },
-    {
-      "id": "98bb47ec34dc95431b8da7531cfdfbe3d915020a",
-      "title": "After ‘Crystal Lake’, We’re All Team Voorhees Now",
-      "source": "Creepy Catalog",
-      "url": "https://creepycatalog.com/after-crystal-lake-were-all-team-voorhees-now",
-      "category": "gear",
-      "published": "2026-10-17T18:33:25.000Z",
-      "snippet": "For decades, Pamela Voorhees was a plot twist and Jason was a hockey mask. Peacock’s new prequel series wants you to feel something else about them: heartbreak. The eight-episode season stars Linda…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "1e06910008fc90b8bea306958256c8df1aa9f22b",
-      "title": "“Rockabye Baby! Halloween” Turns Six Horror Anthems Into Naptime Lullabies",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/rockabye-baby-halloween-lullaby-album",
-      "category": "film",
-      "published": "2026-10-17T17:01:24.000Z",
-      "snippet": "Rockabye Baby! turns Ghostbusters, This Is Halloween and four more spooky season staples into instrumental lullabies on its new Halloween collection, up for preorder now.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "a0adb46e282c38fd5ceea3d1e8c8c6c39cf6464d",
-      "title": "Devon Sawa: Teen Dream, Horror Icon, And The FANGORIA Chainsaw Awards Host 2026",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/devon-sawa-horror-history-fangoria-chainsaw-awards",
-      "category": "film",
-      "published": "2026-10-17T17:00:51.000Z",
-      "snippet": "Devon Sawa is hosting the 2026 FANGORIA Chainsaw Awards and it's a little exhausting trying not to fangirl out about how cool it is to have a horror icon joining us.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
       "amazon_query": null
     },
     {
@@ -309,287 +586,6 @@
       ],
       "classic": true,
       "why": "Peter Cushing",
-      "amazon_query": null
-    },
-    {
-      "id": "9d1ab3be8a6e08805720d170f548bfb6790023ef",
-      "title": "Clive Barker Teases Future Hellraiser Projects Following Revival Release",
-      "source": "The Movie Blog",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmtmZGtid25EWjh4Uk1Ld3UybC13NExidFFxd0lmUTlkSGFLWEdSWUJ1Z2Nuak9HWmRGYzIyVC1xLVNzcVlBOTk4THBfM3h4ZDFjal9sNE9lZnRDdXJTQmhLTTctSV9mVFRSSUx5LXhPbm5HMzRxc1BCb3NSUXNjWVNzWHdrdXVYZFhiUUZuZ183Nk5rNXVaUGR5TmM2VDhLQXRIeVRlOUtKenRibjJB?oc=5",
-      "category": "gear",
-      "published": "2026-10-17T14:52:24.000Z",
-      "snippet": "",
-      "matched": [
-        "Clive Barker",
-        "Hellraiser"
-      ],
-      "classic": false,
-      "why": "Clive Barker, Hellraiser",
-      "amazon_query": null
-    },
-    {
-      "id": "e4441f0807d743195670d7b85534958d34bea70b",
-      "title": "We Need To Talk About The Shocking Reveal In CRYSTAL LAKE",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/crystal-lake-season-1-jason-voorhees-twist",
-      "category": "film",
-      "published": "2026-10-17T14:00:49.000Z",
-      "snippet": "The FRIDAY THE 13TH franchise may never be the same after CRYSTAL LAKE Season 1, as it changes our understanding of Jason Voorhees in major ways.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "29d9baab7a2ec04fabb039d8af83f13186a53db5",
-      "title": "‘Crystal Lake’ burning questions answered: Where’s Jason’s hockey mask? Will Pam kill again? And who’s left alive for Season 2?",
-      "source": "Gold Derby",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWVEOWlkVXl4QUxjUFFOTmk1YmVpWjBqOV9wOEJqcU9DX1hsd3pBUlJsRHNpSlRvSjJTaHhCWW1XM3FaNmpvYzBkT0N3eDNhN1J0czJHX3FwSjJ3RTBRYUJfbGlNSzZsRTRZWDlDTi1pY19VZVF1QUNMME00elJOT0t4bVAyUk11d2dfOENNQkFGdjBHUnlnYmpWd01JVExJOVhNMmdBQWZRRjBNbWhxS0pfSWJCZVNrdFp3?oc=5",
-      "category": "gear",
-      "published": "2026-10-17T13:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Friday the 13th"
-      ],
-      "classic": true,
-      "why": "Friday the 13th",
-      "amazon_query": null
-    },
-    {
-      "id": "1c7f2b3c601e0792aca062b03db89a98f41f5f29",
-      "title": "Severin Films Logo",
-      "source": "Why So Blu?",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxORmJUSENyT1BKT2d6cEE4Wjh3c3NSajkxWFR6bXNwWlVOQ296Q1hsQkZBTi00ZnBxTW85bGJaWHRnRnB6ZWU2eXc2a1RiTUVUMXFqLXp4TDVEMF9BdWExcWZDOUJMQlk0all2TTduU1dXSWU1QzMyZWx0dUxVNjZwRllrSms5RDJqSWpMOWdWeFZzU0Z1ZEhUeXVzV21sT3pBOVNJcnNKTXBqcFlESXpRWVdUOVd1OXU4bzV0Z3Ftb2lrZ0dXLU1RRGRGa2JvMVFkSnVFbzBiTHk4aEFPalN0NWhCb0pqR1M2N29acUF4d19jaF9pNkJHdFhZMFhPMkYyT0E?oc=5",
-      "category": "discs",
-      "published": "2026-10-16T22:24:56.000Z",
-      "snippet": "",
-      "matched": [
-        "Severin Films"
-      ],
-      "classic": true,
-      "why": "Severin Films",
-      "amazon_query": null
-    },
-    {
-      "id": "dfedb5c3356262e8d5acbb4bd8985e40ff473eda",
-      "title": "Hammer Films Acquires THE WOMAN IN BLACK Author Susan Hill’s Entire Library of Horror Stories",
-      "source": "GeekTyrant",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTThfSklYVEx5MXhHVV96eEVueHU4RUt0TllUSDk5dkhkMnhCOFpOZi10UlZVdGtGYzUxc1E4NWt6UXV3TWpGR1FVYVAxU3ZXMDM2bkxPc1FVWEVnd1FYdzdoOXEwQmZ5dC1rcnBVU0IyX0pRcW5XWDJkenp3bkdadHByRTVBSXd0d2tpU2R0RWlRMkU5UEpGTTFpbXI4MHhsY3JfZWZ1MVUtQ0lMZFMyQUFNZ1V0UUV1RFVOSA?oc=5",
-      "category": "film",
-      "published": "2026-10-16T19:58:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Hammer Films"
-      ],
-      "classic": true,
-      "why": "Hammer Films",
-      "amazon_query": null
-    },
-    {
-      "id": "618e33f4a755f0f04d87674453eda2acab03968e",
-      "title": "See Pro-Shot Video Of NEVERMORE Performing 'The River Dragon Has Come' At 2026 BLOODSTOCK OPEN AIR Festival",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/see-pro-shot-video-of-nevermore-performing-the-river-dragon-has-come-at-2026-bloodstock-open-air-festival",
-      "category": "metal",
-      "published": "2026-10-16T19:19:25.000Z",
-      "snippet": "Professionally filmed video of NEVERMORE performing the song \"The River Dragon Has Come\" at the 2026 edition of the Bloodstock Open Air festival on August 8 at Catton Park, Walton-on-Trent, United…",
-      "matched": [
-        "Nevermore"
-      ],
-      "classic": true,
-      "why": "Nevermore",
-      "amazon_query": null
-    },
-    {
-      "id": "43755d4f857eb3ee0d45dcc3f957386d1aefc766",
-      "title": "K.K. DOWNING On IAN HILL's Retirement From JUDAS PRIEST: 'I Wish Him Well, And All The Best For The Future'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/k-k-downing-on-ian-hills-retirement-from-judas-priest-i-wish-him-well-and-all-the-best-for-the-future",
-      "category": "metal",
-      "published": "2026-10-16T18:56:49.000Z",
-      "snippet": "During an October 14 appearance on SiriusXM's \"Trunk Nation With Eddie Trunk\", original JUDAS PRIEST guitarist K.K. Downing was asked to comment on bassist Ian Hill's recent announcement that he was…",
-      "matched": [
-        "Judas Priest"
-      ],
-      "classic": true,
-      "why": "Judas Priest",
-      "amazon_query": null
-    },
-    {
-      "id": "e8630efdf9c2f5460bcf12a04aec6c9d03be47e2",
-      "title": "ALICE COOPER Performs \"Give The Kid A Break\" On The Tony Orlando And Dawn Rainbow Hour, 1976; Video",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSnAxYlVHVjlTNnBtUWpQSkszYy1jcWVCRGpBSjlUQm9TMlVMRkxQNFZmQzVqYzdUTG1Cb1Y0S1RIUHUydWJlTEFkTlYxZlU0V1dGbzN4b2RkbzZRTGtfUVdDSFF0aFgtemFrbHhXcDJXRURsVWgxcDFCdHAzaVRMU0xtR19iaTNFeVA5Si1Ua29tcWpjdVVRMGRfR1VOSWRjYUEtbFpJajRLTDFPbGdtNVMtUlVXYUY4RzVfN05tQnU5Zw?oc=5",
-      "category": "metal",
-      "published": "2026-10-16T18:41:15.000Z",
-      "snippet": "",
-      "matched": [
-        "Rainbow"
-      ],
-      "classic": true,
-      "why": "Rainbow",
-      "amazon_query": null
-    },
-    {
-      "id": "1d153480c128af439bcc2fabfdb4cd048b2e39cd",
-      "title": "Review: Newly restored Hammer Horror classic at Pictureville, Bradford",
-      "source": "Yahoo News UK",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb3ROaC04bWFiVEVCU2VpU3VUUnQ2QlQ5VUJ5b2VBQko2Vkp1VUVsY3p3VzdZWlVFN1lIRkVJaU81RVpWTGhTOFBENXpqVWFuRVkwelQtVVRKZU05RExjSFRlbU9NN1JXdUdFTko4bVNva0dfcy1pNXFsRDNFN2hka2RR?oc=5",
-      "category": "film",
-      "published": "2026-10-16T18:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Hammer Films"
-      ],
-      "classic": true,
-      "why": "Hammer Films",
-      "amazon_query": null
-    },
-    {
-      "id": "e19cb4eb251c41581441810e4a874cea8df47e32",
-      "title": "DAVE MUSTAINE On MEGADETH's Touring Plans: 'ANTHRAX And KERRY KING Are Going Out With Us On The Next Run'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/dave-mustaine-on-megadeths-touring-plans-anthrax-and-kerry-king-are-going-out-with-us-on-the-next-run",
-      "category": "metal",
-      "published": "2026-10-16T17:58:06.000Z",
-      "snippet": "During an appearance on the October 15 episode of SiriusXM's \"Trunk Nation With Eddie Trunk\", MEGADETH leader Dave Mustaine spoke about the band's touring plans for the coming months, having launched…",
-      "matched": [
-        "Anthrax"
-      ],
-      "classic": true,
-      "why": "Anthrax",
-      "amazon_query": null
-    },
-    {
-      "id": "b391303db4120a18f383321a16ab5db424c1b5a5",
-      "title": "Blood-Soaked “Cannibal Holocaust” Ultimate Edition Devours 4K UHD This November",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/blood-soaked-cannibal-holocaust-ultimate-edition-devours-4k-uhd-this-november",
-      "category": "discs",
-      "published": "2026-10-16T17:44:32.000Z",
-      "snippet": "Grindhouse Releasing's six-disc Cannibal Holocaust Ultimate Edition arrives November 24 with a new 4K restoration from the original camera negatives, and more.",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "bb201a332a09c04e906c916e34d7b26c93c74086",
-      "title": "Black Sabbath’s Farewell Becomes A Cinema Event Black Sabbath’s Final Concert Moves to the Big Screen",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObjR0MnlhbFhwSVlVb0h6c2VXY1J4UnNZcVBnVElERW5iSmRLY0xtazJyS1o0Tk5wcTNHY19weF91dXJreDZrOUtGR2JNd1ZCcXVKMHhsYnJVcEJtNlZtQkpKeUl2SzZpWVBDNVVHUEZ3UnRJRW5fVDFhTDJKQTlsYkRQOTZtdw?oc=5",
-      "category": "metal",
-      "published": "2026-10-16T17:39:23.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
-      "amazon_query": null
-    },
-    {
-      "id": "9ba445b92da4c293c8903438b942dd39a53e1d45",
-      "title": "\"Never believe that there is something wrong in your life. You are where you’re supposed to be.\" Deep Purple legend Glenn Hughes offers some philosophical life advice as he recovers from 10 hour open heart surgery operation",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTV9ydkhBVGs0MFl3b1U2ZThWdW5oQ3VpQjdFLTdWWUR0SHhiRWRNZ2djdzBmQ1RHRlBURWRNR1F4eEhJclA1R1haLUlNaWhaQmVrM2xVNHVPRDZ6SlhGLVkydHhlM0pDMndHTzBQV1ZrazBUNlpGSUVVa2I3Q1g2UG1sUDBJaDV5Yzg3ZkhrQW5vRzVTTFVnZ3ZiWm5ZckZXNldIVTRhY1MxajRlRFU0b3F3?oc=5",
-      "category": "metal",
-      "published": "2026-10-16T17:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Deep Purple"
-      ],
-      "classic": true,
-      "why": "Deep Purple",
-      "amazon_query": null
-    },
-    {
-      "id": "38b68942cd23adbb4011f2fc3963d598737f0be8",
-      "title": "“I ran to the bathroom and threw up. Darrell’s standing there with a shot waiting for me. ‘Now you have more room!’” Anthrax’s Scott Ian remembers chaotic tour with Pantera",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeFlzOFdmN212Z1ltZ1JyNWFEVExTR0IyRWNya0FyaEtyNmlhZktGR2VPNEFFMFJDSkVLcDhuY1R3ZFhId1hNdk5ROGtLMHlaOGlUQzFLLVFPOHVDbEQxLVRQNHE1ZDQ2eWlYREwtdk5wMzB6dTUtbFFzWktnbTAyZGtvSkF0dE1XWXZYcVpkQUptWW8?oc=5",
-      "category": "metal",
-      "published": "2026-10-16T15:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Anthrax"
-      ],
-      "classic": true,
-      "why": "Anthrax",
-      "amazon_query": null
-    },
-    {
-      "id": "03598c33be7f2f4457a3358e5503bce182ace0c7",
-      "title": "Lois McMaster Bujold Opens Preorders for a Signed Limited Penric Novella From Subterranean Press and a Reprint of Penric’s Demon",
-      "source": "Fandom Pulse",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16N3h3ZEhwcDNqSm1xWkp6UHVGUkpCaXEwekNvVHRfZGtaQm5TWHpKUWVFaURnRUV2UDdOZk5mSEExOWNjbl9XSmhaYzNTdDBBeEZ0akJNcFBZcm5zVS1aWmtoZThZVzlxUGlLdXpfRm95aU9E?oc=5",
-      "category": "books",
-      "published": "2026-10-16T14:56:45.000Z",
-      "snippet": "",
-      "matched": [
-        "Subterranean Press"
-      ],
-      "classic": true,
-      "why": "Subterranean Press",
-      "amazon_query": null
-    },
-    {
-      "id": "c980eaf8910ff74ce134e41cc1df853472d44f82",
-      "title": "ÆNIGMA Lucio Fulci! Free on BloodStream, Plex and YouTube",
-      "source": "movies & mania",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb0dNU05Db3FrQWV6UWMzRHJ4QVA0Wjc0dkROVGhCdkNpVnBRY2NibDNUMTJ5eTRsVU43RU1DM1R2S2RmUkRsaGZJekZzaGlaZ1kwd3UyN3pzczRpNWhQUk14dDRlU0kyTDNXbkl6Z0dpMkFHVzhNaW1VS0cwU3drVU1mTFFDOGNtYjRNVFRlV3JIeVV3dndLek81TQ?oc=5",
-      "category": "discs",
-      "published": "2026-10-16T14:40:59.000Z",
-      "snippet": "",
-      "matched": [
-        "Lucio Fulci"
-      ],
-      "classic": true,
-      "why": "Lucio Fulci",
-      "amazon_query": null
-    },
-    {
-      "id": "527c0c7525e310fcc894f6b588df6d6735eafe7f",
-      "title": "Stephen King Threw the First 3 Pages of ‘Carrie’ in the Trash in 1972; His Wife Pulled Them Out and What She Said Next Changed the Course of Horror Fiction",
-      "source": "Parade Magazine",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0NJMllVcC14VU4tb2tST2E0UDU2TW0tQXFUbk94UmtFTGVNR0N3bXdoeXRiUnB0dWtvXzNpNEtaLW9xaGZNVlZOUVRZcEdoRkdMNzFxRVNKYTFnSjVobzR6V3UyM1g2OEdaaF9sbVN4b21XTEc1V2NVeEtkSzBoZjhkekFVLUttQXBUcXN0REIwTEx0dHM3OTVzY1BGNlhVMXN4TE9jVjJjR2QyeHVwRTJOeGs?oc=5",
-      "category": "books",
-      "published": "2026-10-16T14:24:52.000Z",
-      "snippet": "",
-      "matched": [
-        "Stephen King",
-        "Carrie"
-      ],
-      "classic": true,
-      "why": "Stephen King, Carrie",
-      "amazon_query": null
-    },
-    {
-      "id": "ddaa785c896be422553140f4fda07ba6bee3d2c6",
-      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe 4K Blu-ray",
-      "source": "Blu-ray.com",
-      "url": "https://www.blu-ray.com/news/?id=39191",
-      "category": "discs",
-      "published": "2026-10-15T23:31:55.000Z",
-      "snippet": "Disney is preparing a 4K Blu-ray release of Andrew Adamson's The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005), starring Georgie Henley, Skandar Keynes, William Moseley, Anna…",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "1d1a6ef4eece5d4f96a15239d806fe5cf00e7329",
-      "title": "'Crystal Lake': How 'Friday the 13th' Fans Made a Jason's Mom Prequel",
-      "source": "Variety",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVhMcW8yOTBSZk5yMHpUcEtYWk1hRGtLSDdCbmxMdWdnZXhvdWk2S0tMalRzZ3JzZWwxY2JwWUlpMDJFaENLMUY2eVRLV1RFQ3llWEY2Z0JjbFlrU01KcmRSX3UwNU5tWmZ3M201R2tucDJuZFhuZjkta2RabnNaYlgwMTZtUG1oa1Z2TlZCQ2VyWkNINGJFbmQ2dw?oc=5",
-      "category": "gear",
-      "published": "2026-10-15T15:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Friday the 13th"
-      ],
-      "classic": false,
-      "why": "Friday the 13th",
       "amazon_query": null
     }
   ],
