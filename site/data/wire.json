@@ -1,28 +1,41 @@
 {
-  "built_at": "2026-10-21T05:29:08.767Z",
-  "built_for": "2026-10-21",
+  "built_at": "2026-10-22T05:29:18.784Z",
+  "built_for": "2026-10-22",
   "lead": {
-    "id": "7e308f97c8934675ce21df577f107be37da2215d",
-    "title": "Don't Move (2026) Blu-ray",
-    "source": "Blu-ray.com",
-    "url": "https://www.blu-ray.com/news/?id=39214",
-    "category": "discs",
-    "published": "2026-10-21T02:58:46.000Z",
-    "snippet": "Well Go USA is preparing a Blu-ray release of Maclain Nelson's horror thriller Don't Move (2026), starring Lyndsy Fonseca, Rob Riggle, Russell \"Russ\" Vitale, and Tom Cavanagh. The release is…",
+    "id": "83a51720536c088fb07f561d3d73c5b5454293f0",
+    "title": "J-Horror Heavyweights Unite For New Supernatural Anthology Series",
+    "source": "Fangoria",
+    "url": "https://www.fangoria.com/night-tales-club-j-horror-series",
+    "category": "film",
+    "published": "2026-10-21T12:50:04.000Z",
+    "snippet": "Kiyoshi Kurosawa, Takashi Shimizu and more will bring to life the terrors of the NIGHT TALES CLUB. Watch the first teaser within.",
     "matched": [],
     "classic": true,
-    "why": "horror subject",
+    "why": "horror outlet",
     "amazon_query": null,
-    "image": "https://images.static-bluray.com/movies/covers/423567_front.jpg"
+    "image": "https://www.fangoria.com/wp-content/uploads/2026/10/NIGHT-TALES-CLUB-scaled.png"
   },
   "items": [
     {
-      "id": "34075897f834d76444e43df5e20b98b8933bd17c",
-      "title": "Mike Flanagan Deserves Credit For Updating Stephen King’s Horror Masterpiece",
-      "source": "ScreenRant",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR09GejZGQ2J6RE5ETGI2SGhmVkcwb2o5eFlEYl9fOXktM1hRbGZGR2lxY1FvNnlmT0ozUWZIZS1VaDRoby1nUmpRWUdqbWlicEV1OFFrZmdBLUp5OUM2WFliV0V5NzNQWmd4S09URVdHVzJEZmx1eHM1RDJwM1FXZk5oVURYaWdkZWc?oc=5",
+      "id": "6e1e70b37b0ec52a7267a1908faa77f06a566044",
+      "title": "Documentary ‘Black Zombie’ to Debut Nov. 10 on Blu-ray and DVD",
+      "source": "Media Play News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdFVCaDNSQzVxRDE0c2xCaURrSENPNlBkNDFLZEl3X000SUdpM2pCN0MtSkZNMEQwaE5DQkN1QkdxcmlRWW5qWkpWT3c3eE43c1R3RmRlMDRXQUVTanFqYzhfN2FuUng5Q2FKNHdPRklDX1A3dHpYaUQ2d21XenlyQTYwM1NDZEFhSDdJY0p2aFhYOXJR?oc=5",
+      "category": "discs",
+      "published": "2026-10-22T04:42:53.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "47c420c578e1de73ed5c819f0cd30b1cd0c5d861",
+      "title": "Stephen King is a fan. So are the Beckhams. Freida McFadden's next book, 'The Sleepwalker,' is already a 2027 event.",
+      "source": "Yahoo Creators",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSVFJVWJLVzVCS2J6bGJNamIySVdKaEt2N1gxamZEU0ZQQTdSaVlxYTEzV1ZiMGlVWjNEbVFnWkdINHFHbzlFLVlFZ0pReWJTY05mUUhGRmYwbHlOMVdsbWRmdmVwRFJEalBONFNJaFRoOTBPU2p2cnZQRFFldlktbUJ4UGlpVjY1UHMxMDJyeWVOaUU0QXg0VUlFMGplbnF2ZkhIV2tvaGFYTHZwazZIbVhEWXplc09maGZpNHdGUU5hMnlhSUx6a0xaYTZzMzdmSFAtNTZ5Q0k0U0VZRUR3QXcwR0hsQkY3MUktN3k2dGk3dXAzZG1ET2JR?oc=5",
       "category": "books",
-      "published": "2026-10-21T05:00:18.000Z",
+      "published": "2026-10-22T03:45:41.000Z",
       "snippet": "",
       "matched": [
         "Stephen King"
@@ -32,62 +45,366 @@
       "amazon_query": null
     },
     {
-      "id": "4e668c175d2b11e46318d8d63c805fdd468eed13",
-      "title": "Clive Barker Praises Hellraiser Revival Following Censorship Concerns",
-      "source": "Technetbook",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcGxaa3dQMkJfc01xRGx3czdIVmJRZUtwY05oNEJPN3p4RF8xOERha1QzVm1tNUpnc2NSVll0OTQ3MFRpTzZsNmViRnVvcGx2VE4xYVB6OFNDczN1VGZ6OWtmcEkxak1HNW52bkx2RDM5bXZwRGhhcmFxb1VHYmZhNG4yWk9sc1g4?oc=5",
-      "category": "books",
-      "published": "2026-10-21T04:37:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Clive Barker",
-        "Hellraiser"
-      ],
-      "classic": false,
-      "why": "Clive Barker, Hellraiser",
-      "amazon_query": null
-    },
-    {
-      "id": "bf173c2e336b37d587d38c9ef00100d8a3c9312a",
-      "title": "New Halloween photo",
-      "source": "robertmccammon.com",
-      "url": "https://www.robertmccammon.com/2026/10/20/new-halloween-photo",
-      "category": "books",
-      "published": "2026-10-21T04:11:24.000Z",
-      "snippet": "Here’s a new photo of Robert McCammon taken by his daughter, Skye!",
+      "id": "f912cdc7569a9eae494102d30c6c395212de4076",
+      "title": "‘Posthumous’ Review: Analog Horror Rewinds Horror’s Past for Better (or Worse) [Brooklyn Horror Fest]",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/reviews/593018/posthumous-review-analog-horror-rewinds-horror-past-for-better-or-worse-brooklyn-horror-fest",
+      "category": "film",
+      "published": "2026-10-22T03:30:00.000Z",
+      "snippet": "'Posthumous' is plenty scary, but Josh Tanner’s analog horror tale is too familiar to register beyond immediate jolts.",
       "matched": [],
       "classic": false,
       "why": "horror outlet",
       "amazon_query": null
     },
     {
-      "id": "7f5cff75e767b1baae83b716c593d898394fb7e5",
-      "title": "Book Review: 'Incidents Around the House' by Josh Malerman -",
-      "source": "Movies We Texted About",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaWVvZFdKN083UFlBaEtabUI5Tkx1NlJMNmxSb2JZMHBRdVpyckVLYXA3MjRjVzZFUXFCcFJSSkpsZWlaV2dTaWNzZTRjUG80eGdINlhIM3lBTm00S2hnYmVpRFFMM0pwczF3ZFhvbFV3TFNwYXlRVTF4c1RtN1ZLWmc3Mm41UW40eEQ2QkUtUXJZdw?oc=5",
-      "category": "books",
-      "published": "2026-10-21T04:00:45.000Z",
-      "snippet": "",
-      "matched": [
-        "Josh Malerman"
-      ],
+      "id": "3a3771f4918813e13b0ac7ef6f2a43f26c198637",
+      "title": "Ripcord’s Halloween Film Festival – Watch and Vote on 50 Genre Shorts for Free!",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/sponsored/3972826/ripcords-register-vote",
+      "category": "film",
+      "published": "2026-10-22T02:22:51.000Z",
+      "snippet": "Ripcord’s Halloween Film Festival is live! Genre fans and Horror hounds can now watch and vote on 50 horror, sci-fi, thriller, and fantasy shorts, all curated from more than 500 submissions…",
+      "matched": [],
       "classic": false,
-      "why": "Josh Malerman",
+      "why": "horror outlet",
       "amazon_query": null
     },
     {
-      "id": "e1dff7bf110cac961fb9ebfb443e7872070dfa38",
-      "title": "Stephen King's 8-Part Fantasy Series Shows Game of Thrones & Fallout How It's Done",
-      "source": "Comic Book Resources",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbkc1bURMdmhJSXZIaFNaczNCXzV0bEtDUHc4OUZxai16UGFONlVGcUlvLUtCNkNYeXJ2SDBFYjdkVXZKZnpjeDJMYnJKZE10bVRnaUd3MDRFcl9tNUY3QzMxLVBZNWNudVpQWWF2aE9BMXZENEJPdF9QZW03VFVidUxic1NfQ2s?oc=5",
-      "category": "books",
-      "published": "2026-10-21T03:31:00.000Z",
+      "id": "2cfc3865b8c565046b187a8588f2ad0d3754810f",
+      "title": "Robert Englund Says Freddy Krueger’s Backstory Was Changed on the Spot During the 1984 Nightmare on Elm Street Shoot",
+      "source": "Creepy Catalog",
+      "url": "https://creepycatalog.com/robert-englund-says-freddy-kruegers-backstory-was-changed-on-the-spot-during-the-1984-nightmare-on-elm-street-shoot",
+      "category": "film",
+      "published": "2026-10-22T02:15:57.000Z",
+      "snippet": "Robert Englund says Freddy Krueger’s backstory changed during the making of A Nightmare on Elm Street because Wes Craven wanted to avoid exploiting a real child-abuse case unfolding near Los Angeles…",
+      "matched": [
+        "Freddy Krueger"
+      ],
+      "classic": true,
+      "why": "Freddy Krueger",
+      "amazon_query": null
+    },
+    {
+      "id": "bf1cccfbb5152015b18fad11409326dae7605173",
+      "title": "From ‘Terrifier’ to ‘Dog Soldiers,’ Terror Threads Gets Us Horror Fans",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/merch/594823/terror-threads-indie-horror-merch",
+      "category": "film",
+      "published": "2026-10-21T23:33:00.000Z",
+      "snippet": "Last month, Terror Threads shared an Instagram story thanking the horror community for supporting their small business and talking about",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "9f9e092b1fdb875c8827d7d6d41fa2ea1bbed193",
+      "title": "BOKKERIJDERS Take Influence From AURA NOIR, SLAYER, TURBONEGRO On Debut Album Crush Kill Destroy",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX204THBVck9mTU91YU5PVG8yamJsNFc3RWNGRmNpWUFqZE1MNE5EUjlldVBfOUZDMi1NaXNJaXdzOWo2QkdoS0FSTUtqNG14aUZvT2RCMG1vTTFFTV9JWGFYRkd1SHltWlBKd0RFY1pFTjZuakc1X0VkTmpMLTNPZ25xVExOY0djNlFTYlp6cFhlVWxWTVBMSUJzVnFWTTR0OFBfYVJiTnJ5ckZRNkJSWVM5WUxVWV83akdMQUExc1hDeXhQR2kxaFNB?oc=5",
+      "category": "metal",
+      "published": "2026-10-21T22:38:38.000Z",
       "snippet": "",
       "matched": [
-        "Stephen King"
+        "Slayer"
+      ],
+      "classic": true,
+      "why": "Slayer",
+      "amazon_query": null
+    },
+    {
+      "id": "6eac0c31ce2aedecb284130bc17a08bed2f3145a",
+      "title": "Artist to Artist: JoAnne McGrath talks Horror and GOODBYE, MONSTER With Tess Givnish",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/joanne-mcgrath-goodbye-monster-poster",
+      "category": "gear",
+      "published": "2026-10-21T22:26:40.000Z",
+      "snippet": "Ever wonder what goes into making a movie poster? FANGORIA Studios summoned GOODBYE, MONSTER poster artist JoAnne McGrath for an artist-to-artist chat with Fango contributor and painter Tess Givnish…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "7a557c493b05b6c04b8d0b0a68390c88cee59d37",
+      "title": "CATHEDRAL – Rise Above Records To Release Remixed Version Of The Guessing Game",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFRENjY2dDlpcWcyYzk1eGNLVWlVN0t2S0hZcXZwSjU2MEhRTFM5VklqcVh2cWJrQkRCZGpGZS1mOUl6U0RxWWJPT2E1aUxlZWx2MDdySnVjd0ktbkVLbkx0Qy1mX3ZJOWtGc3hUQ1RHMF9oQkNDSXZlX3FtcXVIc2lUTzQ3ZGNxb1RiNHBLU24zdWlEcUNHTW5xbkhEazg4bEJuMEZnOHVMQlZnMEpBTnZ3?oc=5",
+      "category": "metal",
+      "published": "2026-10-21T21:03:19.000Z",
+      "snippet": "",
+      "matched": [
+        "metal label"
       ],
       "classic": false,
-      "why": "Stephen King",
+      "why": "metal label",
+      "amazon_query": null
+    },
+    {
+      "id": "a1ddcef5d0cbad2d894d263d0c56aea805999be2",
+      "title": "2025 Endeavour Award Winner",
+      "source": "Locus Online",
+      "url": "https://locusmag.com/2026/10/2025-endeavour-award-winner",
+      "category": "books",
+      "published": "2026-10-21T20:59:37.000Z",
+      "snippet": "The winner of the 2025 Endeavour Award has been announced. The award recognizes a distinguished science fiction or fantasy book written by a Pacific Northwest author or authors and published in the…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "673881a120592aa06c549afc4d5128dd9ce029a7",
+      "title": "Sneakcares Launches Hand Painted “Saw” Sneakers for Nearly $400",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/sneakcares-launches-hand-painted-saw-sneakers-for-nearly-400",
+      "category": "film",
+      "published": "2026-10-21T20:31:00.000Z",
+      "snippet": "The Indonesia based sneaker studio's new Jigsaw and Billy inspired pair is turning heads.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "1f39ab8fa1e31e6c6bb4b4cdbd23598f163e2061",
+      "title": "Graduation Day Blu-ray Review: An ’80s Slasher Cult Classic Gets the Troma Treatment",
+      "source": "Horror Geek Life",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZHBFc3REcXZPdXRSdzVMeUVES0JwX0xOVFp1aThzaE5qMEticU0wU0lTbElQcWNfbFpSSlJqNFlEODJrZ2hjcVRKcUE4bW9XSGk2YS1KT0Y2VGZTSFQwWTRxamVHQVc2azNocURSZGQyelo5TnJzQkotbThpQTg0dnVFU3o?oc=5",
+      "category": "discs",
+      "published": "2026-10-21T19:53:38.000Z",
+      "snippet": "",
+      "matched": [
+        "Troma"
+      ],
+      "classic": true,
+      "why": "Troma",
+      "amazon_query": null
+    },
+    {
+      "id": "17a186bb7800fb79fac9cf97b0f73177dc77e9a0",
+      "title": "BILLY MORRISON Presents SHARON OSBOURNE With OZZY OSBOURNE’s Official Award For The Top 10 Vinyl Hit Single “Gods Of Rock N Roll”",
+      "source": "Sonic Perspectives",
+      "url": "https://www.sonicperspectives.com/news/billy-morrison-presents-sharon-osbourne-with-ozzy-osbournes-official-award-for-the-top-10-vinyl-hit-single-gods-of-rock-n-roll",
+      "category": "metal",
+      "published": "2026-10-21T19:45:09.000Z",
+      "snippet": "British guitarist, singer, and songwriter Billy Morrison presented Sharon Osbourne with Ozzy Osbourne’s official award for the Top 10 double A side vinyl picture disc Gods of Rock N Roll, the…",
+      "matched": [
+        "Ozzy Osbourne"
+      ],
+      "classic": true,
+      "why": "Ozzy Osbourne",
+      "amazon_query": null
+    },
+    {
+      "id": "3481e9c45b30142ef76fd6a1244e601ae7e9b4f3",
+      "title": "FX Renews “American Horror Story” for a 14th Season",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/fx-renews-american-horror-story-for-a-14th-season",
+      "category": "film",
+      "published": "2026-10-21T19:22:28.000Z",
+      "snippet": "FX confirms a 14th season for its flagship horror anthology, though story, cast and premiere date remain unannounced as season 13 heads into its finale.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "a1c7381223542640ce18174232c6ef0fbd90cc70",
+      "title": "“Terrifier” Trilogy Returns to Theatres for Halloween",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/terrifier-trilogy-returns-to-theatres-for-halloween",
+      "category": "film",
+      "published": "2026-10-21T19:17:06.000Z",
+      "snippet": "All three Terrifier films screen on consecutive nights this Halloween, presented by Dead by Daylight ahead of Art the Clown's arrival in the game.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "319af4f86a575f0848e76378ae7192938b52093f",
+      "title": "‘Clayface’ Review: DC Comics Horror Movie Is Good, Gross Fun, With No Franchise Homework Required",
+      "source": "Variety",
+      "url": "https://variety.com/2026/film/news/clayface-review-1236918659",
+      "category": "film",
+      "published": "2026-10-21T19:00:00.000Z",
+      "snippet": "We are now three movies into the so-called DC Universe — branding that so far doesn’t appear to have cut through to any but the most devoted of nerds. Last year’s “Superman” reboot was respectable…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "81b0e93046fbcfb934e3dbe2bd46ccd84ecb1254",
+      "title": "See Official Video Recap Of Star-Studded 'Ozzy & Black Sabbath: Back To The Beginning' Purple-Carpet World Premiere In Los Angeles",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/see-official-video-recap-of-star-studded-ozzy-black-sabbath-back-to-the-beginning-purple-carpet-world-premiere-in-los-angeles",
+      "category": "metal",
+      "published": "2026-10-21T18:44:57.000Z",
+      "snippet": "Jack and Sharon Osbourne hosted the official world premiere of \"Ozzy & Black Sabbath: Back To The Beginning\" on Wednesday, October 14 at The Orpheum Theatre in Los Angeles. An official video recap of…",
+      "matched": [
+        "Black Sabbath"
+      ],
+      "classic": true,
+      "why": "Black Sabbath",
+      "amazon_query": null
+    },
+    {
+      "id": "9eec994425cfbbe309ccae86417c6f13f389e7b5",
+      "title": "Jeremy Saulnier’s GREEN ROOM Comes Back To Theaters Ahead Of SLAYGROUND",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/green-room-screening-alamo-drafthouse",
+      "category": "film",
+      "published": "2026-10-21T16:40:08.000Z",
+      "snippet": "Ahead of the release of SLAYGROUND, Alamo Drafthouse is bringing Jeremy Saulnier's GREEN ROOM back to theaters this month.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "c4dbdc91bfb81247e29c1df08ee640ce04b7f7f0",
+      "title": "ARMORED SAINT's JOHN BUSH Says METALLICA Singer Question \"Will Probably Be Brought Up Until I'm Dead\"; Video",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObVlPSTRHVGViQXljVGx1alE5bmxyZGhjZV9CZXZ2YzRQQkhGbXRfY3pMbVp3U1h1LV9vclBFdkVvaXhkTEJRMmpJd0lSYmR3QV9MSVdTMEgxbXd6elp6a1dYN2dXVndWWmxhbDF0UnFya2VGQUczckdNUjZ2Y3NzaWdKRDN3NmJVaGxlZzBtSUxaNThqeTNPd205SExpTTVyRFg5bjJMSTdEYnhvUTRtS3VQX0dwa25GT2hMWTJxUEZYcHJlandVLXotWkI?oc=5",
+      "category": "metal",
+      "published": "2026-10-21T16:30:54.000Z",
+      "snippet": "",
+      "matched": [
+        "Armored Saint"
+      ],
+      "classic": true,
+      "why": "Armored Saint",
+      "amazon_query": null
+    },
+    {
+      "id": "e44bf404aded39dbcfce41983b385bf580c6588f",
+      "title": "From The Dark",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/reviews/from-the-dark",
+      "category": "metal",
+      "published": "2026-10-21T16:01:23.000Z",
+      "snippet": "Any argument about exactly who invented heavy metal was settled long ago. There is always room for debate about the various records and technological developments that led up to it, but the first…",
+      "matched": [
+        "metal genre"
+      ],
+      "classic": false,
+      "why": "metal genre",
+      "amazon_query": null
+    },
+    {
+      "id": "290ec4ca7353a1118125985b2cf27104e9eebbc0",
+      "title": "“DEVOUR” Makes A Strong Argument Against AI",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/movie-review-devour-makes-a-strong-argument-against-ai",
+      "category": "film",
+      "published": "2026-10-21T16:00:00.000Z",
+      "snippet": "DEVOUR demonstrates once again why AI belongs nowhere near horror cinema.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "577850e82cad0a3f5267f97311fad9aaee66322c",
+      "title": "'Guillermo del Toro’s Frankenstein' Criterion Collection 4K UHD Blu-Ray Review - A Beloved Filmmaker Comes Full Circle",
+      "source": "Geek Vibes Nation",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMUpUZGF5UDdpUzJYUndYWDl0V0UyclNqWXhqbTItdkxrbnVPZWwwX0JvQ0Jrd1RxR3RUVmk0dzAzalNlcHZRQV9CVVg4TnNBNVJma0V0YkdxX2RkaUxCenVNWEYxQ3MwTzZIUVQ0ek1YVXFTSk12S093TXNNdzBvMUlGQlVaczA?oc=5",
+      "category": "gear",
+      "published": "2026-10-21T15:52:16.000Z",
+      "snippet": "",
+      "matched": [
+        "Frankenstein"
+      ],
+      "classic": true,
+      "why": "Frankenstein",
+      "amazon_query": null
+    },
+    {
+      "id": "375b3bdf248c7ab735244bbaaab9984deb89bf8c",
+      "title": "First ‘Night Tales Club’ Teaser Brings J-Horror Masters Together For Disney+ Anthology Series",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/tv/3972719/first-night-tales-club-teaser-brings-j-horror-masters-together",
+      "category": "film",
+      "published": "2026-10-21T14:11:11.000Z",
+      "snippet": "Disney+ in Japan has unveiled the first teaser for the upcoming supernatural series Night Tales Club, and the anthology has assembled an impressive filmmaker lineup filled with J-horror greats. The…",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "0fa0d3fd9ea4867e454fa59c4b1379c01bd90448",
+      "title": "Blu Review – Tetsuo: The Bullet Man (Unearthed Films)",
+      "source": "Horror Society",
+      "url": "https://www.horrorsociety.com/2026/10/21/blu-review-tetsuo-the-bullet-man-unearthed-films",
+      "category": "film",
+      "published": "2026-10-21T13:06:48.000Z",
+      "snippet": "Director – Shin’ya Tsukamoto (Tetsuo: The Iron Man, Tetsuo: Body Hammer) Starring – Eric Bossick (Wasted Land, Equals), Akiko Mono (Lost in Translation, The Ramen Girl), and Yuko Nakamura (Ace…",
+      "matched": [
+        "Unearthed Films"
+      ],
+      "classic": true,
+      "why": "Unearthed Films",
+      "amazon_query": null
+    },
+    {
+      "id": "83a51720536c088fb07f561d3d73c5b5454293f0",
+      "title": "J-Horror Heavyweights Unite For New Supernatural Anthology Series",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/night-tales-club-j-horror-series",
+      "category": "film",
+      "published": "2026-10-21T12:50:04.000Z",
+      "snippet": "Kiyoshi Kurosawa, Takashi Shimizu and more will bring to life the terrors of the NIGHT TALES CLUB. Watch the first teaser within.",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ca1f21fe4c08b031efbe7134f2b2b98ded5df940",
+      "title": "ARMORED SAINT To Support SAXON On 'Gods Of Thunder' U.K. And Ireland Tour In February 2027",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/armored-saint-to-support-saxon-on-gods-of-thunder-u-k-and-ireland-tour-in-february-2027",
+      "category": "metal",
+      "published": "2026-10-21T11:20:26.000Z",
+      "snippet": "ARMORED SAINT will support SAXON on the \"Gods Of Thunder\" U.K. and Ireland tour in February 2027. The dates are as follows: Feb. 13 - Civic Hall, Wolverhampton Feb. 14 - O2 Academy, Glasgow Feb. 16 -…",
+      "matched": [
+        "Saxon",
+        "Armored Saint"
+      ],
+      "classic": true,
+      "why": "Saxon, Armored Saint",
+      "amazon_query": null
+    },
+    {
+      "id": "aa49d8cb801701f7d8d203383e6629777fa7e595",
+      "title": "Shudder Original Finnish Folk Horror NIGHTBORN To Receive Blu-Ray and DVD Release in UK",
+      "source": "Horror Cult Films",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTGlfbGcxMFYwaFJlcjlRWE1jSXdhTV9EdlYxemZOSG1IMHcyVzVCbWFHb0ZZWEUweHJZYnE1QmRvUTEtaTdHUGlxcWl2S0RRZzZyOU9nZG9Fclk0ZEJsVnhDTFJ3bnBpN0VYZTRiaHJsbVFjZURmaEtKRjcwN1NCZzJncnA3OUdFUlp5aHpDMHN5OW5hVUxwNVpiY21Mc0wzYVBaYnlna2QtazBlTjJlUTgtLVpoTmZJNG9hSHFhbDFfLWFi?oc=5",
+      "category": "discs",
+      "published": "2026-10-21T10:32:03.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "83c12771af49a260e0dfc8a07094733224158bb5",
+      "title": "Evanescence - Sanctuary - guest review",
+      "source": "Metal Storm",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zVmhlTDFKQ01YQjAtanc5N19waEE4UnQ4bW1udVV0ajdYRko1QmlyUXVMQ05MeW5HUGFDZkdJdmRxaDBWalhHTzByZDNSLUkwRFBXNnZOTmFMcXdZTVZPQlRxNA?oc=5",
+      "category": "metal",
+      "published": "2026-10-21T08:05:32.000Z",
+      "snippet": "",
+      "matched": [
+        "Sanctuary"
+      ],
+      "classic": true,
+      "why": "Sanctuary",
       "amazon_query": null
     },
     {
@@ -101,60 +418,6 @@
       "matched": [],
       "classic": true,
       "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "da55de7587ce94de36a840531383448fa9abcc3e",
-      "title": "ReAnimator Academy Blu-ray Review: A VHS-Era Horror Oddity Gets a Second Life",
-      "source": "Horror Geek Life",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSzk3RzdNSzhBUk55UGtJdDhwaWhpOGpfQUpRQU52ZUp2V2hHaC1UdThwczZTVmFYd2RMMlNjNkVsNFhpNndISm51b1hfWHV2dVdOVkNWUW5weGRRZFRuZ2QxWmZWYU9fU093OVR0Mk9ncTJCTlgyZlVqQ3FVQk1NeVBB?oc=5",
-      "category": "discs",
-      "published": "2026-10-21T00:52:09.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "5ff1996430947e60abd149b51f579f01935a9680",
-      "title": "Access: Horror Virtual Film Festival Sheds Light on Disability by ‘Centering Ableism as the Horror Rather Than Disability’",
-      "source": "Variety",
-      "url": "https://variety.com/2026/film/features/access-horror-film-festival-disability-horrror-1236916976",
-      "category": "film",
-      "published": "2026-10-20T23:32:04.000Z",
-      "snippet": "When Ariel Baska traded their 15-year career teaching Latin for the film industry, they were instantly faced with a series of unexpected guardrails. “I found that all of these doors were closed to me…",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "e25e10b436ccd0e487b6008578801f2eaf8f6a39",
-      "title": "Louisville Ballet to debut original ‘Frankenstein’ production",
-      "source": "WDRB",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUVZaUFF0ZF9GSFJjMkxmQzRjU3h0dlR3Z1o2MzBuXy1rdGI0aHFxeDVoVnY0V3lzUVlVb28wMWI5UXdZbzhUX1pZWjBXTVQxLXpnNjRxSTJhSzlnTmxybU1qNjh0UlpnWXh1RHp3OFh2bWIydy1Zanp4aTF6VWJlckFCU3A1cVZvZnhycjJjSzRsMHJQWEl4MNIBrAFBVV95cUxOd1lCQ1oyd0tUaGI2UnUzU1FOaW0xQlQ1YjNIcTd5ZC0tTnR6cGZibklONThhdklaUFBxV3ZCTzBYQ1FxQlM2M0I0dVdfOFd0aFdNQnp3cnpQZTFuTGNGVHY3U3gydENFOHdZV0lFSURWYlFKWG5vX1N5VU5kUUxSYmY2MlNnMGd2aWIybnVQanQzekF2OVg1SDVkZDQ0ZTVIVkZCeFBtMWFoQkk2?oc=5",
-      "category": "gear",
-      "published": "2026-10-20T22:55:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Frankenstein"
-      ],
-      "classic": false,
-      "why": "Frankenstein",
-      "amazon_query": null
-    },
-    {
-      "id": "61a014b4193b44b602909fb14c0e8352d2b49f1c",
-      "title": "AMERICAN HORROR STORY Renewed For Season 14",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/american-horror-story-season-14-renewed",
-      "category": "film",
-      "published": "2026-10-20T21:16:52.000Z",
-      "snippet": "After debuting an all-star thirteenth season, AMERICAN HORROR STORY has been renewed for Season 14. Get all the details here.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
       "amazon_query": null
     },
     {
@@ -173,45 +436,6 @@
       "amazon_query": null
     },
     {
-      "id": "fa3dc853551b93c825f130860aefafa1c6793948",
-      "title": "Watch Rue Morgue TV’s Gooey Deep Dive Into “Clayface” With James Watkins and Tom Rhys Harries",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/watch-rue-morgue-tvs-gooey-deep-dive-into-clayface-with-james-watkins-and-tom-rhys-harries",
-      "category": "film",
-      "published": "2026-10-20T20:42:45.000Z",
-      "snippet": "Director James Watkins and star Tom Rhys Harries talk body horror, transformation effects and making a Batman villain truly frightening in DC Studios' first horror film.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "58f14998765e4873f7268b76b8725d097c1583b4",
-      "title": "THE BOULET BROTHERS’ DRAGULA Returns In Style With New Season 7 Trailer",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/the-boulet-brothers-dragula-season-7-trailer",
-      "category": "film",
-      "published": "2026-10-20T20:38:44.000Z",
-      "snippet": "Watch the new trailer for Season 7 of THE BOULET BROTHERS' DRAGULA, premiering on Shudder on October 27.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "5d9365640428fec15f4c6e0f12faad842ce73eb0",
-      "title": "Exclusive clip: Don’t look out the window in “WUTHERING HEIGHTS: THE HOUSE OF THE DAMNED”",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/exclusive-clip-dont-look-out-the-window-in-wuthering-heights-the-house-of-the-damned",
-      "category": "film",
-      "published": "2026-10-20T20:28:13.000Z",
-      "snippet": "Gothic romance becomes Gothic horror in the latest horrific variation on a literary classic.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
       "id": "e62211628c2a440cb24eb2da54762a881ee51255",
       "title": "Robert McCammon and Joe Lansdale are the StokerCon 27 Special Guests",
       "source": "robertmccammon.com",
@@ -227,87 +451,19 @@
       "amazon_query": null
     },
     {
-      "id": "2382780a69d4b09be63c95d006b03d2931eddb5e",
-      "title": "Forbidden share new single “Single Point Failure” ahead of comeback album",
-      "source": "Chaoszine",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxUlRxbWlsMHpySG5rX0VvY2R4SDZ1dG5zOHJJa2JwX3FQQjc1WUpxZDFoTmtYLTZXdEZkdFBlcXNLMzNIYnNURFVJQlNiM1M3cW43YWNabnZDbWRiQWpuSFRBUEZ6UVdHX0dTTXRqLWx0LTQzZnU0?oc=5",
-      "category": "metal",
-      "published": "2026-10-20T19:30:13.000Z",
+      "id": "69a9a11bc5282a3fec155001f62628213fefa530",
+      "title": "Tobe Hooper's Night Terrors (1993) [Vinegar Syndrome Blu-ray Promo Trailer] Danny Röhl (7daKE6L637)",
+      "source": "Unisba Media",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2U291Qnh1RVBiQ0JmeE83dEdZRmdXY05Sa0VXWUw0eXBNaE1CWTdYRnpiaEp4blRKUndBVlh6Z1VMdE9sbVBoc0k2Q2lFUWd4aXlvVWxjYldMek1FYVRYVTE1M19oQQ?oc=5",
+      "category": "discs",
+      "published": "2026-10-20T17:12:35.000Z",
       "snippet": "",
       "matched": [
-        "Forbidden"
+        "Tobe Hooper",
+        "Vinegar Syndrome"
       ],
       "classic": true,
-      "why": "Forbidden",
-      "amazon_query": null
-    },
-    {
-      "id": "8059ecf69326e0a8ebad395f99c282e976f7baed",
-      "title": "Salem’s witch trial history charms Halloween tourists as town marks 400th anniversary",
-      "source": "Washington Times",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblE3MHdOdWNzaHQ4TWJJcGpVQVF4VVh6MWhmRWVWRkN0UVdmTTBhU3c5Q2llcVNkUkUyY2w3SzliVXFkdzV2cDZjNGpMWGYzdFVRTWZwQ1Vmd3FZdmVmdU1iVW1VaVo3UWxxcHFLay1adWdDcVl1bHJ6T0M4SThuZ0ZkbmxZM2N2Q3hfUE1JbjM4WXc2aXliMFdIeFNFX25lWjluNG1yZU8yb0RqcHI4SlI1VQ?oc=5",
-      "category": "gear",
-      "published": "2026-10-20T19:24:11.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "474bf7b8613530d7f62d9d0d0a112165e50e27c6",
-      "title": "“The Princess Murders” #1 Gets a Blood-Soaked “Army of Darkness” Homage Variant Cover",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/the-princess-murders-1-gets-a-blood-soaked-army-of-darkness-homage-variant-cover",
-      "category": "film",
-      "published": "2026-10-20T19:14:00.000Z",
-      "snippet": "Image Comics' fairy tale slasher from Tony Fleecs and Tim Seeley opens preorders on a Raimi-inspired cover ahead of its December 9 debut.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "10af11b93bca8ed5a094d550ea712fa961d94736",
-      "title": "Trailer Premiere for Buried Secrets from Full Moon Features",
-      "source": "Horror Society",
-      "url": "https://www.horrorsociety.com/2026/10/20/trailer-premiere-for-buried-secrets-from-full-moon-features",
-      "category": "film",
-      "published": "2026-10-20T18:44:27.000Z",
-      "snippet": "From Full Moon Features and director Brooks Davis (Bring Her To Me) comes a frightening new tale of greed where secrets will be revealed and horrors unearthed. A missing girl… a fabled treasure… and…",
-      "matched": [
-        "Full Moon Features"
-      ],
-      "classic": true,
-      "why": "Full Moon Features",
-      "amazon_query": null
-    },
-    {
-      "id": "014d1c741cff73b2dd9393d1246f34909af60277",
-      "title": "Old-School Heavy Metal Outfit ËVIL SÍNNER Signs With CDN Records",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt2ckRYMlB1d0FWVlI5STA2X295VUhUVWZyX2FkelVkUFRocmhCdjMxTHJDampCLTNRbGdfelJsbUY5VjhsQ19LdDFTV0puTHN2VWRPaW5GNk5CRTRRWDZQU1dDTmFUcnI1UEZ0U001bVpuVmZ5c3pvajdKSWdMY0ZzVWltclFDZm1NQTNrdU84SXVpdzAxOQ?oc=5",
-      "category": "metal",
-      "published": "2026-10-20T18:37:01.000Z",
-      "snippet": "",
-      "matched": [
-        "metal genre"
-      ],
-      "classic": false,
-      "why": "metal genre",
-      "amazon_query": null
-    },
-    {
-      "id": "ede447f2afbae1b9ed9e5c6efc9273c13a97474e",
-      "title": "Fright-Rags Launches Horror Anthology Comic TALES FROM THE MORGUE",
-      "source": "Horror Society",
-      "url": "https://www.horrorsociety.com/2026/10/20/fright-rags-launches-horror-anthology-comic-tales-from-the-morgue",
-      "category": "gear",
-      "published": "2026-10-20T18:33:07.000Z",
-      "snippet": "After over two decades of horror movie apparel and collectibles, Fright-Rags is delivering original tales of terror. Fright-Rags Presents: Tales from the Morgue, an all-new horror anthology comic, is…",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
+      "why": "Tobe Hooper, Vinegar Syndrome",
       "amazon_query": null
     },
     {
@@ -324,28 +480,13 @@
       "amazon_query": null
     },
     {
-      "id": "063bf55f74ba14e259e8e3f98b919c511b54b820",
-      "title": "“Guys in the music industry are afraid to come up and talk to me. It’s kinda lame”: Megadeth’s Dave Mustaine explains why he wasn’t at Black Sabbath’s Back To The Beginning – and why the thrashers probably won’t have their own star-studded farewell show",
-      "source": "Louder",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaXdEazQtZ0lzbFdROEI5eWExaFhfWXJld0xyRVN5VUlGVkdUbzV4N3MyY3dDWDJBdVRaMjhTY05kWUk0VE5nUVVJemZVRmpPQU83U0dycmUyOE5XTk5lTjhacVFZRUxqLXRoZnk0TUhFaEtzUFkzbW1nVFh2OTlXMnRaSmVvZnI5YXFWUVYtYnczMVl2bTh3aVVKZHFDamo2TVhfTmNjOWF1MXZ5a092NTVEMFZlcmIzWVhIVU1DVnBkeGliZDIxQ1hzZE93b2ZyWGN2NGRZMk1sZ2gw?oc=5",
-      "category": "metal",
-      "published": "2026-10-20T17:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
-      "amazon_query": null
-    },
-    {
-      "id": "d98d91e0072df568733b2ebbd7e9a4705c49a404",
+      "id": "8258ee73ece2994535d2265bd758464dcc18652a",
       "title": "Want to See ‘Crystal Lake’s Jason Voorhees in a Hockey Mask?",
       "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/streaming-home-video/594595/crystal-lake-jason-hockey-mask-photo",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3R6VE9KWFp1aWMyQlgxbW0yZ2tUMlBqM0pvX1lGb0dXVVBmZ2V6a09uZFdVZFl0SzFFVG52U3VaVDczRVNCUzlqc3YzNlJaT2hIM2tiRFhQSXRTTDZGeXdoa1N3UHZYRlJLNm5iY1dtXzJWc21ZajBINGlhcVFEdHA4UGU4dXVqeXh0ZXJuenFTelBFU0UwakxR?oc=5",
       "category": "gear",
       "published": "2026-10-20T16:41:00.000Z",
-      "snippet": "Jonathan Tison wears the sack as the older Jason Voorhees in Crystal Lake, but somebody on set apparently couldn’t resist",
+      "snippet": "",
       "matched": [
         "Friday the 13th"
       ],
@@ -369,16 +510,16 @@
       "amazon_query": null
     },
     {
-      "id": "479a9cd51d7c38937b9adb7aed453006dda23b4f",
-      "title": "Firefly Trilogy 4K: ‘House of 1000 Corpses’ Hits UHD at Last",
-      "source": "iHorror",
-      "url": "https://ihorror.com/rob-zombie-firefly-trilogy-4k-box-set-house-of-1000-corpses",
-      "category": "discs",
-      "published": "2026-10-20T16:26:53.000Z",
-      "snippet": "Lionsgate's eight-disc Firefly Trilogy set puts House of 1000 Corpses on 4K Ultra HD for the first time, alongside The Devil's Rejects and 3 From Hell.",
+      "id": "8059ecf69326e0a8ebad395f99c282e976f7baed",
+      "title": "Salem’s witch trial history charms Halloween tourists as town marks 400th anniversary",
+      "source": "Washington Times",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblE3MHdOdWNzaHQ4TWJJcGpVQVF4VVh6MWhmRWVWRkN0UVdmTTBhU3c5Q2llcVNkUkUyY2w3SzliVXFkdzV2cDZjNGpMWGYzdFVRTWZwQ1Vmd3FZdmVmdU1iVW1VaVo3UWxxcHFLay1adWdDcVl1bHJ6T0M4SThuZ0ZkbmxZM2N2Q3hfUE1JbjM4WXc2aXliMFdIeFNFX25lWjluNG1yZU8yb0RqcHI4SlI1VQ?oc=5",
+      "category": "gear",
+      "published": "2026-10-20T16:23:12.000Z",
+      "snippet": "",
       "matched": [],
       "classic": true,
-      "why": "horror outlet",
+      "why": "horror subject",
       "amazon_query": null
     },
     {
@@ -395,16 +536,18 @@
       "amazon_query": null
     },
     {
-      "id": "f5c2cbff947bb2e1f6339dc2996285deb155418f",
-      "title": "New Book Releases: Oct 20, 2026",
-      "source": "Locus Online",
-      "url": "https://locusmag.com/2026/10/new-book-releases-oct-20-2026",
-      "category": "books",
-      "published": "2026-10-20T16:00:23.000Z",
-      "snippet": "Visit our bookshop.org page to purchase this week's new books and support your local bookstore. And us! Barnes, J.S.: Ebenezer Scrooge: Ghost Hunter (Titan Books UK 978-1803362946, $27.99, 288pp…",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
+      "id": "060550f180f4e94e10e1f0d3b88d07917ef4810d",
+      "title": "Blind Guardian",
+      "source": "Elfenomeno.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rN1JITkpGUHlPUTV5ZWxsTXFyNVhKN3lVS0kzcG12bzlEWDNNNHVwVHE0LVNERzRXQ1Y5WjJETkVjbDRqTEljM2J6ZjkybDh4SGdwc3lxY0llMU02LW8wNGx1b3Zkc0cyaU1R?oc=5",
+      "category": "metal",
+      "published": "2026-10-20T15:34:03.000Z",
+      "snippet": "",
+      "matched": [
+        "Blind Guardian"
+      ],
+      "classic": true,
+      "why": "Blind Guardian",
       "amazon_query": null
     },
     {
@@ -435,154 +578,6 @@
       ],
       "classic": true,
       "why": "Hellraiser",
-      "amazon_query": null
-    },
-    {
-      "id": "9c32655435128ec1b5af521701761822f2bf7d23",
-      "title": "Producer ANDREW WATT Says OZZY OSBOURNE Wanted To Make One Last BLACK SABBATH Album - \"I Think Looking Back At All The Stuff He Wanted To Do, Making An Album With BILL WARD Was Really Important To Him\"",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNQjB4OFFjeGlIODc5OXFTQWxCUXFnNl9zMENIVVdRSXlvNnBOVEpnWXV2MEgzYlFMb25oOWpsdEhNeFE5Zl80aWw4QmRPa3FkelRta3ZZcm44VWo4a2RXakZaWE9jQWhBNmJZbjA4WWFtSmx6ai1BZWY4YUVmTlFXY2FCQ1cxaDNRY25ha3ZnRnRUSnhXaDNTTW9pakFld3lpTWlwOXNWSEQyaVM5UEVaUWRad2l2QU1oODFaZF94azlVZG00MkQwbFJJaFZFa2ZsVnhVT3h1elpiV3R6VGgwTXVZVWk4T0xCTDNDVjByYVpKQnV5ckxqVEJLV0syaE5uY3dTNWUzSkFyYUdGMkhXeFpMdGhHc2EtdmtRTE5iemJYOXAwYlR6SWpXRlRydTloNVYzZE8yVDBjNDlhc19mdFlMWS1pVkE?oc=5",
-      "category": "metal",
-      "published": "2026-10-20T14:48:25.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
-      "amazon_query": null
-    },
-    {
-      "id": "66fd82dd8fdaadf3bccaab7382ec476235fae7d3",
-      "title": "METAL ALLEGIANCE To Be Joined By MASTODON, OVERKILL, ARMORED SAINT, OPETH Members At January 2027 Anaheim Concert",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/metal-allegiance-to-be-joined-by-mastodon-overkill-armored-saint-opeth-members-at-january-2027-anaheim-concert",
-      "category": "metal",
-      "published": "2026-10-20T14:25:40.000Z",
-      "snippet": "Trailblazing metal collective METAL ALLEGIANCE, comprised of Mark Menghi, Alex Skolnick, Mike Portnoy and David Ellefson, has announced the next installment of its annual headline performance at…",
-      "matched": [
-        "Overkill",
-        "Armored Saint"
-      ],
-      "classic": true,
-      "why": "Overkill, Armored Saint",
-      "amazon_query": null
-    },
-    {
-      "id": "36ab74ad882f20aaa27342ec991fc9da652827fe",
-      "title": "Collector’s Edition of LITTLE SHOP OF HORRORS Released on 4K UHD and Blu-Ray",
-      "source": "Horror Cult Films",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSGcyS2ExSE9mc2pZbFM4Z0ZsU25NMVZSal9HYjg1WHR1NHNMLXRKcjdWTGxRYlBJV3lxSkNNTFJON05YYzJYNUc1dzl6V1hWaGtMYVVfS2FUT1k2T0N3Z3A2UU5LV2RrX0ZaT0NjYUlmT3h6TU5DVjZMdFpMWmFYb3RTU2o0b0daNnlnUkNhZGZvaUhwYVlNTURmNHdoSVpDc0oyUzNES1dXWlo4TmhsRU83eWU?oc=5",
-      "category": "discs",
-      "published": "2026-10-20T13:18:55.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "de869ca542ee557b16e0a62d59b4e6a76a0292b5",
-      "title": "UGLY KID JOE's New Album To Arrive In Early 2027 Via BLKIIBLK",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/ugly-kid-joes-new-album-to-arrive-in-early-2027-via-blkiiblk",
-      "category": "metal",
-      "published": "2026-10-20T12:58:41.000Z",
-      "snippet": "In a new interview with \"Reckless\" Rexx Ruger of Pod Scum, UGLY KID JOE guitarist and producer Dave Fortman revealed that the band's upcoming studio album will be released through BLKIIBLK, the heavy…",
-      "matched": [
-        "metal genre"
-      ],
-      "classic": false,
-      "why": "metal genre",
-      "amazon_query": null
-    },
-    {
-      "id": "e0a12d54d78fb494008186728e70546abb44a49d",
-      "title": "Spanish Science Fiction Horror Film MEMORIA to Get Release from Mondo Macabro",
-      "source": "Horror Society",
-      "url": "https://www.horrorsociety.com/2026/10/20/spanish-science-fiction-horror-film-memoria-to-get-release-from-mondo-macabro",
-      "category": "discs",
-      "published": "2026-10-20T12:46:29.000Z",
-      "snippet": "Memoria 1 Blu-ray disc Label: Mondo Macabro Preorder: 11/10/26 Release: 12/8/26 MSRP: $29.99 UPC: 843276036195 Catalogue #: MDO361 Genre: Horror Color 87 minutes in Spanish with English subtitles…",
-      "matched": [
-        "Mondo",
-        "Mondo Macabro"
-      ],
-      "classic": true,
-      "why": "Mondo, Mondo Macabro",
-      "amazon_query": null
-    },
-    {
-      "id": "d68477750c88c3f94a2f81f3be4bbc17b703258b",
-      "title": "Kim Jong Un, giallo sulla morte per emorragia cerebrale: la Corea del Nord pubblica foto del leader",
-      "source": "lacronaca24.it",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQXYwb3NxX2xQX2JfQmNpQ3J5ejhrc1VVY0EzNEdzNnlwc1MxdjBEQUVleDk4N3ZXSy1nbmFjcWtNQmFRQWpTRm9nbm5Ia1E3S0lmamRfWlJFRmk5anZvRHR5S3JIRXJka0MyRHlYU0xQd1BLNVg4QUZkTTBMenhXTlpsYjNIeTJVZVF3LWQyU1ZpdlNzMXVBTUVqYVdFY0pfRHRJZm90VVM4Vl9qUDBQTk5XeHRpSDBvSEZ4QWF0QW14SDdqbWpmYmlheHNUdTZlWnktTWZmWkV0WHAxRkZ1aXJ1OV8?oc=5",
-      "category": "discs",
-      "published": "2026-10-20T09:40:03.000Z",
-      "snippet": "",
-      "matched": [
-        "giallo"
-      ],
-      "classic": true,
-      "why": "giallo",
-      "amazon_query": null
-    },
-    {
-      "id": "b544b369c6be4f4bbea20125ee7e2ef1d18c71b9",
-      "title": "Blu-ray Sales: October 4-10: Moana Comes Alive and Tops the Charts Again",
-      "source": "Blu-ray.com",
-      "url": "https://www.blu-ray.com/news/?id=39205",
-      "category": "discs",
-      "published": "2026-10-19T21:06:33.000Z",
-      "snippet": "For the week that ended on October 10th, Walt Disney Home Entertainment's live-action Moana (2026) topped the Blu-ray-only and overall packaged media charts in its debut, while second place on the…",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "819a8a551c67d878c88e8ae77bbe5633813cc323",
-      "title": "Sonic Temple Reveals Meshuggah, Testament + More to Play 2027 Festival",
-      "source": "Metal Injection",
-      "url": "https://metalinjection.net/news/sonic-temple-reveals-meshuggah-testament-more-to-play-2027-festival",
-      "category": "metal",
-      "published": "2026-10-19T20:15:49.000Z",
-      "snippet": "Sonic Temple has announced the second wave of bands playing the Columbus, Ohio-based festival this year with yet another blend of metal and pop-punk bands. This new lot of bands […]",
-      "matched": [
-        "Testament"
-      ],
-      "classic": true,
-      "why": "Testament",
-      "amazon_query": null
-    },
-    {
-      "id": "dff5c61d9777a3130f8c4de42d6c390a7e7d8441",
-      "title": "See Pro-Shot Video Of NEVERMORE's Entire Performance At 2026 MOTOCULTOR FESTIVAL",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/see-pro-shot-video-of-nevermores-entire-performance-at-2026-motocultor-festival",
-      "category": "metal",
-      "published": "2026-10-19T19:41:51.000Z",
-      "snippet": "Impuls' Live has uploaded professionally filmed video of NEVERMORE's entire August 15, 2026 performance at the Motocultor Festival in Carhaix-Plouguer, France. Check it out below. Featured songs…",
-      "matched": [
-        "Nevermore"
-      ],
-      "classic": true,
-      "why": "Nevermore",
-      "amazon_query": null
-    },
-    {
-      "id": "c410a051775a62f3d0d0a3fa4ed7730989a0170b",
-      "title": "Watch: SLIPKNOT's COREY TAYLOR Covers KISS, OZZY OSBOURNE, JUDAS PRIEST, NIGHT RANGER At Intimate Las Vegas Solo Show",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/watch-slipknots-corey-taylor-covers-kiss-ozzy-osbourne-judas-priest-night-ranger-at-intimate-las-vegas-solo-show",
-      "category": "metal",
-      "published": "2026-10-19T13:50:15.000Z",
-      "snippet": "SLIPKNOT frontman Corey Taylor played a special intimate concert on Sunday, October 18 at Fremont Country Club in Las Vegas, Nevada. Taylor opened the two-hour set with his rendition of the theme…",
-      "matched": [
-        "Judas Priest"
-      ],
-      "classic": true,
-      "why": "Judas Priest",
       "amazon_query": null
     }
   ],
