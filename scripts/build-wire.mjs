@@ -236,6 +236,8 @@ function judge(item) {
   const collectible = category === "gear" && COLLECTIBLE && COLLECTIBLE.test(head);
   if (EXCL.some((x) => x.re.test(item.title) && !(collectible && COLLECTIBLE_EXEMPT.has(x.p)))) return { pass: false, why: "excluded" };
   if ((item.src.exclude || []).some((p) => new RegExp(p, "i").test(item.title))) return { pass: false, why: "excluded for this source" };
+  // a gear news search (Jason, Michael Myers, busts…) must actually be about a collectible
+  if (item.src.query && item.src.category === "gear" && !(COLLECTIBLE && COLLECTIBLE.test(head))) return { pass: false, why: "gear search without a collectible" };
   if (item.title.length < 12 || JUNK.some((r) => r.test(item.title))) return { pass: false, why: "junk" };
   if (item.publisher && BLOCKED_PUB.has(item.publisher.toLowerCase())) return { pass: false, why: "blocked publisher" };
   const kind = kindOf(item.src);
@@ -348,15 +350,19 @@ const kept = [];
 for (const c of candidates) {
   const dup = kept.find((k) => k.url === c.url || sameStory(k.title, c.title));
   if (!dup) kept.push(c);
-  else if (c._w > dup._w) kept[kept.indexOf(dup)] = c;
+  // keep the stronger copy: source weight, plus a bonus for carrying the publisher's summary,
+  // so a feed's own post beats a bare news-search hit for the same story
+  else if (c._w + (c.snippet ? 0.25 : 0) > dup._w + (dup.snippet ? 0.25 : 0)) kept[kept.indexOf(dup)] = c;
 }
 
 // per-source cap, category balance, size
+// horror outlets carry the beat, so they may supply more stories each than metal or general sources
+const capFor = (c) => (cfg.per_source_cap_by_kind || {})[c._kind] ?? cfg.per_source_cap;
 const perSource = {}, perCat = {}, perBand = {};
 const maxCat = Math.ceil(cfg.max_items * cfg.max_category_share);
 let picked = [], overflow = [];
 for (const c of kept) {
-  if ((perSource[c.source] || 0) >= cfg.per_source_cap) continue;
+  if ((perSource[c.source] || 0) >= capFor(c)) continue;
   // no more than two stories about the same band, franchise, writer or label per night
   if (c._bands.some((b) => (perBand[b] || 0) >= (cfg.per_band_cap ?? 2))) continue;
   perSource[c.source] = (perSource[c.source] || 0) + 1;
@@ -380,6 +386,21 @@ for (;;) {
   picked.splice(picked.indexOf(worst), 1);
 }
 
+// Refill: slots freed by the balancing go to the best leftover stories from categories still under their share
+{
+  const count = (cat) => picked.filter((c) => c.category === cat).length;
+  const srcN = (src) => picked.filter((c) => c.source === src).length;
+  const nameN = (b) => picked.filter((c) => c._bands.includes(b)).length;
+  for (const c of kept) {
+    if (picked.length >= cfg.max_items) break;
+    if (picked.includes(c)) continue;
+    if (count(c.category) + 1 > Math.max(3, shareOf(c.category) * cfg.max_items)) continue;
+    if (srcN(c.source) >= capFor(c)) continue;
+    if (c._bands.some((b) => nameN(b) >= (cfg.per_band_cap ?? 2))) continue;
+    picked.push(c);
+  }
+}
+
 // Floors: some categories must show up every night (collectibles: figures, busts, statues, masks).
 // Pull the best leftover candidates back in, making room by dropping the weakest story from a category that can spare one.
 const floorNotes = [];
@@ -390,7 +411,7 @@ for (const [cat, min] of Object.entries(cfg.category_min || {})) {
   const pool = kept.filter((c) => c.category === cat && !picked.includes(c)).sort((a, b) => b._s - a._s);
   for (const c of pool) {
     if (have() >= min) break;
-    if (srcCount(c.source) >= cfg.per_source_cap) continue;
+    if (srcCount(c.source) >= capFor(c)) continue;
     if (c._bands.some((b) => bandCount(b) >= (cfg.per_band_cap ?? 2))) continue;
     if (picked.length >= cfg.max_items) {
       const counts = {}; picked.forEach((x) => { counts[x.category] = (counts[x.category] || 0) + 1; });
@@ -451,12 +472,18 @@ const fpEntry = (e, tier) => {
   const t = terms(e);
   const amb = new Set((e.ambiguous || []).map((x) => x.toLowerCase()));
   const all = t.exact_aliases_only ? (e.aliases || []) : [e.name, ...(e.aliases || [])];
-  const named = all.map((n) => ({ n, re: n.length <= 3 && n === n.toUpperCase() ? wordRe(n, "") : wordRe(n), amb: amb.has(n.toLowerCase()) }));
-  return { name: e.name, tier, named, context: e.context ? anyRe(e.context) : null };
+  const named = all.map((n) => ({
+    n, amb: amb.has(n.toLowerCase()),
+    re: n.length <= 3 && n === n.toUpperCase() ? wordRe(n, "") : wordRe(n),
+    // ambiguous titles: in quotes (‘Saw’, “It”) or in capitals inside a mixed-case headline (Flanagan's CARRIE)
+    quoted: new RegExp(`[‘'“"]${esc(n)}[’'”"]`, "i"),
+    caps: wordRe(n.toUpperCase(), ""),
+  }));
+  return { name: e.name, tier, named, context: e.context ? anyRe(e.context) : [] };
 };
 const fpList = (grp) => FP ? [...(FP[grp]?.top || []).map((e) => fpEntry(e, 0)), ...(FP[grp]?.second || []).map((e) => fpEntry(e, 1))] : [];
 const FRANCHISES = fpList("franchises"), AUTHORS = fpList("authors");
-const CTX = anyRe(FP?.context_words || []);
+const NOT_NEWS = (FP?.not_news_patterns || []).map((p) => new RegExp(p, "i"));
 const fpWords = (k) => anyRe(FP?.[k] || []);
 const EDITION = fpWords("edition_words"), ST = fpWords("soundtrack_words"), VINYL = fpWords("vinyl_words");
 const ST_COLL = fpWords("soundtrack_collectable_words"), ST_LABEL = fpWords("soundtrack_labels");
@@ -466,7 +493,8 @@ const NO_LEAD_SRC = new Set(FP?.no_lead_sources || []);
 function hit(list, s) {
   let best = null;
   for (const e of list) {
-    const ok = e.named.some((x) => x.re.test(s) && (!x.amb || HORROR.some((r) => r.test(s)) || (e.context || CTX).some((r) => r.test(s))));
+    const mixed = /\p{Ll}/u.test(s);
+    const ok = e.named.some((x) => x.re.test(s) && (!x.amb || x.quoted.test(s) || (mixed && x.caps.test(s)) || e.context.some((r) => r.test(s))));
     if (ok && (!best || e.tier < best.tier)) best = e;
   }
   return best;
@@ -475,6 +503,8 @@ const any = (res, s) => res.some((r) => r.test(s));
 function frontPage(c) {
   const head = c.title, lt = c._lt;
   if (NO_LEAD_SRC.has(c._src)) return null;
+  // the front page is news: no reviews, anniversaries, explainers, question headlines or opinion
+  if (NOT_NEWS.some((r) => r.test(head))) return null;
   if (c.category === "gear") {
     // 3 — a collectible for a listed franchise, announced or revealed (not a restock, sale or review)
     const f = hit(FRANCHISES, head);
@@ -504,7 +534,9 @@ function frontPage(c) {
 }
 const NO_LEAD = new Set(cfg.lead?.exclude_categories || ["metal"]);
 const trusted = (c) => c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet;
-const qualifiers = picked.filter(trusted).map((c) => ({ c, fp: frontPage(c) })).filter((x) => x.fp)
+// the front-page rules already vet the story, so a smaller specialist source (Bleeding Cool collectibles) may qualify
+const fpTrusted = (c) => c._w >= (FP?.min_weight ?? cfg.lead?.min_weight ?? 0.8) && c.snippet;
+const qualifiers = picked.filter(fpTrusted).map((c) => ({ c, fp: frontPage(c) })).filter((x) => x.fp)
   .sort((a, b) => a.fp.tier - b.fp.tier || b.c._s - a.c._s);
 let leadPool, leadWhy;
 if (qualifiers.length) {

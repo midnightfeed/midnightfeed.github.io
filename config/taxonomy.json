@@ -1,5 +1,5 @@
 {
-  "_note": "v12 (25 Oct 2026): front-page rules for Tonight's Lead (lead.frontpage), metal may lead only with a horror element, Blu-ray.com / HD-style disc news judged on headline + first sentence with strict horror words, Hell's Hundred / Crooked Lane / Clash / Nightfire horror-only. v11: lead image, gear floor, collectible sources. Mirror of 03-night-wire-taxonomy.md.",
+  "_note": "v12 (25 Oct 2026): metal share 20%, film 45%, horror outlets up to 6 stories each; front-page rules for Tonight's Lead (lead.frontpage), metal may lead only with a horror element, Blu-ray.com / HD-style disc news judged on headline + first sentence with strict horror words, Hell's Hundred / Crooked Lane / Clash / Nightfire horror-only. v11: lead image, gear floor, collectible sources. Mirror of 03-night-wire-taxonomy.md.",
   "version": 12,
   "freshness_days": 5,
   "max_items": 40,
@@ -1631,7 +1631,8 @@
     "^\\s*(the\\s+)?(\\d{1,2}|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fifteen|twenty|twenty-five|fifty)\\s+[a-z]",
     "tracks of the week",
     "^\\s*podcast\\s*[:\\-]",
-    "playlist"
+    "playlist",
+    "\\bPlayStation\\b"
   ],
   "exclude_notes": "Also exclude ranked listicles with no news peg, AI-generated aggregator sites, hard-paywalled articles. Remake/reboot excludes apply to development news; the original as subject is fine.",
   "standing_exception": "New work by living Tier 1 figures passes without a qualifier.",
@@ -2558,7 +2559,7 @@
       "gear"
     ],
     "frontpage": {
-      "_note": "A story qualifies for Tonight's Lead by meeting ONE rule. Qualifiers rank top tier first, then by score. If none qualifies, the best non-metal, non-gear horror story leads, as before. Names are checked in the headline. Names under 'ambiguous' (It, Halloween, Saw…) count only when the headline also has a horror word or a context word (the entry's own 'context' list if it has one).",
+      "_note": "A story qualifies for Tonight's Lead by meeting ONE rule. Qualifiers rank top tier first, then by score. If none qualifies, the best non-metal, non-gear horror story leads, as before. Names are checked in the headline. Names under 'ambiguous' (It, Halloween, Saw…) count only when the title is in quotes (‘Saw’), in capitals inside a mixed-case headline (Flanagan's CARRIE), or next to one of the entry's own 'context' words (Pennywise, Michael Myers…). Headlines matching not_news_patterns (reviews, anniversaries, explainers, questions, opinion) can't qualify: the lead is news.",
       "franchises": {
         "top": [
           {
@@ -2592,28 +2593,10 @@
               "Laurie Strode",
               "Jamie Lee Curtis",
               "Loomis",
-              "4K",
-              "UHD",
-              "Blu-ray",
-              "sequel",
-              "franchise",
-              "film series",
-              "figure",
-              "statue",
-              "mask",
-              "NECA",
-              "soundtrack",
-              "score",
-              "Trick or Treat Studios",
-              "Blumhouse",
-              "Shout",
-              "Scream Factory"
+              "Haddonfield"
             ],
             "ambiguous": [
-              "Halloween",
-              "Halloween II",
-              "Halloween 4",
-              "Halloween 5"
+              "Halloween"
             ]
           },
           {
@@ -2637,9 +2620,15 @@
               "Woodsboro"
             ],
             "ambiguous": [
-              "Scream",
-              "Scream VI",
-              "Scream 7"
+              "Scream"
+            ],
+            "context": [
+              "Ghostface",
+              "Ghost Face",
+              "Sidney Prescott",
+              "Woodsboro",
+              "Neve Campbell",
+              "Wes Craven"
             ]
           },
           {
@@ -2709,6 +2698,13 @@
             "ambiguous": [
               "It",
               "IT"
+            ],
+            "context": [
+              "Pennywise",
+              "Derry",
+              "Losers' Club",
+              "Bill Skarsgård",
+              "Stephen King"
             ]
           },
           {
@@ -2742,8 +2738,14 @@
             "ambiguous": [
               "Alien",
               "Aliens",
-              "Alien 3",
               "Prometheus"
+            ],
+            "context": [
+              "Xenomorph",
+              "Ridley Scott",
+              "Ripley",
+              "Weyland",
+              "Romulus"
             ]
           },
           {
@@ -2756,9 +2758,12 @@
             ],
             "ambiguous": [
               "Saw",
-              "Jigsaw",
-              "Saw X",
-              "Saw XI"
+              "Jigsaw"
+            ],
+            "context": [
+              "Tobin Bell",
+              "John Kramer",
+              "Billy the Puppet"
             ]
           },
           {
@@ -2786,21 +2791,7 @@
               "zombie",
               "zombies",
               "living dead",
-              "undead",
-              "4K",
-              "UHD",
-              "Blu-ray",
-              "film",
-              "movie",
-              "sequel",
-              "remake",
-              "figure",
-              "statue",
-              "soundtrack",
-              "score",
-              "anniversary",
-              "restoration",
-              "Living Dead"
+              "undead"
             ],
             "ambiguous": [
               "Day of the Dead",
@@ -2847,6 +2838,11 @@
             "ambiguous": [
               "The Howling",
               "Howling"
+            ],
+            "context": [
+              "Joe Dante",
+              "werewolf",
+              "werewolves"
             ]
           },
           {
@@ -2869,6 +2865,10 @@
             ],
             "ambiguous": [
               "The Omen"
+            ],
+            "context": [
+              "Damien",
+              "Antichrist"
             ]
           },
           {
@@ -2889,6 +2889,13 @@
             ],
             "ambiguous": [
               "Carrie"
+            ],
+            "context": [
+              "Stephen King",
+              "Carrie White",
+              "De Palma",
+              "Sissy Spacek",
+              "Flanagan"
             ]
           },
           {
@@ -2933,6 +2940,9 @@
             "aliases": [],
             "ambiguous": [
               "Leprechaun"
+            ],
+            "context": [
+              "Warwick Davis"
             ]
           },
           {
@@ -2949,10 +2959,14 @@
               "The Nun"
             ],
             "ambiguous": [
-              "The Conjuring",
               "Conjuring",
               "The Nun",
               "Annabelle"
+            ],
+            "context": [
+              "Warren",
+              "Warrens",
+              "Lorraine"
             ]
           },
           {
@@ -3035,6 +3049,17 @@
             ],
             "ambiguous": [
               "Matheson"
+            ],
+            "context": [
+              "horror",
+              "novel",
+              "book",
+              "story",
+              "stories",
+              "edition",
+              "I Am Legend",
+              "Twilight Zone",
+              "adaptation"
             ]
           },
           {
@@ -3117,6 +3142,16 @@
             ],
             "ambiguous": [
               "Bloch"
+            ],
+            "context": [
+              "horror",
+              "novel",
+              "book",
+              "story",
+              "stories",
+              "edition",
+              "Psycho",
+              "adaptation"
             ]
           },
           {
@@ -3167,39 +3202,6 @@
           }
         ]
       },
-      "context_words": [
-        "horror",
-        "4K",
-        "UHD",
-        "Blu-ray",
-        "film",
-        "movie",
-        "sequel",
-        "prequel",
-        "trailer",
-        "teaser",
-        "franchise",
-        "series",
-        "figure",
-        "figures",
-        "statue",
-        "bust",
-        "mask",
-        "Funko",
-        "NECA",
-        "soundtrack",
-        "score",
-        "vinyl",
-        "novel",
-        "book",
-        "edition",
-        "comic",
-        "anniversary",
-        "reboot",
-        "remake",
-        "director",
-        "adaptation"
-      ],
       "edition_words": [
         "complete",
         "collected",
@@ -3318,7 +3320,36 @@
         "unboxing",
         "review",
         "giveaway"
-      ]
+      ],
+      "not_news_patterns": [
+        "\\?\\s*$",
+        "\\bReview\\b",
+        "\\bTurns \\d+",
+        "\\b\\d+ Years of\\b",
+        "\\bRanked\\b",
+        "\\bRanking\\b",
+        "\\bGrading\\b",
+        "\\bExplains?\\b",
+        "\\bMust[- ]Watch\\b",
+        "\\bCan Finally\\b",
+        "\\bHere'?s (How|Why|What)\\b",
+        "\\bHere’s (How|Why|What)\\b",
+        "^Why\\b",
+        "\\bRemembered\\b",
+        "\\bRetrospective\\b",
+        "\\bLook(ing)? Back\\b",
+        "\\bPodcast\\b",
+        "\\bInterview\\b",
+        "\\bYou Missed\\b",
+        "\\bEverything We Know\\b",
+        "\\bColumn\\b",
+        "\\bOpinion\\b",
+        "\\bEssay\\b",
+        "\\bDeep Dive\\b",
+        "\\bWe Need\\b",
+        "\\bShould\\b"
+      ],
+      "min_weight": 0.6
     }
   },
   "era": {
@@ -3387,7 +3418,8 @@
     "»\\s*page"
   ],
   "category_share": {
-    "metal": 0.3
+    "metal": 0.2,
+    "film": 0.45
   },
   "queries": [
     {
@@ -4090,7 +4122,8 @@
     "Dead by Daylight",
     "\\bSteam\\b",
     "gameplay",
-    "\\bDLC\\b"
+    "\\bDLC\\b",
+    "\\bPlayStation\\b"
   ],
   "category_min": {
     "gear": 4
@@ -4121,5 +4154,8 @@
   "desk": {
     "size": 7,
     "_note": "Keeper's Desk shows the newest `size` bites dated on or before tonight, newest first. One file per release day in content/desk/."
+  },
+  "per_source_cap_by_kind": {
+    "horror": 6
   }
 }
