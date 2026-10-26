@@ -1,6 +1,6 @@
 {
-  "_note": "Mirror of 03-night-wire-taxonomy (v11, 10 Oct 2026). Source 'kind': horror outlets pass any non-excluded story; metal outlets need a classic band, an on-beat metal label or a covered genre; everyone else must be about horror. Classic material ranks higher. 'site' drives the Google News fallback (off for storefronts and presses). Feed URLs are best guesses until the feed check confirms them. v11: collectibles floor (category_min), collectibles-only feeds and searches, author and small-press searches, lead image.",
-  "version": 11,
+  "_note": "v12 (25 Oct 2026): front-page rules for Tonight's Lead (lead.frontpage), metal may lead only with a horror element, Blu-ray.com / HD-style disc news judged on headline + first sentence with strict horror words, Hell's Hundred / Crooked Lane / Clash / Nightfire horror-only. v11: lead image, gear floor, collectible sources. Mirror of 03-night-wire-taxonomy.md.",
+  "version": 12,
   "freshness_days": 5,
   "max_items": 40,
   "per_source_cap": 4,
@@ -1113,7 +1113,10 @@
       },
       {
         "name": "Clash Books",
-        "aliases": []
+        "aliases": [
+          "CLASH Books"
+        ],
+        "require_horror": true
       },
       {
         "name": "Silver Shamrock",
@@ -1129,7 +1132,10 @@
       },
       {
         "name": "Tor Nightfire",
-        "aliases": []
+        "aliases": [
+          "Nightfire Books",
+          "Tor Nightfire's"
+        ]
       },
       {
         "name": "Night Shade Books",
@@ -1530,6 +1536,13 @@
     {
       "name": "Lividian Publications",
       "aliases": []
+    },
+    {
+      "name": "Hell's Hundred",
+      "aliases": [
+        "Hells Hundred",
+        "Hell's Hundred Books"
+      ]
     }
   ],
   "qualifiers": [
@@ -1850,7 +1863,18 @@
       "feed": "https://www.blu-ray.com/rss/newsfeed.xml",
       "weight": 1.0,
       "filter": "standard",
-      "kind": "general"
+      "kind": "general",
+      "horror_scope": "first_sentence",
+      "strict_horror": true,
+      "exclude": [
+        "^This Week on Blu-ray",
+        "^Blu-ray Sales",
+        "Blu-ray Deals",
+        "\\bDeals\\b",
+        "Best Buy",
+        "Pre-?orders? Round-?up",
+        "Giveaway"
+      ]
     },
     {
       "name": "DVD Drive-In",
@@ -1939,7 +1963,9 @@
       "feed": "https://www.hometheaterforum.com/feed/",
       "weight": 0.8,
       "filter": "standard",
-      "kind": "general"
+      "kind": "general",
+      "horror_scope": "first_sentence",
+      "strict_horror": true
     },
     {
       "name": "Waxwork Records",
@@ -2529,9 +2555,771 @@
     ],
     "image_tries": 6,
     "exclude_categories": [
-      "metal",
       "gear"
-    ]
+    ],
+    "frontpage": {
+      "_note": "A story qualifies for Tonight's Lead by meeting ONE rule. Qualifiers rank top tier first, then by score. If none qualifies, the best non-metal, non-gear horror story leads, as before. Names are checked in the headline. Names under 'ambiguous' (It, Halloween, Saw…) count only when the headline also has a horror word or a context word (the entry's own 'context' list if it has one).",
+      "franchises": {
+        "top": [
+          {
+            "name": "Friday the 13th",
+            "aliases": [
+              "Jason Voorhees",
+              "Camp Crystal Lake",
+              "Jason Takes Manhattan",
+              "Jason Goes to Hell",
+              "Jason X",
+              "Freddy vs. Jason",
+              "Freddy vs Jason"
+            ]
+          },
+          {
+            "name": "Halloween",
+            "aliases": [
+              "Michael Myers",
+              "Halloween II",
+              "Halloween III",
+              "Halloween 4",
+              "Halloween 5",
+              "Halloween H20",
+              "Halloween Kills",
+              "Halloween Ends",
+              "Laurie Strode"
+            ],
+            "context": [
+              "Michael Myers",
+              "Carpenter",
+              "Laurie Strode",
+              "Jamie Lee Curtis",
+              "Loomis",
+              "4K",
+              "UHD",
+              "Blu-ray",
+              "sequel",
+              "franchise",
+              "film series",
+              "figure",
+              "statue",
+              "mask",
+              "NECA",
+              "soundtrack",
+              "score",
+              "Trick or Treat Studios",
+              "Blumhouse",
+              "Shout",
+              "Scream Factory"
+            ],
+            "ambiguous": [
+              "Halloween",
+              "Halloween II",
+              "Halloween 4",
+              "Halloween 5"
+            ]
+          },
+          {
+            "name": "A Nightmare on Elm Street",
+            "aliases": [
+              "Nightmare on Elm Street",
+              "Freddy Krueger",
+              "Elm Street",
+              "Wes Craven's New Nightmare",
+              "Dream Warriors"
+            ]
+          },
+          {
+            "name": "Scream",
+            "aliases": [
+              "Ghostface",
+              "Ghost Face",
+              "Scream VI",
+              "Scream 7",
+              "Sidney Prescott",
+              "Woodsboro"
+            ],
+            "ambiguous": [
+              "Scream",
+              "Scream VI",
+              "Scream 7"
+            ]
+          },
+          {
+            "name": "Sleepaway Camp",
+            "aliases": [
+              "Angela Baker"
+            ]
+          },
+          {
+            "name": "The Texas Chain Saw Massacre",
+            "aliases": [
+              "Texas Chainsaw Massacre",
+              "Texas Chain Saw",
+              "Texas Chainsaw",
+              "Leatherface"
+            ]
+          },
+          {
+            "name": "The Exorcist",
+            "aliases": [
+              "Exorcist",
+              "Pazuzu",
+              "Regan MacNeil"
+            ]
+          },
+          {
+            "name": "Hellraiser",
+            "aliases": [
+              "Pinhead",
+              "Cenobite",
+              "Cenobites",
+              "Hellbound"
+            ]
+          },
+          {
+            "name": "Evil Dead",
+            "aliases": [
+              "The Evil Dead",
+              "Evil Dead II",
+              "Army of Darkness",
+              "Ash vs Evil Dead",
+              "Deadite",
+              "Deadites",
+              "Evil Dead Burn",
+              "Evil Dead Rise"
+            ]
+          },
+          {
+            "name": "Child's Play",
+            "aliases": [
+              "Chucky",
+              "Bride of Chucky",
+              "Seed of Chucky",
+              "Curse of Chucky",
+              "Cult of Chucky"
+            ]
+          },
+          {
+            "name": "It",
+            "aliases": [
+              "IT",
+              "Pennywise",
+              "It Chapter Two",
+              "Welcome to Derry",
+              "Stephen King's It"
+            ],
+            "ambiguous": [
+              "It",
+              "IT"
+            ]
+          },
+          {
+            "name": "Universal Monsters",
+            "aliases": [
+              "Universal Monster",
+              "Dracula",
+              "Frankenstein",
+              "Bride of Frankenstein",
+              "The Wolf Man",
+              "Wolf Man",
+              "The Mummy",
+              "Creature from the Black Lagoon",
+              "Gill-man",
+              "The Invisible Man",
+              "Phantom of the Opera"
+            ]
+          },
+          {
+            "name": "Alien",
+            "aliases": [
+              "Aliens",
+              "Xenomorph",
+              "Alien: Romulus",
+              "Alien: Earth",
+              "Alien 3",
+              "Alien Resurrection",
+              "Prometheus",
+              "Ridley Scott's Alien"
+            ],
+            "ambiguous": [
+              "Alien",
+              "Aliens",
+              "Alien 3",
+              "Prometheus"
+            ]
+          },
+          {
+            "name": "Saw",
+            "aliases": [
+              "Jigsaw",
+              "Billy the Puppet",
+              "Saw XI",
+              "Saw X"
+            ],
+            "ambiguous": [
+              "Saw",
+              "Jigsaw",
+              "Saw X",
+              "Saw XI"
+            ]
+          },
+          {
+            "name": "Phantasm",
+            "aliases": [
+              "Tall Man",
+              "Angus Scrimm"
+            ]
+          },
+          {
+            "name": "Romero's Dead films",
+            "aliases": [
+              "Night of the Living Dead",
+              "Dawn of the Dead",
+              "Day of the Dead",
+              "Land of the Dead",
+              "Diary of the Dead",
+              "Survival of the Dead",
+              "George Romero",
+              "George A. Romero",
+              "Romero"
+            ],
+            "context": [
+              "Romero",
+              "zombie",
+              "zombies",
+              "living dead",
+              "undead",
+              "4K",
+              "UHD",
+              "Blu-ray",
+              "film",
+              "movie",
+              "sequel",
+              "remake",
+              "figure",
+              "statue",
+              "soundtrack",
+              "score",
+              "anniversary",
+              "restoration",
+              "Living Dead"
+            ],
+            "ambiguous": [
+              "Day of the Dead",
+              "Land of the Dead",
+              "Romero"
+            ],
+            "exact_aliases_only": true
+          },
+          {
+            "name": "Tales from the Crypt",
+            "aliases": [
+              "Crypt Keeper",
+              "Cryptkeeper",
+              "Tales From the Crypt"
+            ]
+          }
+        ],
+        "second": [
+          {
+            "name": "Re-Animator",
+            "aliases": [
+              "Herbert West",
+              "Bride of Re-Animator",
+              "Beyond Re-Animator"
+            ]
+          },
+          {
+            "name": "Creepshow",
+            "aliases": []
+          },
+          {
+            "name": "Candyman",
+            "aliases": []
+          },
+          {
+            "name": "Pet Sematary",
+            "aliases": []
+          },
+          {
+            "name": "The Howling",
+            "aliases": [
+              "Howling"
+            ],
+            "ambiguous": [
+              "The Howling",
+              "Howling"
+            ]
+          },
+          {
+            "name": "An American Werewolf in London",
+            "aliases": [
+              "American Werewolf in London"
+            ]
+          },
+          {
+            "name": "Return of the Living Dead",
+            "aliases": [
+              "The Return of the Living Dead"
+            ]
+          },
+          {
+            "name": "The Omen",
+            "aliases": [
+              "Damien Thorn",
+              "The First Omen"
+            ],
+            "ambiguous": [
+              "The Omen"
+            ]
+          },
+          {
+            "name": "Rosemary's Baby",
+            "aliases": []
+          },
+          {
+            "name": "The Shining",
+            "aliases": [
+              "Overlook Hotel",
+              "Doctor Sleep"
+            ]
+          },
+          {
+            "name": "Carrie",
+            "aliases": [
+              "Carrie White"
+            ],
+            "ambiguous": [
+              "Carrie"
+            ]
+          },
+          {
+            "name": "Poltergeist",
+            "aliases": []
+          },
+          {
+            "name": "Hammer Horror",
+            "aliases": [
+              "Hammer Films",
+              "Hammer Film Productions"
+            ]
+          },
+          {
+            "name": "Suspiria",
+            "aliases": []
+          },
+          {
+            "name": "Fright Night",
+            "aliases": []
+          },
+          {
+            "name": "The Lost Boys",
+            "aliases": []
+          },
+          {
+            "name": "Gremlins",
+            "aliases": []
+          },
+          {
+            "name": "Killer Klowns",
+            "aliases": [
+              "Killer Klowns from Outer Space"
+            ]
+          },
+          {
+            "name": "Puppet Master",
+            "aliases": []
+          },
+          {
+            "name": "Leprechaun",
+            "aliases": [],
+            "ambiguous": [
+              "Leprechaun"
+            ]
+          },
+          {
+            "name": "Terrifier",
+            "aliases": [
+              "Art the Clown"
+            ]
+          },
+          {
+            "name": "The Conjuring",
+            "aliases": [
+              "Conjuring",
+              "Annabelle",
+              "The Nun"
+            ],
+            "ambiguous": [
+              "The Conjuring",
+              "Conjuring",
+              "The Nun",
+              "Annabelle"
+            ]
+          },
+          {
+            "name": "Elvira",
+            "aliases": [
+              "Mistress of the Dark",
+              "Cassandra Peterson"
+            ]
+          }
+        ]
+      },
+      "authors": {
+        "top": [
+          {
+            "name": "Stephen King",
+            "aliases": [
+              "Stephen King's"
+            ]
+          },
+          {
+            "name": "Dean Koontz",
+            "aliases": [
+              "Koontz"
+            ]
+          },
+          {
+            "name": "Clive Barker",
+            "aliases": [
+              "Clive Barker's"
+            ]
+          },
+          {
+            "name": "Anne Rice",
+            "aliases": [
+              "Anne Rice's"
+            ]
+          },
+          {
+            "name": "Peter Straub",
+            "aliases": [
+              "Straub"
+            ],
+            "context": [
+              "King",
+              "novel",
+              "book",
+              "Talisman",
+              "ghost",
+              "horror",
+              "edition"
+            ],
+            "ambiguous": [
+              "Straub"
+            ]
+          },
+          {
+            "name": "Robert McCammon",
+            "aliases": [
+              "McCammon"
+            ]
+          },
+          {
+            "name": "H. P. Lovecraft",
+            "aliases": [
+              "H.P. Lovecraft",
+              "HP Lovecraft",
+              "Lovecraft"
+            ]
+          },
+          {
+            "name": "Shirley Jackson",
+            "aliases": [
+              "Shirley Jackson's"
+            ]
+          },
+          {
+            "name": "Richard Matheson",
+            "aliases": [
+              "Matheson"
+            ],
+            "ambiguous": [
+              "Matheson"
+            ]
+          },
+          {
+            "name": "Joe Hill",
+            "aliases": [
+              "Joe Hill's"
+            ],
+            "context": [
+              "horror",
+              "novel",
+              "book",
+              "story",
+              "stories",
+              "comic",
+              "adaptation",
+              "King",
+              "NOS4A2",
+              "Black Phone",
+              "Locke & Key",
+              "edition",
+              "Hunger"
+            ],
+            "ambiguous": [
+              "Joe Hill",
+              "Joe Hill's"
+            ]
+          },
+          {
+            "name": "Dan Simmons",
+            "aliases": []
+          },
+          {
+            "name": "Bentley Little",
+            "aliases": []
+          },
+          {
+            "name": "Ramsey Campbell",
+            "aliases": []
+          }
+        ],
+        "second": [
+          {
+            "name": "Riley Sager",
+            "aliases": []
+          },
+          {
+            "name": "Richard Laymon",
+            "aliases": []
+          },
+          {
+            "name": "James Herbert",
+            "aliases": []
+          },
+          {
+            "name": "Graham Masterton",
+            "aliases": []
+          },
+          {
+            "name": "John Saul",
+            "aliases": []
+          },
+          {
+            "name": "V. C. Andrews",
+            "aliases": [
+              "V.C. Andrews"
+            ]
+          },
+          {
+            "name": "Ira Levin",
+            "aliases": []
+          },
+          {
+            "name": "William Peter Blatty",
+            "aliases": []
+          },
+          {
+            "name": "Robert Bloch",
+            "aliases": [
+              "Bloch"
+            ],
+            "ambiguous": [
+              "Bloch"
+            ]
+          },
+          {
+            "name": "Jack Ketchum",
+            "aliases": []
+          },
+          {
+            "name": "Michael McDowell",
+            "aliases": []
+          },
+          {
+            "name": "Joe R. Lansdale",
+            "aliases": []
+          },
+          {
+            "name": "Thomas Ligotti",
+            "aliases": []
+          },
+          {
+            "name": "Charles L. Grant",
+            "aliases": []
+          },
+          {
+            "name": "Karl Edward Wagner",
+            "aliases": []
+          },
+          {
+            "name": "Josh Malerman",
+            "aliases": []
+          },
+          {
+            "name": "Stephen Graham Jones",
+            "aliases": []
+          },
+          {
+            "name": "Grady Hendrix",
+            "aliases": []
+          },
+          {
+            "name": "T. Kingfisher",
+            "aliases": [
+              "Ursula Vernon"
+            ]
+          },
+          {
+            "name": "Tananarive Due",
+            "aliases": []
+          }
+        ]
+      },
+      "context_words": [
+        "horror",
+        "4K",
+        "UHD",
+        "Blu-ray",
+        "film",
+        "movie",
+        "sequel",
+        "prequel",
+        "trailer",
+        "teaser",
+        "franchise",
+        "series",
+        "figure",
+        "figures",
+        "statue",
+        "bust",
+        "mask",
+        "Funko",
+        "NECA",
+        "soundtrack",
+        "score",
+        "vinyl",
+        "novel",
+        "book",
+        "edition",
+        "comic",
+        "anniversary",
+        "reboot",
+        "remake",
+        "director",
+        "adaptation"
+      ],
+      "edition_words": [
+        "complete",
+        "collected",
+        "omnibus",
+        "limited edition",
+        "signed",
+        "lettered",
+        "numbered",
+        "deluxe",
+        "illustrated",
+        "box set",
+        "boxed set",
+        "slipcase",
+        "traycase",
+        "special edition",
+        "anniversary edition",
+        "collector's edition",
+        "definitive edition",
+        "library edition",
+        "hardcover edition",
+        "reissue"
+      ],
+      "soundtrack_words": [
+        "soundtrack",
+        "score",
+        "OST",
+        "original motion picture"
+      ],
+      "vinyl_words": [
+        "vinyl",
+        "LP",
+        "2xLP",
+        "pressing",
+        "record"
+      ],
+      "soundtrack_collectable_words": [
+        "reissue",
+        "remaster",
+        "remastered",
+        "expanded",
+        "anniversary",
+        "deluxe",
+        "limited",
+        "first time",
+        "out of print",
+        "complete",
+        "colored vinyl",
+        "colour vinyl",
+        "splatter vinyl",
+        "180g",
+        "180 gram",
+        "box set"
+      ],
+      "soundtrack_labels": [
+        "Waxwork",
+        "Waxwork Records",
+        "Death Waltz",
+        "Mondo",
+        "One Way Static",
+        "Spacelab9",
+        "Cinewax",
+        "Terror Vision",
+        "Ship to Shore",
+        "Quartet Records",
+        "La-La Land",
+        "Intrada",
+        "Varèse Sarabande",
+        "Varese Sarabande",
+        "Silva Screen",
+        "Sacred Bones",
+        "Invada",
+        "Lakeshore Records",
+        "Enjoy The Ride"
+      ],
+      "metal_horror_words": [
+        "horror",
+        "horror-themed",
+        "concept album",
+        "soundtrack",
+        "score",
+        "zombie",
+        "vampire",
+        "werewolf",
+        "Lovecraft",
+        "Lovecraftian",
+        "Cthulhu",
+        "Necronomicon",
+        "haunted",
+        "ghost",
+        "witch",
+        "demon",
+        "Dracula",
+        "Frankenstein",
+        "slasher",
+        "exorcism",
+        "occult",
+        "Satanic",
+        "monster",
+        "monsters",
+        "creature feature",
+        "film"
+      ],
+      "no_lead_sources": [
+        "Trick or Treat Studios (new arrivals)",
+        "Super7 (new arrivals)"
+      ],
+      "collectible_reject_words": [
+        "restock",
+        "restocked",
+        "back in stock",
+        "sale",
+        "deal",
+        "deals",
+        "clearance",
+        "discount",
+        "unboxing",
+        "review",
+        "giveaway"
+      ]
+    }
   },
   "era": {
     "pattern": "\\b(19[2-8]\\d|199[0-5])\\b",
@@ -3019,6 +3807,22 @@
     {
       "q": "\"Undertow Publications\" OR \"Ghoulish Books\" OR \"Hippocampus Press\"",
       "category": "books"
+    },
+    {
+      "q": "\"Clash Books\" horror",
+      "category": "books"
+    },
+    {
+      "q": "\"Hell's Hundred\" OR \"Hells Hundred\" Soho Press",
+      "category": "books"
+    },
+    {
+      "q": "\"Crooked Lane Books\" horror",
+      "category": "books"
+    },
+    {
+      "q": "\"Tor Nightfire\" OR \"Nightfire\" horror novel",
+      "category": "books"
     }
   ],
   "blocked_publishers": [
@@ -3290,5 +4094,32 @@
   ],
   "category_min": {
     "gear": 4
+  },
+  "strict_horror_words": [
+    "horror",
+    "slasher",
+    "giallo",
+    "gialli",
+    "zombie",
+    "zombies",
+    "creature feature",
+    "splatter",
+    "video nasty",
+    "video nasties",
+    "supernatural thriller",
+    "cosmic horror",
+    "folk horror",
+    "body horror",
+    "gore",
+    "cannibal",
+    "exorcism",
+    "vampire",
+    "werewolf",
+    "haunted house"
+  ],
+  "source_excludes_note": "Per-source 'exclude' patterns block that source's headlines only.",
+  "desk": {
+    "size": 7,
+    "_note": "Keeper's Desk shows the newest `size` bites dated on or before tonight, newest first. One file per release day in content/desk/."
   }
 }

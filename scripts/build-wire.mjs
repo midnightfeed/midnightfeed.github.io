@@ -16,7 +16,7 @@ const path = (p) => new URL(p, ROOT);
 const CHECK = process.argv.includes("--check");
 const FORCE = process.env.FORCE === "1";
 const UA = "TheMidnightFeedBot/1.0 (+https://midnightfeed.net)";
-const NOW = new Date();
+const NOW = process.env.WIRE_NOW ? new Date(process.env.WIRE_NOW) : new Date(); // WIRE_NOW: test a given night
 
 const cfg = JSON.parse(await readFile(process.env.WIRE_CONFIG ? new URL(process.env.WIRE_CONFIG, "file://" + process.cwd() + "/") : path("config/taxonomy.json"), "utf8"));
 const OUT = process.env.WIRE_OUT ? new URL(process.env.WIRE_OUT, "file://" + process.cwd() + "/") : path("site/data/wire.json");
@@ -207,7 +207,15 @@ const JUNK = (cfg.junk_title_patterns || []).map((p) => new RegExp(p, "i"));
 const BLOCKED_PUB = new Set((cfg.blocked_publishers || []).map((x) => x.toLowerCase()));
 
 const HORROR = anyRe(cfg.horror_words || []);
+const STRICT_HORROR = anyRe(cfg.strict_horror_words || cfg.horror_words || []);
+// headline plus the first sentence of the summary: what the story is actually about
+function leadText(title, snippet) {
+  const s = clean(snippet || "");
+  const first = (s.split(/(?<=[.!?])\s+(?=[A-Z\u201C"\'])/)[0] || "").slice(0, 320);
+  return `${title} ${first}`;
+}
 const METAL_GENRE = anyRe(cfg.metal_genre_words || []);
+const METAL_HORROR_J = anyRe(cfg.lead?.frontpage?.metal_horror_words || []);
 const METAL_LABELS = (cfg.metal_labels || []).map(terms);
 const kindOf = (src) => src.kind || (src.category === "metal" ? "metal" : "general");
 
@@ -217,11 +225,17 @@ const kindOf = (src) => src.kind || (src.category === "metal" ? "metal" : "gener
 //   anyone else    -> needs to be about horror: a horror word, or a watchlist name in the headline
 // Classic material (watchlist names, period years, presses and labels, collector words) is flagged and ranked higher.
 function judge(item) {
-  const text = `${item.title} ${clean(item.snippet)}`;
   const head = item.title;
+  // Some general disc-news sites (Blu-ray.com) pack many titles into one post, so a horror word deep in the
+  // summary let Disney and action releases through. For those, only the headline and the first sentence
+  // count, and only an explicit genre word ("horror", "slasher", "giallo"…) makes it horror.
+  const scoped = item.src.horror_scope === "first_sentence";
+  const text = scoped ? leadText(item.title, item.snippet) : `${item.title} ${clean(item.snippet)}`;
+  const HW = item.src.strict_horror ? STRICT_HORROR : HORROR;
   const category = classify(item.src, text);
   const collectible = category === "gear" && COLLECTIBLE && COLLECTIBLE.test(head);
   if (EXCL.some((x) => x.re.test(item.title) && !(collectible && COLLECTIBLE_EXEMPT.has(x.p)))) return { pass: false, why: "excluded" };
+  if ((item.src.exclude || []).some((p) => new RegExp(p, "i").test(item.title))) return { pass: false, why: "excluded for this source" };
   if (item.title.length < 12 || JUNK.some((r) => r.test(item.title))) return { pass: false, why: "junk" };
   if (item.publisher && BLOCKED_PUB.has(item.publisher.toLowerCase())) return { pass: false, why: "blocked publisher" };
   const kind = kindOf(item.src);
@@ -232,16 +246,19 @@ function judge(item) {
   const bands = [];
   for (const t of T1) {
     if (t.only_categories && !t.only_categories.includes(isMetal ? "metal" : category)) continue;
-    if (t.require_horror && !HORROR.some((r) => r.test(text))) continue;
+    if (t.require_horror && !HW.some((r) => r.test(text))) continue;
     if (t.res.some((r) => r.test(head)) && (!t.require_qualifier || hasQ)) {
       m1.push(t.name);
       if (t.only_categories && t.only_categories.includes("metal")) bands.push(t.name);
     }
   }
   const m2 = [];
+  const lt = leadText(item.title, item.snippet);
+  const metalHorror = isMetal && (HORROR.some((r) => r.test(lt)) || METAL_HORROR_J.some((r) => r.test(lt)));
   for (const t of T2) {
-    if (t.require_horror && !HORROR.some((r) => r.test(text))) continue;
-    if (t.res.some((r) => r.test(head)) && (headQ || (!isMetal && kind !== "metal"))) m2.push(t.name);
+    if (t.require_horror && !HW.some((r) => r.test(text))) continue;
+    // a big band (Iron Maiden, Metallica…) passes on a collector word, or on horror in the story itself (a crossover, a soundtrack)
+    if (t.res.some((r) => r.test(head)) && (headQ || (!isMetal && kind !== "metal") || (isMetal && metalHorror))) m2.push(t.name);
   }
   // each name once: the per-name cap counts these
   const matched = [...new Set([...m1, ...m2])];
@@ -255,9 +272,9 @@ function judge(item) {
     const why = bands.length ? bands : matched.length ? matched : label ? ["metal label"] : ["metal genre"];
     // classic metal = a classic band, or a reissue / anniversary / box-set headline
     const metalClassic = bands.length > 0 || QUAL.some((r) => r.test(head));
-    return { pass: true, category: "metal", matched: why, bands, keys: matched, classic: metalClassic, why: why.join(", ") };
+    return { pass: true, category: "metal", matched: why, bands, keys: matched, classic: metalClassic, why: why.join(", "), named: bands.length > 0 || m2.length > 0 };
   }
-  const horror = HORROR.some((r) => r.test(text));
+  const horror = HW.some((r) => r.test(text));
   // classic = a Tier 1 name, a period year with a horror word, or a collector word in the headline.
   // A franchise name alone (Tier 2) passes the story but doesn't make it classic.
   const classic = t1count > 0 || era || headQ;
@@ -311,6 +328,7 @@ for (const { report, items } of results) {
       matched: j.matched, classic: j.classic, why: j.why, amazon_query: null,
       _bands: j.keys || j.bands || [],
       _img: it.image || "",
+      _lt: leadText(it.title, it.snippet), _kind: kindOf(it.src), _named: !!j.named, _src: it.src.name,
       _w: (it.src.query && WEIGHT_BY_NAME[(it.publisher || "").toLowerCase()]) || it.src.weight || 1,
     });
   }
@@ -421,12 +439,87 @@ async function usableImage(u) {
 }
 const absUrl = (u, base) => { try { return new URL(decodeEntities(u), base).toString(); } catch { return ""; } };
 
-// Tonight's Lead: horror, never metal; trusted source; a real snippet; classic if we have one;
-// among the best few, the first one that has a usable image.
+// Tonight's Lead — the front page. A story leads only if it meets ONE of the front-page rules
+// (lead.frontpage in the taxonomy):
+//   1 a well-known franchise in the headline        2 a well-known horror writer in the headline
+//   3 a new collectible for a listed franchise      4 a complete / collectable edition of a listed writer
+//   5 a well-known metal band doing something horror (concept album, soundtrack, crossover)
+//   6 a vinyl reissue of a collectable horror soundtrack
+// Qualifiers rank top tier first, then by score. If nothing qualifies, the best horror story leads (never metal or gear).
+const FP = cfg.lead?.frontpage || null;
+const fpEntry = (e, tier) => {
+  const t = terms(e);
+  const amb = new Set((e.ambiguous || []).map((x) => x.toLowerCase()));
+  const all = t.exact_aliases_only ? (e.aliases || []) : [e.name, ...(e.aliases || [])];
+  const named = all.map((n) => ({ n, re: n.length <= 3 && n === n.toUpperCase() ? wordRe(n, "") : wordRe(n), amb: amb.has(n.toLowerCase()) }));
+  return { name: e.name, tier, named, context: e.context ? anyRe(e.context) : null };
+};
+const fpList = (grp) => FP ? [...(FP[grp]?.top || []).map((e) => fpEntry(e, 0)), ...(FP[grp]?.second || []).map((e) => fpEntry(e, 1))] : [];
+const FRANCHISES = fpList("franchises"), AUTHORS = fpList("authors");
+const CTX = anyRe(FP?.context_words || []);
+const fpWords = (k) => anyRe(FP?.[k] || []);
+const EDITION = fpWords("edition_words"), ST = fpWords("soundtrack_words"), VINYL = fpWords("vinyl_words");
+const ST_COLL = fpWords("soundtrack_collectable_words"), ST_LABEL = fpWords("soundtrack_labels");
+const METAL_HORROR = fpWords("metal_horror_words"), COLL_REJECT = fpWords("collectible_reject_words");
+const NO_LEAD_SRC = new Set(FP?.no_lead_sources || []);
+// best (lowest-tier) list entry named in s; ambiguous names (It, Halloween, Saw…) need a horror or context word too
+function hit(list, s) {
+  let best = null;
+  for (const e of list) {
+    const ok = e.named.some((x) => x.re.test(s) && (!x.amb || HORROR.some((r) => r.test(s)) || (e.context || CTX).some((r) => r.test(s))));
+    if (ok && (!best || e.tier < best.tier)) best = e;
+  }
+  return best;
+}
+const any = (res, s) => res.some((r) => r.test(s));
+function frontPage(c) {
+  const head = c.title, lt = c._lt;
+  if (NO_LEAD_SRC.has(c._src)) return null;
+  if (c.category === "gear") {
+    // 3 — a collectible for a listed franchise, announced or revealed (not a restock, sale or review)
+    const f = hit(FRANCHISES, head);
+    if (f && COLLECTIBLE && COLLECTIBLE.test(lt) && !any(COLL_REJECT, head)) return { rule: "collectible", name: f.name, tier: f.tier };
+    return null;
+  }
+  // 6 — vinyl reissue of a collectable horror soundtrack
+  if (any(ST, lt) && any(VINYL, lt) && (any(ST_COLL, lt) || any(ST_LABEL, lt))) {
+    const f = hit(FRANCHISES, lt);
+    if (f || any(HORROR, lt) || c._kind === "horror" || any(ST_LABEL, lt)) return { rule: "soundtrack", name: f ? f.name : "horror soundtrack", tier: f ? f.tier : 1 };
+  }
+  if (c.category === "metal") {
+    // 5 — a well-known band, with horror in the story itself
+    if (!c._named) return null;
+    const f = hit(FRANCHISES, lt) || hit(AUTHORS, lt);
+    if (f) return { rule: "metal crossover", name: f.name, tier: f.tier };
+    if (any(METAL_HORROR, lt) || any(HORROR, head)) return { rule: "metal horror", name: (c.matched || [])[0] || "band", tier: 1 };
+    return null;
+  }
+  const f = hit(FRANCHISES, head);
+  const a = hit(AUTHORS, head);
+  // 4 — complete or collectable editions of a listed writer, any press
+  const ea = any(EDITION, head) ? (a || hit(AUTHORS, lt)) : null;
+  const pick = [f && { rule: "franchise", name: f.name, tier: f.tier }, a && { rule: "writer", name: a.name, tier: a.tier }, ea && { rule: "edition", name: ea.name, tier: ea.tier }]
+    .filter(Boolean).sort((x, y) => x.tier - y.tier)[0];
+  return pick || null;
+}
 const NO_LEAD = new Set(cfg.lead?.exclude_categories || ["metal"]);
-const base = picked.filter((c) => !NO_LEAD.has(c.category) && c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet);
-const classicBase = base.filter((c) => c.classic);
-const leadPool = [...(classicBase.length ? classicBase : base.length ? base : picked.filter((c) => !NO_LEAD.has(c.category)))].sort((a, b) => b._s - a._s);
+const trusted = (c) => c._w >= (cfg.lead?.min_weight ?? 0.8) && c.snippet;
+const qualifiers = picked.filter(trusted).map((c) => ({ c, fp: frontPage(c) })).filter((x) => x.fp)
+  .sort((a, b) => a.fp.tier - b.fp.tier || b.c._s - a.c._s);
+let leadPool, leadWhy;
+if (qualifiers.length) {
+  const bestTier = qualifiers[0].fp.tier;
+  leadPool = qualifiers.filter((x) => x.fp.tier === bestTier).map((x) => ({ ...x.c, lead_rule: `${x.fp.rule}: ${x.fp.name} (${bestTier ? "second" : "top"} tier)` }));
+  leadWhy = `front page — ${qualifiers.length} qualifying ${qualifiers.length === 1 ? "story" : "stories"}`;
+} else {
+  // fallback: horror, never metal or gear; trusted source; a real snippet; classic if we have one
+  const fb = picked.filter((c) => !NO_LEAD.has(c.category) && c.category !== "metal" && !NO_LEAD_SRC.has(c._src));
+  const base = fb.filter(trusted);
+  const classicBase = base.filter((c) => c.classic);
+  leadPool = [...(classicBase.length ? classicBase : base.length ? base : fb)].sort((a, b) => b._s - a._s).map((c) => ({ ...c, lead_rule: "fallback: no story met a front-page rule" }));
+  leadWhy = "fallback — nothing met a front-page rule tonight";
+}
+// among the best few, the first one with a usable image
 let lead = null;
 for (const c of leadPool.slice(0, cfg.lead?.image_tries ?? 6)) {
   let img = c._img ? absUrl(c._img, c.url) : "";
@@ -434,25 +527,35 @@ for (const c of leadPool.slice(0, cfg.lead?.image_tries ?? 6)) {
   if (img) { lead = { ...c, image: img }; break; }
 }
 if (!lead) lead = leadPool[0] || null;
+const leadCandidates = qualifiers.slice(0, 8).map((x) => `${x.c.title} (${x.c.source}) — ${x.fp.rule}: ${x.fp.name}, ${x.fp.tier ? "second" : "top"} tier`);
 
-// Keeper's Desk: tonight's file, or the most recent one before it
+// Keeper's Desk: a rolling seven. One file per release day in content/desk/<YYYY-MM-DD>.json, each bite
+// dated by its file. Tonight's page shows the newest seven bites dated on or before tonight, newest on top;
+// each new day's bite pushes the oldest one off. Future-dated files wait for their night.
 async function desk() {
   const dir = path("content/desk/");
   if (!existsSync(dir)) return null;
-  const files = (await readdir(dir)).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f) && f.slice(0, 10) <= TONIGHT).sort();
-  if (!files.length) return null;
-  const f = files[files.length - 1];
-  const d = JSON.parse(await readFile(new URL(f, dir), "utf8"));
-  return { date: f.slice(0, 10), takes: d.takes || [] };
+  const size = cfg.desk?.size ?? 7;
+  const files = (await readdir(dir)).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f) && f.slice(0, 10) <= TONIGHT).sort().reverse();
+  const takes = [];
+  for (const f of files) {
+    const d = JSON.parse(await readFile(new URL(f, dir), "utf8"));
+    for (const t of d.takes || []) takes.push({ ...t, date: t.date || f.slice(0, 10) });
+    if (takes.length >= size) break;
+  }
+  if (!takes.length) return null;
+  return { date: takes[0].date, takes: takes.slice(0, size) };
 }
+const deskOut = await desk();
+const deskNext = existsSync(path("content/desk/")) ? (await readdir(path("content/desk/"))).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f) && f.slice(0, 10) > TONIGHT).length : 0;
 
-const strip = ({ _w, _s, _bands, _img, ...rest }) => rest;
+const strip = ({ _w, _s, _bands, _img, _lt, _kind, _named, _src, ...rest }) => rest;
 const out = {
   built_at: NOW.toISOString(),
   built_for: TONIGHT,
   lead: lead ? strip(lead) : null,
   items: picked.map(strip),
-  desk: await desk(),
+  desk: deskOut,
 };
 
 // ---------- report ----------
@@ -464,7 +567,10 @@ const summary = [
   `Candidates passing the taxonomy: ${candidates.length} · after dedupe: ${kept.length} · published: ${picked.length}`,
   lead ? `Tonight's Lead: ${lead.title} (${lead.source})` : "Tonight's Lead: none",
   lead ? `Lead image: ${lead.image || "none found (the page shows its cover plate)"}` : "",
+  lead ? `Lead rule: ${lead.lead_rule} · ${leadWhy}` : "",
+  ...leadCandidates.map((t) => `Lead candidate — ${t}`),
   ...floorNotes.map((n) => `Floor — ${n}`),
+  deskOut ? `Keeper's Desk: ${deskOut.takes.length} bites, newest ${deskOut.date} · ${deskNext} day(s) queued${deskNext === 0 ? " — NEW BATCH NEEDED" : ""}` : "Keeper's Desk: no bites on file",
   "",
   "| Source | Via | Fetched | Fresh (≤" + cfg.freshness_days + "d) | Passed | Error |",
   "|---|---|---:|---:|---:|---|",
