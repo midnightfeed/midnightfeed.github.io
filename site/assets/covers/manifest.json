@@ -28,5 +28,35 @@
     "edition": "https://openlibrary.org/books/OL7535308M",
     "cover_id": 14037440,
     "verified": false
+  },
+  "creepy-1": {
+    "file": "creepy-1.jpg",
+    "title": "Creepy #1",
+    "imprint": "Warren",
+    "publisher": "Warren Publishing",
+    "date": "1964",
+    "edition": "https://archive.org/details/warrencreepy-001",
+    "cover_id": null,
+    "verified": true
+  },
+  "creepy-62": {
+    "file": "creepy-62.jpg",
+    "title": "Creepy #62",
+    "imprint": "Warren",
+    "publisher": "Warren Publishing",
+    "date": "May 1974",
+    "edition": "https://archive.org/details/warrencreepy-062",
+    "cover_id": null,
+    "verified": true
+  },
+  "creepy-145": {
+    "file": "creepy-145.jpg",
+    "title": "Creepy #145",
+    "imprint": "Warren",
+    "publisher": "Warren Publishing",
+    "date": "February 1983",
+    "edition": "https://archive.org/details/warrencreepy-145",
+    "cover_id": null,
+    "verified": true
   }
 }
