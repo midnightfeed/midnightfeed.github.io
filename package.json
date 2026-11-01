@@ -7,8 +7,12 @@
     "wire": "node scripts/build-wire.mjs",
     "wire:check": "node scripts/build-wire.mjs --check"
   },
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
-    "fast-xml-parser": "^4.5.0"
+    "fast-xml-parser": "^4.5.0",
+    "js-yaml": "^4.3.2",
+    "marked": "^15.0.12"
   }
 }

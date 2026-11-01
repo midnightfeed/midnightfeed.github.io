@@ -6,3 +6,7 @@ node_modules/
 Thumbs.db
 *.mp3
 *.wav
+
+# Built on GitHub by scripts/build-pages.mjs; never committed
+site/archive/
+site/sitemap.xml

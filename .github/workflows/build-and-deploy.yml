@@ -45,6 +45,10 @@ jobs:
             git pull --rebase
             git push
           fi
+      # Runs on every push and every night. An article dated Friday publishes at
+      # the first build on or after 00:00 Central that Friday (the midnight run).
+      - name: Build the Archive
+        run: node scripts/build-pages.mjs
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
