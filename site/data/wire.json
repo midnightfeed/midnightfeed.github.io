@@ -1,22 +1,461 @@
 {
-  "built_at": "2026-11-03T12:41:47.662Z",
-  "built_for": "2026-11-03",
+  "built_at": "2026-11-04T12:52:04.460Z",
+  "built_for": "2026-11-04",
   "lead": {
-    "id": "dc9985ffaf86038c1cb0d62f05923f53946bfea8",
-    "title": "Sidney Prescott Will Return For SCREAM 8, Says Neve Campbell",
-    "source": "Fangoria",
-    "url": "https://www.fangoria.com/sidney-prescott-return-scream-8-neve-campbell",
+    "id": "86f91b93dd907d3022be8b55bf88fc528feed4d3",
+    "title": "JANE LEVY FLOATS “EVIL DEAD” RETURN",
+    "source": "Scream Horror Magazine",
+    "url": "https://www.screamhorrormag.com/jane-levy-floats-evil-dead-return",
     "category": "film",
-    "published": "2026-11-03T00:28:51.000Z",
-    "snippet": "Hello, Sidney... Neve Campbell confirms that she'll be returning to SCREAM 8. Time to speculate wildly as to why yet another Ghostface (or Ghostfaces) must go after Sidney Prescott.",
-    "matched": [],
+    "published": "2026-11-04T10:29:14.000Z",
+    "snippet": "Recently, we brought you the exciting news that actress Jane Levy would return in Don’t Breathe 3. However, it’s another iconic role of Levy’s that seems to be on the actress’ mind of late…",
+    "matched": [
+      "Evil Dead"
+    ],
     "classic": false,
-    "why": "horror outlet",
+    "why": "Evil Dead",
     "amazon_query": null,
-    "lead_rule": "franchise: Scream (top tier)",
-    "image": "https://www.fangoria.com/wp-content/uploads/2026/11/Scream-7.avif"
+    "lead_rule": "franchise: Evil Dead (top tier)",
+    "image": "https://www.screamhorrormag.com/wp-content/uploads/2026/10/Evil-Dead-banner-scaled.jpg"
   },
   "items": [
+    {
+      "id": "4c1d6c209b52917b23b1c24e9bb37203ff519681",
+      "title": "‘Control Resonant’ Has Become the “Fastest Selling” Game in Remedy’s History",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/video-games/3974548/control-resonant-has-become-the-fastest-selling-game-in-remedys-history",
+      "category": "film",
+      "published": "2026-11-04T12:30:01.000Z",
+      "snippet": "In what Remedy CEO Jean-Charles Gaudechon calls “a defining milestone for the company,” the company’s latest financials for the third quarter have surged by 226% following the launch of Control…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "e02563ac100df909e19218b2acadf1af445a89dc",
+      "title": "Better Luck Than Chuck Review: Somebody Finally Made the Horror Game Show",
+      "source": "iHorror",
+      "url": "https://ihorror.com/better-luck-than-chuck-review-somebody-finally-made-the-horror-game-show",
+      "category": "film",
+      "published": "2026-11-04T12:23:24.000Z",
+      "snippet": "Horror fandom has built itself almost everything. We have conventions in any city with a hotel ballroom, more podcasts than a person could finish in three lifetimes, documentaries about movies most…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "4a052084f542cdf6405441840afff7cdf464dc89",
+      "title": "‘Violent Night 2’ Images Give Mrs. Claus a Sword",
+      "source": "iHorror",
+      "url": "https://ihorror.com/violent-night-2-new-images-mrs-claus-kristen-bell",
+      "category": "film",
+      "published": "2026-11-04T11:17:21.000Z",
+      "snippet": "More than two dozen new images from Violent Night 2 put a sword in Kristen Bell's hands beside David Harbour's Santa, a month out from the December 4 release.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "86f91b93dd907d3022be8b55bf88fc528feed4d3",
+      "title": "JANE LEVY FLOATS “EVIL DEAD” RETURN",
+      "source": "Scream Horror Magazine",
+      "url": "https://www.screamhorrormag.com/jane-levy-floats-evil-dead-return",
+      "category": "film",
+      "published": "2026-11-04T10:29:14.000Z",
+      "snippet": "Recently, we brought you the exciting news that actress Jane Levy would return in Don’t Breathe 3. However, it’s another iconic role of Levy’s that seems to be on the actress’ mind of late…",
+      "matched": [
+        "Evil Dead"
+      ],
+      "classic": false,
+      "why": "Evil Dead",
+      "amazon_query": null
+    },
+    {
+      "id": "4fd19b04a83f80bc8767ea2d8f81f803646dadd8",
+      "title": "Movie review: A Chinese Ghost Story",
+      "source": "easternKicks.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84bTVjQlYya1d5YnpoQlZNc2VvS0tDblgwanNWblR0cS1BYzNiMDJGdnlSM19SR3RiMURleWxMcVM0TXYtemxSRjdGU1VHSjFiSTFIMjFPSDFILWtEcmdUclIzejBOcVRfNmE0?oc=5",
+      "category": "discs",
+      "published": "2026-11-04T09:00:39.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "1708b5989ee5f10a9ba3cbc28f36a7f94dcacf31",
+      "title": "\"I know that I will never open for Metallica. And I have long since reached peace with that.\" 20 years after the film that changed everything for the band, Anvil frontman Steve 'Lips' Kudrow has no regrets",
+      "source": "Louder",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNWlCYVNRUXhBM0JBeEk1R3Bub1AtME95amV5ajF5UHNPVzdTTW9ObDNrdFhVcmhEb200R2dFMFY5MXpCWjNoR0FSWTlJMzZ4MVBxWk5XMHNWSUhVZXFad3JQNUhGMG5KSjczZzhCcENROXdYQ2ZkRThzR3pqeG1JLXA2QUpNQXlaMzM4bHZ2S0dRLUZW?oc=5",
+      "category": "metal",
+      "published": "2026-11-04T06:01:26.000Z",
+      "snippet": "",
+      "matched": [
+        "Metallica"
+      ],
+      "classic": false,
+      "why": "Metallica",
+      "amazon_query": null
+    },
+    {
+      "id": "f8e38f454d5956d8217c05c85ec6741bd2d1e9fd",
+      "title": "Book Review: \"The Unknown\" by Riley Sager",
+      "source": "Vocal",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiZm90bWloMlRaOTNEUFFva25QUWp5WTVYaS11RjhCaXJJMDBmM3ZJR0JZZTJPekE4dHZjdmtoVlU4YkdjcEF3OFlOaXF3VXdqYTlvSC1GNm54RmZKU1l6MEZfYjhvb2puY09yTEJJS2hLQQ?oc=5",
+      "category": "books",
+      "published": "2026-11-04T04:47:40.000Z",
+      "snippet": "",
+      "matched": [
+        "Riley Sager"
+      ],
+      "classic": false,
+      "why": "Riley Sager",
+      "amazon_query": null
+    },
+    {
+      "id": "78580f09b73f4f38bb6e207f9dd0c43929c44a37",
+      "title": "Exclusive clip: Horror/comedy “RALPH’S PERFEKT CHRISTMAS” keeps a poker face",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/exclusive-clip-horror-comedy-ralphs-perfekt-christmas-keeps-a-poker-face",
+      "category": "film",
+      "published": "2026-11-04T02:21:48.000Z",
+      "snippet": "A movie about the dark side of nostalgia has some favorite faces in the cast.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "4a7ab7388cf97f8a068e5a33c9344fc65fdabce1",
+      "title": "Small-town folk-horror film “THE TOWN THAT TAKES” hits digital this week; trailer & poster",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/small-town-folk-horror-film-the-town-that-takes-hits-digital-this-week-trailer-poster",
+      "category": "gear",
+      "published": "2026-11-04T02:18:14.000Z",
+      "snippet": "The independent feature combines action/crime-horror with the supernatural.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "9d1c807a26068cc28c9d43d2a978b685eb9de7a5",
+      "title": "Psychological horror feature “DOLLKEEPER” casts up",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/psychological-horror-feature-dollkeeper-casts-up",
+      "category": "film",
+      "published": "2026-11-04T02:14:33.000Z",
+      "snippet": "The film begins rolling soon in Ft. Lauderdale, Florida.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "f33d9d468ac7fad985cef93bbd5e2a2736b7c5dd",
+      "title": "Horror Titles ‘Thankskilling,’ ‘Thankskilling 3’ Due on Blu-ray, DVD From MVD",
+      "source": "Media Play News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbDlwckhjLVNfVXUtbDNOaHQ2YUI2UFM4MGJiWkE0Vzdtalh5WTlPd3hpYzRDTDFYT3R3YUVMaXNoM25SMmRpVTFRbVJEUFA3ZTBSWHVuT1R6VHl1cDJCbU5Kek9sbDMxcjQ5ZnkwSHV4SjY2UG1DT2swWkVpSE9qeHpSRVhobXdXclRHd2Z4R3ZLcWJIWGF3WldSNjdHMUtKSFBaLQ?oc=5",
+      "category": "discs",
+      "published": "2026-11-04T01:47:06.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "e966fd2b03d3dd34fb2d300cbb0da8efee1395ff",
+      "title": "Park Hoon-jung’s Assassin Noir ‘Tristes Tropiques’ Sells to North America, France, Spain",
+      "source": "Variety",
+      "url": "https://variety.com/2026/film/news/park-hoon-jung-assassin-noir-tristes-tropiques-sales-1236938950",
+      "category": "film",
+      "published": "2026-11-04T01:00:00.000Z",
+      "snippet": "“Tristes Tropiques,” the latest genre outing from “New World” and “The Witch” director Park Hoon-jung, has been picked up for North America by Well Go USA as Finecut, which is carrying the film in…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "9cb3527a27d56f909e6d3ecd8d73a0c413dd13e5",
+      "title": "is King Diamond Black Metal Archives",
+      "source": "Ghost Cult",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15S2hXSXZ6UTJWcEZoRzdySDVwTk45dk53RmZlLVgxWndJU2RwQVV3cjlkMXRFMUZUWGV5ZE9TTlZhMDhISnl3SWRtWExSXzI5QTIzYmxMQW1jUXlMc0ZuZlozUjFHaUJv?oc=5",
+      "category": "metal",
+      "published": "2026-11-03T23:18:55.000Z",
+      "snippet": "",
+      "matched": [
+        "King Diamond"
+      ],
+      "classic": true,
+      "why": "King Diamond",
+      "amazon_query": null
+    },
+    {
+      "id": "90bb863eb7eeb5b3667d435d65bc79ad6bd2686b",
+      "title": "Carrie at 50: Brian De Palma’s fiery masterpiece still has the power",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ2xBOVN4ZXR4ZUkxR2daNk16R1VyU0I4MU44R0hOZ01BU013UlF5MEwtTl9aUEMxVFQ4Z19Oa3ZITW9YR0FKamc5MkJVclVHbFZQSjJhUDhKYlJEMXdyc0t0SzB1QVZ5ei13Y09Eckl2cW9ZdUNmNGpJZHR0NTYwTlNDZFFVVm1ES1E?oc=5",
+      "category": "books",
+      "published": "2026-11-03T22:37:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Brian De Palma",
+        "Carrie"
+      ],
+      "classic": false,
+      "why": "Brian De Palma, Carrie",
+      "amazon_query": null
+    },
+    {
+      "id": "002630be7122d04f027203a67aad49b534ffa4dd",
+      "title": "‘Jennifer’s Body 2’: Amanda Seyfried Reportedly Returning Alongside Megan Fox!",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/news/595154/jennifers-body-2-amanda-seyfried-megan-fox",
+      "category": "film",
+      "published": "2026-11-03T21:39:34.000Z",
+      "snippet": "Jennifer and Needy could finally be getting back together. According to Daniel Richtman, Jennifer’s Body 2 is moving forward at",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "d804fd7da2bc2a5859d663f5a408f9cf9f981019",
+      "title": "TESTAMENT's CHUCK BILLY On His 1997 SEPULTURA Audition: 'I Turned In My Demo Too Late'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/testaments-chuck-billy-on-his-1997-sepultura-audition-i-turned-in-my-demo-too-late",
+      "category": "metal",
+      "published": "2026-11-03T21:22:14.000Z",
+      "snippet": "In a new interview with Greg Kennelty of the Mostly Yelling podcast, TESTAMENT frontman Chuck Billy once again reflected on his audition for the lead-singer position in SEPULTURA when Max Cavalera…",
+      "matched": [
+        "Testament"
+      ],
+      "classic": true,
+      "why": "Testament",
+      "amazon_query": null
+    },
+    {
+      "id": "9a48402254ec3222ac59060537c68feecbff83e3",
+      "title": "Classic Slasher ‘Just Before Dawn’ Finally Set For 4K Restoration After Rights Battle",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/movie/3974468/just-before-dawn-4k-restoration",
+      "category": "discs",
+      "published": "2026-11-03T20:48:50.000Z",
+      "snippet": "To date, the 1981 slasher Just Before Dawn has been very tricky to find on streaming and on physical media. It’s only fleetingly popped up on streaming services in recent years, and the out-of-print…",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "f28b45083acc61c021832e4da723ddccdd842d5d",
+      "title": "REVIEW: RIOT V’s Riot Fes: Live In Japan 2024 – “Nice Way To End The TODD HALL Years”",
+      "source": "BraveWords",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObWR3R2R5cVNuNW5mTFg3YnI3QTc5dWV4WXRZbGlLY2lVR0t4cm9WeDRsa1VTYmhJVWpHelJaWE53YXNtV044a2hMMWItRTh5VXQ2a2ttQXNLd0E0ZU5ibnRIN0NueE1NN1VFdUswakY2QWo1TzdUVmxwWkZEblVtNFFpS1N3UjFUU01yc2d0R1hwQk1xUklCMFNhOEZIcENxUFlZejFfdThnZTd0Qk9GUGRUbUpOa28?oc=5",
+      "category": "metal",
+      "published": "2026-11-03T20:37:27.000Z",
+      "snippet": "",
+      "matched": [
+        "Riot V"
+      ],
+      "classic": true,
+      "why": "Riot V",
+      "amazon_query": null
+    },
+    {
+      "id": "7252e44caeab99e5d29e9ce1532aaf70bdf48ca5",
+      "title": "The First Ever Official LEGO GODZILLA Set Is Here",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/lego-godzilla-set-details",
+      "category": "film",
+      "published": "2026-11-03T20:08:59.000Z",
+      "snippet": "The MonsterVerse Godzilla has finally been brought to life as a massive LEGO set and we’ve got all the juicy details right here.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "cd19025d9ed782167696666836fb2551158d00eb",
+      "title": "FILMQUEST ’26: “THE AVALANCHE” IS A LYNCHIAN EXISTENTIAL HORROR THAT INDUCES ANXIETY ABOUT DEATH",
+      "source": "Rue Morgue",
+      "url": "https://rue-morgue.com/filmquest-26-the-avalanche-is-a-lynchian-existential-horror-that-induces-anxiety-about-death",
+      "category": "film",
+      "published": "2026-11-03T18:45:37.000Z",
+      "snippet": "Mortality, rekindled relationships and the terrifying uncertainty of what comes after death.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ccbea002efdc928689611ef5edddd5bc55bfb323",
+      "title": "Paul W.S. Anderson Returns To Cosmic Horror For NETHER STATION Adaptation",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/paul-w-s-anderson-nether-station-adaptation",
+      "category": "film",
+      "published": "2026-11-03T18:05:38.000Z",
+      "snippet": "Paul W.S. Anderson is returning to the cosmic horror genre with his newest project, an adaptation of the NETHER STATION series.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "72ea9bf98e6c8fca93e94822da640ee55ece79cc",
+      "title": "PRETTY KILL MACHINE: Jonathan Rhys Meyers Stars In New Vampire Romance",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/pretty-kill-machine-jonathan-rhys-meyers",
+      "category": "film",
+      "published": "2026-11-03T17:49:06.000Z",
+      "snippet": "Jonathan Rhys Meyers is set to star in the new paranormal romance PRETTY KILL MACHINE. Get all the details here.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "e7019fdf89326dc11c9cfce462474a32dcb5904e",
+      "title": "Mezco Toyz’s Living Dead Dolls adds Holiday Edition Ghost Face",
+      "source": "Flickering Myth",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORlRNMUtUai1CUE9lVkQ4a3VocXZqS2J1ejIwSEZtSV9FMEh3YlJKWjBPTnJBdUZLRlZEY2U4YVktdWpFVDg1WDVLOTB1TWdoVkhTUjBvbXYwSG9XYndXQ3ZjbnRqZHdSb2ZOaTVGYXgyUHJBWktVeGhiZ193MVlCcE9iSWdFVDNiNzBXYUliQUMyS0FJRUhIVDBqQTNPaVY4dVZr?oc=5",
+      "category": "gear",
+      "published": "2026-11-03T17:48:57.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "10d1f5a4e24c22550ede9a66af5c097b142dd919",
+      "title": "Chris Jericho Wrestles With A Monster In New Creature Feature I AM THE TEETH",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/i-am-the-teeth-chris-jericho",
+      "category": "film",
+      "published": "2026-11-03T17:34:42.000Z",
+      "snippet": "AEW wrestler Chris Jericho is set to lead the new creature feature I AM THE TEETH, directed by Scott B. Hansen. Get all the details here.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "e2001df40a4cc342007f4aef7916d89d3ae8c909",
+      "title": "‘Spoiling You, Too’ Unveils First Poster as Miss Mutter Returns for ASMR Horror Sequel [Exclusive]",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/images/596286/spoiling-you-too-unveils-first-poster-as-miss-mutter-returns-for-asmr-horror-sequel-exclusive",
+      "category": "gear",
+      "published": "2026-11-03T17:00:00.000Z",
+      "snippet": "Dread has the first look at the poster for ASMR horror sequel 'Spoiling You, Too', and it's a mesmerizing beauty.",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "1222b5a7803fc851498132f1bdf374217d3086d9",
+      "title": "We All Need To Be Watching The Delightfully Witchy YAGA",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/yaga-series-folk-horror-recommendation",
+      "category": "gear",
+      "published": "2026-11-03T16:30:27.000Z",
+      "snippet": "The legend of the Baba Yaga has haunted the edges of Slavic mythology for centuries, and she is arguably one of folklore’s most enduring boogeywomen. Whether depicted as a hag in the woods, a…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "9e6798564220acc0a9910ac635b314de2e768fbb",
+      "title": "PHILIP ANSELMO On KING DIAMOND's Guest Appearance On New DOWN Album 'Volume V': 'He Really Did Such An Amazing Job'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/philip-anselmo-on-king-diamonds-guest-appearance-on-new-down-album-volume-v-he-really-did-such-an-amazing-job",
+      "category": "metal",
+      "published": "2026-11-03T16:12:01.000Z",
+      "snippet": "The latest issue of Fistful Of Metal magazine features an exclusive interview with Philip H. Anselmo and Pepper Keenan of DOWN, as the band prepares to release \"Volume V\", its first new studio album…",
+      "matched": [
+        "King Diamond"
+      ],
+      "classic": true,
+      "why": "King Diamond",
+      "amazon_query": null
+    },
+    {
+      "id": "e850f23496f2efd90a138f0eed05e4aa878ebc0a",
+      "title": "JUDAS PRIEST's RICHIE FAULKNER To Discuss ELEGANT WEAPONS On TalkShopLive This Week",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/judas-priests-richie-faulkner-to-discuss-elegant-weapons-on-talkshoplive-this-week",
+      "category": "metal",
+      "published": "2026-11-03T15:09:38.000Z",
+      "snippet": "JUDAS PRIEST guitarist Richie Faulkner is heading to TalkShopLive on November 4 at 8:30 p.m. Eastern Time for a special appearance celebrating \"Evolution\", the sophomore album from his powerhouse…",
+      "matched": [
+        "Judas Priest"
+      ],
+      "classic": true,
+      "why": "Judas Priest",
+      "amazon_query": null
+    },
+    {
+      "id": "7f7594c707974ebbb0f3a7f629369ed0f0a2ae5e",
+      "title": "The Ultimate Sci-Fi Bible is Back: STARLOG Returns to Print For Its 50th Anniversary",
+      "source": "Fangoria",
+      "url": "https://www.fangoria.com/the-ultimate-sci-fi-bible-is-back-starlog-returns-to-print-for-its-50th-anniversary",
+      "category": "film",
+      "published": "2026-11-03T15:00:43.000Z",
+      "snippet": "STARLOG is back and we’ve got an exclusive look at the cover marking the return of the iconic science fiction and fantasy magazine hitting newsstands on November 13, 2026. Pre-orders are open now!",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "8e8656650d88ed9178bca594baf49351881c474a",
+      "title": "Bong Joon Ho’s ‘The Host’ 4K Restoration Trailer Brings the Han River Monster Back to Theaters",
+      "source": "FanBolt",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOWVxclNreHRTQWhPY1ZRb2d6cWVpY0t4eTVWZVJXTF9XY3d2ZWxaY1hJMWE4ZFUwSVZHRHZJTW53RVM0b0EzRnUwUVJGdmFRVWxOVDd2V0ljeG5yRk1rNWVBNlhlU0dNTjM3Wnd3bTl4SDFhNzcxRlVsWnFBUnZvQ1RuUmd2VmtmM1dmVVF3dWlNZW5icUR6UjNkWURTSl8zTXUyb0FTMnU4WjVPUUxQdDJaX0RUcEJET0k5Zm1GLWk?oc=5",
+      "category": "discs",
+      "published": "2026-11-03T14:41:23.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "7869bb69a6832086df37e63d49ad80693df78199",
+      "title": "Ex-ICED EARTH Singer STU BLOCK Fires Back At JON SCHAFFER Over 'Poser' Comment: 'True Confidence Doesn't Require Questioning Someone Else's Authenticity To Validate Your Own'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/ex-iced-earth-singer-stu-block-fires-back-at-jon-schaffer-over-poser-comment-true-confidence-doesnt-require-questioning-someone-elses-authenticity-to-validate-your-own",
+      "category": "metal",
+      "published": "2026-11-03T14:39:26.000Z",
+      "snippet": "Former ICED EARTH frontman Stu Block has fired back at the band's leader Jon Schaffer after the guitarist called Block reaction's to Schaffer's involvement in the U.S. Capitol riot a \"total poser…",
+      "matched": [
+        "Iced Earth"
+      ],
+      "classic": true,
+      "why": "Iced Earth",
+      "amazon_query": null
+    },
+    {
+      "id": "69a38f881c133b87eeffb81c869f1dcedeb0b933",
+      "title": "Updates Aplenty During Top Hat Studios Fall Showcase, Including Horror Anthology ‘Spooky Tales’ [Trailer]",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/video-games/3974348/updates-aplenty-during-top-hat-studios-fall-showcase-including-horror-anthology-spooky-tales-trailer",
+      "category": "film",
+      "published": "2026-11-03T14:30:19.000Z",
+      "snippet": "Top Hat Studios was busy yesterday during their Fall Showcase 2026, updating fans on several titles, including that they will publish Liminal Road’s retro-inspired horror anthology Spooky Tales. The…",
+      "matched": [],
+      "classic": true,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
     {
       "id": "de276e4fb3aeb7f4ea1c4f197b60e21b84228c85",
       "title": "‘Destroy All Monsters Melee’ Remaster Arrives on Godzilla Day",
@@ -28,185 +467,6 @@
       "matched": [],
       "classic": true,
       "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "c32e0e17c71729b62bf63b58ed3e380643c8127c",
-      "title": "“SCREAM 8” RUMOURS CONTINUE TO GROW",
-      "source": "Scream Horror Magazine",
-      "url": "https://www.screamhorrormag.com/scream-8-rumours-continue-to-grow",
-      "category": "film",
-      "published": "2026-11-03T11:12:08.000Z",
-      "snippet": "It’s been quite a while since we’ve heard anything regarding Scream 8. It was assumed that movement on the eighth movie would be fast-tracked following the enormous success of Scream 7. However…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "90bb863eb7eeb5b3667d435d65bc79ad6bd2686b",
-      "title": "Carrie at 50: Brian De Palma’s fiery masterpiece still has the power",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ2xBOVN4ZXR4ZUkxR2daNk16R1VyU0I4MU44R0hOZ01BU013UlF5MEwtTl9aUEMxVFQ4Z19Oa3ZITW9YR0FKamc5MkJVclVHbFZQSjJhUDhKYlJEMXdyc0t0SzB1QVZ5ei13Y09Eckl2cW9ZdUNmNGpJZHR0NTYwTlNDZFFVVm1ES1E?oc=5",
-      "category": "books",
-      "published": "2026-11-03T10:01:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Brian De Palma",
-        "Carrie"
-      ],
-      "classic": false,
-      "why": "Brian De Palma, Carrie",
-      "amazon_query": null
-    },
-    {
-      "id": "98b11783cb1558c8ceab42954e1792874c4b6445",
-      "title": "‘The Difficult Bride’ Review: Feminist Body Horror Meets Social Inequality in Rubaiyat Hossain’s Visceral Breakout Thriller",
-      "source": "Variety",
-      "url": "https://variety.com/2026/film/reviews/the-difficult-bride-review-1236938201",
-      "category": "film",
-      "published": "2026-11-03T07:59:58.000Z",
-      "snippet": "It takes a bold director to combine body horror with Sylvia Plath, but then again Rubaiyat Hossain has never shied away from pushing the envelope. From her 2011 debut “Meherjaan,” widely attacked by…",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "b93cecd408d7b67ad0690901aef36615b7906a2d",
-      "title": "MIKKEY DEE & ANDY LAROCQUE Talk Starting LEX LEGION: “We Are Not A KING DIAMOND Copy Band, We Have Our Own Identity”",
-      "source": "Sonic Perspectives",
-      "url": "https://www.sonicperspectives.com/interviews/interview-with-andy-larockque-mikkey-dee",
-      "category": "metal",
-      "published": "2026-11-03T07:52:38.000Z",
-      "snippet": "Lex Legion brings together drummer Mikkey Dee and guitarist Andy LaRocque, who both played in King Diamond in the 1980s, with guitarist Pete Blakk and vocalist Nils K. Rue of Pagan’s Mind. Mikkey Dee…",
-      "matched": [
-        "King Diamond"
-      ],
-      "classic": true,
-      "why": "King Diamond",
-      "amazon_query": null
-    },
-    {
-      "id": "327d5e8cfc2f302082dd0388030360c1c261f175",
-      "title": "The Best Short Horror Books 250 Pages or Less",
-      "source": "What Is Quinn Reading?",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxY0ZhOGdod0xDOVU1ZFRmem94NjNWYVNJOHNEWEtmak5wYnpYdHIzNW1uS0R5WlhzZTVrbXZaWEVsYUNlRWdzenBBV1NGYU1mNUNVbE5vMk44WWx0MlNsdFR0QVhheld0VXZ0b3d3RzE?oc=5",
-      "category": "books",
-      "published": "2026-11-03T06:58:11.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "1f5d460c48a8cc4543146579a98a5310b8787c4b",
-      "title": "Emraan Hashmi’s Musical Horror Film ‘Rooh’ Adds Tips Films and Tips Music (EXCLUSIVE)",
-      "source": "Variety",
-      "url": "https://variety.com/2026/film/news/emraan-hashmi-musical-horror-rooh-tips-films-tips-music-1236938129",
-      "category": "film",
-      "published": "2026-11-03T05:30:00.000Z",
-      "snippet": "Bollywood star Emraan Hashmi’s musical horror film “Rooh” has added Tips Films and Tips Music to its producing team, with Kumar Taurani boarding the project ahead of a 2027 theatrical release across…",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "7f2f9d556f12eb1ec5fac7c956c74fc43a467e3f",
-      "title": "Anthony Hopkins' 48-Year-Old Horror Cult Classic Gets a New Physical Release",
-      "source": "Comic Book Resources",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BU1hWR2ZpX1pSejdfNHhNd19qSFRwRllPSXNzbmU3dGNOQXdJMHFTWDNTWjRTVGYtdlRwYWE3N2ozNXlRX2c0amF3SUd0bi1rVERPdjlyRVU?oc=5",
-      "category": "discs",
-      "published": "2026-11-03T04:42:00.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "17ca8b0056e0912e9d57053242b5c08be625b78a",
-      "title": "‘Robopocalypse’ Series In the Works from Ron Howard and Akiva Goldsman",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/news/596221/robopocalypse-series-in-the-works-from-ron-howard-and-akiva-goldsman",
-      "category": "film",
-      "published": "2026-11-03T01:31:33.000Z",
-      "snippet": "Once in the works from Steven Spielberg, a 'Robopocalypse' series is in development from Ron Howard and Akiva Goldsman.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "5fa1a9abcf205be44bb36b112e41359f78600c81",
-      "title": "Carrie Season 2 Is Making Up For A Disastrous 4-Year-Old Stephen King Adaptation",
-      "source": "ScreenRant",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1nTmJaTS1iNEEwZzl3U1lVY1BWTThyNEY2Ykp3WGZLVGRoOEY3dzJyekpSbTdBbmdiR08xZVRYWDNqNTlKMmJGNWVQeFhuQlNRREdMYkdSc21yeGVXR2pUOXBKWU9jZm1fVTVtc1M1T3dWTWlwa0s4?oc=5",
-      "category": "books",
-      "published": "2026-11-03T01:00:00.000Z",
-      "snippet": "",
-      "matched": [
-        "Stephen King",
-        "Carrie"
-      ],
-      "classic": false,
-      "why": "Stephen King, Carrie",
-      "amazon_query": null
-    },
-    {
-      "id": "dc9985ffaf86038c1cb0d62f05923f53946bfea8",
-      "title": "Sidney Prescott Will Return For SCREAM 8, Says Neve Campbell",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/sidney-prescott-return-scream-8-neve-campbell",
-      "category": "film",
-      "published": "2026-11-03T00:28:51.000Z",
-      "snippet": "Hello, Sidney... Neve Campbell confirms that she'll be returning to SCREAM 8. Time to speculate wildly as to why yet another Ghostface (or Ghostfaces) must go after Sidney Prescott.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "73e4b7b9b132faf8f07c328d927a54af09c70a99",
-      "title": "‘Obsession’ Director Reveals the Hidden Detail “Nobody” Noticed That Makes Nikki More Disturbing",
-      "source": "Bloody Disgusting",
-      "url": "https://bloody-disgusting.com/movie/3974333/obsession-easter-egg-polaroids-explained",
-      "category": "film",
-      "published": "2026-11-02T23:56:12.000Z",
-      "snippet": "It’s been six month since Obsession has been released and we’re still uncovering various clues and details about the movie that were easy to overlook on initial viewings. Some audiences saw the movie…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "c91502597b48ee9e5af5fb1116978716fcbdfb83",
-      "title": "Mezco Toyz Slashes Into the Holidays with Festive LDD Presents Ghost Face Figure",
-      "source": "All Hallows Geek",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdjdibnNRSWJJTnN1Zld0cGpOcm9aMDV0cUJ1bjVDQmJoMXFOaTY1aFkxeFNBUV9iSW1aX2VOSWMxQkVTTnF4a2k1UVROM3JRaDZCOEJTZlhwZnBXM2UwWDNOMUFsNUl2bnlVWW52N29hYjZfYzM0QklOQkJzaXRWZkp6aTZWM1FudTVNeVFXeUNrcGdHQ0l2eE9zZWNxa2o2UE51OUYweVlRanJxTXVPVHpB?oc=5",
-      "category": "gear",
-      "published": "2026-11-02T22:38:15.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "7009fb8a71c5651a80ddc86fdcf3877ea90c3d9d",
-      "title": "ANTHRAX's SCOTT IAN: Why BON SCOTT-Era AC/DC Is 'My Favorite Band Of All Time'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/anthraxs-scott-ian-why-bon-scott-era-ac-dc-is-my-favorite-band-of-all-time",
-      "category": "metal",
-      "published": "2026-11-02T21:47:52.000Z",
-      "snippet": "The official Bon Scott YouTube channel has shared a video in which ANTHRAX guitarist Scott Ian remembers the first time he heard Bon Scott's voice on AC/DC's \"Powerage\" album in a junior high school…",
-      "matched": [
-        "Anthrax"
-      ],
-      "classic": true,
-      "why": "Anthrax",
       "amazon_query": null
     },
     {
@@ -225,45 +485,6 @@
       "amazon_query": null
     },
     {
-      "id": "26c3fa5e20a2c1374a8f522589cd84f81731de4d",
-      "title": "From HALLOWEEN to MonsterVision: November and December Horror Comics Coming Soon",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/horror-comics-november-december-2026",
-      "category": "film",
-      "published": "2026-11-02T21:00:41.000Z",
-      "snippet": "Fans of horror comics have plenty of goodies coming their way in November and December. Here are some of the must-read titles ahead of the holiday season.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "447fc05f96164fa17c62a205f78d2df1ac1d2a61",
-      "title": "THE TOWN THAT TAKES Reimagines An Unsettling American Legend",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/the-town-that-takes-trailer",
-      "category": "film",
-      "published": "2026-11-02T20:45:07.000Z",
-      "snippet": "Watch the trailer for THE TOWN THAT TAKES, a new supernatural thriller that reimagines an infamous American legend.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "c0149ebf26d20ec58edccda9019a4448f227d9cd",
-      "title": "GAMES WE PLAY: Fitting In Has Never Been Harder In New Psychological Horror",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/games-we-play-movie",
-      "category": "film",
-      "published": "2026-11-02T20:32:06.000Z",
-      "snippet": "RIVERDALE's Casey Cott stars in GAMES WE PLAY, a new psychological thriller from Vertical Entertainment premiering next month.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
       "id": "c570c5f3c11c49a88370ff166b3931615d260fd2",
       "title": "Vinegar Syndrome Brings Michael Mann’s ‘Manhunter’ to 4K With Original Version and Director’s Cut",
       "source": "Bloody Disgusting",
@@ -276,19 +497,6 @@
       ],
       "classic": true,
       "why": "Vinegar Syndrome",
-      "amazon_query": null
-    },
-    {
-      "id": "b6af2b44b878a139af7de3eeccf05c28e8d6ec39",
-      "title": "Toho ULTIMATES! - Godzilla 1989 (Comic Greyscale) & Kaiju Response Team Hat",
-      "source": "Super7 (new arrivals)",
-      "url": "https://super7.com/products/toho-ultimates-godzilla-1989-comic-greyscale-kaiju-response-team-hat",
-      "category": "gear",
-      "published": "2026-11-02T20:29:41.000Z",
-      "snippet": "Vendor: Super7 Type: Figures Price: 105.00 Pick up the Toho ULTIMATES! Godzilla 1989 and get a Kaiju Response Team Hat! This 7” scale greyscale collectible, a recolor of the SDCC 2023 exclusive…",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
       "amazon_query": null
     },
     {
@@ -305,96 +513,16 @@
       "amazon_query": null
     },
     {
-      "id": "2e0e8fdb5f19466af26fbfbb5142cdde91b61984",
-      "title": "Star Lulu Wilson and director Jenn Wexler celebrate havoc in “THE LAST TEMPTATION OF BECKY”",
-      "source": "Rue Morgue",
-      "url": "https://rue-morgue.com/star-lulu-wilson-and-director-jenn-wexler-celebrate-havoc-in-the-last-temptation-of-becky",
-      "category": "film",
-      "published": "2026-11-02T20:05:36.000Z",
-      "snippet": "The duo talk the teen avenger's biggest and wildest adventure yet..",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "d6cf667e7048a0bcf01e38c2128be74961023244",
-      "title": "BEWARE BOÍUNA Slithers To Home Video This Week",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/beware-boiuna-digital-blu-ray-release-date",
-      "category": "film",
-      "published": "2026-11-02T19:32:54.000Z",
-      "snippet": "Mike P. Nelson's new creature feature BEWARE BOÍUNA slithers its way to digital this week. Get all the details here.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "0fd338549c95fc13f3f1233e5633717df1e93b6d",
-      "title": "Polish edition of The River of Souls",
-      "source": "robertmccammon.com",
-      "url": "https://www.robertmccammon.com/2026/11/02/polish-edition-of-the-river-of-souls",
-      "category": "books",
-      "published": "2026-11-02T19:20:00.000Z",
-      "snippet": "Polish publisher Vesper has announced the publication of their translation of Robert McCammon’s The River of Souls, book five in the Matthew Corbett series. An English",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "1e9aaaa1ebb3fe725addbb291baaa73c8b982f4c",
-      "title": "LEVIATHAN: Toho Reveals First Look At Their New Sci-Fi Horror Adaptation",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/leviathan-images-toho",
-      "category": "film",
-      "published": "2026-11-02T19:06:22.000Z",
-      "snippet": "Check out the first images from LEVIATHAN, the new sci-fi horror adaptation from the same studio that brought us GODZILLA.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "cc342d03c0fbd904cb1fdb034989d904759ad6cf",
-      "title": "‘Beware Boiúna’ Slithers Onto Blu-ray/DVD and Digital this December",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/news/596150/beware-boiuna-slithers-onto-blu-ray-dvd-this-december",
+      "id": "c5057a0f98ad5e3f43c55ceaccf61c2bad778898",
+      "title": "‘Beware Boiúna’ Comes to Digital This Week and Blu-ray in December",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/movie/3974274/beware-boiuna-home-video-release-streaming-blu-ray",
       "category": "discs",
-      "published": "2026-11-02T18:32:34.000Z",
-      "snippet": "She decides who lives and who dies. Soon, she’ll slither into your own home. Lionsgate has announced that Mike P.",
+      "published": "2026-11-02T17:39:27.000Z",
+      "snippet": "The trajectory of creature features in the realm of horror and sci-fi has seen a lot of ups and downs. Early in the history of cinema, movies would be schlocky or exploitative, due in large part to…",
       "matched": [],
       "classic": true,
       "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "491d47483907a3335b60a5edee1e8058cdc0fd49",
-      "title": "Exclusive ‘Spirit Tasting’ Poster Pours a Deadly New Year’s Toast",
-      "source": "Dread Central",
-      "url": "https://www.dreadcentral.com/exclusive/596119/spirit-tasting-exclusive-poster-roadshow",
-      "category": "gear",
-      "published": "2026-11-02T18:00:00.000Z",
-      "snippet": "Dread Central exclusively reveals the theatrical poster for Spirit Tasting, the New Year’s Eve horror/comedy from WNUF Halloween Special filmmaker",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "9b3ef50de606d162fc20bfb67fa9eb236cbb1db1",
-      "title": "DEEP PURPLE Cancels Remainder Of Fall 2026 European Tour On Advice Of IAN GILLAN's Medical Team",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/deep-purple-cancels-remainder-of-fall-2026-european-tour-on-advice-of-ian-gillans-medical-team",
-      "category": "metal",
-      "published": "2026-11-02T17:35:23.000Z",
-      "snippet": "Hard rock legends DEEP PURPLE have canceled the remainder of the European leg of their \"Splat!\" world tour as a result of a medical emergency involving PURPLE singer Ian Gillan. This past Saturday…",
-      "matched": [
-        "Deep Purple"
-      ],
-      "classic": true,
-      "why": "Deep Purple",
       "amazon_query": null
     },
     {
@@ -413,51 +541,6 @@
       "amazon_query": null
     },
     {
-      "id": "7e98391dce4ac1155d77ca9da6c76fd2a368c226",
-      "title": "STORM FORCE, SCAR CHAMBER, ILIUM, CRIMSON GLORY And More - BraveWords Records Bandcamp Reveals Top 10 Streams & Sales For October 2026",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWllxOHdOUXNfcXdPTnpsUE94U3FMU2sxdFhXeldNZE5IOWpYUXdBMEM2Nl9jcGJWVFhWbWs1Rm4zZ2JXb3YycTZVUVBqazVNckZyMDBMdzUwem1HSmk1N0hUTTdXVjgyY1ZCZTJiemJPOG9tWEk1dXcyNnFpZFczc1ZGaktIV2Q1THRBUGtKVmNaMU5WcG9tMnh4WUhCVnBCVUpRZ2xjcjJpTUVaYnR3U0x5OHN4Nko0b1hSVXpCWVhuZlhkUHIxZHIzZWhMWE1rNG9VZkdtRk9tWlNzZUE5dldaamc1TW5kaHJ5aQ?oc=5",
-      "category": "metal",
-      "published": "2026-11-02T15:30:13.000Z",
-      "snippet": "",
-      "matched": [
-        "Crimson Glory"
-      ],
-      "classic": true,
-      "why": "Crimson Glory",
-      "amazon_query": null
-    },
-    {
-      "id": "3d15b6b7d7556ddb7e212201972486924694130a",
-      "title": "DEEP PURPLE, ALICE COOPER And EUROPE Confirmed For One-Of-A-Kind Show In Poland",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTy1wNTV1VFp2cU9KRXJNTnEzb2lBU213R0NhYjFZMnBFZ3lITlJfd0NzWXl6RS1TRVFIeDZSa042VTFQZ1hlU0psZm1YbHRuZmhqZEowczV4cTh0ckJNOWpfX2RBbk9kNXhMYXQySDVUVG1yOGhpZW5yQUpGZGxmd0MyUE1xNFgxVk9NOVFOOWZwNjVUUFk3ZGIteXJiVWZEbWE2X2NCY09mbjg?oc=5",
-      "category": "metal",
-      "published": "2026-11-02T15:13:22.000Z",
-      "snippet": "",
-      "matched": [
-        "Deep Purple"
-      ],
-      "classic": true,
-      "why": "Deep Purple",
-      "amazon_query": null
-    },
-    {
-      "id": "f7ae83ee8ee44ee3185d6ad120d57fe03a125a4a",
-      "title": "Blu Review – Bakemono (Unearthed Films)",
-      "source": "Horror Society",
-      "url": "https://www.horrorsociety.com/2026/11/02/blu-review-bakemono-unearthed-films",
-      "category": "film",
-      "published": "2026-11-02T14:07:39.000Z",
-      "snippet": "Director – Doug Roos (Hunted, Betrayed) Starring – Takashi Irie (Dragon Black, Planet of Amoebas), Yukina Takase (Reapers, Legion), and Yurika Natsume Release Date – 2023 Rating – 2.5/5 Blu Release –…",
-      "matched": [
-        "Unearthed Films"
-      ],
-      "classic": true,
-      "why": "Unearthed Films",
-      "amazon_query": null
-    },
-    {
       "id": "73309f679645e60f09ed84213a9ad5eefb09d4dc",
       "title": "Bride of Re-Animator 4K Review: A Grotesquely Good Collector’s Edition",
       "source": "FandomWire",
@@ -470,51 +553,6 @@
       ],
       "classic": true,
       "why": "Re-Animator",
-      "amazon_query": null
-    },
-    {
-      "id": "6f47efa1d38ff997dc764bd9a00a5ad0fb12bffd",
-      "title": "1987 comedy “The Haunted Cop Shop” gets a 2K restoration with a small smattering of supplemental features via 88 Films.",
-      "source": "Elements of Madness",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50dF9hN1Nmc3FKNGZMbDRwVXl2MXo2WlN5OXhOaWJQVVZsazJCRUk1LTk2SWZMMi1kX2tCNjkwZUVjTWl3TDBoQjQ4c3RFbHVudngzQkNSb2ExRW9KX2c?oc=5",
-      "category": "discs",
-      "published": "2026-11-02T12:00:44.000Z",
-      "snippet": "",
-      "matched": [
-        "88 Films"
-      ],
-      "classic": true,
-      "why": "88 Films",
-      "amazon_query": null
-    },
-    {
-      "id": "ea9f194ab31ed74d7f866140fce4b569934d089e",
-      "title": "How a William Shatner Mask Became Michael Myers’ Face",
-      "source": "JoBlo",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVVzBVQ3ZKNFRCbUh2eEpPMVFIeURMOVhYeXh6c1l1TGpQOUJuNXZFVzVDQWFDcnBKTFdCeFRhVHFXU0lUTDgxcURVY0ZjSDZJRjUtZUx4UlcyYXdUUGY5X1g0V1JBQlMtMGZRZ3JlVdIBdEFVX3lxTFBLMHNoeWdDbGx0c0VUVVZpVUdWQUJlaUoyb1E4Uk9pbGY4bkFnMVpndzJmXzJwSURQZ1pXaDVwcG5Wc01iN29JNVE0dkYwMElVUW1kdmx2eXh3N3Q1SGVXNTI0QlV6TzYxWG90dTBNTC1LZ0F6?oc=5",
-      "category": "gear",
-      "published": "2026-11-02T07:05:53.000Z",
-      "snippet": "",
-      "matched": [
-        "Halloween (film series)"
-      ],
-      "classic": true,
-      "why": "Halloween (film series)",
-      "amazon_query": null
-    },
-    {
-      "id": "1713ba47e7d784ae129d24503dcc6542f390780b",
-      "title": "SHOCK WAVES Peter Cushing! John Carradine! Free online and YouTube",
-      "source": "movies & mania",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlFJUERsOHhoTk8yN0JQel8wZWZWNzRxNDFWUUY4RGloRFNwMDBjNHFrT2lzQldpOUNfX1pZTEZWNDZ5UndhS1dSQXk2anFWczZ2RHAxRmk1bE9ValFONEUwYTFuZE1NMWtmWGRaMlpIY2JkcjZqejVjZ1lYcVBoQTUxc0o1bTRKaUY3amVRS0JYTi1lVlhUUXlZLTg3dFVLOUhobXVZdWNFbFRuSkcxTlBhMWJqVkMwR1N5eDRtSQ?oc=5",
-      "category": "discs",
-      "published": "2026-11-02T01:17:33.000Z",
-      "snippet": "",
-      "matched": [
-        "Peter Cushing"
-      ],
-      "classic": true,
-      "why": "Peter Cushing",
       "amazon_query": null
     },
     {
@@ -531,56 +569,18 @@
       "classic": true,
       "why": "Vinegar Syndrome",
       "amazon_query": null
-    },
-    {
-      "id": "6f0998dcd96f01024ef34ea198b77d08f8fddec2",
-      "title": "DAVE LOMBARDO Reflects On SLAYER's 'Reign In Blood': 'The Reviews Weren't All Great At The Time'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/dave-lombardo-reflects-on-slayers-reign-in-blood-the-reviews-werent-all-great-at-the-time",
-      "category": "metal",
-      "published": "2026-11-01T16:41:53.000Z",
-      "snippet": "In a new interview with Ed Hack of This Day In Metal, former SLAYER drummer Dave Lombardo spoke about the 40th anniversary of the band's classic third album, \"Reign In Blood\". Asked when he and his…",
-      "matched": [
-        "Slayer"
-      ],
-      "classic": true,
-      "why": "Slayer",
-      "amazon_query": null
-    },
-    {
-      "id": "9278e2f0222d71e649d5f2b3e2aa1a7a714d19e9",
-      "title": "Watch: QUEENSRŸCHE's TODD LA TORRE Sings IRON MAIDEN's 'Powerslave' At His Home Studio",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/watch-queensryches-todd-la-torre-sings-iron-maidens-powerslave-at-his-home-studio",
-      "category": "metal",
-      "published": "2026-11-01T11:56:14.000Z",
-      "snippet": "QUEENSRŸCHE singer Todd La Torre has shared a video of him singing the classic IRON MAIDEN song \"Powerslave\" at his home studio as a warm-up for the demo recording sessions for more QUEENSRŸCHE demo…",
-      "matched": [
-        "Queensrÿche"
-      ],
-      "classic": true,
-      "why": "Queensrÿche",
-      "amazon_query": null
-    },
-    {
-      "id": "e6d1f92e2d01b5812d4243db574cfd19eb24ca9b",
-      "title": "Swamp Thing Collection 4K Blu-ray",
-      "source": "Blu-ray.com",
-      "url": "https://www.blu-ray.com/news/?id=39265",
-      "category": "discs",
-      "published": "2026-11-01T02:12:46.000Z",
-      "snippet": "Australian label Via Vision Entertainment has informed us that it will release on 4K Blu-ray Swamp Thing Collection (1982-1991). The release is scheduled to arrive on the market on January 20…",
-      "matched": [
-        "Swamp Thing"
-      ],
-      "classic": true,
-      "why": "Swamp Thing",
-      "amazon_query": null
     }
   ],
   "desk": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "takes": [
+      {
+        "h": "Ramsey Campbell&rsquo;s <em>Ancestral</em> listed for November 17 from Flame Tree Press",
+        "p": "Ramsey Campbell&rsquo;s novel <em>Ancestral</em> is listed for November 17, 2026, from Flame Tree Press, in hardback and ebook, at 256 pages. In the book&rsquo;s description, a boy whose parents come from two long-feuding families spends a holiday visiting places both families seem to remember but have never been.",
+        "src": "Bookshop.org",
+        "url": "https://uk.bookshop.org/p/books/ancestral-ramsey-campbell/64340f280a8166c0",
+        "date": "2026-11-04"
+      },
       {
         "h": "Sideshow announces a sixth-scale Regan MacNeil from <em>The Exorcist</em>",
         "p": "Sideshow Collectibles opened pre-orders in October for a 1/6-scale Regan MacNeil figure, with release listed for May to August 2027, The Toyark reports. It comes with a fabric nightgown, three pairs of hands and a floating Pazuzu head on a stand. A Deluxe Edition adds two portraits, a four-post bed base and a levitation rod.",
@@ -622,13 +622,6 @@
         "src": "Science Museum Group",
         "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8066758/ashton-leakey-collection",
         "date": "2026-10-29"
-      },
-      {
-        "h": "<em>Smile</em> and <em>A Quiet Place</em> join the Hellbreak card game",
-        "p": "Monsters from <em>Smile</em>, <em>Sleepy Hollow</em> and <em>A Quiet Place</em> are joining Spin Master's Hellbreak trading card game, Rue Morgue reports. The game was built with Universal; its first reveals were Count Dracula, the Bride of Frankenstein and the shark from <em>Jaws</em>.",
-        "src": "Rue Morgue",
-        "url": "https://rue-morgue.com/paramounts-horror-icons-join-hellbreak-trading-card-game",
-        "date": "2026-10-28"
       }
     ]
   }
