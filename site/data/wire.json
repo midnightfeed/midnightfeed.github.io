@@ -1,59 +1,249 @@
 {
-  "built_at": "2026-11-22T13:11:26.050Z",
-  "built_for": "2026-11-22",
+  "built_at": "2026-11-23T15:48:39.123Z",
+  "built_for": "2026-11-23",
   "lead": {
-    "id": "acf41b104232924abe36b7b7797feadf8173f0f0",
-    "title": "ARNOLD VOSLOO CONFIRMS RETURN IN “THE MUMMY: BOOK OF THE DEAD”",
-    "source": "Scream Horror Magazine",
-    "url": "https://www.screamhorrormag.com/arnold-vosloo-confirms-return-in-the-mummy-book-of-the-dead",
-    "category": "film",
-    "published": "2026-11-22T06:32:07.000Z",
-    "snippet": "The Mummy: Book of the Dead is currently filming in London. Despite being before the cameras, information continues to emerge regarding the movie. Fans were already excited given the impressive…",
+    "id": "2c90bf40de5649afa5f3f6bb339e23ffa3e21adf",
+    "title": "Mondo Candido 4K Blu-ray",
+    "source": "Blu-ray.com",
+    "url": "https://www.blu-ray.com/news/?id=39368",
+    "category": "discs",
+    "published": "2026-11-22T02:22:26.000Z",
+    "snippet": "Severin Films is preparing a 4K Blu-ray/Blu-ray combo pack of Gualtiero Jacopetti and Francesco Prosperi's Mondo Candido (1975), starring Christopher Brown, Michele Miller, Jacques Herlin, José…",
     "matched": [
-      "The Mummy"
+      "Mondo"
     ],
-    "classic": false,
-    "why": "The Mummy",
+    "classic": true,
+    "why": "Mondo",
     "amazon_query": null,
-    "lead_rule": "franchise: Universal Monsters (top tier)",
-    "image": "https://www.screamhorrormag.com/wp-content/uploads/2026/11/The-Mummy-Book-of-the-Dead-banner-e1794655481910.jpg"
+    "lead_rule": "fallback: no story met a front-page rule",
+    "image": "https://images.static-bluray.com/movies/covers/425478_front.jpg"
   },
   "items": [
     {
-      "id": "d08e4adb662cd5bc6032e7bf3933c0c1c896b467",
-      "title": "The Possessors",
-      "source": "Paperback Warrior",
-      "url": "https://www.paperbackwarrior.com/2026/11/the-possessors.html",
-      "category": "books",
-      "published": "2026-11-22T12:44:05.782Z",
-      "snippet": "British author Sam Youd (1922-2012) used names like William Godfrey, William Vine, Peter Graaf, Hilary Ford, and Stanley Winchester to author science-fiction , fantasy , and young-adult novels. Of…",
+      "id": "20ccbb90f62440d2fd7aea1307f06f5a8d9eae77",
+      "title": "‘The Holy Boy’ Exclusive Clip Introduces a Teen Who Erases Pain at a Terrifying Cost",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/exclusives/3976450/the-holy-boy-exclusive-clip-introduces-a-teen-who-erases-pain-at-a-terrifying-cost",
+      "category": "film",
+      "published": "2026-11-23T15:00:38.000Z",
+      "snippet": "There’s something strange about the teen at the center of the horror fable The Holy Boy, and it’s driving the locals mad in an exclusive new clip ahead of the film’s release this week. The Holy Boy…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "ff96038f591aa345202e354971938d5f6bad01c1",
+      "title": "Robert Eggers Wants a Horror Break After ‘Werwulf’; Isn’t Ruling Out More Monsters In the Future",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/news/598500/robert-eggers-horror-break-werwulf",
+      "category": "film",
+      "published": "2026-11-23T14:46:23.000Z",
+      "snippet": "Robert Eggers wants a break from horror after Werwulf. But before anyone starts mourning the end of his historical horror",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "de75002dacc7fbb7fe61e6974af750fc4df1cef6",
+      "title": "OZZY OSBOURNE Estate And ST. LOUIS BLUES Team Up For Special Tribute Night",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/ozzy-osbourne-estate-and-st-louis-blues-team-up-for-special-tribute-night",
+      "category": "metal",
+      "published": "2026-11-23T14:45:24.000Z",
+      "snippet": "The St. Louis Blues and Global Merchandising Services, worldwide licensing representative for Ozzy Osbourne, will celebrate the legendary rock icon with a special Ozzy Osbourne tribute night on…",
+      "matched": [
+        "Ozzy Osbourne"
+      ],
+      "classic": true,
+      "why": "Ozzy Osbourne",
+      "amazon_query": null
+    },
+    {
+      "id": "d28b631e3a8e78dce98718aad5588456536cfb9c",
+      "title": "Night of the Creeps Star Jason Lively Quit Auditioning After a Callback Cost Him a Ski Trip, and Now He’s a Pro Skier",
+      "source": "Creepy Catalog",
+      "url": "https://creepycatalog.com/night-of-the-creeps-star-jason-lively-quit-auditioning-after-a-callback-cost-him-a-ski-trip-and-now-hes-a-pro-skier",
+      "category": "film",
+      "published": "2026-11-23T14:37:38.000Z",
+      "snippet": "Jason Lively gave up auditions after a callback cost him a ski trip and he still didn’t get the part. The Night of the Creeps actor, now 58 and Blake Lively’s half-brother, has built a life around…",
+      "matched": [
+        "Friday the 13th"
+      ],
+      "classic": false,
+      "why": "Friday the 13th",
+      "amazon_query": null
+    },
+    {
+      "id": "4e56f9ca3677a318d55854d9b2b13d00e41968e5",
+      "title": "‘Yaga’ Renewed For Season Two With Carrie-Anne Moss Returning",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/tv/3976561/yaga-renewed-for-season-two-with-carrie-anne-moss-returning",
+      "category": "film",
+      "published": "2026-11-23T14:32:55.000Z",
+      "snippet": "Canadian streaming service Crave gave the greenlight for season two on witchy mystery series Yaga, just ahead of its season one finale this week. What’s more, we now know of one key returning player…",
+      "matched": [
+        "Carrie"
+      ],
+      "classic": false,
+      "why": "Carrie",
+      "amazon_query": null
+    },
+    {
+      "id": "619f082624d751b9b58377f430e428f03618aff8",
+      "title": "‘Jaws’ Could Return to the Big Screen Through Making-of Drama ‘The Shark Is Broken’",
+      "source": "Dread Central",
+      "url": "https://www.dreadcentral.com/news/598491/the-shark-is-broken-jaws-movie-rumor",
+      "category": "film",
+      "published": "2026-11-23T14:30:19.000Z",
+      "snippet": "The chaos behind Jaws could be heading to the big screen. According to a recent Patreon post from Daniel Richtman,",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "987e93a72227b733d4d0b08b7e610db94a68512e",
+      "title": "Major Content Update for ‘1666: Amsterdam’ Coming Next Month [Trailer]",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/video-games/3976549/major-content-update-for-1666-amsterdam-coming-next-month-trailer",
+      "category": "film",
+      "published": "2026-11-23T14:23:54.000Z",
+      "snippet": "Panache Digital Games got in on the festivities at The Horror Game Awards, releasing a new trailer for 1666: Amsterdam, and announcing that the first major content update for the game would be…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "f3ff2b384fb7b7c4a475e6ab7c1e749088137395",
+      "title": "Audrey Hepburn Delights in Genre Mash-Up ‘Charade’ [Horror Queers Podcast]",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/podcast-news/3976296/audrey-hepburn-delights-in-genre-mash-up-charade-horror-queers-podcast",
+      "category": "film",
+      "published": "2026-11-23T14:00:34.000Z",
+      "snippet": "After spending the night in Hull House with Night of the Demons 2 (listen), getting hooked on Zydrate with Repo! The Genetic Opera (listen), and tackling Paul Verhoeven’s controversial Elle (listen)…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "4f64d7edbcbf757b4e0c9e7d9c0c2a540504a2d6",
+      "title": "Monsters Unchained: The Frankenstein Experiment at Epic Universe Closing for Refurbishment",
+      "source": "WDW News Today",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTJXelI3LW9oVFc0cWpSSG1SeW1lMnl0NzRoLTRSZXNyeHg5TDVaaDJVaHdleU5NaXVxbDk3WEJJeUdEdzVFQ0FDQzhHZGx2SE9FVFNaZGdWWS1RTlNKV3E0LXozUzYwYVBtUnlhNmtwQ0VWUE14SnhqLVhLYnRsMHZQc203aUZLbVRhZVUtb1FxeGJsMVpVbE8yUmI2NmxTRkV3UWpiZWlKSXpYS3lrQTY3ckZxVEE?oc=5",
+      "category": "film",
+      "published": "2026-11-23T13:55:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Frankenstein"
+      ],
+      "classic": false,
+      "why": "Frankenstein",
+      "amazon_query": null
+    },
+    {
+      "id": "a047bf23a2f4ffaca9fc740a2ec70af07a008209",
+      "title": "Hammer Gothic Nightmares: five gothic classics in 4K UHD and Blu-ray",
+      "source": "Foro3D",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX1h5QWFidHIwM1kzUHczV2FOcjRBYThBMWdpcUFPTVpTSlg4LVlKbF9KeDY0UHl2SFdrMC1XSG1OWE9vUmwzQldidnVWdFc2TUxhUHdWZHc0OGtGTzRNT3ZRZjVvZkpRWjZ6djhuTEFoSlNCLTk4TUlqVnZNZUNtY3gyR2tTM3FtamxXYUUtMXRvUkRhSmNxd3k0WkdyTFczWjRBWFNqSWtXU1pyZWc?oc=5",
+      "category": "discs",
+      "published": "2026-11-23T13:51:32.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "f1d2047fc626341285f4bc2a757af8505a965645",
+      "title": "Unwrap Dracula: Hammer’s Horror Christmas picks",
+      "source": "Bloody Flicks",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3hNZmIzN2FBZEJlUWxkbTBtZktfcjVUVjVnR29sTy1tUEllUFBqaXBJN3NmcXF4dktZS3VpRkNhNTd2UXFRa2FBV1lpQWtrREZQeXQ2WXBZVVJFb1pIOXpmakRncVR1STB4bnhMLXM2VDAwdi1tMmVLWHhjOG05U3pxM3Y3aVluUUxscGtn?oc=5",
+      "category": "film",
+      "published": "2026-11-23T13:34:04.000Z",
+      "snippet": "",
+      "matched": [
+        "Dracula"
+      ],
+      "classic": false,
+      "why": "Dracula",
+      "amazon_query": null
+    },
+    {
+      "id": "a1ee6686f9c0470ffc3d49fd6e7280e9253ccb48",
+      "title": "Serafini Productions Drops Six Trailers During The Horror Game Awards [Watch]",
+      "source": "Bloody Disgusting",
+      "url": "https://bloody-disgusting.com/video-games/3976543/serafini-productions-drops-six-trailers-during-the-horror-game-awards-watch",
+      "category": "film",
+      "published": "2026-11-23T12:30:36.000Z",
+      "snippet": "Serafini Productions was busy during The Horror Game Awards, releasing a sextet of trailers and giving fans an update on previously-announced titles in the BrokenLore series, as well as the the…",
+      "matched": [],
+      "classic": false,
+      "why": "horror outlet",
+      "amazon_query": null
+    },
+    {
+      "id": "80be47a28cfa53432e0becb4b8b4d183741b38b5",
+      "title": "Larry Fessenden’s “Trauma or, Monsters All” is a sublime meditation on systemic oppression and the monsters we create.",
+      "source": "Elements of Madness",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OalV1SVFpXzR1UHRiRGVyWGxQRVhJWnNmdTVrYjFLNk53bnpBWld5UUZYQXUteFlLWUxEMkNrTmRuM1ZEblYyVG9jR0UwMzJwdVRHLVF1X0w0QQ?oc=5",
+      "category": "film",
+      "published": "2026-11-23T12:00:13.000Z",
+      "snippet": "",
       "matched": [],
       "classic": false,
       "why": "horror subject",
       "amazon_query": null
     },
     {
-      "id": "dc643610c10c9e11545de80309165f96956f67cb",
-      "title": "Watch: Ex-ACCEPT Singer DAVID REECE Performs With The Band For The First Time In 37 Years",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/watch-ex-accept-singer-david-reece-performs-with-the-band-for-the-first-time-in-37-years",
-      "category": "metal",
-      "published": "2026-11-22T12:43:06.000Z",
-      "snippet": "David Reece, the American vocalist who fronted ACCEPT in the late '80s, reunited with the band on stage last night (Saturday, November 21) at Turbinenhalle in Oberhausen, Germany to perform two songs…",
-      "matched": [
-        "Accept"
-      ],
-      "classic": true,
-      "why": "Accept",
+      "id": "0b672da1164d1d84edc8e3b5cd65c3c0f8b71236",
+      "title": "Lovecraft returns to comics with five routes to madness at Lucca Comics 2026",
+      "source": "Foro3D",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeHl6SnZ1bUgyMXR5RlV3YnhMbl9RVGRqeGYxOUZINVlPdHBmaXQwSkZsancxeFhLRjVrd2hrZ19UM0J3bjF6My1GTVZiLWdHS19xUUw0U1BPT3NCVFlzS0t6eXNaVFVVZi0xcFRRcHpmOXk1Y1RGN1RDTGc5S1ExWTNaWno5eGdiV2lqVXp2WE9yNVRVcDEzMl81a0FlMFBnTGFWczA3WGRmbmJjeVdXNFZ3?oc=5",
+      "category": "books",
+      "published": "2026-11-23T11:22:50.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
       "amazon_query": null
     },
     {
-      "id": "1d1ec65ac26716bc47c7310c73c83289c288cdd0",
-      "title": "Stephen King Thought Haven's Original Pilot Script Was Too Loyal To His Book",
-      "source": "TVLine",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUEpQUndVcW1udEZGaGFNYkw3N2RYSENuMC1vMDRRZFNBY0ZfRFA2Q2lvdGpMVncxWlZEUHZkcy1PN0hLOGpRc0tzcVhBZEcwdXR2NFVuM1VINHJROG41aklEaVJ0V3hrZEJKempCVlp6NHFUNFBCVmo3aV8zSEFlQjVDMHJpTE1ydEtjUTJIdXRBSWc?oc=5",
+      "id": "104252fdceb741ff4358298d00d69db20889f2f9",
+      "title": "What on earth is the big scary monster sound at the start of Pet Shop Boys’ 1987 classic ‘Always on My Mind’?",
+      "source": "Far Out Magazine",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQnBxSmVXQW1nVzZveTFGelhxZ0YteHRYb1duMXh4bE5GZnhidm90UWJqYW5oa0N2Q0hLTXNIb2g5eGprUWZENXEyc01JOVJFMGhkM2VWWUhETnlDamRnTjF5M2VYOUNYQUdoUHptTXJyb0JOUlkyeTF2RUp6RWtRRFNNQzMyOVFBYmk1VGQ3VQ?oc=5",
+      "category": "film",
+      "published": "2026-11-23T11:00:00.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "50390e6f9461466cb37e059fca66594b047a4a6f",
+      "title": "TRAVELS WITH BART: The Road to THE SIMPSONS’ THANKSGIVING OF HORROR",
+      "source": "13th Dimension",
+      "url": "https://13thdimension.com/travels-with-bart-the-road-to-the-simpsons-thanksgiving-of-horror",
+      "category": "comics",
+      "published": "2026-11-23T05:04:39.000Z",
+      "snippet": "MORRISON MONDAYS! By BILL MORRISON There are times when illustration jobs with tight deadlines require artists to juggle travel plans with getting the job done. I’ve spent plenty of late nights…",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "111cc3f098569246dd0f4cbc97d84b71f770bf17",
+      "title": "Book Review: \"Insomnia\" by Stephen King",
+      "source": "Vocal",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sM0dQSks4NFlUMmh6eXdSVUt5T09OVDZaU05tV09tdU1FOFBUdlNnYVp3ajVKbUVZMDlSODhXT0lYX09TY3hmVXg2bGFhWlZsZ1RBTjd1UHJId2RZRUw2U3F4N3J3cjQwM1g4OXJjRQ?oc=5",
       "category": "books",
-      "published": "2026-11-22T12:12:00.000Z",
+      "published": "2026-11-23T04:30:24.000Z",
       "snippet": "",
       "matched": [
         "Stephen King"
@@ -63,13 +253,174 @@
       "amazon_query": null
     },
     {
-      "id": "350f30414c6936eaf171ad03c831f83bdc9ed349",
-      "title": "Psychological horror film “Henry’s Ebb” artfully explores a teenager’s creation of and dynamics with an imaginary friend. [Curcalorus Film Festival]",
-      "source": "Elements of Madness",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yVVV1YThkMnFlaXFWTTJ0dXpiTVVfTGM0TlRXSUNZbGZPeFR3VUZvZkxPSklmRjNEWjFSM2FnYk4yRWpGM2tmVnRFSE41Qm1Xckx0WDJDNkRKUjlvcXMtTlhn?oc=5",
+      "id": "2a9b537daeedf7babbd3221e1b51f8a297d4d460",
+      "title": "Backrooms UHD Review",
+      "source": "Home Theater Forum",
+      "url": "https://www.hometheaterforum.com/backrooms-uhd-review",
       "category": "discs",
-      "published": "2026-11-22T12:00:57.000Z",
+      "published": "2026-11-23T02:45:40.000Z",
+      "snippet": "Backrooms is a breath of fresh, peculiar horror air in 2026. An unusual, insistent piece of cinematic creativity. Like all films, it won’t be everyone’s cup of tea, but how wonderful that so many who…",
+      "matched": [],
+      "classic": true,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "816ec1adf7add82bff2bb70477861c16dae55d9d",
+      "title": "Watch Geezer Butler, Lzzy Hale and more play Black Sabbath's Neon Knights",
+      "source": "Louder",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNTI0ejVRT1BNWTNkb0FxenVMbU00Mmg4UjJjUE9zcU1NVUMwN3d4TGdvQjdZMlhWX25fdVZhVlpJMExoYWp2Z2UtazltOWxGX3lIRHpEN3RPb2FicmFMbEgzSTQ5M0dWQUtXT1BPenhHR3dSVVNPbExuUHFsV3hLbU1WUjJxV2JzeGNj?oc=5",
+      "category": "metal",
+      "published": "2026-11-22T22:05:42.000Z",
       "snippet": "",
+      "matched": [
+        "Black Sabbath"
+      ],
+      "classic": true,
+      "why": "Black Sabbath",
+      "amazon_query": null
+    },
+    {
+      "id": "9f5616874ee57b5b65486b5ee9ce34568ebf4128",
+      "title": "‘Bride of Re-Animator’ 4K UHD Blu-ray Giveaway",
+      "source": "Slant Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTVpwOG9zZFFUazB3RTJEWFlvM1JRaC1jUUM2RmdKR1F6VW5zd25CSElVc2Q2RjdRQUdRRGcwNUltVXpkV0ZrOWFDMkRoUjRWMlJqbUtOcUFNY3ZjTGRWVnloUnpnMm54S3RkZ0hUVkMyVHV3a2hlbVhydXMxOXhoUHNB?oc=5",
+      "category": "discs",
+      "published": "2026-11-22T22:01:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Re-Animator"
+      ],
+      "classic": true,
+      "why": "Re-Animator",
+      "amazon_query": null
+    },
+    {
+      "id": "3e6009d1ba161d54eb7d7056ea09248499088c39",
+      "title": "\"The Wizard of Oz is our boss.\" Metallica rehearse into the early hours for Sphere residency to avoid the wrath of the Wicked Witch",
+      "source": "Louder",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQNHhQekd4T3lldXNGOUhpdjIyTW1TaXp0emFfUG9hMk02cUdQNm53S18tNHJicU1NajE3OVR3MmJLR2pfLXRkZkl0OXhWa2xfTThhbzZNcHRyZDlwWkFQdWozRXVIdUpxQ3ZCS1FOdDI5RUFDb05nMFZWYnZWQTUxOFlUQ25lYzJJTE12ZGIzXzJTSTRUZEFaOThaTnNVcWJjdFdReWMtLVdCUE05MXo4ZWdEak1vUlh4U21mRTYzelllak9Nc2J0UUJCSkNLSTJTS1ZpOHQ0X253YkNSNEV5UEJrYnh6TGdTWG5JMmVyUW5PdWR5QlhIaDZrUXZ2eTQ?oc=5",
+      "category": "metal",
+      "published": "2026-11-22T22:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Metallica"
+      ],
+      "classic": false,
+      "why": "Metallica",
+      "amazon_query": null
+    },
+    {
+      "id": "af2a18e81ffa043e4586b2dc65ff09da63388919",
+      "title": "GEOFF TATE Looks Back On QUEENSRŸCHE's 'Rage For Order' Album: 'We Were Really Trying To Push The Boundaries Of What We Had Done Before'",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/geoff-tate-looks-back-on-queensryches-rage-for-order-album-we-were-really-trying-to-push-the-boundaries-of-what-we-had-done-before",
+      "category": "metal",
+      "published": "2026-11-22T21:31:20.000Z",
+      "snippet": "In a new interview with Gustavo Maiato of Brazil's Whiplash.net, Geoff Tate reflected on the making of QUEENSRŸCHE's \"Rage For Order\" album, which is celebrating its 40th anniversary in 2026. The…",
+      "matched": [
+        "Queensrÿche"
+      ],
+      "classic": true,
+      "why": "Queensrÿche",
+      "amazon_query": null
+    },
+    {
+      "id": "dc643610c10c9e11545de80309165f96956f67cb",
+      "title": "Watch: Ex-ACCEPT Singer DAVID REECE Performs With The Band For The First Time In 37 Years",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/watch-ex-accept-singer-david-reece-performs-with-the-band-for-the-first-time-in-37-years",
+      "category": "metal",
+      "published": "2026-11-22T20:54:55.000Z",
+      "snippet": "David Reece, the American vocalist who fronted ACCEPT in the late '80s, reunited with the band on stage last night (Saturday, November 21) at Turbinenhalle in Oberhausen, Germany to perform two songs…",
+      "matched": [
+        "Accept"
+      ],
+      "classic": true,
+      "why": "Accept",
+      "amazon_query": null
+    },
+    {
+      "id": "0c743affb4d4024440d020b8fbb7ca262a0a2d0e",
+      "title": "Listen to Ethel Cain’s Haunting New Song ‘Wynter Waxeth’ From Robert Eggers’ WERWULF",
+      "source": "GeekTyrant",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdk9hdUk2VlN6NGJoZF9uUUhsaGdqblFkT3JRZ25YZmRNX3QteXFOeGlLNFBwTmtXZEdDUFhacUZ3YlNDekhuMFlGelNQVHIzTTdIaXgyaVJNTFM0cXgwaWJmbW43Ulc3cG0yX0VMSU16YTBFaDZxWTJSVmtFOXYwejRnQXR4a2pQWHdyM3QzTEhLZlNWZ2pHajM1Q1hGTV9KZzBGNC1TVVphaXRE?oc=5",
+      "category": "discs",
+      "published": "2026-11-22T20:25:00.000Z",
+      "snippet": "",
+      "matched": [],
+      "classic": false,
+      "why": "horror subject",
+      "amazon_query": null
+    },
+    {
+      "id": "9cb2e8c520a7c02e7d49b773660d9ef63eedfa23",
+      "title": "Norwegian Horror Film 'The Ugly Stepsister' Among Severin Titles Available on Disc Nov. 24 From MVD",
+      "source": "Media Play News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLTB4Y3AwU3hSUzEyZU9NQnMwb2ZQaHdpa21pUHdESkVpWnVSY0Y0aU9PTGlRX2xRRkkwX1hqbkV5WThvOU9kcTJGZ1o2VWY2OXZHeEV4MjFuX0lvU18xd29zenVNVWlEWnZCbHc1Q0cxVVoydE5STm1pR3VFd1RNaksxdTBiOVZJaWs4Vi0tcl9oN3lvaFo5Q1ltYk1Sd0lTOHdQT0Fwdk5xdDB6SWVZRUtqNURpaHNEdGpvNTVHUTlOR3FZMVE?oc=5",
+      "category": "discs",
+      "published": "2026-11-22T19:15:33.000Z",
+      "snippet": "",
+      "matched": [
+        "Severin Films"
+      ],
+      "classic": true,
+      "why": "Severin Films",
+      "amazon_query": null
+    },
+    {
+      "id": "ccf7a601fe3b8926e63083e5dd1d63520b5c7ecf",
+      "title": "Japanese Ghost Stories Folio Society Edition Book Review",
+      "source": "Anime News Network",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdU1ubVQ3cV9DWUhUR2pSWW5KMEpua2NTTzdBMy1Bdlo5SDMtMnpiWkpVV3BaNnFOODJONTB2emNxeTR0dTFZWXBEUjVick1MZXpSNUEzTl81bUs2eU5LYzZxMHhoUTBtZkxrQTdzcjZFVUJtSThYeEk2U0szZkJzMkc0TFM0WmlCeTlXckVmS280Vm5yS0RmNHRmZTRxZw?oc=5",
+      "category": "books",
+      "published": "2026-11-22T17:00:00.000Z",
+      "snippet": "",
+      "matched": [
+        "Folio Society"
+      ],
+      "classic": true,
+      "why": "Folio Society",
+      "amazon_query": null
+    },
+    {
+      "id": "c8956a03c9a5f5313578e01e991591e164e718cb",
+      "title": "PHENOMENA Dario Argento! Donald Pleasence! Jennifer Connelly! Free online and YouTube",
+      "source": "movies & mania",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVi1FbjVuMG5OQk1fYTR0V0lMT2llOTdseHZ2bkNUZGk0ZWVLT2JibVFFNzY5dElwMmRvM3RLMkFEZFRSRUFwQXB3UkN2d29Xa1dnWU5GUEZjWnpzeHZzbTJFVDhUemNqZXBJSEpiT3lyLUFzSDh6WVlGaGpYRHZyMXI5S1dqbzRQbk9HUFlocGZGNDd1WkdoTm9sWDllTG4zTnRuQzJGLVZIckw4WlRsb3ZXQWg1N0ctOWQ0SzlB?oc=5",
+      "category": "discs",
+      "published": "2026-11-22T15:06:32.000Z",
+      "snippet": "",
+      "matched": [
+        "Dario Argento"
+      ],
+      "classic": true,
+      "why": "Dario Argento",
+      "amazon_query": null
+    },
+    {
+      "id": "8dc043064f56ee45cd2a9ce0a6378ccdec1babea",
+      "title": "Watch: MIKKEY DEE Performs MOTÖRHEAD Classics In Hamar, Norway",
+      "source": "Blabbermouth",
+      "url": "https://blabbermouth.net/news/watch-mikkey-dee-performs-motorhead-classics-in-hamar-norway",
+      "category": "metal",
+      "published": "2026-11-22T14:32:50.000Z",
+      "snippet": "Fan-filmed video of former MOTÖRHEAD drummer Mikkey Dee performing some of the band's classic songs with THE DRIPPERS members Viktor Skatt on bass and vocals, and Stig William Rickard on guitar on…",
+      "matched": [
+        "Motörhead"
+      ],
+      "classic": true,
+      "why": "Motörhead",
+      "amazon_query": null
+    },
+    {
+      "id": "d08e4adb662cd5bc6032e7bf3933c0c1c896b467",
+      "title": "The Possessors",
+      "source": "Paperback Warrior",
+      "url": "https://www.paperbackwarrior.com/2026/11/the-possessors.html",
+      "category": "books",
+      "published": "2026-11-22T12:44:05.782Z",
+      "snippet": "British author Sam Youd (1922-2012) used names like William Godfrey, William Vine, Peter Graaf, Hilary Ford, and Stanley Winchester to author science-fiction , fantasy , and young-adult novels. Of…",
       "matched": [],
       "classic": false,
       "why": "horror subject",
@@ -89,104 +440,6 @@
       "amazon_query": null
     },
     {
-      "id": "da185ec1ff700a0846c7cae575e1adcbff949393",
-      "title": "Watch LZZY HALE, GEEZER BUTLER, STEVE STEVENS, NUNO BETTENCOURT And MATT SORUM Perform BLACK SABBATH'S \"Neon Knights\" Live At The Sound & Vision Awards",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQRFBEeTJmVDU2c0JXcXVVa2hRS2ZXZ3RzLURGX0hPTWZSVzBqUFhDVV9LYk82SWNNT255anpNMUc2bkI3bEJLSDhQWlFPZldqUG43NURoa2dBdy01Q3ktaXVtU3ZwQW5DaTJoNGNJVWFZV01Obk1hdnpLaUtna3paNnlzc1c1bXA3WDRkRmtoTXJNN0ZNTTNzZ1E0aWplUmZUaHkzS2dNV0dNMlptQWk5cDB4SVlPMmQ2REhtTkVmcWxiN2hVWXpTYUxqZkJjY1BQcmg2SGVnNWJHOW9LbWZoamhVTXo3RW1Rb0R0SlhHWk9EaXNvR19LNFpvbExhSkE5eHc?oc=5",
-      "category": "metal",
-      "published": "2026-11-22T10:00:06.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
-      "amazon_query": null
-    },
-    {
-      "id": "269a37e345988375c7bd9a9af2e7268f662efeb2",
-      "title": "A Fan Joke Casts the Body’s Four Leads in Pretty Little Liars, Yellowjackets, Glee and Bottoms",
-      "source": "Creepy Catalog",
-      "url": "https://creepycatalog.com/a-fan-joke-casts-the-bodys-four-leads-in-pretty-little-liars-yellowjackets-glee-and-bottoms",
-      "category": "film",
-      "published": "2026-11-22T09:33:29.000Z",
-      "snippet": "A viral post about Netflix’s “The Body” has settled on the funniest way to describe its four leads: each one is acting like she’s on a completely different show. On November 16, X user…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "e1063fd4145db809dc00437b07903d08b0eea62e",
-      "title": "The Forest Service’s Bigfoot Files Include a Biologist’s Skeptical 1982 Footprint Report",
-      "source": "Creepy Catalog",
-      "url": "https://creepycatalog.com/the-forest-services-bigfoot-files-include-a-biologists-skeptical-1982-footprint-report",
-      "category": "film",
-      "published": "2026-11-22T08:03:29.000Z",
-      "snippet": "The U.S. Forest Service has released 3 files titled “Bigfoot/Sasquatch Records” under the Trump administration. Among them is a biologist’s account of investigating unusually large footprints in…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "29becda9287d13053adbf4c161d970311843d0de",
-      "title": "In Ghost, Sam Hears His Friend Lie to His Girlfriend",
-      "source": "Creepy Catalog",
-      "url": "https://creepycatalog.com/in-ghost-sam-hears-his-friend-lie-to-his-girlfriend",
-      "category": "film",
-      "published": "2026-11-22T06:33:29.000Z",
-      "snippet": "In Ghost (1990), Sam Wheat dies, then has to listen as the friend behind his death deceives Molly, the girlfriend he’s left behind. Patrick Swayze plays Sam, who can hear what’s happening around him…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "acf41b104232924abe36b7b7797feadf8173f0f0",
-      "title": "ARNOLD VOSLOO CONFIRMS RETURN IN “THE MUMMY: BOOK OF THE DEAD”",
-      "source": "Scream Horror Magazine",
-      "url": "https://www.screamhorrormag.com/arnold-vosloo-confirms-return-in-the-mummy-book-of-the-dead",
-      "category": "film",
-      "published": "2026-11-22T06:32:07.000Z",
-      "snippet": "The Mummy: Book of the Dead is currently filming in London. Despite being before the cameras, information continues to emerge regarding the movie. Fans were already excited given the impressive…",
-      "matched": [
-        "The Mummy"
-      ],
-      "classic": false,
-      "why": "The Mummy",
-      "amazon_query": null
-    },
-    {
-      "id": "90f8ae48b317264df7fbe934a5309dff50228dd1",
-      "title": "Luca Guadagnino Says His American Psycho Adaptation Is Not Happening for Him Right Now",
-      "source": "Creepy Catalog",
-      "url": "https://creepycatalog.com/luca-guadagnino-says-his-american-psycho-adaptation-is-not-happening-for-him-right-now",
-      "category": "film",
-      "published": "2026-11-22T05:03:29.000Z",
-      "snippet": "Luca Guadagnino says his planned adaptation of Bret Easton Ellis’ American Psycho has stalled, even with a completed screenplay by Scott Z. Burns. “Scott Z. Burns wrote a fantastic script…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "b038f5709e904fdc165084f571a75c3ea20d0e81",
-      "title": "Review of Clive Barker's Hellraiser: Revival",
-      "source": "Giant Bomb",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUXdyMTFEZGJXZEZoWEdZUHhMV2RGUENBaWVZb0lkNkc5SzVGeHFvcGxXWWtKSG16aGsxSTdUOGVMV0QyMU1ZdFpObUtsQjQ3VWd2TTV1YUEteXVyX3QwTXVWMWs2aTdMRm43VElBSXpHNUZBOXZlckJmYTZxazI4U2lDcllfR1NSTHVSa1RBRk8?oc=5",
-      "category": "books",
-      "published": "2026-11-22T02:44:59.000Z",
-      "snippet": "",
-      "matched": [
-        "Clive Barker",
-        "Hellraiser"
-      ],
-      "classic": false,
-      "why": "Clive Barker, Hellraiser",
-      "amazon_query": null
-    },
-    {
       "id": "2c90bf40de5649afa5f3f6bb339e23ffa3e21adf",
       "title": "Mondo Candido 4K Blu-ray",
       "source": "Blu-ray.com",
@@ -202,99 +455,6 @@
       "amazon_query": null
     },
     {
-      "id": "1132989807101103e0ebe05305ed58f80d00eb26",
-      "title": "Jennifer Lopez Teases ‘Monster-in-Law’ Sequel With Jane Fonda: ‘We’re Talking About Maybe Doing Another One’",
-      "source": "Variety",
-      "url": "https://variety.com/2026/film/news/jennifer-lopez-jane-fonda-monster-in-law-follow-up-1236955143",
-      "category": "film",
-      "published": "2026-11-22T01:00:57.000Z",
-      "snippet": "Jennifer Lopez and Jane Fonda might reunite for a “Monster-in-Law” follow-up, the singer and actress teased recently. In a clip from Lopez’s upcoming appearance on “The Drew Barrymore Show,” she…",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "7297c89d63f8d3db661a7f8502c06168a9c5400e",
-      "title": "Horror Podcast News! PROFESSOR SHADOW (aka Steven M. Cowan)",
-      "source": "My Bloody Reviews",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcXlZZ2pZOVRPWHZIRWhCNkJpMnI0RFAzM2tuVUhvYmhETUVQbU5WQll0VTBsMG12Q3JMN0VRNVRvNG5ScHdjMXNWdTZqWDY0OXpPOE53TmRjZmk1Njc1ejRLTVdvYlgxbzJiR0JuNkxBQ083amhpVzNvSVdDcUo1WUktVTVTN0hDSzFYZA?oc=5",
-      "category": "film",
-      "published": "2026-11-21T23:57:01.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": false,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
-      "id": "75c3756e75fb0d5f36b90d67dba69a94a3eb0f7f",
-      "title": "Review: Amityville Awakens by Robert P. Ottone",
-      "source": "Cemetery Dance",
-      "url": "https://www.cemeterydance.com/extras/review-amityville-awakens-by-robert-p-ottone",
-      "category": "books",
-      "published": "2026-11-21T22:51:02.000Z",
-      "snippet": "Amityville Awakens by Robert P. Ottone CLASH Books (2026) Reviewed by Briana Morgan Editor’s note: This review contains descriptions of sexual assault and violence. Following the events of The…",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "5bc32684ea332fe9a1e666a1da60ceb41cc68ea8",
-      "title": "Is Zack Snyder’s Escape from New York Getting a Backup Director? John Carpenter Has Robert Rodriguez on Standby",
-      "source": "JoBlo",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVTJlWk5ndi05bzVMOUxJRUJaUWJRbVBaRjR0UDRETXlHSklqZ3pINl9UdnpqME81UXBTTUU3eDc0dlFqQWZTM182Z0Vic1lkblJDdUVQN0lwZUFLRzlialhpc1F6R1NiZkMwN050TzkwU0twRzFQZ1A4QmlhQTZjSlhSME1yZzQ5anREM0ZMaktabXVyd1FlUmVzVk1TZXc5NUQxNVJHbFE0LXBZT1ZrbzZ3d05XUjRyZDZLZC1IVG84STlFTThJaHNibGXSAdIBQVVfeXFMUFpPT1ZJY2NZdV9FRGxPQV8yb2U4bnBjc0ltdTliNjBUdlhvcENRMXAxckZhRko3R08xT1JFOW9HZlNUYXZhVk04WDJZTWRRTXo4R2JMZGlVRDdPd01wWWNQUWpnWkpSNlVJTGk1a29MX1JReTlNbG1jMV9sNkVwbjhZck40c1BFLWNrV2JBV2NaY2FKdFNFRFB5Vjh3SC1nS2R2SVhLamNFYnBqblpFbDBwRkpvSG5IQjFVdjhxZ0FZUUg4VWJjc1g5NFVNY1pjLXN3?oc=5",
-      "category": "film",
-      "published": "2026-11-21T22:34:51.000Z",
-      "snippet": "",
-      "matched": [
-        "John Carpenter"
-      ],
-      "classic": false,
-      "why": "John Carpenter",
-      "amazon_query": null
-    },
-    {
-      "id": "12a5cb6cb8ff51e0e39ab49d99764869611f9695",
-      "title": "‘Healing Andy’ Streams Free on FOUND November 27",
-      "source": "iHorror",
-      "url": "https://ihorror.com/healing-andy-found-tv-november-27-villablanca",
-      "category": "film",
-      "published": "2026-11-21T21:25:56.000Z",
-      "snippet": "Villablanca's iPhone-shot found-footage feature, which world premiered at FrightFest 2025, gets its exclusive streaming premiere on FOUND on November 27.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "277c177146887e38fa54af876d9f4e54c270f658",
-      "title": "‘ABIDE’ Trailer Breaks Curfew at the St Boniface Retreat",
-      "source": "iHorror",
-      "url": "https://ihorror.com/abide-trailer-3-talha-jack-co-stop-motion-horror-game",
-      "category": "film",
-      "published": "2026-11-21T21:15:15.000Z",
-      "snippet": "Talha & Jack Co released a third trailer for their stop-motion horror game on November 20, and the Steam page still carries no release date.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "a69b8cc53249ebe75fcafdb67b6fddf9bbe7eac4",
-      "title": "The pioneering 1964 horror movie that Martin Scorsese called “an incredible moment for cinema”",
-      "source": "Far Out Magazine",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcEpRUG5kZ2hTb2YtRVVMUGlFYnk2a0g0QTJDX05hTDlsZ3MwcGJVVEFvSng1ZkpSeEZ4NzNwTko0Znk5cHhPTC12MVJtYUNnMGNWVnVPNEh0N0IzVGVGMHJac2VOaENwY0hudXNVcFhNQ193VmNWVEpPZnU5TWRtd3kzTU1QX3lZeWV2Q1ktYw?oc=5",
-      "category": "film",
-      "published": "2026-11-21T20:15:00.000Z",
-      "snippet": "",
-      "matched": [],
-      "classic": true,
-      "why": "horror subject",
-      "amazon_query": null
-    },
-    {
       "id": "a777d97e2cfabbc33de12c8be967663a52e0423f",
       "title": "Movie Review: THE HAUNTED COP SHOP (1987) – Blu-ray",
       "source": "HorrorNews.net",
@@ -305,21 +465,6 @@
       "matched": [],
       "classic": true,
       "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "6830423723d9c8d860f8ca555f8c6adb435b66dd",
-      "title": "MY DYING BRIDE's ANDREW CRAIGHAN: New Music With Singer MIKKO KOTAMÄKI Sounds 'Promising'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/my-dying-brides-andrew-craighan-new-music-with-singer-mikko-kotamaki-sounds-promising",
-      "category": "metal",
-      "published": "2026-11-21T19:30:43.000Z",
-      "snippet": "In a new interview with Heavy Metal Perú, MY DYING BRIDE guitarist Andrew Craighan spoke about the band's decision to recruit vocalist Mikko Kotamäki (SWALLOW THE SUN) to front MY DYING BRIDE…",
-      "matched": [
-        "metal genre"
-      ],
-      "classic": false,
-      "why": "metal genre",
       "amazon_query": null
     },
     {
@@ -341,26 +486,13 @@
       "source": "Washington Times",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYVE4dkgzeFFvWlpiN09fS3BkX0lBWS1NLWJFcUMxNUlydmkwb1pibk9OaG1kVkUwYl9MejJiV2l6Y1B2c29VT1FyVWtjRXBFek1tOGpWQW03Y201UWVMZEJicnhkM0ZnbUJRdVZOMkd4cTZwM1Nub09BcXNpckZIU3hhMTJvVVgxODNPNnZZUEhncTFJbzBYdFYyT3FKQV96UGV0aHAwaWt4S0pfaWo1UU1pZw?oc=5",
       "category": "discs",
-      "published": "2026-11-21T18:06:28.000Z",
+      "published": "2026-11-21T18:06:57.000Z",
       "snippet": "",
       "matched": [
         "Dracula"
       ],
       "classic": true,
       "why": "Dracula",
-      "amazon_query": null
-    },
-    {
-      "id": "c908a29f89d6fa6e8b94a2a4d140adebde7fc76f",
-      "title": "The Directors of SAW and SEASONS Reveal What Horror Fans Can Expect",
-      "source": "Fangoria",
-      "url": "https://www.fangoria.com/seasons-saw-directors-tease-scares",
-      "category": "film",
-      "published": "2026-11-21T18:00:09.000Z",
-      "snippet": "We asked Drew Hancock and Mike P. Nelson what horror fans will see in SEASONS and SAW that they've not seen in their previous movies. Here's what they had to say.",
-      "matched": [],
-      "classic": false,
-      "why": "horror outlet",
       "amazon_query": null
     },
     {
@@ -421,36 +553,6 @@
       "amazon_query": null
     },
     {
-      "id": "0b704906db6822ac22742c934a8474f4cadc181f",
-      "title": "Displaying items by tag: The Horror of Frankenstein 1970",
-      "source": "The Digital Bits",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMHVDRkRGaUtFemJYY19DY2RnZmt6S3ZCSGcxYlhrbGpzd3NGM1g0aEVLbzhxNEVmSlhDWWo0U0MtQk5FNGRXQmF2UVRBY1Q3YTU4cTFPeXhudldMZ185dzMyNE16bnVUalRqYjJoLUVNZFFZMU9Uek51OGZuQ05FdVFOb3dwU1R2RTZXeVpfal9QWlU?oc=5",
-      "category": "discs",
-      "published": "2026-11-20T23:44:19.000Z",
-      "snippet": "",
-      "matched": [
-        "Frankenstein"
-      ],
-      "classic": true,
-      "why": "Frankenstein",
-      "amazon_query": null
-    },
-    {
-      "id": "5955a9fec09d5bda51be715991b5ddb6fb87e1b5",
-      "title": "Severin Films gives The Ugly Stepsister a stunning 4K UHD release (physical media review)",
-      "source": "The Horror Lounge",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNFEzUURTNzFCNW5fd2JGOWlTUDJlUUdmTVo0SWllcWxRaVZ3MU4zRVBjM2h2SU9hRGJUanBqcFFwdUs2WlFTWUlfRkx4Vm5aZmFvRW4zbGgtS0xpNGpBY3hOaEZlMjJuX0JKZXpEUndpTVRPMjhJbl9IQnNsRk54Z0ZnQU9vMDVvZ21QXzBTOWVvYVJrVUJVak8yX3RnNFlCUDBzeENwbG9NM0xUOXJPTVJUU1ZvaGZFclhfVWxvblRSQQ?oc=5",
-      "category": "discs",
-      "published": "2026-11-20T23:43:01.000Z",
-      "snippet": "",
-      "matched": [
-        "Severin Films"
-      ],
-      "classic": true,
-      "why": "Severin Films",
-      "amazon_query": null
-    },
-    {
       "id": "a4661c2a94090ae10b6358ed707b1e3f4d41a6a4",
       "title": "Michael Dougherty’s ‘Krampus’ Gets Monster High Skullector Doll This Holiday Season",
       "source": "Bloody Disgusting Toys",
@@ -464,62 +566,6 @@
       "amazon_query": null
     },
     {
-      "id": "0e0976c8b934aa54a7d1fb9f99f9d192e9e2d9ad",
-      "title": "New 12-Disc 4K Hammer: Gothic Nightmares Set Announced for January 2027",
-      "source": "Bloody Disgusting",
-      "url": "https://bloody-disgusting.com/movie/3976468/hammer-gothic-nightmares-4k-blu-ray-set",
-      "category": "discs",
-      "published": "2026-11-20T20:42:33.000Z",
-      "snippet": "Part of the charm of Hammer Films is that, one movie after another, there was a unified aesthetic that managed to capture a unique, Gothic atmosphere in a way that Hollywood movies never delivered…",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "5f36e98478c59654698b4e4c67a947031bf40dee",
-      "title": "When the Turkey Does the Carving! ‘THANKSKILLING’ and ‘THANKSKILLING 3’ – Blu-ray Review",
-      "source": "Pop Horror",
-      "url": "https://pophorror.com/when-the-turkey-does-the-carving-thankskilling-and-thankskilling-3-blu-ray-review",
-      "category": "discs",
-      "published": "2026-11-20T20:14:59.000Z",
-      "snippet": "At this time of year, there’s not a lot of choices, outside of Eli Roth’s 2023 holiday slasher Thanksgiving, to tide us over in the awkward autumn space between Halloween and Christmas (there’s…",
-      "matched": [],
-      "classic": true,
-      "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "3a5ff4d44a5ed81e9280745f4ea07e101ff4b72b",
-      "title": "Watch: THIN LIZZY Performs \"Dancing In The Moonlight\" On British TV Show \"Marc\" In 1977",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWXg1aWpJaDNWajRUWHh3TmtJbjdaNUdOLWJZU2haSlBOUG5yX0hqWjBrTFV2UElvZExFTzBzX2w5Zm5xVHE1TE41ZzFJVVZEWDRQY2JKejZXZkFKeGZPRW1CSkFjRlRZSDVLeklkLXNoM0IxaDJoRk4wMXo5ZXdfTU9fdDVfM182RzR1T0RtLXNac0F3X2oyRkdmR2lqZkNHZTNxdXJJalBFOWNEblBQZg?oc=5",
-      "category": "metal",
-      "published": "2026-11-20T19:54:57.000Z",
-      "snippet": "",
-      "matched": [
-        "Thin Lizzy"
-      ],
-      "classic": true,
-      "why": "Thin Lizzy",
-      "amazon_query": null
-    },
-    {
-      "id": "fb1abd72f63374de728bc924bee5900f99614e87",
-      "title": "PHIL ANSELMO On DOWN's Heartfelt Salute To OZZY OSBOURNE - \"Without BLACK SABBATH, There Would Be No Down... Without Ozzy, I’d Be A Completely Different Singer And Songwriter\"",
-      "source": "BraveWords",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRElfR3JtQ0NJdFR3RmlqOC1sdFhwZzJ6Z1RiUEJlMUhMc0xQd3Q5YmFSMDNFUUZmeHJOQnhodk5LQWphOEFCemZFU1BoZVA0Sm01V214cXJIbG9qNW5TOUxMNHFUdGI0aVJZQ2FVZHdOV1ZWQm1DLXJpQTRaWXl4TkZkcW1zS2FMUmlLZmRFUk9sVkw2aEwxLXlaVG1XVzZTd0FyZldEVlFPbW8zamZrT2hUOXNscWJiV3d1WUNxbmd5S2g1bHFobXVYd3dGLWs0STdoQ2VzR05xd3RrTEg3VXhtMnpMcS1TMzZBYk5aSm5MT21EZUhJY3R2M2JCX2JRYVRYVnpjWS1VamxlRFc2d1ZPdS1XMjJ1blE1d0xB?oc=5",
-      "category": "metal",
-      "published": "2026-11-20T19:08:23.000Z",
-      "snippet": "",
-      "matched": [
-        "Black Sabbath"
-      ],
-      "classic": true,
-      "why": "Black Sabbath",
-      "amazon_query": null
-    },
-    {
       "id": "240ad26be73906d0213ddb95a33f67cc4d0389c7",
       "title": "Dark Horse Direct Opens Preorders For “Hellboy in Hell” Statue",
       "source": "Rue Morgue",
@@ -530,52 +576,6 @@
       "matched": [],
       "classic": true,
       "why": "horror outlet",
-      "amazon_query": null
-    },
-    {
-      "id": "e27acfe916702ec8148c82234be674df5945a119",
-      "title": "FLOTSAM AND JETSAM's ERIC 'A.K.' KNUTSON Says JASON NEWSTED Is 'Still The Same Guy' He Was 40 Years Ago: 'The Only Difference With Him Now Is He's Got A Lot More Money'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/flotsam-and-jetsams-eric-a-k-knutson-says-jason-newsted-is-still-the-same-guy-he-was-40-years-ago-the-only-difference-with-him-now-is-hes-got-a-lot-more-money",
-      "category": "metal",
-      "published": "2026-11-20T16:16:18.000Z",
-      "snippet": "In a new interview with Iron Madness, vocalist Eric \"A.K.\" Knutson of veteran Arizona metallers FLOTSAM AND JETSAM was asked if he and his bandmates are still in contact with former FLOTSAM AND…",
-      "matched": [
-        "Flotsam and Jetsam"
-      ],
-      "classic": true,
-      "why": "Flotsam and Jetsam",
-      "amazon_query": null
-    },
-    {
-      "id": "71b92c8ec939ff91b3fc46d3dc3f22a6fada6b3c",
-      "title": "DOUG ALDRICH Agrees With JACK BLACK That RONNIE JAMES DIO Is 'The Greatest Heavy Metal Vocalist Of All Time'",
-      "source": "Blabbermouth",
-      "url": "https://blabbermouth.net/news/doug-aldrich-agrees-with-jack-black-that-ronnie-james-dio-is-the-greatest-heavy-metal-vocalist-of-all-time",
-      "category": "metal",
-      "published": "2026-11-20T15:04:30.000Z",
-      "snippet": "In a new interview with Meltdown of Detroit's WRIF radio station, guitarist Doug Aldrich, who was a member of DIO for a short period between 2002 and 2006, was asked if he would agree with actor Jack…",
-      "matched": [
-        "Dio",
-        "Ronnie James Dio"
-      ],
-      "classic": true,
-      "why": "Dio, Ronnie James Dio",
-      "amazon_query": null
-    },
-    {
-      "id": "f27264d258d06aece9d4ab17ea8d7e25aee566f3",
-      "title": "Tales From The Crypt – Season 6, Episode 4: Operation Friendship (1994) – Review",
-      "source": "https://wevegotbackissues.com/",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZnhuS1RhdDdhWVBUNUlXXzlfVXFxZ1dFVDVmVXV2eVZOT2piQk1pMHRTODhtMEtYTGtCdGl2T21lWm5NcUdHamlXUS1BR2Z6VERUQmU0STIxU1F1d0hBR3NpS1VxU19LekVfUFREcTNGcGJ6NG1Td1JMQVgzY0xBMklvZHFmR2RRVFJTclEyZ0s0SUF5TWhZOE1NYllhTTBjdWxGNjc1VEhwTGtZQ24xYzdvVXA?oc=5",
-      "category": "comics",
-      "published": "2026-11-20T13:46:19.000Z",
-      "snippet": "",
-      "matched": [
-        "Tales from the Crypt"
-      ],
-      "classic": true,
-      "why": "Tales from the Crypt",
       "amazon_query": null
     }
   ],
